@@ -1,0 +1,39 @@
+# COMMUNITY PROJECT GITIGNORE #
+# Ignore OS files #
+# =============== #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*[Tt]humbs.db
+*.Trashes
+# Ignore logs and databases #
+# ========================= #
+*.log
+*.sql
+error_log
+access_log
+# Ignore everything in "wp-content" except the "plugins" and "themes" directories. #
+# ================================================================================ #
+/*
+!.gitignore
+!plugins/
+!themes/
+!README.md
+# Ignore everything in "plugins" except certain plugins. #
+# ========================================================== #
+plugins/*
+!plugins/sports-on-campus-functionality/
+# Ignore everything in "themes" except the active theme. #
+# ====================================================== #
+themes/*
+!themes/sports-on-campus/
+# Ignore npm packages #
+# =================== #
+themes/sports-on-campus/node_modules/*
+# Ignore build files #
+# ================== #
+themes/sports-on-campus/gulpfile.js
+themes/sports-on-campus/build/*
