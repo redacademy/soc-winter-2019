@@ -2,7 +2,7 @@
 /**
  *
  * @package   Sports On Campus Functionality
- * @author    Sage, Sygney, Jusmine, Naiji
+ * @author    Sage, Sydney, Jasmine, Naiji
  * @license   GPL-2.0+
  * @copyright 2015 Your Name or Company
  *
@@ -10,7 +10,7 @@
  * Plugin Name: Sports On Campus Functionality
  * Description: This very important plugin contains all of the core functionality for this website so that it remains theme-independent.
  * Version:     1.0.0
- * Author:      Sage, Sygney, Jusmine, Naiji
+ * Author:      Sage, Sydney, Jasmine, Naiji
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
