@@ -22,8 +22,10 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
+					<div class="site-logo">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src=<?php echo get_template_directory_uri().''?> alt=""></a>
+					</div>
 					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
