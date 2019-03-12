@@ -104,7 +104,7 @@ function events() {
 		'taxonomies'            => array( 'category', 'post_tag' ),
 
 	);
-	register_post_type( 'event', $args );
+	register_post_type( 'events', $args );
 
 }
 add_action( 'init', 'events', 0 );
