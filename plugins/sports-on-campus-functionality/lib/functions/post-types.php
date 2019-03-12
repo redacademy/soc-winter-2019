@@ -175,7 +175,7 @@ function testimonials() {
 
 		'show_in_rest'          => true,
 	);
-	register_post_type( 'Testimonials', $args );
+	register_post_type( 'testimonial', $args );
 
 }
 add_action( 'init', 'testimonials', 0 );
