@@ -17,7 +17,7 @@ function testimonial_category() {
 		'parent_item'                => __( 'Parent Testimonial', 'text_domain' ),
 		'parent_item_colon'          => __( 'Parent Testimonial:', 'text_domain' ),
 		'new_item_name'              => __( 'New Testimonial Name', 'text_domain' ),
-		'add_new_item'               => __( 'Add New Testimonial', 'text_domain' ),
+		'add_new_item'               => __( 'Add New Category', 'text_domain' ),
 		'edit_item'                  => __( 'Edit Testimonial', 'text_domain' ),
 		'update_item'                => __( 'Update Testimonial', 'text_domain' ),
 		'view_item'                  => __( 'View Testimonial', 'text_domain' ),
