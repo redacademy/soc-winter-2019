@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages.
- *
+ *Template name: team
  * @package Sport_On_Campus_Theme
  */
 
