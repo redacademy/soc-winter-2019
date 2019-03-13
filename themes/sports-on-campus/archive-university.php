@@ -15,9 +15,6 @@ get_header(); ?>
             'orderby' => 'name',
             'order' => 'ASC'
         )); ?>
-        <pre>
-            <?php print_r($sports); ?>
-        </pre>
         <h2 class="heading-university">Universities</h2>
         <div>
             <?php foreach ($sports as $sport) : ?>
