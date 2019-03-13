@@ -22,8 +22,8 @@ get_header(); ?>
                     <h3 class="university-name">
                         <?php echo the_title() ?>
                     </h3>
-                    <p class="university-city"><?php echo CFS()->get('city'); ?></p>
                 </a>
+                <p class="university-city"><?php echo CFS()->get('city'); ?></p>
             </div>
         </article>
         <?php endforeach;
