@@ -20,3 +20,11 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+//display the all the universities
+function soc_get_universities()
+{
+	$args = array('post_type' => 'university', 'posts_per_page' => 9, 'order'=>'DESC');
+	$universities = get_posts($args);
+	return $universities;
+}
