@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages.
- *
+ *Template name: home
  * @package Sport_On_Campus_Theme
  */
 
@@ -14,7 +14,8 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-			<?php endwhile; // End of the loop. ?>
+            <?php endwhile; // End of the loop. ?>
+        
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
