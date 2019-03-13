@@ -45,3 +45,43 @@ function testimonial_category() {
 
 }
 add_action( 'init', 'testimonial_category', 0 );
+
+// Register Custom Taxonomy
+function university_sport() {
+
+	$labels = array(
+		'name'                       => 'Sports',
+		'singular_name'              => 'Sport',
+		'menu_name'                  => 'Sports',
+		'all_items'                  => 'All Sports',
+		'parent_item'                => 'Parent Sport',
+		'parent_item_colon'          => 'Parent Sport:',
+		'new_item_name'              => 'New Sport Name',
+		'add_new_item'               => 'Add New Sport',
+		'edit_item'                  => 'Edit Sport',
+		'update_item'                => 'Update Sport',
+		'view_item'                  => 'View Sport',
+		'separate_items_with_commas' => 'Separate sport with commas',
+		'add_or_remove_items'        => 'Add or remove sport',
+		'choose_from_most_used'      => 'Choose from the most used',
+		'popular_items'              => 'Popular sports',
+		'search_items'               => 'Search sports',
+		'not_found'                  => 'Not Found',
+		'no_terms'                   => 'No sports',
+		'items_list'                 => 'Sports list',
+		'items_list_navigation'      => 'Sports list navigation',
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => false,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+		'show_tagcloud'              => true,
+		'show_in_rest'               => true,
+	);
+	register_taxonomy( 'university_sport', array( 'university' ), $args );
+
+}
+add_action( 'init', 'university_sport', 0 );
