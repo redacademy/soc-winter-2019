@@ -9,6 +9,24 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
+
+        <?php $sports = get_terms('university_sport', array(
+            'hide_empty' => false,
+            'orderby' => 'name',
+            'order' => 'ASC'
+        )); ?>
+        <pre>
+            <?php print_r($sports); ?>
+        </pre>
+        <h2 class="heading-university">Universities</h2>
+        <div>
+            <?php foreach ($sports as $sport) : ?>
+            <div class="each-item <?php echo $sport->name ?>-menu">
+               <!-- change content -->
+                <?php echo $sport->name ?>
+            </div>
+            <?php endforeach ?>
+        </div>
         <?php $universities =  soc_get_universities(); ?>
         <?php foreach ($universities as $post) : setup_postdata($post); ?>
         <article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>
