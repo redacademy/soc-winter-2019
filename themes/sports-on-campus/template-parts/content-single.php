@@ -2,7 +2,7 @@
 /**
  * Template part for displaying single posts.
  *
- * @package RED_Starter_Theme
+ * @package Sport_On_Campus_Theme
  */
 
 ?>
@@ -22,6 +22,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php red_starter_entry_footer(); ?>
+		<?php Sport_On_Campus_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

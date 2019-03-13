@@ -2,7 +2,7 @@
 /**
  * The template for displaying the footer.
  *
- * @package RED_Starter_Theme
+ * @package Sport_On_Campus_Theme
  */
 
 ?>
