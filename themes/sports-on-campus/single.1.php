@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all single posts.
- * Template name: single
+ *
  * @package Sport_On_Campus_Theme
  */
 
