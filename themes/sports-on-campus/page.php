@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages.
  *
- * @package RED_Starter_Theme
+ * @package Sport_On_Campus_Theme
  */
 
 get_header(); ?>
@@ -19,5 +19,8 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa2cac535b48f8b37cde3de141cc0d574b70db54
 <?php get_footer(); ?>

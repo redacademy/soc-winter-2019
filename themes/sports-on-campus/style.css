@@ -102,7 +102,7 @@ h1 {
   margin: 0.67em 0; }
 
 mark {
-  background: #ff0;
+  background: #fff;
   color: #000; }
 
 small {
@@ -363,7 +363,8 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #fff; }
+  background: #fff;
+  /* Fallback for when there is no custom background color defined. */ }
 
 blockquote,
 q {
@@ -530,15 +531,15 @@ a {
     text-decoration: none; }
 
 /* Small menu. */
-@media screen and (min-width: 300px) {
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block; }
+
+@media screen and (min-width: 768px) {
   .menu-toggle {
     display: none; }
   .main-navigation ul {
     display: block; } }
-
-@media all and (max-width: 600px) {
-  .nav-toggle.icon {
-    display: none; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -732,5 +733,4 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-body {
-  font-size: 40px; }
+/* Footer */

@@ -33,7 +33,7 @@ a {
 	width: 100%;
 
 	ul {
-		// display: none;
+		display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
@@ -96,9 +96,12 @@ a {
 }
 
 /* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
 
-
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 768px) {
 	.menu-toggle {
 		display: none;
 	}
@@ -106,11 +109,6 @@ a {
 		display: block;
 	}
 }
-@media all and (max-width: 600px) {
-	.nav-toggle.icon {
-	display: none;
-	}
-	}
 
 .comment-navigation,
 .posts-navigation,
@@ -132,6 +130,3 @@ a {
 		width: 50%;
 	}
 }
-
-
-

@@ -2,7 +2,7 @@
 /**
  * Template part for displaying single posts.
  *
- * @package RED_Starter_Theme
+ * @package Sport_On_Campus_Theme
  */
 
 ?>
@@ -15,22 +15,18 @@
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-		<div class="entry-meta">
-			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
-		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html( 'Pages:' ),
-				'after'  => '</div>',
-			) );
-		?>
 	</div><!-- .entry-content -->
 
+	<div class="uni-program"> <?php echo CFS()->get('program'); ?> </div>
+	<div class="uni-prerequisites"> <?php echo CFS()->get('prerequisites'); ?> </div>
+	<div class="uni-facilities"> <?php echo CFS()->get('facilities'); ?> </div>
+	<div class="uni-maps"> <?php echo CFS()->get('maps'); ?> </div>
+
 	<footer class="entry-footer">
-		<?php red_starter_entry_footer(); ?>
+		<?php Sport_On_Campus_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
