@@ -19,10 +19,7 @@ function Sport_On_Campus_body_classes( $classes ) {
 
 	return $classes;
 }
-<<<<<<< HEAD
 add_filter( 'body_class', 'Sport_On_Campus_body_classes' );
-=======
-add_filter( 'body_class', 'red_starter_body_classes' );
 
 //display the all the universities
 function soc_get_universities()
@@ -31,4 +28,3 @@ function soc_get_universities()
 	$universities = get_posts($args);
 	return $universities;
 }
->>>>>>> 1d2ec68b71209b66e6d77e957c10438fcd26d174

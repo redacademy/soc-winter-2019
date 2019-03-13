@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages.
  * Template name: archive-university
- * @package RED_Starter_Theme
+ * @package Sport_On_Campus_Theme
  */
 
 get_header(); ?>
