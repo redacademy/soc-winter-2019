@@ -28,3 +28,11 @@ function soc_get_universities()
 	$universities = get_posts($args);
 	return $universities;
 }
+
+
+function soc_get_testimonial_category()
+{
+	$args = array('post_type' => 'testimonial', 'posts_per_page' => 9, 'order'=>'DESC');
+	$testimonial = get_posts($args);
+	return $testimonial;
+}
