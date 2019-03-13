@@ -530,15 +530,15 @@ a {
     text-decoration: none; }
 
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-  display: block; }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 300px) {
   .menu-toggle {
     display: none; }
   .main-navigation ul {
     display: block; } }
+
+@media all and (max-width: 600px) {
+  .nav-toggle.icon {
+    display: none; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
