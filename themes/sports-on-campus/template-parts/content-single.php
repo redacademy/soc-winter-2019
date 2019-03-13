@@ -21,6 +21,11 @@
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 
+	<div class="uni-program"> <?php echo CFS()->get('program'); ?> </div>
+	<div class="uni-prerequisites"> <?php echo CFS()->get('prerequisites'); ?> </div>
+	<div class="uni-facilities"> <?php echo CFS()->get('facilities'); ?> </div>
+	<div class="uni-maps"> <?php echo CFS()->get('maps'); ?> </div>
+
 	<footer class="entry-footer">
 		<?php Sport_On_Campus_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
