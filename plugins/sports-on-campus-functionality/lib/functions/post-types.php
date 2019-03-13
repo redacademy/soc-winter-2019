@@ -5,7 +5,6 @@
  * @link  http://codex.wordpress.org/Function_Reference/register_post_type
  */
 
-// Add your custom post types here...
 // Register Custom Post Type
 function university() {
 
@@ -43,7 +42,6 @@ function university() {
 		'description'           => 'University Description',
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
-		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -179,3 +177,5 @@ function testimonials() {
 
 }
 add_action( 'init', 'testimonials', 0 );
+
+
