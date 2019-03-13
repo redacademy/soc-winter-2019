@@ -10,10 +10,6 @@ get_header(); ?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
         <?php $universities =  soc_get_universities(); ?>
-        <pre>
-        <?php print_r($universities); ?>
-</pre>
-
         <?php foreach ($universities as $university) : setup_postdata($university); ?>
         <article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>
             <?php if (has_post_thumbnail()) : ?>
@@ -25,7 +21,6 @@ get_header(); ?>
                     <?php echo get_the_title($university)?>
                     </a>
                 </h3>
-
                 <input type="button" value="READ MORE" class="homebutton" id="go-to-post" onClick="document.location.href='<?php echo get_the_permalink($university) ?>'" />
             </div><!-- .entry-button -->
         </article><!-- #post-## -->
