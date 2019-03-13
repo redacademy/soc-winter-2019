@@ -159,7 +159,7 @@ function testimonials() {
 		'description'           => __( 'Testimonials Type Description', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail' ),
-		'taxonomies'            => array( 'category', 'testimonials_tag' ),
+		'taxonomies'            => array(  'testimonial_category' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
