@@ -87,7 +87,10 @@ function Sport_On_Campus_scripts() {
 	wp_enqueue_script( 'red-starter-navigation', get_template_directory_uri() . '/build/js/navigation.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'menu', get_template_directory_uri() . '/build/js/menu.min.js',array('jquery'), '20151215', true );
-
+	wp_register_script ( 'flickityjs' , get_stylesheet_directory_uri() . '/build/js/flickity.pkgd.min.js', array( 'jquery' ), '1', true );
+	wp_register_style ( 'flickitycss' , get_stylesheet_directory_uri() . '/build/css/flickity.css', '' , '', 'all' );
+	wp_enqueue_script( 'flickityjs' );
+	wp_enqueue_style( 'flickitycss' );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
