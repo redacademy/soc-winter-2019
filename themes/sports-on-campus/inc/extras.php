@@ -44,4 +44,9 @@ function soc_post_refined()
 	return $testimonial;
 }
 
-
+function soc_get_events()
+{
+	$args = array('post_type' => 'event', 'posts_per_page' => -1, 'order'=>'DESC');
+	$event = get_posts($args);
+	return $event;
+}

@@ -11,12 +11,10 @@ get_header(); ?>
         <main id="main" class="site-main" role="main">
             <?php if ( have_posts() ) : ?>
 
-            <section >
-                
-        
-					<?php $testimonials=get_terms("testimonial_category");?>
-                    <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
-                    <article id="testimonial-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <section>          
+                      <?php $eventpage=soc_get_events();?>
+                    <?php foreach ($eventpage as $post) : setup_postdata($post); ?>
+                    <article id="event-<?php the_ID(); ?>" <?php post_class(); ?>>
                         <?php if (has_post_thumbnail()) : ?>
                         <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
                              <?php the_post_thumbnail('large'); ?>
@@ -26,25 +24,17 @@ get_header(); ?>
                              <?php the_title();?>
                         </h1>
                         <?php the_content();?>
-                        <div class="event-date"> <?php echo CFS()->get('date'); ?> </div>
-                        <div class="event-location"> <?php echo CFS()->get('location'); ?> </div>
-                        
+                         <p class="event-date"> <?php echo CFS()->get('date'); ?> </p>
+                        <p class="event-location"> <?php echo CFS()->get('location'); ?> </p>
+                        <img class="event-image" src='<?php echo CFS()->get('image'); ?>'>
                     </article>
-                    <?php endforeach;
-                    wp_reset_postdata(); ?>
+                    <?php endforeach; wp_reset_postdata();?>
     
-                
-
             </section>
             <?php else : ?>
             <?php get_template_part( 'template-parts/content', 'none' ); ?>
             <?php endif; ?>
 
-            <div class="test-video"> <?php echo CFS()->get('video'); ?> </div>
-            <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
-            <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
-   
-            
         </main><!-- #main -->
     </div>
 
