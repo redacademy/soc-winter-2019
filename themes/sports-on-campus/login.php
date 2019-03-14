@@ -15,6 +15,15 @@ get_header(); ?>
             <input type="text" name="email" placeholder="email">
             <input type="password" name="password" placeholder="password">
         </form>
+        <div>
+            <input type="checkbox" name="remember" id="remember" value="Remember me"><label for="remember">Remember me</label>
+            <input type="submit" name="submit" value="Login">
+        </div>
+
+        <div>
+            <a>Register now</a>
+            <a>Forgot password</a>
+        </div>
 
 
     </main><!-- #main -->
