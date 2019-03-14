@@ -36,3 +36,12 @@ function soc_get_testimonial_category()
 	$testimonial = get_posts($args);
 	return $testimonial;
 }
+
+function soc_post_refined()
+{
+	$args = array('post_type' => 'blog type', 'posts_per_page' => 9, 'order'=>'DESC');
+	$testimonial = get_posts($args);
+	return $testimonial;
+}
+
+
