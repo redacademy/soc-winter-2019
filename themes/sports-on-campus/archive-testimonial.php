@@ -11,8 +11,8 @@ get_header(); ?>
         <main id="main" class="site-main" role="main">
             <?php if ( have_posts() ) : ?>
 
-            <section class="shop-push">
-                <div class="product-chunk">
+            <section>
+                
         
                     <?php $testimonials=get_terms("testimonial_category");?>
                     <?php foreach ($testimonials as $value): setup_postdata($value);?>
@@ -38,7 +38,7 @@ get_header(); ?>
                     </article>
                     <?php endforeach; wp_reset_postdata();?>
     
-                </div>
+                
 
             </section>
             <?php else : ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages.
- *Template name: archive-event
+ *Template name: archive event
  * @package Sport_On_Campus_Theme
  */
 
@@ -11,8 +11,8 @@ get_header(); ?>
         <main id="main" class="site-main" role="main">
             <?php if ( have_posts() ) : ?>
 
-            <section class="shop-push">
-                <div class="product-chunk">
+            <section >
+                
         
 					<?php $testimonials=get_terms("testimonial_category");?>
                     <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
@@ -33,7 +33,7 @@ get_header(); ?>
                     <?php endforeach;
                     wp_reset_postdata(); ?>
     
-                </div>
+                
 
             </section>
             <?php else : ?>
@@ -43,9 +43,7 @@ get_header(); ?>
             <div class="test-video"> <?php echo CFS()->get('video'); ?> </div>
             <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
             <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
-    
-
-
+   
             
         </main><!-- #main -->
     </div>
