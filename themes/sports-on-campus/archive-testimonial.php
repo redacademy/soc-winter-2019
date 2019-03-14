@@ -32,7 +32,7 @@ get_header(); ?>
                              <?php the_title();?>
                         </h1>
                         <?php the_content();?>
-                        <div class="test-video"> <?php echo CFS()->get('video'); ?> </div>
+<!--                         <div class="test-video"> <?php echo CFS()->get('video'); ?> </div> -->
                         <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
                         <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
                     </article>
@@ -45,9 +45,6 @@ get_header(); ?>
             <?php get_template_part( 'template-parts/content', 'none' ); ?>
             <?php endif; ?>
 
-            <div class="test-video"> <?php echo CFS()->get('video'); ?> </div>
-            <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
-            <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
     
 
 
