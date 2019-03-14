@@ -37,10 +37,16 @@ function soc_get_testimonial_category()
 	return $testimonial;
 }
 
-// function soc_get_posts_categories()
-// {
-// 	$args = array('post_type' => 'categories', 'posts_per_page' => -1, 'order'=>'DESC');
-// 	$categories = get_posts($args);
-// 	return $categories;
-// }
+function soc_post_refined()
+{
+	$args = array('post_type' => 'blog type', 'posts_per_page' => 9, 'order'=>'DESC');
+	$testimonial = get_posts($args);
+	return $testimonial;
+}
 
+function soc_get_events()
+{
+	$args = array('post_type' => 'event', 'posts_per_page' => -1, 'order'=>'DESC');
+	$event = get_posts($args);
+	return $event;
+}

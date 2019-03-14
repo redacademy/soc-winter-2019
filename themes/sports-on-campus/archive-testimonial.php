@@ -11,8 +11,8 @@ get_header(); ?>
         <main id="main" class="site-main" role="main">
             <?php if ( have_posts() ) : ?>
 
-            <section class="shop-push">
-                <div class="product-chunk">
+            <section>
+                
         
                     <?php $testimonials=get_terms("testimonial_category");?>
                     <?php foreach ($testimonials as $value): setup_postdata($value);?>
@@ -32,22 +32,19 @@ get_header(); ?>
                              <?php the_title();?>
                         </h1>
                         <?php the_content();?>
-                        <div class="test-video"> <?php echo CFS()->get('video'); ?> </div>
+<!--                         <div class="test-video"> <?php echo CFS()->get('video'); ?> </div> -->
                         <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
                         <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
                     </article>
                     <?php endforeach; wp_reset_postdata();?>
     
-                </div>
+                
 
             </section>
             <?php else : ?>
             <?php get_template_part( 'template-parts/content', 'none' ); ?>
             <?php endif; ?>
 
-            <div class="test-video"> <?php echo CFS()->get('video'); ?> </div>
-            <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
-            <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
     
 
 

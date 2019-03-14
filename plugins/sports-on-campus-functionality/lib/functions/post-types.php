@@ -99,7 +99,6 @@ function events() {
 		'description'           => 'Post Type for Events',
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor' ),
-		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
