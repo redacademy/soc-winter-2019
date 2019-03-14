@@ -18,11 +18,8 @@ get_header(); ?>
                 </header>
             <?php endif; ?>
 
-		<div class="categories-loop">
-			<?php $blog_types=get_terms('blog_type');?>
-			<?php foreach ( $blog_types as $term ) : setup_postdata( $term ); ?>
-             <a href=<?php echo get_term_link($term)?>> <?php echo $term->name?></a>
-            <?php endforeach; wp_reset_postdata(); ?>
+		<div class="blog-loop">
+	<?php wp_list_categories() ?>
 		</div>
 
             <?php while ( have_posts() ) : the_post(); ?>
