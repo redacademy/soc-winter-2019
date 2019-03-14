@@ -22,21 +22,10 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <?php if (has_post_thumbnail()) : ?>
-                <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
-                    <?php the_post_thumbnail('large'); ?>
-                </a>
-                <?php endif; ?>
-                <div class="university-title-location">
-                    <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
-                        <h3 class="university-name">
-                            <?php echo the_title() ?>
-                        </h3>
-                    </a>
-                    <p class="university-city"><?php echo CFS()->get('city'); ?></p>
-                </div>
-            </article>
+			<?php
+					get_template_part( 'template-parts/content' );
+				?>
+				
 			<?php endwhile; ?>
 		<?php endif; ?>
 
