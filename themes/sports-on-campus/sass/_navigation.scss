@@ -5,11 +5,9 @@
 /* Links */
 
 a {
-	color: $color__link;
+	color: white;
 
-	&:visited {
-		color: $color__link-visited;
-	}
+	
 	&:hover,
 	&:focus,
 	&:active {
@@ -77,7 +75,12 @@ a {
 		}
 	}
 	li {
-		float: left;
+		position: relative;
+		background-color: #F6B00;
+		background-color: #FF6B00;
+		border-bottom: 1px solid white;
+		text-align: center;
+		color: white;
 		position: relative;
 
 		&:hover > a,
@@ -100,6 +103,14 @@ a {
 .main-navigation.toggled ul {
 	display: block;
 }
+
+.menu-toggle{
+	border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 30px;
+}
+
 
 @media screen and (min-width: 768px) {
 	.menu-toggle {
