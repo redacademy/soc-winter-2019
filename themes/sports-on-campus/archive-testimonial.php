@@ -36,8 +36,7 @@ get_header(); ?>
                         <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
                         <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
                     </article>
-                    <?php endforeach;
-                    wp_reset_postdata(); ?>
+                    <?php endforeach; wp_reset_postdata();?>
     
                 </div>
 
