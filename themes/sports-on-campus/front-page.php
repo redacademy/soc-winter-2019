@@ -32,7 +32,7 @@ get_header(); ?>
 
 
 		            <section class="front-page-testimonials">
-                <div class="main-carousel" >
+                <div class="main-carousel"  data-flickity='{ "autoPlay": true }'>
                     
                      <?php $testimonials=soc_get_testimonial_category();?>
                     <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
