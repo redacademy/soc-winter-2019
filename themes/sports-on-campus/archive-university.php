@@ -16,34 +16,37 @@ get_header(); ?>
             'order' => 'ASC'
         )); ?>
         <h2 class="heading-university">Universities</h2>
-        <div>
+        <ul>
             <?php foreach ($sports as $sport) : ?>
-            <div class="each-item <?php echo $sport->name ?>-menu">
-               <!-- change content -->
-                <?php echo $sport->name ?>
-            </div>
-            <?php endforeach ?>
-        </div>
-        <?php $universities =  soc_get_universities(); ?>
-        <?php foreach ($universities as $post) : setup_postdata($post); ?>
-        <article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>
-            <?php if (has_post_thumbnail()) : ?>
-            <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
-                <?php the_post_thumbnail('large'); ?>
-            </a>
-            <?php endif; ?>
-            <div class="university-title-location">
-                <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
-                    <h3 class="university-name">
-                        <?php echo the_title() ?>
-                    </h3>
+            <li class="each-item <?php echo $sport->name ?>-menu">
+                <a href="<?php echo get_term_link($sport); ?>">
+                    <?php echo $sport->name ?>
                 </a>
-                <p class="university-city"><?php echo CFS()->get('city'); ?></p>
-            </div>
-        </article>
-        <?php endforeach;
-    wp_reset_postdata(); ?>
+            </li>
+            <?php endforeach ?>
+        </ul>
 
+        <?php $universities= soc_get_universities();?>
+        <div class="university-container">
+            <?php foreach ($universities as $post) : setup_postdata($post); ?>
+            <article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>
+                <?php if (has_post_thumbnail()) : ?>
+                <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
+                    <?php the_post_thumbnail('large'); ?>
+                </a>
+                <?php endif; ?>
+                <div class="university-title-location">
+                    <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
+                        <h3 class="university-name">
+                            <?php echo the_title() ?>
+                        </h3>
+                    </a>
+                    <p class="university-city"><?php echo CFS()->get('city'); ?></p>
+                </div>
+            </article>
+            <?php endforeach;
+        wp_reset_postdata(); ?>
+        </div>
     </main><!-- #main -->
 </div><!-- #primary -->
 <?php get_footer(); ?> 
