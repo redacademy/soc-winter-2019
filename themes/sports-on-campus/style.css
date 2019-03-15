@@ -732,4 +732,51 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.page-template-team .entry-content {
+  text-align: center; }
+
+.page-template-team .entry-title {
+  display: none; }
+
+.page-template-team h2 {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: capitalize; }
+
+.page-template-team .ceo {
+  padding-right: 45px;
+  padding-left: 45px; }
+  .page-template-team .ceo a {
+    display: none; }
+
+.page-template-team .wp-block-image-top img {
+  border-radius: 50%;
+  width: 120px;
+  height: auto; }
+
+.page-template-team .wp-block-image {
+  width: 250px; }
+
+.page-template-team .wp-block-quote {
+  font-style: italic; }
+
+.page-template-team .orange-story {
+  color: #ff6b00; }
+
+.page-template-team .about-our-concept {
+  background: #003276;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .page-template-team .about-our-concept h2 {
+    color: white; }
+  .page-template-team .about-our-concept p {
+    color: white;
+    padding-right: 45px;
+    padding-left: 45px; }
+
 /* Footer */
