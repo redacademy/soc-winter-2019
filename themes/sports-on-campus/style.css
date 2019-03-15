@@ -306,6 +306,10 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 1.25rem; }
+
 /* Copy */
 p {
   margin-bottom: 1.5rem; }
@@ -592,6 +596,16 @@ a {
       letter-spacing: 1.5px;
       font-weight: 400; }
 
+.site-footer .site-info {
+  text-align: center;
+  height: 4em;
+  padding-top: 1em;
+  border-top: #00237A solid 1px; }
+
+.site-footer img {
+  padding-left: 5px;
+  padding-right: 5px; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -764,7 +778,69 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+/* Global */
+.site-content {
+  text-align: center; }
+
 /* Front page */
+.top-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 35, 98, 0.3)), to(rgba(2, 35, 98, 0.3))), url(../../assets/images/Duo-tone.png);
+  background: linear-gradient(rgba(2, 35, 98, 0.3), rgba(2, 35, 98, 0.3)), url(../../assets/images/Duo-tone.png);
+  background-size: cover, cover;
+  background-position-x: center, center;
+  background-position-y: center, center;
+  color: white;
+  padding: 20px; }
+  .top-heading h2 {
+    font-weight: bold; }
+    .top-heading h2:first-of-type {
+      margin-top: 10px;
+      margin-bottom: 0px; }
+    .top-heading h2:last-of-type {
+      margin-top: 0px;
+      margin-bottom: 10px; }
+
+.mid-heading {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #003276;
+  color: #fff;
+  padding: 40px; }
+  .mid-heading h2 {
+    margin: 0px;
+    text-align: center; }
+  .mid-heading p {
+    text-align: start; }
+  .mid-heading h3 {
+    margin: 0px; }
+  .mid-heading h4 {
+    height: 60px; }
+    .mid-heading h4 i {
+      width: 100px; }
+
 .page-template-team .entry-content {
   text-align: center; }
 
@@ -833,5 +909,37 @@ object {
   .achievement-history h4 {
     color: black;
     font-weight: 300; }
+
+/* Events Page */
+.events-area p {
+  margin: 0; }
+
+.events-area .event-image {
+  height: 200px; }
+
+.events-area .event-grid {
+  display: grid; }
+
+/* Universities Page */
+.page-template-archive-university ul {
+  text-align: left;
+  list-style-type: none; }
+
+.page-template-archive-university .university-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 100px; }
+
+.page-template-archive-university .university-name {
+  font-size: 12px;
+  margin: 0; }
+
+.page-template-archive-university .university-city {
+  font-size: 10px; }
+
+.page-template-archive-university .university-title-location a {
+  text-decoration: none;
+  letter-spacing: 1px; }
 
 /* Footer */
