@@ -5,7 +5,7 @@
     //     $('.university-container').append("<h1>123</h1>");
     //   });
     $('.main-carousel').flickity({
-      cellAlign: 'centre',
+      cellAlign: 'left',
       contain: true
     });
   });

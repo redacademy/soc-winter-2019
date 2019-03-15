@@ -2,6 +2,11 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+/* Global */
+.site-content{
+    text-align: center;
+}
+
 /* Front page */
 .top-heading{
     display: flex;
@@ -30,4 +35,74 @@
 .mid-heading{
     
 }
+
+.page-template-team {
+  .entry-content {
+    text-align: center;
+  }
+  .entry-title {
+    display: none;
+  }
+  h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+  }
+  .ceo {
+    padding-right: 45px;
+    padding-left: 45px;
+    a {
+      display: none;
+    }
+  }
+  .wp-block-image-top {
+    img {
+      border-radius: 50%;
+      width: 120px;
+      height: auto;
+    }
+  }
+  .wp-block-image {
+    width: 250px;
+  }
+  .wp-block-quote {
+    font-style: italic;
+  }
+  .orange-story {
+    color: #ff6b00;
+  }
+  .about-our-concept {
+    background: #003276;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h2 {
+      color: white;
+    }
+    p {
+      color: white;
+      padding-right: 45px;
+      padding-left: 45px;
+    }
+  }
+  .our-faces {
+  }
+}
+
+/* Events Page */
+
+.events-area{
+
+    p{
+        margin: 0;
+    }
+    display: grid;
+
+    .event-image{
+        height: 200px;
+    }
+}
+
 /* Footer */
+
