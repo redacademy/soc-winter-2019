@@ -29,7 +29,7 @@ get_header(); ?>
 
 
                 <?php $testimonials = soc_get_testimonial_category(); ?>
-                <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
+                <?php foreach ($testimonials as $post) : setup_postdata($post); ?> 
 
                 <div class="carousel-cell" <?php post_class(); ?>>
                     <?php if (has_post_thumbnail()) : ?>
@@ -37,13 +37,13 @@ get_header(); ?>
                         <?php the_post_thumbnail('large'); ?>
                     </a>
                     <?php endif; ?>
+                    <img class="test-image sample-picture" src='<?php echo CFS()->get('video'); ?>'>
                     <h1>
                         <?php the_title(); ?>
                     </h1>
-                    <?php the_content(); ?>
-                    <div class="test-video"> <?php echo CFS()->get('video'); ?> </div>
                     <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
                     <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
+                    <?php the_content(); ?>
                 </div>
 
                 <?php endforeach;

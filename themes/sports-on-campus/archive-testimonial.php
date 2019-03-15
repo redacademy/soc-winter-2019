@@ -12,15 +12,13 @@ get_header(); ?>
             <?php if ( have_posts() ) : ?>
 
             <section>
-                
+                    
         
                     <?php $testimonials=get_terms("testimonial_category");?>
                     <?php foreach ($testimonials as $value): setup_postdata($value);?>
                         <a href=<?php echo get_term_link($value)?>> <?php echo $value->name?></a>
                      <?php endforeach; wp_reset_postdata();?>
-
                      <?php $testimonials=soc_get_testimonial_category();?>
-
                     <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
                     <article id="testimonial-<?php the_ID(); ?>" <?php post_class(); ?>>
                         <?php if (has_post_thumbnail()) : ?>
