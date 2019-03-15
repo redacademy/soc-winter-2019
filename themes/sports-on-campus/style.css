@@ -838,11 +838,15 @@ object {
   .mid-heading p {
     text-align: start; }
   .mid-heading h3 {
-    margin: 0px; }
+    margin: 20px auto;
+    text-align: center; }
   .mid-heading h4 {
-    height: 60px; }
+    height: 60px;
+    text-align: left;
+    width: 300px;
+    margin: auto; }
     .mid-heading h4 i {
-      width: 100px; }
+      width: 80px; }
 
 .page-template-team .entry-content {
   text-align: center; }
@@ -858,7 +862,11 @@ object {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 20px; }
 
 .page-template-team .ceo {
   padding-right: 45px;
@@ -866,16 +874,22 @@ object {
   .page-template-team .ceo a {
     display: none; }
 
+.page-template-team .ceo-caption {
+  padding-top: 30px; }
+
 .page-template-team .wp-block-image-top img {
   border-radius: 50%;
   width: 120px;
   height: auto; }
 
 .page-template-team .wp-block-image {
-  width: 250px; }
+  width: 250px;
+  display: inline-block; }
 
 .page-template-team .wp-block-quote {
-  font-style: italic; }
+  font-style: italic;
+  padding-bottom: 20px;
+  font-size: 15px; }
 
 .page-template-team .orange-story {
   color: #ff6b00; }
@@ -889,7 +903,19 @@ object {
   .page-template-team .about-our-concept p {
     color: white;
     padding-right: 45px;
-    padding-left: 45px; }
+    padding-left: 45px;
+    font-weight: 100; }
+
+.achievement-history {
+  padding-left: 90px;
+  padding-right: 50px; }
+  .achievement-history p {
+    font-size: 12px;
+    padding-right: 55px;
+    padding-left: 90px; }
+  .achievement-history h4 {
+    color: black;
+    font-weight: 300; }
 
 /* Events Page */
 .events-area {
@@ -902,6 +928,35 @@ object {
   color: black;
   text-transform: capitalize; }
 
+.event-image {
+  height: 200px; }
+
+.event-grid {
+  display: grid; }
+
+/* Universities Page */
+.page-template-archive-university ul {
+  text-align: left;
+  list-style-type: none; }
+
+.page-template-archive-university .university-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 100px; }
+
+.page-template-archive-university .university-name {
+  font-size: 12px;
+  margin: 0; }
+
+.page-template-archive-university .university-city {
+  font-size: 10px; }
+
+.page-template-archive-university .university-title-location a {
+  text-decoration: none;
+  letter-spacing: 1px; }
+
+/* Footer */
 .front-page-testimonials .carousel-cell {
   width: 100%;
   margin-top: 4em; }

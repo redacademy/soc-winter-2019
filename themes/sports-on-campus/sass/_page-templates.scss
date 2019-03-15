@@ -55,12 +55,16 @@
         text-align: start;
     }
     h3{
-        margin: 0px;
+        margin: 20px auto;
+        text-align: center;
     }
     h4{
         height: 60px;
+        text-align: left;
+        width: 300px;
+        margin: auto;
         i{
-            width: 100px;
+            width: 80px;
         }
     }
 }
@@ -77,6 +81,10 @@
     display: flex;
     justify-content: center;
     text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   .ceo {
     padding-right: 45px;
@@ -84,6 +92,9 @@
     a {
       display: none;
     }
+  }
+  .ceo-caption {
+    padding-top: 30px;
   }
   .wp-block-image-top {
     img {
@@ -94,9 +105,12 @@
   }
   .wp-block-image {
     width: 250px;
+    display: inline-block;
   }
   .wp-block-quote {
     font-style: italic;
+    padding-bottom: 20px;
+    font-size: 15px;
   }
   .orange-story {
     color: #ff6b00;
@@ -113,9 +127,22 @@
       color: white;
       padding-right: 45px;
       padding-left: 45px;
+      font-weight: 100;
     }
   }
-  .our-faces {
+ 
+}
+.achievement-history {
+  padding-left: 90px;
+  padding-right: 50px;
+  p {
+    font-size: 12px;
+    padding-right: 55px;
+    padding-left: 90px;
+  }
+  h4 {
+    color: black;
+    font-weight: 300;
   }
 }
 
@@ -137,6 +164,43 @@
   }
 
 
+    .event-image{
+        height: 200px;
+    }
+    .event-grid{
+        display: grid;
+    }
+
+/* Universities Page */
+.page-template-archive-university{
+    ul{
+        text-align: left;
+        list-style-type: none;
+    }
+    .university-container{
+        img{
+            object-fit: cover;
+            width: 300px;
+            height: 100px;
+            }
+    }
+
+    .university-name{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .university-city{
+        font-size: 10px;
+    }
+
+    .university-title-location a{
+        text-decoration: none;
+        letter-spacing: 1px;
+
+    }
+}
+/* Footer */
 
 .front-page-testimonials{
   .carousel-cell{
