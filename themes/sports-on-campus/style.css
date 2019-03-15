@@ -888,6 +888,10 @@ object {
     padding-right: 45px;
     padding-left: 45px; }
 
+/* Blog Page */
+.blog .blog-loop {
+  text-align: left; }
+
 /* Events Page */
 .events-area p {
   margin: 0; }
