@@ -769,19 +769,10 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Global */
-.site-main {
+.site-content {
   text-align: center; }
 
 /* Front page */
-<<<<<<< HEAD
-/* Events Page */
-.events-area {
-  display: grid; }
-  .events-area p {
-    margin: 0; }
-  .events-area .event-image {
-    height: 200px; }
-=======
 .page-template-team .entry-content {
   text-align: center; }
 
@@ -828,6 +819,13 @@ object {
     color: white;
     padding-right: 45px;
     padding-left: 45px; }
->>>>>>> 631895157262fdb93887db591fe3feb454697572
+
+/* Events Page */
+.events-area {
+  display: grid; }
+  .events-area p {
+    margin: 0; }
+  .events-area .event-image {
+    height: 200px; }
 
 /* Footer */

@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 /* Global */
-.site-main{
+.site-content{
     text-align: center;
 }
 
@@ -63,4 +63,19 @@
   }
 }
 
+/* Events Page */
+
+.events-area{
+
+    p{
+        margin: 0;
+    }
+    display: grid;
+
+    .event-image{
+        height: 200px;
+    }
+}
+
 /* Footer */
+
