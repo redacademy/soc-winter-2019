@@ -306,6 +306,10 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 1.25rem; }
+
 /* Copy */
 p {
   margin-bottom: 1.5rem; }
@@ -750,5 +754,17 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+/* Global */
+.site-main {
+  text-align: center; }
+
 /* Front page */
+/* Events Page */
+.events-area {
+  display: grid; }
+  .events-area p {
+    margin: 0; }
+  .events-area .event-image {
+    height: 200px; }
+
 /* Footer */

@@ -2,6 +2,25 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+/* Global */
+.site-main{
+    text-align: center;
+}
+
 /* Front page */
+
+/* Events Page */
+
+.events-area{
+
+    p{
+        margin: 0;
+    }
+    display: grid;
+
+    .event-image{
+        height: 200px;
+    }
+}
 
 /* Footer */
