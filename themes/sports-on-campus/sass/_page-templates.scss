@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.sample-picture{
+  height:200px;
+}
+
 /* Front page */
 .top-heading {
   display: flex;
@@ -133,8 +137,7 @@
       font-weight: 100;
     }
   }
-  .our-faces {
-  }
+ 
 }
 .achievement-history {
   padding-left: 90px;
@@ -148,6 +151,13 @@
     color: black;
     font-weight: 300;
   }
+}
+
+/* Blog Page */
+.blog{
+.blog-loop{
+    text-align: left;
+}
 }
 
 /* Events Page */
