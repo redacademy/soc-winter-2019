@@ -576,7 +576,19 @@ a {
   .main-navigation .secondary-menu ul {
     display: inline; }
   .main-navigation .nav-dropdown li {
-    background-color: #FF6B00; }
+    background-color: #FF6B00;
+    height: 2.3em; }
+  .main-navigation .menu-mobile-navigation-container {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    right: 0;
+    top: 7em; }
+    .main-navigation .menu-mobile-navigation-container a {
+      color: white;
+      padding-top: 0.5em;
+      letter-spacing: 1.5px;
+      font-weight: 400; }
 
 /*--------------------------------------------------------------
 # Accessibility
