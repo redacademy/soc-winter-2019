@@ -32,7 +32,7 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'additional-menu', 'container_class' => 'secondary-menu' ) ); ?>
 					<a class="front-logo" href="<?php bloginfo('url'); ?>"> </a>
 					<div class="nav-dropdown">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">&#9776;</i></button>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">&#9776;</button>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</div>	
 				</nav><!-- #site-navigation -->

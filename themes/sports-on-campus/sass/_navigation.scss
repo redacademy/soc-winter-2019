@@ -159,11 +159,31 @@ a {
 		ul{
 			display:inline;	
 		}
+		a{
+			text-transform:uppercase;
+			font-weight: 500;
+		}
 	}
 
 	.nav-dropdown{
 		li{
 			background-color:#FF6B00;
+			height: 2.5em;
 		}
 	}
-}
+	.menu-mobile-navigation-container{
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	right: 0;
+	top: 7em;
+		a{
+			color:white;
+			padding-top: 0.5em;
+			letter-spacing: 1.5px;
+			font-weight: 400;
+		}
+		}
+	}
+
+
