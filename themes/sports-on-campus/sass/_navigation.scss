@@ -159,12 +159,16 @@ a {
 		ul{
 			display:inline;	
 		}
+		a{
+			text-transform:uppercase;
+			font-weight: 500;
+		}
 	}
 
 	.nav-dropdown{
 		li{
 			background-color:#FF6B00;
-			height: 2.3em;
+			height: 2.5em;
 		}
 	}
 	.menu-mobile-navigation-container{

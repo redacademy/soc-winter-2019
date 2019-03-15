@@ -419,16 +419,15 @@ button,
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
+  outline: none;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
-  background: #e6e6e6;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
   font-size: 0.75rem;
-  line-height: 1;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  line-height: 1; }
   button:active, button:focus,
   input[type="reset"]:active,
   input[type="reset"]:focus,
@@ -575,9 +574,12 @@ a {
     background-repeat: no-repeat; }
   .main-navigation .secondary-menu ul {
     display: inline; }
+  .main-navigation .secondary-menu a {
+    text-transform: uppercase;
+    font-weight: 500; }
   .main-navigation .nav-dropdown li {
     background-color: #FF6B00;
-    height: 2.3em; }
+    height: 2.5em; }
   .main-navigation .menu-mobile-navigation-container {
     position: absolute;
     width: 100%;
