@@ -419,17 +419,15 @@ button,
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
+  outline: none;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
-  background: #e6e6e6;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
   font-size: 0.75rem;
-  line-height: 1;
-  padding: .6rem 1rem .4rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  line-height: 1; }
   button:active, button:focus,
   input[type="reset"]:active,
   input[type="reset"]:focus,
@@ -513,7 +511,6 @@ a {
       left: auto; }
   .main-navigation li {
     position: relative;
-    background-color: #FF6B00;
     border-bottom: 1px solid white;
     text-align: center;
     color: white;
@@ -558,6 +555,42 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .main-navigation .front-logo {
+    background-image: url(../../sport-on-campus-logo.png);
+    height: 50px;
+    width: 75px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .main-navigation .secondary-menu ul {
+    display: inline; }
+  .main-navigation .secondary-menu a {
+    text-transform: uppercase;
+    font-weight: 500; }
+  .main-navigation .nav-dropdown li {
+    background-color: #FF6B00;
+    height: 2.5em; }
+  .main-navigation .menu-mobile-navigation-container {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    right: 0;
+    top: 7em; }
+    .main-navigation .menu-mobile-navigation-container a {
+      color: white;
+      padding-top: 0.5em;
+      letter-spacing: 1.5px;
+      font-weight: 400; }
 
 /*--------------------------------------------------------------
 # Accessibility
