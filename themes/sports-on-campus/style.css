@@ -835,11 +835,15 @@ object {
   .mid-heading p {
     text-align: start; }
   .mid-heading h3 {
-    margin: 0px; }
+    margin: 20px auto;
+    text-align: center; }
   .mid-heading h4 {
-    height: 60px; }
+    height: 60px;
+    text-align: left;
+    width: 300px;
+    margin: auto; }
     .mid-heading h4 i {
-      width: 100px; }
+      width: 80px; }
 
 .page-template-team .entry-content {
   text-align: center; }
