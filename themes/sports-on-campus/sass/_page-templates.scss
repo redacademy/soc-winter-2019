@@ -8,6 +8,58 @@
 }
 
 /* Front page */
+.top-heading{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width:100%;
+    height: 50vh;
+    text-align: center;
+    background: linear-gradient(rgba(2, 35, 98, 0.3), rgba(2, 35, 98, 0.3)), url(../../assets/images/Duo-tone.png);
+    background-size: cover, cover;
+    background-position-x: center, center;
+    background-position-y: center, center;
+    color: white;
+    padding:20px;
+    h2{
+        font-weight:bold;
+        &:first-of-type{
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        &:last-of-type{
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+       
+    }
+}
+.mid-heading{
+    text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width:100%;
+    background: $color__main-block;
+    color: #fff;
+    padding: 40px;
+    h2{
+        margin: 0px;
+        text-align: center;
+    }
+    p{
+        text-align: start;
+    }
+    h3{
+        margin: 0px;
+    }
+    h4{
+        height: 60px;
+        i{
+            width: 100px;
+        }
+    }
+}
 
 .page-template-team {
   .entry-content {
