@@ -83,11 +83,11 @@ add_filter( 'stylesheet_uri', 'Sport_On_Campus_minified_css', 10, 2 );
  * Enqueue scripts and styles.
  */
 function Sport_On_Campus_scripts() {
+	wp_enqueue_style('font-awsome-cdn',"https://use.fontawesome.com/releases/v5.7.2/css/all.css",array(),'5.7.2');
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'red-starter-navigation', get_template_directory_uri() . '/build/js/navigation.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'menu', get_template_directory_uri() . '/build/js/menu.min.js',array('jquery'), '20151215', true );
-	wp_enqueue_style('font-awesome-cdn','https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.4.0',array(),'4.4.0');
 	wp_register_script ( 'flickityjs' , get_template_directory_uri() . '/build/js/flickity.pkgd.min.js', array( 'jquery' ), '1', true );
 	wp_register_style ( 'flickitycss' , get_template_directory_uri() . '/flickity.css', '' , '', 'all' );
 	wp_enqueue_script( 'flickityjs' );
