@@ -77,6 +77,10 @@
     display: flex;
     justify-content: center;
     text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   .ceo {
     padding-right: 45px;
@@ -84,6 +88,9 @@
     a {
       display: none;
     }
+  }
+  .ceo-caption {
+    padding-top: 30px;
   }
   .wp-block-image-top {
     img {
@@ -94,9 +101,12 @@
   }
   .wp-block-image {
     width: 250px;
+    display: inline-block;
   }
   .wp-block-quote {
     font-style: italic;
+    padding-bottom: 20px;
+    font-size: 15px;
   }
   .orange-story {
     color: #ff6b00;
@@ -113,9 +123,23 @@
       color: white;
       padding-right: 45px;
       padding-left: 45px;
+      font-weight: 100;
     }
   }
   .our-faces {
+  }
+}
+.achievement-history {
+  padding-left: 90px;
+  padding-right: 50px;
+  p {
+    font-size: 12px;
+    padding-right: 55px;
+    padding-left: 90px;
+  }
+  h4 {
+    color: black;
+    font-weight: 300;
   }
 }
 
