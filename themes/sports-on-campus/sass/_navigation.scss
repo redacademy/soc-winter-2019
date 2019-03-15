@@ -76,7 +76,6 @@ a {
 	}
 	li {
 		position: relative;
-		background-color: #FF6B00;
 		border-bottom: 1px solid white;
 		text-align: center;
 		color: white;
@@ -143,11 +142,28 @@ a {
 
 .main-navigation{
 	display:flex;
+	margin-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	justify-content: space-between;
+
 	.front-logo{
 		background-image: url(../../sport-on-campus-logo.png);
-    	height: 70px;
-    	width: 85px;
-    	background-size: contain;
-    	background-repeat: no-repeat;
+		height: 50px;
+		width: 75px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.secondary-menu {
+		ul{
+			display:inline;	
+		}
+	}
+
+	.nav-dropdown{
+		li{
+			background-color:#FF6B00;
+		}
 	}
 }

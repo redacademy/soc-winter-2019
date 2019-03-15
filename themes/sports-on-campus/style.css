@@ -428,7 +428,6 @@ input[type="submit"] {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6rem 1rem .4rem;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
   button:active, button:focus,
   input[type="reset"]:active,
@@ -513,7 +512,6 @@ a {
       left: auto; }
   .main-navigation li {
     position: relative;
-    background-color: #FF6B00;
     border-bottom: 1px solid white;
     text-align: center;
     color: white;
@@ -562,13 +560,23 @@ a {
 .main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .main-navigation .front-logo {
     background-image: url(../../sport-on-campus-logo.png);
-    height: 70px;
-    width: 85px;
+    height: 50px;
+    width: 75px;
     background-size: contain;
     background-repeat: no-repeat; }
+  .main-navigation .secondary-menu ul {
+    display: inline; }
+  .main-navigation .nav-dropdown li {
+    background-color: #FF6B00; }
 
 /*--------------------------------------------------------------
 # Accessibility
