@@ -28,13 +28,13 @@ get_header(); ?>
                              <?php the_post_thumbnail('large'); ?>
                         </a>
                         <?php endif; ?>
+                         <img class="test-image sample-picture" src='<?php echo CFS()->get('video'); ?>'>
                          <h1>
                              <?php the_title();?>
-                        </h1>
-                        <?php the_content();?>
-<!--                         <div class="test-video"> <?php echo CFS()->get('video'); ?> </div> -->
+                        </h1>       
                         <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
                         <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
+                        <?php the_content();?>
                     </article>
                     <?php endforeach; wp_reset_postdata();?>
     

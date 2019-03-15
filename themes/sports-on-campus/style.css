@@ -782,6 +782,9 @@ object {
 .site-content {
   text-align: center; }
 
+.sample-picture {
+  height: 200px; }
+
 /* Front page */
 .top-heading {
   display: -webkit-box;
@@ -862,7 +865,5 @@ object {
   display: grid; }
   .events-area p {
     margin: 0; }
-  .events-area .event-image {
-    height: 200px; }
 
-/* Footer */
+/* ARCHIVE */

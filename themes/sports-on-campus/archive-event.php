@@ -22,7 +22,7 @@ get_header(); ?>
                          </a>
                             <?php endif; ?>
 
-                                <img class="event-image" src='<?php echo CFS()->get('image'); ?>'>
+                                <img class="event-image sample-picture" src='<?php echo CFS()->get('image'); ?>'>
                                 <p class="event-date"> <?php echo CFS()->get('date'); ?> </p>
                              <h3>
                                <?php the_title();?>
