@@ -70,12 +70,42 @@
     p{
         margin: 0;
     }
-    display: grid;
-
     .event-image{
         height: 200px;
     }
+    .event-grid{
+        display: grid;
+    }
 }
 
+/* Universities Page */
+.page-template-archive-university{
+    ul{
+        text-align: left;
+        list-style-type: none;
+    }
+    .university-container{
+        img{
+            object-fit: cover;
+            width: 300px;
+            height: 100px;
+            }
+    }
+
+    .university-name{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .university-city{
+        font-size: 10px;
+    }
+
+    .university-title-location a{
+        text-decoration: none;
+        letter-spacing: 1px;
+
+    }
+}
 /* Footer */
 

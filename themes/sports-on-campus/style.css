@@ -831,11 +831,35 @@ object {
     padding-left: 45px; }
 
 /* Events Page */
-.events-area {
+.events-area p {
+  margin: 0; }
+
+.events-area .event-image {
+  height: 200px; }
+
+.events-area .event-grid {
   display: grid; }
-  .events-area p {
-    margin: 0; }
-  .events-area .event-image {
-    height: 200px; }
+
+/* Universities Page */
+.page-template-archive-university ul {
+  text-align: left;
+  list-style-type: none; }
+
+.page-template-archive-university .university-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 100px; }
+
+.page-template-archive-university .university-name {
+  font-size: 12px;
+  margin: 0; }
+
+.page-template-archive-university .university-city {
+  font-size: 10px; }
+
+.page-template-archive-university .university-title-location a {
+  text-decoration: none;
+  letter-spacing: 1px; }
 
 /* Footer */
