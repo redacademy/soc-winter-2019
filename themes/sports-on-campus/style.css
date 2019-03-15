@@ -917,6 +917,10 @@ object {
     color: black;
     font-weight: 300; }
 
+/* Blog Page */
+.blog .blog-loop {
+  text-align: left; }
+
 /* Events Page */
 .events-area {
   display: grid; }
