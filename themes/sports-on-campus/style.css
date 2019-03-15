@@ -751,4 +751,31 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.top-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(../../assets/images/Duo-tone.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../../assets/images/Duo-tone.png);
+  background-size: cover, cover;
+  background-position-x: center, center;
+  background-position-y: center, center;
+  color: white; }
+  .top-heading h2:first-of-type {
+    margin-top: 10px;
+    margin-bottom: 0px; }
+  .top-heading h2:last-of-type {
+    margin-top: 0px;
+    margin-bottom: 10px; }
+
 /* Footer */
