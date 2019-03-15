@@ -559,6 +559,17 @@ a {
   text-align: right;
   width: 50%; }
 
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .main-navigation .front-logo {
+    background-image: url(../../sport-on-campus-logo.png);
+    height: 70px;
+    width: 85px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/

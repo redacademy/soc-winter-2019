@@ -29,6 +29,8 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'additional-menu', 'container_class' => 'new_menu_class' ) ); ?>
+					<a class="front-logo" href="<?php bloginfo('url'); ?>"> </a>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">&#9776;</i></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
