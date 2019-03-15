@@ -861,11 +861,12 @@ object {
   padding-top: 30px;
   padding-bottom: 20px; }
 
-.page-template-team .ceo {
+.page-template-team .ceo a {
+  display: none; }
+
+.page-template-team .ceo p {
   padding-right: 45px;
   padding-left: 45px; }
-  .page-template-team .ceo a {
-    display: none; }
 
 .page-template-team .ceo-caption {
   padding-top: 30px; }
@@ -878,6 +879,13 @@ object {
 .page-template-team .wp-block-image {
   width: 250px;
   display: inline-block; }
+  .page-template-team .wp-block-image figcaption {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400px; }
 
 .page-template-team .wp-block-quote {
   font-style: italic;
