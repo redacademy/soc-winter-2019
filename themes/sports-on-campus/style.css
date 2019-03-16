@@ -838,15 +838,11 @@ object {
   .mid-heading p {
     text-align: start; }
   .mid-heading h3 {
-    margin: 20px auto;
-    text-align: center; }
+    margin: 0px; }
   .mid-heading h4 {
-    height: 60px;
-    text-align: left;
-    width: 300px;
-    margin: auto; }
+    height: 60px; }
     .mid-heading h4 i {
-      width: 80px; }
+      width: 100px; }
 
 .page-template-team .entry-content {
   text-align: center; }
@@ -868,11 +864,12 @@ object {
   padding-top: 30px;
   padding-bottom: 20px; }
 
-.page-template-team .ceo {
+.page-template-team .ceo a {
+  display: none; }
+
+.page-template-team .ceo p {
   padding-right: 45px;
   padding-left: 45px; }
-  .page-template-team .ceo a {
-    display: none; }
 
 .page-template-team .ceo-caption {
   padding-top: 30px; }
@@ -885,6 +882,13 @@ object {
 .page-template-team .wp-block-image {
   width: 250px;
   display: inline-block; }
+  .page-template-team .wp-block-image figcaption {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400px; }
 
 .page-template-team .wp-block-quote {
   font-style: italic;
@@ -923,27 +927,21 @@ object {
 
 /* Events Page */
 .events-area {
-  display: grid; }
+  /* ARCHIVE */ }
   .events-area p {
     margin: 0; }
-
-/* ARCHIVE */
-.page-template-archive-testimonial a {
-  text-decoration: none; }
-
-.page-template-archive-testimonial .mobile-slide {
-  border-bottom: #9499A1 solid 3px;
-  margin-bottom: 1em; }
-
-.testimonial h1 {
-  color: black;
-  text-transform: capitalize; }
-
-.event-image {
-  height: 200px; }
-
-.event-grid {
-  display: grid; }
+  .events-area .event-image {
+    height: 200px; }
+  .events-area .event-grid {
+    display: grid; }
+  .events-area .page-template-archive-testimonial a {
+    text-decoration: none; }
+  .events-area .page-template-archive-testimonial .mobile-slide {
+    border-bottom: #9499A1 solid 3px;
+    margin-bottom: 1em; }
+  .events-area .testimonial h1 {
+    color: black;
+    text-transform: capitalize; }
 
 /* Universities Page */
 .page-template-archive-university ul {
@@ -968,6 +966,3 @@ object {
   letter-spacing: 1px; }
 
 /* Footer */
-.front-page-testimonials .carousel-cell {
-  width: 100%;
-  margin-top: 4em; }
