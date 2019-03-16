@@ -934,11 +934,11 @@ object {
     height: 200px; }
   .events-area .event-grid {
     display: grid; }
-  .events-area .page-template-archive-testimonial a {
-    text-decoration: none; }
-  .events-area .page-template-archive-testimonial .mobile-slide {
+  .events-area .mobile-slide {
     border-bottom: #9499A1 solid 3px;
     margin-bottom: 1em; }
+    .events-area .mobile-slide a {
+      text-decoration: none; }
   .events-area .testimonial h1 {
     color: black;
     text-transform: capitalize; }
