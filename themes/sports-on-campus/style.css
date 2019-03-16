@@ -928,6 +928,13 @@ object {
     margin: 0; }
 
 /* ARCHIVE */
+.page-template-archive-testimonial a {
+  text-decoration: none; }
+
+.page-template-archive-testimonial .mobile-slide {
+  border-bottom: #9499A1 solid 3px;
+  margin-bottom: 1em; }
+
 .testimonial h1 {
   color: black;
   text-transform: capitalize; }
