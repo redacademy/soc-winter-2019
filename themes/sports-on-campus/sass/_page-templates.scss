@@ -7,8 +7,8 @@
   text-align: center;
 }
 
-.sample-picture{
-  height:200px;
+.sample-picture {
+  height: 200px;
 }
 
 /* Front page */
@@ -137,7 +137,6 @@
       font-weight: 100;
     }
   }
- 
 }
 .achievement-history {
   padding-left: 90px;
@@ -152,12 +151,57 @@
     font-weight: 300;
   }
 }
+/* Single University Page */
+
+.university-template-default {
+  .entry-title {
+    color: white;
+  }
+}
+
+/* Join Us Page */
+
+.page-id-29 {
+  .entry-title {
+    display: none;
+  }
+  .entry-content {
+    p {
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-top: 2em;
+    }
+  }
+  h4 {
+    color: black;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .button {
+    background: #ff6b00;
+    color: white;
+    border-radius: 12px;
+    width: 180px;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  .wp-link-block-button__link {
+    letter-spacing: 2px;
+    font-weight: 300;
+    background-color: #003276;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0;
+    padding: 2px 40px;
+  }
+}
 
 /* Blog Page */
-.blog{
-.blog-loop{
+.blog {
+  .blog-loop {
     text-align: left;
-}
+  }
 }
 
 /* Events Page */
