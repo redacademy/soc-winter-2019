@@ -19,7 +19,7 @@ get_header(); ?>
                 <?php $testimonials = soc_get_testimonial_category(); ?>
             </div>
            <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
-           <article id="testimonial-<?php the_ID(); ?>" <?php post_class(); ?>>
+           <article  id="testimonial-<?php the_ID(); ?>" <?php post_class(); ?>>
                <?php if (has_post_thumbnail()) : ?>
                <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
                    <?php the_post_thumbnail('large'); ?>
@@ -29,9 +29,9 @@ get_header(); ?>
                <h1>
                    <?php the_title(); ?>
                </h1>
-               <?php the_content(); ?>
-                               <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
                                <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
+                               <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
+                               <?php the_content(); ?>
            </article>
                         <?php endforeach;
                        wp_reset_postdata(); ?>

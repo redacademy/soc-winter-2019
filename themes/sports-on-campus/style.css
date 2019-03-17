@@ -943,17 +943,23 @@ object {
   display: grid; }
 
 /* ARCHIVE */
+.page-template-archive-testimonial .wp-block-quote p {
+  font-size: 15px;
+  margin-bottom: 4em; }
+
 .mobile-slide {
   border-bottom: #9499A1 solid 2.5px;
-  margin-bottom: 1em; }
+  margin-bottom: 3em; }
   .mobile-slide a {
     text-decoration: none;
     margin-left: 2em;
     margin-right: 2em; }
 
 .testimonial h1 {
-  color: black;
-  text-transform: capitalize; }
+  color: #000;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 1.5em; }
 
 /* Universities Page */
 .page-template-archive-university ul {
