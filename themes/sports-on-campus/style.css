@@ -783,52 +783,12 @@ object {
 .sample-picture {
   height: 200px; }
 
-/* Front page */
-.top-heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 35, 98, 0.3)), to(rgba(2, 35, 98, 0.3))), url(../../assets/images/Duo-tone.png);
-  background: linear-gradient(rgba(2, 35, 98, 0.3), rgba(2, 35, 98, 0.3)), url(../../assets/images/Duo-tone.png);
-  background-size: cover, cover;
-  background-position-x: center, center;
-  background-position-y: center, center;
-  color: white;
-  padding: 20px; }
-  .top-heading h2 {
-    font-weight: bold; }
-    .top-heading h2:first-of-type {
-      margin-top: 10px;
-      margin-bottom: 0px; }
-    .top-heading h2:last-of-type {
-      margin-top: 0px;
-      margin-bottom: 10px; }
-
-.mid-heading {
-  text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  background: #003276;
+.orange-button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
   color: #fff;
+<<<<<<< HEAD
   padding: 40px; }
   .mid-heading h2 {
     margin: 0px;
@@ -841,6 +801,13 @@ object {
     height: 60px; }
     .mid-heading h4 i {
       width: 100px; }
+=======
+  background: #ff6b00;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  border-radius: 15px;
+  font-weight: 300; }
+>>>>>>> 85a9c8214c40ba60cf6860d8703a279d80c97f0d
 
 .page-template-team .entry-content {
   text-align: center; }
@@ -962,12 +929,40 @@ object {
 /* Events Page */
 .events-area p {
   margin: 0; }
+<<<<<<< HEAD
 
 .events-area .event-image {
   height: 200px; }
 
 .events-area .event-grid {
   display: grid; }
+=======
+
+.events-area .event-image {
+  height: 200px; }
+
+.events-area .event-grid {
+  display: grid; }
+
+/* ARCHIVE */
+.tax-testimonial_category .wp-block-quote p, .page-template-archive-testimonial .wp-block-quote p {
+  font-size: 15px;
+  margin-bottom: 4em; }
+
+.mobile-slide {
+  border-bottom: #9499A1 solid 2.5px;
+  margin-bottom: 3em; }
+  .mobile-slide a {
+    text-decoration: none;
+    margin-left: 2em;
+    margin-right: 2em; }
+
+.testimonial h1 {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 1.5em; }
+>>>>>>> 85a9c8214c40ba60cf6860d8703a279d80c97f0d
 
 /* Universities Page */
 .page-template-archive-university ul {
@@ -991,4 +986,198 @@ object {
   text-decoration: none;
   letter-spacing: 1px; }
 
+<<<<<<< HEAD
 /* Footer */
+=======
+/* single blog post */
+.single-post .entry-header {
+  padding-right: 40px;
+  padding-left: 40px; }
+  .single-post .entry-header img {
+    margin-top: 1em; }
+
+.single-post .entry-title {
+  margin-top: 1em; }
+
+.single-post .entry-content p {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2em; }
+
+.single-post .entry-content p:nth-child(even) {
+  color: white;
+  background-color: #00237A;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
+/* Front page */
+.top-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 35, 98, 0.3)), to(rgba(2, 35, 98, 0.3))), url(../../assets/images/Duo-tone.png);
+  background: linear-gradient(rgba(2, 35, 98, 0.3), rgba(2, 35, 98, 0.3)), url(../../assets/images/Duo-tone.png);
+  background-size: cover, cover;
+  background-position-x: center, center;
+  background-position-y: center, center;
+  color: white;
+  padding: 20px; }
+  .top-heading h2 {
+    font-weight: bold; }
+    .top-heading h2:first-of-type {
+      margin-top: 10px;
+      margin-bottom: 0px; }
+    .top-heading h2:last-of-type {
+      margin-top: 0px;
+      margin-bottom: 10px; }
+
+.mid-heading {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #003276;
+  color: #fff;
+  padding: 40px; }
+  .mid-heading h2 {
+    margin: 0px;
+    text-align: center; }
+  .mid-heading p {
+    text-align: start; }
+  .mid-heading h3 {
+    margin: 0px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .mid-heading .text-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .mid-heading .text-block h4 {
+      width: 35%; }
+    .mid-heading .text-block i {
+      text-align: center;
+      width: 50%; }
+
+.testimonial-container {
+  width: 100%; }
+  .testimonial-container .testimonial-item {
+    width: 100%;
+    display: block;
+    position: relative; }
+
+.step-to-follow-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .step-to-follow-container h3 {
+    font-weight: 400; }
+  .step-to-follow-container p {
+    width: 50%;
+    margin: 20px auto; }
+  .step-to-follow-container .orange-vertical-line {
+    display: block;
+    width: 0px;
+    border-left: 3px solid #ff6b00;
+    height: 50px;
+    margin: auto;
+    border-radius: 15%; }
+
+.sport-select-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #003276;
+  color: #fff; }
+  .sport-select-container h3 {
+    margin-bottom: 0px; }
+  .sport-select-container h2 {
+    margin-bottom: 40px; }
+  .sport-select-container .sport-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+    .sport-select-container .sport-list .each-item {
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      text-transform: uppercase; }
+      .sport-select-container .sport-list .each-item img {
+        margin: auto;
+        width: 50px; }
+      .sport-select-container .sport-list .each-item p {
+        display: inline-block; }
+
+.front-page-testimonials .testimonial-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .front-page-testimonials .testimonial-item img {
+    margin: auto;
+    width: 80%;
+    height: 50vw; }
+  .front-page-testimonials .testimonial-item .test-uni {
+    margin-bottom: 20px; }
+  .front-page-testimonials .testimonial-item p {
+    margin: 0px; }
+
+.front-page-testimonials i {
+  width: 30%;
+  color: #ff6b00; }
+  .front-page-testimonials i:last-of-type {
+    width: 100%; }
+>>>>>>> 85a9c8214c40ba60cf6860d8703a279d80c97f0d
