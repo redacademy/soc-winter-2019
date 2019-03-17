@@ -24,14 +24,14 @@ get_header(); ?>
 
 
         <section class="front-page-testimonials">
-            <div class="main-carousel" data-flickity='{ "autoPlay": true }'>
+            <div class="main-carousel testimonial-container" data-flickity='{ "autoPlay": true }'>
 
 
 
                 <?php $testimonials = soc_get_testimonial_category(); ?>
                 <?php foreach ($testimonials as $post) : setup_postdata($post); ?> 
 
-                <div class="carousel-cell" <?php post_class(); ?>>
+                <div class="carousel-cell testimonial-item" <?php post_class(); ?>>
                     <?php if (has_post_thumbnail()) : ?>
                     <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
                         <?php the_post_thumbnail('large'); ?>
