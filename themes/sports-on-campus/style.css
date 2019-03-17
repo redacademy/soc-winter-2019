@@ -1002,11 +1002,26 @@ object {
   .mid-heading p {
     text-align: start; }
   .mid-heading h3 {
-    margin: 0px; }
-  .mid-heading h4 {
-    height: 60px; }
-    .mid-heading h4 i {
-      width: 100px; }
+    margin: 0px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .mid-heading .text-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .mid-heading .text-block h4 {
+      width: 35%; }
+    .mid-heading .text-block i {
+      text-align: center;
+      width: 50%; }
 
 .testimonial-container {
   width: 100%; }

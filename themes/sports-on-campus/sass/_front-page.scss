@@ -43,13 +43,24 @@
     }
     h3 {
       margin: 0px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
     }
-    h4 {
-      height: 60px;
-      i {
-        width: 100px;
-      }
+    .text-block{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        h4 {
+            width: 35%;
+        }
+          i {
+              text-align: center;
+              width: 50%;
+          }
+        
     }
+   
   }
   
   .testimonial-container{
