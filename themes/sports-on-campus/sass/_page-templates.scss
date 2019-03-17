@@ -65,6 +65,15 @@
   }
 }
 
+.testimonial-container{
+    width: 100%;
+    .testimonial-item{
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+}
+
 .page-template-team {
   .entry-content {
     text-align: center;

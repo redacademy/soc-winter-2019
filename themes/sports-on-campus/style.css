@@ -844,6 +844,13 @@ object {
     .mid-heading h4 i {
       width: 100px; }
 
+.testimonial-container {
+  width: 100%; }
+  .testimonial-container .testimonial-item {
+    width: 100%;
+    display: block;
+    position: relative; }
+
 .page-template-team .entry-content {
   text-align: center; }
 
