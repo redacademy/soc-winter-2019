@@ -983,4 +983,23 @@ object {
   text-decoration: none;
   letter-spacing: 1px; }
 
-/* Footer */
+/* single blog post */
+.single-post .entry-header {
+  padding-right: 40px;
+  padding-left: 40px; }
+  .single-post .entry-header img {
+    margin-top: 1em; }
+
+.single-post .entry-title {
+  margin-top: 1em; }
+
+.single-post .entry-content p {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2em; }
+
+.single-post .entry-content p:nth-child(even) {
+  color: white;
+  background-color: #00237A;
+  padding-top: 3em;
+  padding-bottom: 3em; }
