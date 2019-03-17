@@ -10,12 +10,24 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
 
         <?php while (have_posts()) : the_post(); ?>
-
-        <?php the_content(); ?>
-
+        <section class="entry-content">
+            <?php the_content(); ?>
+        </section>
         <?php endwhile; ?>
 
-        <section class="sport-select-container">
+        <section class="entry-content step-to-follow-container">
+            <h2>Just 3 easy step to follow</h2>
+            <h3>1. Search</h3>
+            <p>University that you interested in on our page</p>
+            <div class="orange-vertical-line"></div>
+            <h3>2. Sign up</h3>
+            <p>Sign up with us and filled in your athletic information</p>
+            <div class="orange-vertical-line"></div>
+            <h3>3. Connect</h3>
+            <p>Send request to coach of universities of your choice</p>
+        </section>
+
+        <section class="entry-content sport-select-container">
             <h3>Start with what you know</h3>
             <h2>Choose Sport</h2>
             <?php $sports = get_terms('university_sport', array(
@@ -33,14 +45,13 @@ get_header(); ?>
                 </li>
                 <?php endforeach ?>
             </ul>
-            <button>Search</button>
+            <button class="orange-button">Search</button>
         </section>
 
-        <h1>Testimonials</h1>
-        <section class="front-page-testimonials">
+
+        <section class="entry-content front-page-testimonials">
+            <h1>Testimonials</h1>
             <div class="main-carousel testimonial-container" data-flickity='{ "autoPlay": true }'>
-
-
 
                 <?php $testimonials = soc_get_testimonial_category(); ?>
                 <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
@@ -59,6 +70,7 @@ get_header(); ?>
                     <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
                     <i class="fas fa-quote-left"></i>
                     <?php the_content(); ?>
+                    <i class="fas fa-angle-down fa-2x"></i>
                 </div>
 
                 <?php endforeach;
