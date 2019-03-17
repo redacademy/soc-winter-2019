@@ -926,22 +926,27 @@ object {
   text-align: left; }
 
 /* Events Page */
-.events-area {
-  /* ARCHIVE */ }
-  .events-area p {
-    margin: 0; }
-  .events-area .event-image {
-    height: 200px; }
-  .events-area .event-grid {
-    display: grid; }
-  .events-area .mobile-slide {
-    border-bottom: #9499A1 solid 3px;
-    margin-bottom: 1em; }
-    .events-area .mobile-slide a {
-      text-decoration: none; }
-  .events-area .testimonial h1 {
-    color: black;
-    text-transform: capitalize; }
+.events-area p {
+  margin: 0; }
+
+.events-area .event-image {
+  height: 200px; }
+
+.events-area .event-grid {
+  display: grid; }
+
+/* ARCHIVE */
+.mobile-slide {
+  border-bottom: #9499A1 solid 2.5px;
+  margin-bottom: 1em; }
+  .mobile-slide a {
+    text-decoration: none;
+    margin-left: 2em;
+    margin-right: 2em; }
+
+.testimonial h1 {
+  color: black;
+  text-transform: capitalize; }
 
 /* Universities Page */
 .page-template-archive-university ul {
