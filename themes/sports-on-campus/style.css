@@ -943,7 +943,7 @@ object {
   display: grid; }
 
 /* ARCHIVE */
-.page-template-archive-testimonial .wp-block-quote p {
+.wp-block-quote p {
   font-size: 15px;
   margin-bottom: 4em; }
 
