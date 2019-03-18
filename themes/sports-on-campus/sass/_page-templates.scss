@@ -177,7 +177,7 @@ button[type='submit'] {
     padding: 10px 20px;
     margin-right: 150px;
   }
-}
+
 .post-63 {
   .entry-content {
     a {
@@ -280,23 +280,6 @@ button[type='submit'] {
   }
 }
 
-/* Events Page */
-.events-area {
-  p {
-    margin: 0;
-  }
-  .event-image {
-    height: 200px;
-  }
-  .event-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 25% 75%;
-    max-width: 50%;
-    margin: 0 auto;
-  }
-}
-
 /* Archive */
 .tax-testimonial_category,
 .page-template-archive-testimonial {
@@ -370,7 +353,6 @@ button[type='submit'] {
   .entry-header {
     padding-right: 40px;
     padding-left: 40px;
-
     img {
       margin-top: 1em;
     }
@@ -393,4 +375,5 @@ button[type='submit'] {
       padding-bottom: 3em;
     }
   }
+}
 }
