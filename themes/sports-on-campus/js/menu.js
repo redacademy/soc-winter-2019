@@ -51,10 +51,18 @@
       $('.Volleyball-menu p').addClass('orange-underscore');
       select = 'Volleyball';
     });
+    $('.front-page-search').on('click', function() {
+     if(select!==''){
+      console.log($('.'+select+'-menu p').attr('linkinfo'));
+      location.href =$('.'+select+'-menu p').attr('linkinfo'); 
+    }
+    
+    });
+
   });
  
 
-  let select = '';
+ 
   $('.mobile-slide li:nth-child(1)').on('click', function() {
     $('.mobile-slide li:nth-child(1)').addClass('orange-underscore');
     $('li:nth-child(2)').removeClass('orange-underscore');
