@@ -793,7 +793,9 @@ object {
 .sample-picture {
   height: 200px; }
 
-.orange-button, input[type=submit], button[type=submit] {
+.orange-button,
+input[type='submit'],
+button[type='submit'] {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
@@ -906,7 +908,8 @@ object {
 
 .type-university h4 {
   color: white;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 18px; }
 
 .type-university .entry-title {
   color: white; }
@@ -931,9 +934,13 @@ object {
   font-weight: 300;
   background-color: #ff6b00;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
-  padding: 8px 20px; }
+  padding: 10px 20px;
+  margin-right: 150px; }
+
+.post-63 .entry-content a {
+  color: #ff6b00; }
 
 /* Join Us Page */
 .page-id-29 .entry-title {
@@ -946,6 +953,7 @@ object {
 
 .page-id-29 h4 {
   color: black;
+  font-weight: 900;
   padding-right: 40px;
   padding-top: 50px;
   padding-left: 40px; }
@@ -958,7 +966,7 @@ object {
   letter-spacing: 2px;
   font-weight: 300; }
 
-.page-id-29 .wp-link-block-button__link {
+.page-id-29 .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #003276;
@@ -966,6 +974,14 @@ object {
   font-size: 14px;
   margin: 0;
   padding: 2px 40px; }
+
+.page-id-29 .ur-frontend-form {
+  padding: none; }
+  .page-id-29 .ur-frontend-form button {
+    float: none; }
+
+.page-id-29 .ur-frontend-form {
+  border: none; }
 
 /* Blog Page */
 .blog .blog-loop {
@@ -992,7 +1008,7 @@ object {
 
 .blog .blog-text {
   background-color: #fff;
-  border: 1px solid #D8D8D8;
+  border: 1px solid #d8d8d8;
   width: 40%;
   position: absolute;
   bottom: 18px; }

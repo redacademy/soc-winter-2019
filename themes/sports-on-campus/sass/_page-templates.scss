@@ -11,15 +11,17 @@
   height: 200px;
 }
 
-.orange-button,input[type=submit],button[type=submit]{
-    box-shadow: none;
-    border: none;
-    color: #fff;
-    background: #ff6b00;
-    padding: 10px 20px 10px 20px;
-    font-size: 18px;
-    border-radius: 15px;
-    font-weight: 300;
+.orange-button,
+input[type='submit'],
+button[type='submit'] {
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  background: #ff6b00;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  border-radius: 15px;
+  font-weight: 300;
 }
 
 .page-template-team {
@@ -137,6 +139,7 @@
   h4 {
     color: white;
     font-weight: 400;
+    font-size: 18px;
   }
 
   .entry-title {
@@ -162,12 +165,19 @@
     font-weight: 300;
     background-color: #ff6b00;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
-    padding: 8px 20px;
+    padding: 10px 20px;
+    margin-right: 150px;
   }
 }
-
+.post-63 {
+  .entry-content {
+    a {
+      color: #ff6b00;
+    }
+  }
+}
 /* Join Us Page */
 
 .page-id-29 {
@@ -183,6 +193,7 @@
   }
   h4 {
     color: black;
+    font-weight: 900;
     padding-right: 40px;
     padding-top: 50px;
     padding-left: 40px;
@@ -195,7 +206,7 @@
     letter-spacing: 2px;
     font-weight: 300;
   }
-  .wp-link-block-button__link {
+  .wp-block-button__link {
     letter-spacing: 2px;
     font-weight: 300;
     background-color: #003276;
@@ -204,55 +215,62 @@
     margin: 0;
     padding: 2px 40px;
   }
+  .ur-frontend-form {
+    padding: none;
+    button {
+      float: none;
+    }
+  }
+  .ur-frontend-form {
+    border: none;
+  }
 }
 
 /* Blog Page */
 .blog {
-
-  .blog-loop{
+  .blog-loop {
     list-style: none;
   }
-  .cat-item{
+  .cat-item {
     list-style: none;
-  a{
-    text-decoration: none;
-  }  
-}
+    a {
+      text-decoration: none;
+    }
+  }
 
-  .entry-title a{
+  .entry-title a {
     text-decoration: none;
   }
 
-  .posted-on{
+  .posted-on {
     font-size: 12px;
     color: $color__orange-accent;
   }
   .entry-title {
     margin: 2px;
     line-height: 1;
-    a{
-    font-size: 14px;
-    color: $color__main-block;
+    a {
+      font-size: 14px;
+      color: $color__main-block;
     }
   }
-  .blog-text{
+  .blog-text {
     background-color: #fff;
-    border: 1px solid #D8D8D8;
+    border: 1px solid #d8d8d8;
     width: 40%;
     position: absolute;
     bottom: 18px;
-
-}
-.blog-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img{
-    padding: 3rem;
-    padding-top: 10px;
   }
-}
+  .blog-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      padding: 3rem;
+      padding-top: 10px;
+    }
+  }
 }
 
 /* Events Page */
@@ -275,15 +293,14 @@
     font-size: 15px;
     margin-bottom: 4em;
   }
-  
-    i{
-      width: 30%;
-      color: $color__orange-accent;
-      &:last-of-type{
-          width: 100%;
-      }
+
+  i {
+    width: 30%;
+    color: $color__orange-accent;
+    &:last-of-type {
+      width: 100%;
     }
- 
+  }
 }
 
 .mobile-slide {
@@ -298,7 +315,7 @@
     // margin-left: 2em;
     // margin-right: 2em;
   }
-  li{
+  li {
     list-style-type: none;
   }
 }
@@ -350,7 +367,6 @@
     margin-top: 1em;
     font-size: 1.6em;
   }
-  
 
   .entry-content {
     p {
