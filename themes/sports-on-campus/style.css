@@ -970,8 +970,6 @@ object {
 /* Blog Page */
 .blog .blog-loop {
   list-style: none; }
-  .blog .blog-loop li {
-    display: inline; }
 
 .blog .cat-item {
   list-style: none; }
@@ -995,7 +993,7 @@ object {
 .blog .blog-text {
   background-color: #fff;
   border: 1px solid #D8D8D8;
-  max-width: 250px;
+  width: 40%;
   position: absolute;
   bottom: 18px; }
 
