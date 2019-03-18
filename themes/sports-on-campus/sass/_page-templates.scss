@@ -11,15 +11,15 @@
   height: 200px;
 }
 
-.orange-button{
-    box-shadow: none;
-    border: none;
-    color: #fff;
-    background: #ff6b00;
-    padding: 10px 20px 10px 20px;
-    font-size: 18px;
-    border-radius: 15px;
-    font-weight: 300;
+.orange-button {
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  background: #ff6b00;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  border-radius: 15px;
+  font-weight: 300;
 }
 
 .page-template-team {
@@ -110,9 +110,39 @@
 }
 /* Single University Page */
 
-.university-template-default {
+.type-university {
+  .entry-content {
+    background: #003276;
+    padding-left: 40px;
+    padding-right: 40px;
+    p {
+      color: white;
+    }
+  }
+  h2 {
+    color: black;
+  }
   .entry-title {
     color: white;
+  }
+  .uni-program {
+    padding-bottom: 80px;
+  }
+  .uni-prerequisites {
+    padding-top: 80px;
+    background: #003276;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .wp-link-block-button__link {
+    letter-spacing: 2px;
+    font-weight: 300;
+    background-color: #ff6b00;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0;
+    padding: 2px 40px;
   }
 }
 
@@ -172,33 +202,33 @@
   }
   .event-grid {
     display: grid;
-}
+  }
 }
 
 /* ARCHIVE */
-.tax-testimonial_category , .page-template-archive-testimonial{
-  .wp-block-quote p{
+.tax-testimonial_category,
+.page-template-archive-testimonial {
+  .wp-block-quote p {
     font-size: 15px;
     margin-bottom: 4em;
-  } 
+  }
 }
 
-  .mobile-slide{
-    border-bottom:$color__light-text solid 2.5px;
-    margin-bottom:3em;
-    a{
-      text-decoration:none;
-      margin-left:2em;
-      margin-right:2em;
-      
-    }
+.mobile-slide {
+  border-bottom: $color__light-text solid 2.5px;
+  margin-bottom: 3em;
+  a {
+    text-decoration: none;
+    margin-left: 2em;
+    margin-right: 2em;
   }
-  .testimonial h1{
-    color: #000;
-    text-transform: capitalize;
-    font-size: 16px;
-    margin-bottom: 1.5em;
-  }
+}
+.testimonial h1 {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 1.5em;
+}
 /* Universities Page */
 .page-template-archive-university {
   ul {
@@ -228,28 +258,28 @@
   }
 }
 /* single blog post */
-.single-post{
-  .entry-header{
+.single-post {
+  .entry-header {
     padding-right: 40px;
     padding-left: 40px;
 
-    img{
-      margin-top:1em;
+    img {
+      margin-top: 1em;
     }
   }
-  .entry-title{
+  .entry-title {
     margin-top: 1em;
   }
 
-  .entry-content{
-    p{
+  .entry-content {
+    p {
       padding-left: 40px;
       padding-right: 40px;
       margin-top: 2em;
     }
-    p:nth-child(even){
-      color:white;
-      background-color:#00237A;
+    p:nth-child(even) {
+      color: white;
+      background-color: #00237a;
       padding-top: 3em;
       padding-bottom: 3em;
     }

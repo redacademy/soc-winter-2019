@@ -788,26 +788,11 @@ object {
           box-shadow: none;
   border: none;
   color: #fff;
-<<<<<<< HEAD
-  padding: 40px; }
-  .mid-heading h2 {
-    margin: 0px;
-    text-align: center; }
-  .mid-heading p {
-    text-align: start; }
-  .mid-heading h3 {
-    margin: 0px; }
-  .mid-heading h4 {
-    height: 60px; }
-    .mid-heading h4 i {
-      width: 100px; }
-=======
   background: #ff6b00;
   padding: 10px 20px 10px 20px;
   font-size: 18px;
   border-radius: 15px;
   font-weight: 300; }
->>>>>>> 85a9c8214c40ba60cf6860d8703a279d80c97f0d
 
 .page-template-team .entry-content {
   text-align: center; }
@@ -887,8 +872,37 @@ object {
     font-weight: 300; }
 
 /* Single University Page */
-.university-template-default .entry-title {
+.type-university .entry-content {
+  background: #003276;
+  padding-left: 40px;
+  padding-right: 40px; }
+  .type-university .entry-content p {
+    color: white; }
+
+.type-university h2 {
+  color: black; }
+
+.type-university .entry-title {
   color: white; }
+
+.type-university .uni-program {
+  padding-bottom: 80px; }
+
+.type-university .uni-prerequisites {
+  padding-top: 80px;
+  background: #003276;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.type-university .wp-link-block-button__link {
+  letter-spacing: 2px;
+  font-weight: 300;
+  background-color: #ff6b00;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0;
+  padding: 2px 40px; }
 
 /* Join Us Page */
 .page-id-29 .entry-title {
@@ -929,14 +943,6 @@ object {
 /* Events Page */
 .events-area p {
   margin: 0; }
-<<<<<<< HEAD
-
-.events-area .event-image {
-  height: 200px; }
-
-.events-area .event-grid {
-  display: grid; }
-=======
 
 .events-area .event-image {
   height: 200px; }
@@ -945,7 +951,8 @@ object {
   display: grid; }
 
 /* ARCHIVE */
-.tax-testimonial_category .wp-block-quote p, .page-template-archive-testimonial .wp-block-quote p {
+.tax-testimonial_category .wp-block-quote p,
+.page-template-archive-testimonial .wp-block-quote p {
   font-size: 15px;
   margin-bottom: 4em; }
 
@@ -962,7 +969,6 @@ object {
   text-transform: capitalize;
   font-size: 16px;
   margin-bottom: 1.5em; }
->>>>>>> 85a9c8214c40ba60cf6860d8703a279d80c97f0d
 
 /* Universities Page */
 .page-template-archive-university ul {
@@ -986,9 +992,6 @@ object {
   text-decoration: none;
   letter-spacing: 1px; }
 
-<<<<<<< HEAD
-/* Footer */
-=======
 /* single blog post */
 .single-post .entry-header {
   padding-right: 40px;
@@ -1006,7 +1009,7 @@ object {
 
 .single-post .entry-content p:nth-child(even) {
   color: white;
-  background-color: #00237A;
+  background-color: #00237a;
   padding-top: 3em;
   padding-bottom: 3em; }
 
@@ -1180,4 +1183,3 @@ object {
   color: #ff6b00; }
   .front-page-testimonials i:last-of-type {
     width: 100%; }
->>>>>>> 85a9c8214c40ba60cf6860d8703a279d80c97f0d
