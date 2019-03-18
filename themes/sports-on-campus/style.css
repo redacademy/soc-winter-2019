@@ -872,20 +872,37 @@ object {
     font-weight: 300; }
 
 /* Single University Page */
+.type-university .read-more-link {
+  color: #ff6b00; }
+
+.type-university .ubc-intro {
+  background: #003276; }
+
 .type-university .entry-content {
   background: #003276;
+  padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px; }
   .type-university .entry-content p {
-    color: white; }
+    color: white;
+    font-weight: 100; }
 
 .type-university h2 {
+  color: black;
+  text-transform: uppercase; }
+
+.type-university h3 {
   color: black; }
+
+.type-university h4 {
+  color: white;
+  font-weight: 400; }
 
 .type-university .entry-title {
   color: white; }
 
 .type-university .uni-program {
+  padding-top: 40px;
   padding-bottom: 80px; }
 
 .type-university .uni-prerequisites {
@@ -893,16 +910,20 @@ object {
   background: #003276;
   color: white;
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  padding-bottom: 40px; }
 
-.type-university .wp-link-block-button__link {
+.type-university .uni-facilities {
+  padding-top: 40px; }
+
+.type-university .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #ff6b00;
-  border-radius: 4px;
-  font-size: 14px;
+  border-radius: 12px;
+  font-size: 12px;
   margin: 0;
-  padding: 2px 40px; }
+  padding: 8px 20px; }
 
 /* Join Us Page */
 .page-id-29 .entry-title {
