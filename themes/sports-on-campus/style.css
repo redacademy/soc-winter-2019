@@ -597,7 +597,7 @@ a {
     width: 100%;
     z-index: 2;
     right: 0;
-    top: 7.5em; }
+    top: 4em; }
     .main-navigation .menu-mobile-navigation-container a {
       color: white;
       padding-top: 0.5em;
@@ -706,7 +706,6 @@ a {
   display: inline; }
 
 .page-content,
-.entry-content,
 .entry-summary {
   margin: 1.5rem 0 0; }
 
@@ -1042,67 +1041,72 @@ button[type='submit'] {
   display: grid; }
 
 /* Archive */
-.tax-testimonial_category .wp-block-quote p,
-.page-template-archive-testimonial .wp-block-quote p {
-  font-size: 15px;
-  margin-bottom: 4em; }
-
-.tax-testimonial_category i,
-.page-template-archive-testimonial i {
-  width: 30%;
-  color: #ff6b00; }
-  .tax-testimonial_category i:last-of-type,
-  .page-template-archive-testimonial i:last-of-type {
-    width: 100%; }
-
-.mobile-slide {
-  border-bottom: #9499A1 solid 2.5px;
-  margin-bottom: 3em;
-  margin-left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding-top: 1em;
-  -webkit-padding-start: .05px;
-          padding-inline-start: .05px;
-  -webkit-padding-end: .05px;
-          padding-inline-end: .05px; }
-  .mobile-slide a {
-    text-decoration: none; }
-  .mobile-slide li {
-    list-style-type: none;
-    width: 33%; }
-
-.testimonial h1 {
-  color: #000;
-  text-transform: capitalize;
-  font-size: 16px;
-  margin-bottom: 1.5em; }
-
-/* Universities Page */
-.page-template-archive-university ul {
-  text-align: left;
-  list-style-type: none; }
-
-.page-template-archive-university .university-container img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 300px;
-  height: 100px; }
-
-.page-template-archive-university .university-name {
-  font-size: 12px;
-  margin: 0; }
-
-.page-template-archive-university .university-city {
-  font-size: 10px; }
-
-.page-template-archive-university .university-title-location a {
-  text-decoration: none;
-  letter-spacing: 1px; }
+.tax-testimonial_category,
+.page-template-archive-testimonial {
+  /* Universities Page */ }
+  .tax-testimonial_category .wp-block-quote p,
+  .page-template-archive-testimonial .wp-block-quote p {
+    font-size: 15px;
+    margin-bottom: 4em; }
+  .tax-testimonial_category i,
+  .page-template-archive-testimonial i {
+    width: 30%;
+    color: #ff6b00; }
+    .tax-testimonial_category i:last-of-type,
+    .page-template-archive-testimonial i:last-of-type {
+      width: 100%; }
+  .tax-testimonial_category .mobile-slide,
+  .page-template-archive-testimonial .mobile-slide {
+    border-bottom: #9499A1 solid 2.5px;
+    margin-bottom: 3em;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 1em;
+    -webkit-padding-start: .05px;
+            padding-inline-start: .05px;
+    -webkit-padding-end: .05px;
+            padding-inline-end: .05px; }
+    .tax-testimonial_category .mobile-slide a,
+    .page-template-archive-testimonial .mobile-slide a {
+      text-decoration: none; }
+    .tax-testimonial_category .mobile-slide li,
+    .page-template-archive-testimonial .mobile-slide li {
+      list-style-type: none;
+      width: 33%; }
+  .tax-testimonial_category .testimonial h1,
+  .page-template-archive-testimonial .testimonial h1 {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 1.5em; }
+  .tax-testimonial_category .page-template-archive-university ul,
+  .page-template-archive-testimonial .page-template-archive-university ul {
+    text-align: left;
+    list-style-type: none; }
+  .tax-testimonial_category .page-template-archive-university .university-container img,
+  .page-template-archive-testimonial .page-template-archive-university .university-container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 300px;
+    height: 100px; }
+  .tax-testimonial_category .page-template-archive-university _
+.university-name,
+  .page-template-archive-testimonial .page-template-archive-university _
+.university-name {
+    font-size: 12px;
+    margin: 0; }
+  .tax-testimonial_category .page-template-archive-university .university-city,
+  .page-template-archive-testimonial .page-template-archive-university .university-city {
+    font-size: 10px; }
+  .tax-testimonial_category .page-template-archive-university .university-title-location a,
+  .page-template-archive-testimonial .page-template-archive-university .university-title-location a {
+    text-decoration: none;
+    letter-spacing: 1px; }
 
 /* Single Blog Post */
 .single-post .entry-header {

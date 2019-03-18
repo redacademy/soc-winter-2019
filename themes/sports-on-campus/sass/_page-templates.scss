@@ -293,22 +293,12 @@ button[type='submit'] {
     font-size: 15px;
     margin-bottom: 4em;
   }
-<<<<<<< HEAD
 
   i {
     width: 30%;
     color: $color__orange-accent;
     &:last-of-type {
       width: 100%;
-=======
-    i{
-      width: 30%;
-      color: $color__orange-accent;
-      &:last-of-type{
-          width: 100%;
-      }
->>>>>>> d4a7fcc92243a26d89b8aa440a0ff69ad344776c
-    }
   }
 }
 
@@ -348,7 +338,7 @@ button[type='submit'] {
       width: 300px;
       height: 100px;
     }
-  }
+  }_
 
   .university-name {
     font-size: 12px;
@@ -364,6 +354,7 @@ button[type='submit'] {
     letter-spacing: 1px;
   }
 }
+}
 /* Single Blog Post */
 .single-post {
   .entry-header {
@@ -378,7 +369,6 @@ button[type='submit'] {
     margin-top: 1em;
     font-size: 1.6em;
   }
-
   .entry-content {
     p {
       padding-left: 40px;
