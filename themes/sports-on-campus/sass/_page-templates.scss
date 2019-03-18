@@ -113,6 +113,13 @@ button[type='submit'] {
 /* Single University Page */
 
 .type-university {
+    .sport-list {
+        display: flex;
+        li {
+            width: 60px;
+        }
+        }
+      }
   .read-more-link {
     color: #ff6b00;
   }
@@ -142,6 +149,7 @@ button[type='submit'] {
     font-size: 18px;
   }
 
+
   .entry-title {
     color: white;
   }
@@ -170,14 +178,14 @@ button[type='submit'] {
     padding: 10px 20px;
     margin-right: 150px;
   }
-}
+
 .post-63 {
   .entry-content {
     a {
       color: #ff6b00;
     }
   }
-}
+
 /* Join Us Page */
 
 .page-id-29 {
@@ -283,6 +291,10 @@ button[type='submit'] {
   }
   .event-grid {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 25% 75%;
+    max-width: 50%;
+    margin: 0 auto;
   }
 }
 
@@ -301,6 +313,8 @@ button[type='submit'] {
       width: 100%;
   }
 }
+}
+
 
 .mobile-slide {
   border-bottom: $color__light-text solid 2.5px;
@@ -338,7 +352,7 @@ button[type='submit'] {
       width: 300px;
       height: 100px;
     }
-  }_
+  }
 
   .university-name {
     font-size: 12px;
@@ -354,7 +368,8 @@ button[type='submit'] {
     letter-spacing: 1px;
   }
 }
-}
+
+
 /* Single Blog Post */
 .single-post {
   .entry-header {
@@ -382,4 +397,5 @@ button[type='submit'] {
       padding-bottom: 3em;
     }
   }
+}
 }

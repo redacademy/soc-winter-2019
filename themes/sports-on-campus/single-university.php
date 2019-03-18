@@ -24,9 +24,16 @@ get_header(); ?>
 			</header><!-- .entry-header -->
 
 			<div class="entry-content">
+<ul class="sport-list"> 
+	<li class="soccer"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Soccer.png"> </li>
+	
+	<li class="football"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Rugby.png"></li>
+	<li class="basketball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Basketball.png"></li>
+	<li class="volleyball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Volleyball.png"></li>
+</ul>
+
 			<?php the_content(); ?>
-		
-			</div><!-- .entry-content -->
+		</div><!-- .entry-content -->
 			</section>
 			<div class="uni-program"> <?php echo CFS()->get('program'); ?> </div>
 			<div class="uni-prerequisites"> <?php echo CFS()->get('prerequisites'); ?> </div>
