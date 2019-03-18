@@ -597,12 +597,15 @@ a {
     width: 100%;
     z-index: 2;
     right: 0;
-    top: 7em; }
+    top: 7.5em; }
     .main-navigation .menu-mobile-navigation-container a {
       color: white;
       padding-top: 0.5em;
       letter-spacing: 1.5px;
       font-weight: 400; }
+
+.home .entry-content {
+  margin: 0; }
 
 .site-footer .site-info {
   text-align: center;
