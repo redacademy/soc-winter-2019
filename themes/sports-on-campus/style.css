@@ -415,19 +415,6 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
-/* Events Page */
-.events-area p {
-  margin: 0; }
-
-.events-area .event-image {
-  height: 200px; }
-
-.events-area .event-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 25% 65%;
-  margin: 0 auto; }
-
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -821,6 +808,7 @@ button[type='submit'] {
   border-radius: 15px;
   font-weight: 300; }
 
+/* Our Team page */
 .page-template-team .entry-content {
   text-align: center; }
 
@@ -865,7 +853,7 @@ button[type='submit'] {
     color: black;
     text-align: center;
     font-size: 17px;
-    font-weight: 400px; }
+    font-weight: 600; }
 
 .page-template-team .wp-block-quote {
   font-style: italic;
@@ -906,41 +894,41 @@ button[type='submit'] {
   .type-university .sport-list li {
     width: 60px; }
 
-.read-more-link {
+.type-university .read-more-link {
   color: #ff6b00; }
 
-.ubc-intro {
+.type-university .ubc-intro {
   background: #003276; }
 
-.entry-content {
+.type-university .entry-content {
   background: #003276;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px; }
-  .entry-content p {
+  .type-university .entry-content p {
     color: white;
     font-weight: 100; }
 
-h2 {
+.type-university h2 {
   color: black;
   text-transform: uppercase; }
 
-h3 {
+.type-university h3 {
   color: black; }
 
-h4 {
+.type-university h4 {
   color: white;
   font-weight: 400;
   font-size: 18px; }
 
-.entry-title {
+.type-university .entry-title {
   color: white; }
 
-.uni-program {
+.type-university .uni-program {
   padding-top: 40px;
   padding-bottom: 80px; }
 
-.uni-prerequisites {
+.type-university .uni-prerequisites {
   padding-top: 80px;
   background: #003276;
   color: white;
@@ -948,10 +936,10 @@ h4 {
   padding-right: 40px;
   padding-bottom: 40px; }
 
-.uni-facilities {
+.type-university .uni-facilities {
   padding-top: 40px; }
 
-.wp-block-button__link {
+.type-university .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #ff6b00;
@@ -961,153 +949,195 @@ h4 {
   padding: 10px 20px;
   margin-right: 150px; }
 
-.post-63 {
-  /* Join Us Page */
-  /* Blog Page */
-  /* Archive */
-  /* Universities Page */
-  /* Single Blog Post */ }
-  .post-63 .entry-content a {
-    color: #ff6b00; }
-  .post-63 .page-id-29 .entry-title {
-    display: none; }
-  .post-63 .page-id-29 .entry-content p {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 2em; }
-  .post-63 .page-id-29 h4 {
-    color: black;
-    font-weight: 900;
-    padding-right: 40px;
-    padding-top: 50px;
-    padding-left: 40px; }
-  .post-63 .page-id-29 .button {
-    background: #ff6b00;
-    color: white;
-    border-radius: 12px;
-    width: 180px;
-    letter-spacing: 2px;
-    font-weight: 300; }
-  .post-63 .page-id-29 .wp-block-button__link {
-    letter-spacing: 2px;
-    font-weight: 300;
-    background-color: #003276;
-    border-radius: 4px;
-    font-size: 14px;
-    margin: 0;
-    padding: 2px 40px; }
-  .post-63 .page-id-29 .ur-frontend-form {
-    padding: none; }
-    .post-63 .page-id-29 .ur-frontend-form button {
-      float: none; }
-  .post-63 .page-id-29 .ur-frontend-form {
-    border: none; }
-  .post-63 .blog .blog-loop {
-    list-style: none; }
-  .post-63 .blog .cat-item {
-    list-style: none; }
-    .post-63 .blog .cat-item a {
-      text-decoration: none; }
-  .post-63 .blog .entry-title a {
+.post-63 .wp-link-button__link {
+  background: white; }
+
+/* Join Us Page */
+.page-id-29 .entry-title {
+  display: none; }
+
+.page-id-29 .entry-content p {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2em; }
+
+.page-id-29 h4 {
+  color: black;
+  font-weight: 900;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-left: 40px; }
+
+.page-id-29 .button {
+  background: #ff6b00;
+  color: white;
+  border-radius: 12px;
+  width: 180px;
+  letter-spacing: 2px;
+  font-weight: 300; }
+
+.page-id-29 .wp-block-button__link {
+  letter-spacing: 2px;
+  font-weight: 300;
+  background-color: #003276;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0;
+  padding: 2px 40px; }
+
+.page-id-29 .ur-frontend-form {
+  padding: none; }
+  .page-id-29 .ur-frontend-form button {
+    float: none; }
+
+.page-id-29 .ur-frontend-form {
+  border: none; }
+
+/* Blog Page */
+.blog .blog-loop {
+  list-style: none; }
+
+.blog .cat-item {
+  list-style: none; }
+  .blog .cat-item a {
     text-decoration: none; }
-  .post-63 .blog .posted-on {
-    font-size: 12px;
-    color: #ff6b00; }
-  .post-63 .blog .entry-title {
-    margin: 2px;
-    line-height: 1; }
-    .post-63 .blog .entry-title a {
-      font-size: 14px;
-      color: #003276; }
-  .post-63 .blog .blog-text {
-    background-color: #fff;
-    border: 1px solid #d8d8d8;
-    width: 40%;
-    position: absolute;
-    bottom: 18px; }
-  .post-63 .blog .blog-container {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .post-63 .blog .blog-container img {
-      padding: 3rem;
-      padding-top: 10px; }
-  .post-63 .tax-testimonial_category .wp-block-quote p,
-  .post-63 .page-template-archive-testimonial .wp-block-quote p {
-    font-size: 15px;
-    margin-bottom: 4em; }
-  .post-63 .tax-testimonial_category i,
-  .post-63 .page-template-archive-testimonial i {
-    width: 30%;
-    color: #ff6b00; }
-    .post-63 .tax-testimonial_category i:last-of-type,
-    .post-63 .page-template-archive-testimonial i:last-of-type {
-      width: 100%; }
-  .post-63 .mobile-slide {
-    border-bottom: #9499A1 solid 2.5px;
-    margin-bottom: 3em;
-    margin-left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    padding-top: 1em;
-    -webkit-padding-start: .05px;
-            padding-inline-start: .05px;
-    -webkit-padding-end: .05px;
-            padding-inline-end: .05px; }
-    .post-63 .mobile-slide a {
-      text-decoration: none; }
-    .post-63 .mobile-slide li {
-      list-style-type: none;
-      width: 33%; }
-  .post-63 .testimonial h1 {
-    color: #000;
-    text-transform: capitalize;
-    font-size: 16px;
-    margin-bottom: 1.5em; }
-  .post-63 .page-template-archive-university ul {
-    text-align: left;
-    list-style-type: none; }
-  .post-63 .page-template-archive-university .university-container img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 300px;
-    height: 100px; }
-  .post-63 .page-template-archive-university .university-name {
-    font-size: 12px;
-    margin: 0; }
-  .post-63 .page-template-archive-university .university-city {
-    font-size: 10px; }
-  .post-63 .page-template-archive-university .university-title-location a {
-    text-decoration: none;
-    letter-spacing: 1px; }
-  .post-63 .single-post .entry-header {
-    padding-right: 40px;
-    padding-left: 40px; }
-    .post-63 .single-post .entry-header img {
-      margin-top: 1em; }
-  .post-63 .single-post .entry-title {
-    margin-top: 1em;
-    font-size: 1.6em; }
-  .post-63 .single-post .entry-content p {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 2em; }
-  .post-63 .single-post .entry-content p:nth-child(even) {
-    color: white;
-    background-color: #00237a;
-    padding-top: 3em;
-    padding-bottom: 3em; }
+
+.blog .entry-title a {
+  text-decoration: none; }
+
+.blog .posted-on {
+  font-size: 12px;
+  color: #ff6b00; }
+
+.blog .entry-title {
+  margin: 2px;
+  line-height: 1; }
+  .blog .entry-title a {
+    font-size: 14px;
+    color: #003276; }
+
+.blog .blog-text {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  width: 40%;
+  position: absolute;
+  bottom: 18px; }
+
+.blog .blog-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .blog .blog-container img {
+    padding: 3rem;
+    padding-top: 10px; }
+
+/* Events Page */
+.events-area .type-event {
+  display: grid; }
+
+.events-area p {
+  margin: 0; }
+
+.events-area .event-image {
+  height: 200px; }
+
+.events-area .event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 25% 75%;
+  margin: 0 auto; }
+
+/* Archive */
+.tax-testimonial_category .wp-block-quote p,
+.page-template-archive-testimonial .wp-block-quote p {
+  font-size: 15px;
+  margin-bottom: 4em; }
+
+.tax-testimonial_category i,
+.page-template-archive-testimonial i {
+  width: 30%;
+  color: #ff6b00; }
+  .tax-testimonial_category i:last-of-type,
+  .page-template-archive-testimonial i:last-of-type {
+    width: 100%; }
+
+.mobile-slide {
+  border-bottom: #9499A1 solid 2.5px;
+  margin-bottom: 3em;
+  margin-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 1em;
+  -webkit-padding-start: .05px;
+          padding-inline-start: .05px;
+  -webkit-padding-end: .05px;
+          padding-inline-end: .05px; }
+  .mobile-slide a {
+    text-decoration: none; }
+  .mobile-slide li {
+    list-style-type: none;
+    width: 33%; }
+
+.testimonial h1 {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 1.5em; }
+
+/* Universities Page */
+.page-template-archive-university ul {
+  text-align: left;
+  list-style-type: none; }
+
+.page-template-archive-university .university-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 100px; }
+
+.page-template-archive-university .university-name {
+  font-size: 12px;
+  margin: 0; }
+
+.page-template-archive-university .university-city {
+  font-size: 10px; }
+
+.page-template-archive-university .university-title-location a {
+  text-decoration: none;
+  letter-spacing: 1px; }
+
+/* Single Blog Post */
+.single-post .entry-header {
+  padding-right: 40px;
+  padding-left: 40px; }
+  .single-post .entry-header img {
+    margin-top: 1em; }
+
+.single-post .entry-title {
+  margin-top: 1em;
+  font-size: 1.6em; }
+
+.single-post .entry-content p {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2em; }
+
+.single-post .entry-content p:nth-child(even) {
+  color: white;
+  background-color: #00237a;
+  padding-top: 3em;
+  padding-bottom: 3em; }
 
 /* Front page */
 .top-heading {
