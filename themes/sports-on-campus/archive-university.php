@@ -7,26 +7,26 @@
 
 get_header(); ?>
 
-<div id="primary" class="content-area">
+<div id="primary" class="content-area archive-university-content">
     <main id="main" class="site-main" role="main">
 
         <?php $sports = get_terms('university_sport', array(
             'hide_empty' => false,
-            'orderby' => 'name',
+            'orderby' => 'ID',
             'order' => 'ASC'
         )); ?>
         <h2 class="heading-university">Universities</h2>
-        <ul>
+        <select class='choose-sport-menu'>
+            <option>Choose an option</option>
             <?php foreach ($sports as $sport) : ?>
-            <li class="each-item <?php echo $sport->name ?>-menu">
-                <a href="<?php echo get_term_link($sport); ?>">
+            <option linkinfo="<?php echo get_term_link($sport); ?>" class="each-item <?php echo $sport->name ?>-menu">
                     <?php echo $sport->name ?>
-                </a>
-            </li>
+            </option>
             <?php endforeach ?>
-        </ul>
+        </select>
 
-        <?php $universities= soc_get_universities();?>
+
+        <?php $universities = soc_get_universities(); ?>
         <div class="university-container">
             <?php foreach ($universities as $post) : setup_postdata($post); ?>
             <article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>

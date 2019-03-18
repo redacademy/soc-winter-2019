@@ -1,9 +1,12 @@
 (function($) {
   $(function() {
-    // $('.Rugby-menu').on( "click", function() {
-    //     $('.university-container').empty();
-    //     $('.university-container').append("<h1>123</h1>");
-    //   });
+    $('.choose-sport-menu').on('change',function (){
+      const sectionName = $(this).val();
+      console.log(sectionName);
+      if(sectionName!=='Choose an option'){
+        location.href =$('.'+sectionName+'-menu').attr('linkinfo');
+      }
+    });
     $('.main-carousel').flickity({
       cellAlign: 'left',
       contain: true
@@ -53,7 +56,6 @@
     });
     $('.front-page-search').on('click', function() {
      if(select!==''){
-      console.log($('.'+select+'-menu p').attr('linkinfo'));
       location.href =$('.'+select+'-menu p').attr('linkinfo'); 
     }
     
