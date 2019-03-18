@@ -994,46 +994,6 @@ button[type='submit'] {
   border: none; }
 
 /* Archive */
-.tax-testimonial_category .wp-block-quote p,
-.page-template-archive-testimonial .wp-block-quote p {
-  font-size: 15px;
-  margin-bottom: 4em; }
-
-.tax-testimonial_category i,
-.page-template-archive-testimonial i {
-  width: 30%;
-  color: #ff6b00; }
-  .tax-testimonial_category i:last-of-type,
-  .page-template-archive-testimonial i:last-of-type {
-    width: 100%; }
-
-.mobile-slide {
-  border-bottom: #9499A1 solid 2.5px;
-  margin-bottom: 3em;
-  margin-left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding-top: 1em;
-  -webkit-padding-start: .05px;
-          padding-inline-start: .05px;
-  -webkit-padding-end: .05px;
-          padding-inline-end: .05px; }
-  .mobile-slide a {
-    text-decoration: none; }
-  .mobile-slide li {
-    list-style-type: none;
-    width: 33%; }
-
-.testimonial h1 {
-  color: #000;
-  text-transform: capitalize;
-  font-size: 16px;
-  margin-bottom: 1.5em; }
-
 /* Single Blog Post */
 .single-post .entry-header {
   padding-right: 40px;
