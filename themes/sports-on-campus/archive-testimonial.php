@@ -11,13 +11,18 @@ get_header(); ?>
    <main id="main" class="site-main" role="main">
        <?php if (have_posts()) : ?>
        <section>
-           <div class="mobile-slide">
+           <ul class="mobile-slide">
                 <?php $testimonials = get_terms("testimonial_category"); ?>
-                <?php foreach ($testimonials as $value) : setup_postdata($value); ?>
-                <a href=<?php echo get_term_link($value) ?>><?php echo $value->name ?></a>
-                <?php endforeach;wp_reset_postdata(); ?>
+                
+                    <?php foreach ($testimonials as $value) : setup_postdata($value); ?>
+                    <li>
+                    <a href=<?php echo get_term_link($value) ?>><?php echo $value->name ?></a>
+                    </li>
+                    <?php endforeach;?>
+                
+                <?php wp_reset_postdata(); ?>
+            </ul>
                 <?php $testimonials = soc_get_testimonial_category(); ?>
-            </div>
            <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
            <article  id="testimonial-<?php the_ID(); ?>" <?php post_class(); ?>>
                <?php if (has_post_thumbnail()) : ?>
@@ -31,8 +36,11 @@ get_header(); ?>
                </h1>
                                <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
                                <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
-                               <?php the_content(); ?>
-           </article>
+                                <div>
+                                    <i class="fas fa-quote-left"></i>
+                                        <?php the_content(); ?>
+                                </div>                 
+            </article>
                         <?php endforeach;
                        wp_reset_postdata(); ?>
        </section>
@@ -43,3 +51,5 @@ get_header(); ?>
 </div>
 
 <?php get_footer(); ?>
+
+

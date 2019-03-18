@@ -272,15 +272,31 @@
     font-size: 15px;
     margin-bottom: 4em;
   }
+  
+    i{
+      width: 30%;
+      color: $color__orange-accent;
+      &:last-of-type{
+          width: 100%;
+      }
+    }
+  
 }
 
 .mobile-slide {
   border-bottom: $color__light-text solid 2.5px;
   margin-bottom: 3em;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1em;
   a {
     text-decoration: none;
-    margin-left: 2em;
-    margin-right: 2em;
+    // margin-left: 2em;
+    // margin-right: 2em;
+  }
+  li{
+    list-style-type: none;
   }
 }
 .testimonial h1 {
