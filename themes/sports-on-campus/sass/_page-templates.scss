@@ -295,14 +295,16 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 1em;
+  padding-inline-start: .05px;
+  padding-inline-end: .05px;
   a {
     text-decoration: none;
-    // margin-left: 2em;
-    // margin-right: 2em;
   }
   li{
     list-style-type: none;
+    width:33%;
   }
+
 }
 .testimonial h1 {
   color: #000;

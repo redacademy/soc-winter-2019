@@ -53,4 +53,24 @@
     });
   });
  
+
+  let select = '';
+  $('.mobile-slide li:nth-child(1)').on('click', function() {
+    $('.mobile-slide li:nth-child(1)').addClass('orange-underscore');
+    $('li:nth-child(2)').removeClass('orange-underscore');
+    $('li:nth-child(3)').removeClass('orange-underscore');
+  });
+  $('.mobile-slide li:nth-child(2)').on('click', function() {
+    $('li:nth-child(1)').removeClass('orange-underscore');
+    $('.mobile-slide li:nth-child(2)').addClass('orange-underscore');
+    $('li:nth-child(3)').removeClass('orange-underscore');
+    
+  });
+  $('.mobile-slide li:nth-child(3)').on('click', function() {
+    $('li:nth-child(1)').removeClass('orange-underscore');
+    $('.mobile-slide li:nth-child(3)').addClass('orange-underscore');
+    $('li:nth-child(2)').removeClass('orange-underscore');
+    
+  });
+
 })(jQuery);

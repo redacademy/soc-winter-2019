@@ -1048,11 +1048,16 @@ object {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-top: 1em; }
+  padding-top: 1em;
+  -webkit-padding-start: .05px;
+          padding-inline-start: .05px;
+  -webkit-padding-end: .05px;
+          padding-inline-end: .05px; }
   .mobile-slide a {
     text-decoration: none; }
   .mobile-slide li {
-    list-style-type: none; }
+    list-style-type: none;
+    width: 33%; }
 
 .testimonial h1 {
   color: #000;
