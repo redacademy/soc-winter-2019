@@ -19,7 +19,9 @@ get_header(); ?>
             <?php endif; ?>
 
 		<div class="blog-loop">
-	        <?php wp_list_categories('title_li=') ?>
+	        <ul class="mobile-slide">
+                <?php wp_list_categories('title_li=') ?>
+            </ul>
 		</div>
 
             <?php while ( have_posts() ) : the_post(); ?>
