@@ -442,33 +442,41 @@ input[type="submit"] {
             box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
 
 /* Fields */
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
 textarea {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px; }
-  input[type="text"]:focus,
-  input[type="email"]:focus,
-  input[type="url"]:focus,
-  input[type="password"]:focus,
-  input[type="search"]:focus,
+  input[type='text']:focus,
+  input[type='email']:focus,
+  input[type='url']:focus,
+  input[type='password']:focus,
+  input[type='search']:focus,
   textarea:focus {
     color: #111; }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'] {
   padding: 3px; }
 
 textarea {
   padding-left: 3px;
   width: 100%; }
+
+form p label {
+  display: block;
+  text-align: start;
+  width: 80%;
+  margin: auto; }
+  form p label input {
+    width: 100%; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -785,7 +793,7 @@ object {
 .sample-picture {
   height: 200px; }
 
-.orange-button {
+.orange-button, input[type=submit] {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
