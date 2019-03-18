@@ -280,6 +280,25 @@ button[type='submit'] {
   }
 }
 
+/* Events Page */
+.events-area {
+  .type-event{
+    display: grid;
+  }
+  p {
+    margin: 0;
+  }
+  .event-image {
+    height: 200px;
+  }
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 25% 75%;
+    margin: 0 auto;
+  }
+}
+
 /* Archive */
 .tax-testimonial_category,
 .page-template-archive-testimonial {
