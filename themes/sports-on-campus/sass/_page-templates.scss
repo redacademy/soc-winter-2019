@@ -236,13 +236,11 @@
   .blog-text{
     border: 1px solid $color__light-text;
     max-width: 250px;
-  }
-  .entry-header img{
-  }
+    margin: 0 auto;
+}
 }
 
 /* Events Page */
-
 .events-area {
   p {
     margin: 0;
@@ -255,7 +253,7 @@
   }
 }
 
-/* ARCHIVE */
+/* Archive */
 .tax-testimonial_category,
 .page-template-archive-testimonial {
   .wp-block-quote p {
@@ -307,7 +305,7 @@
     letter-spacing: 1px;
   }
 }
-/* single blog post */
+/* Single Blog Post */
 .single-post {
   .entry-header {
     padding-right: 40px;

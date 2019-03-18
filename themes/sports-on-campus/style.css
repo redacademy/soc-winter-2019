@@ -982,7 +982,8 @@ object {
 
 .blog .blog-text {
   border: 1px solid #9499A1;
-  max-width: 250px; }
+  max-width: 250px;
+  margin: 0 auto; }
 
 /* Events Page */
 .events-area p {
@@ -994,7 +995,7 @@ object {
 .events-area .event-grid {
   display: grid; }
 
-/* ARCHIVE */
+/* Archive */
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p {
   font-size: 15px;
@@ -1036,7 +1037,7 @@ object {
   text-decoration: none;
   letter-spacing: 1px; }
 
-/* single blog post */
+/* Single Blog Post */
 .single-post .entry-header {
   padding-right: 40px;
   padding-left: 40px; }
