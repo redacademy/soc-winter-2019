@@ -211,9 +211,6 @@
 
   .blog-loop{
     list-style: none;
-    li{
-   display: inline;
-    }
   }
   .cat-item{
     list-style: none;
@@ -241,7 +238,7 @@
   .blog-text{
     background-color: #fff;
     border: 1px solid #D8D8D8;
-    max-width: 250px;
+    width: 40%;
     position: absolute;
     bottom: 18px;
 
@@ -278,7 +275,6 @@
     font-size: 15px;
     margin-bottom: 4em;
   }
-  
     i{
       width: 30%;
       color: $color__orange-accent;
@@ -296,14 +292,16 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 1em;
+  padding-inline-start: .05px;
+  padding-inline-end: .05px;
   a {
     text-decoration: none;
-    // margin-left: 2em;
-    // margin-right: 2em;
   }
   li{
     list-style-type: none;
+    width:33%;
   }
+
 }
 .testimonial h1 {
   color: #000;

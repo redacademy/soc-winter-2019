@@ -12,7 +12,7 @@ get_header(); ?>
 		<ul class="mobile-slide">
                 <?php $testimonials = get_terms("testimonial_category"); ?>
 				<?php foreach ($testimonials as $value) : setup_postdata($value); ?>
-				<li>
+				<li class="slide-list">
 					<a href=<?php echo get_term_link($value) ?>><?php echo $value->name ?></a>
 				</li>
                 <?php endforeach;wp_reset_postdata(); ?>
