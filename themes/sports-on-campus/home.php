@@ -19,7 +19,7 @@ get_header(); ?>
             <?php endif; ?>
 
 		<div class="blog-loop">
-	        <?php wp_list_categories() ?>
+	        <?php wp_list_categories('title_li=') ?>
 		</div>
 
             <?php while ( have_posts() ) : the_post(); ?>
