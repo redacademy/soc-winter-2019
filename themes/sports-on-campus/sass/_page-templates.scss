@@ -213,6 +213,10 @@
   }
   .categories{
     list-style: none;
+    ul{
+      display: flex;
+      justify-content: space-between;
+    }
   }
   .cat-item{
     list-style: none;
@@ -227,16 +231,24 @@
     color: $color__orange-accent;
   }
   .entry-title {
-    margin: 0;
+    margin: 2px;
+    line-height: 1;
     a{
     font-size: 14px;
     color: $color__main-block;
     }
   }
   .blog-text{
-    border: 1px solid $color__light-text;
+    background-color: #fff;
+    border: 1px solid #D8D8D8;
     max-width: 250px;
-    margin: 0 auto;
+    position: absolute;
+    bottom: -25px;
+}
+.blog-container{
+  position: relative;
+  margin-bottom: 4rem;
+
 }
 }
 

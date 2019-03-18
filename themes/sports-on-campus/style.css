@@ -973,6 +973,13 @@ object {
 
 .blog .categories {
   list-style: none; }
+  .blog .categories ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
 .blog .cat-item {
   list-style: none; }
@@ -985,15 +992,22 @@ object {
   color: #ff6b00; }
 
 .blog .entry-title {
-  margin: 0; }
+  margin: 2px;
+  line-height: 1; }
   .blog .entry-title a {
     font-size: 14px;
     color: #003276; }
 
 .blog .blog-text {
-  border: 1px solid #9499A1;
+  background-color: #fff;
+  border: 1px solid #D8D8D8;
   max-width: 250px;
-  margin: 0 auto; }
+  position: absolute;
+  bottom: -25px; }
+
+.blog .blog-container {
+  position: relative;
+  margin-bottom: 4rem; }
 
 /* Events Page */
 .events-area p {
