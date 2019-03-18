@@ -12,21 +12,22 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			
+	
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="entry-header">
 				<?php if ( has_post_thumbnail() ) : ?>
 					<?php the_post_thumbnail( 'large' ); ?>
 				<?php endif; ?>
-
+				<section class="ubc-intro">	
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 			</header><!-- .entry-header -->
 
 			<div class="entry-content">
-				<?php the_content(); ?>
+			<?php the_content(); ?>
+		
 			</div><!-- .entry-content -->
-
+			</section>
 			<div class="uni-program"> <?php echo CFS()->get('program'); ?> </div>
 			<div class="uni-prerequisites"> <?php echo CFS()->get('prerequisites'); ?> </div>
 			<div class="uni-facilities"> <?php echo CFS()->get('facilities'); ?> </div>
