@@ -793,7 +793,7 @@ object {
 .sample-picture {
   height: 200px; }
 
-.orange-button, input[type=submit] {
+.orange-button, input[type=submit], button[type=submit] {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
@@ -1201,6 +1201,10 @@ object {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
+    .sport-select-container .sport-list .Other-menu {
+      -webkit-box-ordinal-group: 101;
+          -ms-flex-order: 100;
+              order: 100; }
     .sport-select-container .sport-list .each-item {
       width: 50%;
       display: -webkit-box;
@@ -1219,6 +1223,9 @@ object {
         width: 50px; }
       .sport-select-container .sport-list .each-item p {
         display: inline-block; }
+  .sport-select-container .font-page-search {
+    padding-left: 20%;
+    padding-right: 20%; }
 
 .front-page-testimonials .testimonial-item {
   display: -webkit-box;
