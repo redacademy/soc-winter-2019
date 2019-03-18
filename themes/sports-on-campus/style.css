@@ -415,6 +415,19 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
+/* Events Page */
+.events-area p {
+  margin: 0; }
+
+.events-area .event-image {
+  height: 200px; }
+
+.events-area .event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 25% 65%;
+  margin: 0 auto; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -951,7 +964,6 @@ h4 {
 .post-63 {
   /* Join Us Page */
   /* Blog Page */
-  /* Events Page */
   /* Archive */
   /* Universities Page */
   /* Single Blog Post */ }
@@ -1027,16 +1039,6 @@ h4 {
     .post-63 .blog .blog-container img {
       padding: 3rem;
       padding-top: 10px; }
-  .post-63 .events-area p {
-    margin: 0; }
-  .post-63 .events-area .event-image {
-    height: 200px; }
-  .post-63 .events-area .event-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 25% 75%;
-    max-width: 50%;
-    margin: 0 auto; }
   .post-63 .tax-testimonial_category .wp-block-quote p,
   .post-63 .page-template-archive-testimonial .wp-block-quote p {
     font-size: 15px;
