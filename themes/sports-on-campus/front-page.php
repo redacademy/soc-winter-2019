@@ -32,7 +32,7 @@ get_header(); ?>
             <h2>Choose Sport</h2>
             <?php $sports = get_terms('university_sport', array(
                 'hide_empty' => false,
-                'orderby' => 'name',
+                'orderby' => 'meta_value',
                 'order' => 'ASC'
             )); ?>
             <ul class="sport-list">
@@ -45,7 +45,7 @@ get_header(); ?>
                 </li>
                 <?php endforeach ?>
             </ul>
-            <button class="orange-button">Search</button>
+            <button class="orange-button font-page-search">Search</button>
         </section>
 
 

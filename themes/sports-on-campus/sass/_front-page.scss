@@ -114,6 +114,9 @@
           width: 100%;
           display: flex;
           flex-flow: row wrap;
+          .Other-menu{
+            order: 100;
+          }
           .each-item{
               width: 50%;
               display: flex;
@@ -128,6 +131,10 @@
                   display: inline-block
               }
           }
+      }
+      .font-page-search{
+          padding-left: 20%;
+          padding-right: 20%;
       }
   }
 
