@@ -113,6 +113,13 @@ button[type='submit'] {
 /* Single University Page */
 
 .type-university {
+    .sport-list {
+        display: flex;
+        li {
+            width: 60px;
+        }
+        }
+    }
   .read-more-link {
     color: #ff6b00;
   }
@@ -177,7 +184,7 @@ button[type='submit'] {
       color: #ff6b00;
     }
   }
-}
+
 /* Join Us Page */
 
 .page-id-29 {
