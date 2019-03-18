@@ -1041,6 +1041,8 @@ button[type='submit'] {
 .events-area .event-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 25% 75%;
+  max-width: 50%;
   margin: 0 auto; }
 
 /* Archive */

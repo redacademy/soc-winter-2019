@@ -284,6 +284,8 @@ button[type='submit'] {
   .event-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 25% 75%;
+    max-width: 50%;
     margin: 0 auto;
   }
 }
@@ -295,23 +297,13 @@ button[type='submit'] {
     font-size: 15px;
     margin-bottom: 4em;
   }
-<<<<<<< HEAD
-
-  i {
-    width: 30%;
-    color: $color__orange-accent;
-    &:last-of-type {
-      width: 100%;
-=======
     i{
       width: 30%;
       color: $color__orange-accent;
       &:last-of-type{
           width: 100%;
       }
->>>>>>> d4a7fcc92243a26d89b8aa440a0ff69ad344776c
     }
-  }
 }
 
 .mobile-slide {
