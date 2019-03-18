@@ -119,7 +119,7 @@ button[type='submit'] {
             width: 60px;
         }
         }
-    }
+      }
   .read-more-link {
     color: #ff6b00;
   }
@@ -148,6 +148,7 @@ button[type='submit'] {
     font-weight: 400;
     font-size: 18px;
   }
+
 
   .entry-title {
     color: white;
@@ -306,14 +307,16 @@ button[type='submit'] {
     font-size: 15px;
     margin-bottom: 4em;
   }
-    i{
-      width: 30%;
-      color: $color__orange-accent;
-      &:last-of-type{
-          width: 100%;
-      }
-    }
+
+  i {
+    width: 30%;
+    color: $color__orange-accent;
+    &:last-of-type {
+      width: 100%;
+  }
 }
+}
+
 
 .mobile-slide {
   border-bottom: $color__light-text solid 2.5px;
@@ -367,6 +370,8 @@ button[type='submit'] {
     letter-spacing: 1px;
   }
 }
+
+
 /* Single Blog Post */
 .single-post {
   .entry-header {
@@ -380,7 +385,6 @@ button[type='submit'] {
     margin-top: 1em;
     font-size: 1.6em;
   }
-
   .entry-content {
     p {
       padding-left: 40px;
