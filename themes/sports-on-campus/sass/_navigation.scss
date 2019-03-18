@@ -142,7 +142,7 @@ a {
 
 .main-navigation{
 	display:flex;
-	margin-top: 1em;
+	margin-top:1em;
 	padding-right: 1em;
 	padding-left: 1em;
 	justify-content: space-between;
@@ -176,13 +176,19 @@ a {
 	width: 100%;
 	z-index: 2;
 	right: 0;
-	top: 7em;
+	top: 7.5em;
 		a{
 			color:white;
 			padding-top: 0.5em;
 			letter-spacing: 1.5px;
 			font-weight: 400;
 		}
+		}
+}
+
+	.home{
+		.entry-content{
+			margin:0;
 		}
 	}
 

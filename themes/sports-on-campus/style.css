@@ -597,12 +597,15 @@ a {
     width: 100%;
     z-index: 2;
     right: 0;
-    top: 7em; }
+    top: 7.5em; }
     .main-navigation .menu-mobile-navigation-container a {
       color: white;
       padding-top: 0.5em;
       letter-spacing: 1.5px;
       font-weight: 400; }
+
+.home .entry-content {
+  margin: 0; }
 
 .site-footer .site-info {
   text-align: center;
@@ -793,7 +796,9 @@ object {
 .sample-picture {
   height: 200px; }
 
-.orange-button, input[type=submit], button[type=submit] {
+.orange-button,
+input[type='submit'],
+button[type='submit'] {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
@@ -906,7 +911,8 @@ object {
 
 .type-university h4 {
   color: white;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 18px; }
 
 .type-university .entry-title {
   color: white; }
@@ -931,9 +937,13 @@ object {
   font-weight: 300;
   background-color: #ff6b00;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
-  padding: 8px 20px; }
+  padding: 10px 20px;
+  margin-right: 150px; }
+
+.post-63 .entry-content a {
+  color: #ff6b00; }
 
 /* Join Us Page */
 .page-id-29 .entry-title {
@@ -946,6 +956,7 @@ object {
 
 .page-id-29 h4 {
   color: black;
+  font-weight: 900;
   padding-right: 40px;
   padding-top: 50px;
   padding-left: 40px; }
@@ -958,7 +969,7 @@ object {
   letter-spacing: 2px;
   font-weight: 300; }
 
-.page-id-29 .wp-link-block-button__link {
+.page-id-29 .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #003276;
@@ -966,6 +977,14 @@ object {
   font-size: 14px;
   margin: 0;
   padding: 2px 40px; }
+
+.page-id-29 .ur-frontend-form {
+  padding: none; }
+  .page-id-29 .ur-frontend-form button {
+    float: none; }
+
+.page-id-29 .ur-frontend-form {
+  border: none; }
 
 /* Blog Page */
 .blog .blog-loop {
@@ -992,7 +1011,7 @@ object {
 
 .blog .blog-text {
   background-color: #fff;
-  border: 1px solid #D8D8D8;
+  border: 1px solid #d8d8d8;
   width: 40%;
   position: absolute;
   bottom: 18px; }
@@ -1048,11 +1067,16 @@ object {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-top: 1em; }
+  padding-top: 1em;
+  -webkit-padding-start: .05px;
+          padding-inline-start: .05px;
+  -webkit-padding-end: .05px;
+          padding-inline-end: .05px; }
   .mobile-slide a {
     text-decoration: none; }
   .mobile-slide li {
-    list-style-type: none; }
+    list-style-type: none;
+    width: 33%; }
 
 .testimonial h1 {
   color: #000;
@@ -1256,7 +1280,7 @@ object {
         margin-left: auto;
         margin-right: auto;
         border-bottom: 5px solid transparent; }
-  .sport-select-container .font-page-search {
+  .sport-select-container .front-page-search {
     padding-left: 20%;
     padding-right: 20%; }
 
