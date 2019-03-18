@@ -213,6 +213,10 @@
   }
   .categories{
     list-style: none;
+    ul{
+      display: flex;
+      justify-content: space-between;
+    }
   }
   .cat-item{
     list-style: none;
