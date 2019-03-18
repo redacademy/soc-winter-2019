@@ -1251,7 +1251,11 @@ object {
         margin: auto;
         width: 50px; }
       .sport-select-container .sport-list .each-item p {
-        display: inline-block; }
+        display: inline-block;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 5px solid transparent; }
   .sport-select-container .font-page-search {
     padding-left: 20%;
     padding-right: 20%; }
@@ -1281,3 +1285,9 @@ object {
   color: #ff6b00; }
   .front-page-testimonials i:last-of-type {
     width: 100%; }
+
+.transparent-underscore {
+  border-bottom: 5px solid transparent; }
+
+.orange-underscore {
+  border-bottom: 5px solid #ff6b00 !important; }
