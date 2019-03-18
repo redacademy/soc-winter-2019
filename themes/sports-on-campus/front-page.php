@@ -39,13 +39,13 @@ get_header(); ?>
                 <?php foreach ($sports as $sport) : ?>
                 <li class="each-item <?php echo $sport->name ?>-menu">
                     <img src=<?php echo get_template_directory_uri() . "/assets/images/" . $sport->name . ".png" ?>>
-                    <p>
+                    <p linkinfo="<?php echo get_term_link($sport); ?>">
                         <?php echo $sport->name ?>
                     </p>
                 </li>
                 <?php endforeach ?>
             </ul>
-            <button class="orange-button font-page-search">Search</button>
+            <button class="orange-button front-page-search">Search</button>
         </section>
 
 
