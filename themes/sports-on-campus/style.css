@@ -1034,28 +1034,6 @@ button[type='submit'] {
   font-size: 16px;
   margin-bottom: 1.5em; }
 
-/* Universities Page */
-.page-template-archive-university ul {
-  text-align: left;
-  list-style-type: none; }
-
-.page-template-archive-university .university-container img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 300px;
-  height: 100px; }
-
-.page-template-archive-university .university-name {
-  font-size: 12px;
-  margin: 0; }
-
-.page-template-archive-university .university-city {
-  font-size: 10px; }
-
-.page-template-archive-university .university-title-location a {
-  text-decoration: none;
-  letter-spacing: 1px; }
-
 /* Single Blog Post */
 .single-post .entry-header {
   padding-right: 40px;
@@ -1312,9 +1290,6 @@ button[type='submit'] {
     padding-top: 10px; }
 
 /* Events Page */
-.events-area .type-event {
-  display: grid; }
-
 .events-area p {
   margin: 0; }
 
@@ -1324,5 +1299,28 @@ button[type='submit'] {
 .events-area .event-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 25% 75%;
+  grid-template-rows: 30% 70%;
+  max-width: 50%;
   margin: 0 auto; }
+
+/* Universities Page */
+.page-template-archive-university ul {
+  text-align: left;
+  list-style-type: none; }
+
+.page-template-archive-university .university-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 100px; }
+
+.page-template-archive-university .university-name {
+  font-size: 12px;
+  margin: 0; }
+
+.page-template-archive-university .university-city {
+  font-size: 10px; }
+
+.page-template-archive-university .university-title-location a {
+  text-decoration: none;
+  letter-spacing: 1px; }
