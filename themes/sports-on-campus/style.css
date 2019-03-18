@@ -468,6 +468,14 @@ textarea {
   padding-left: 3px;
   width: 100%; }
 
+form p label {
+  display: block;
+  text-align: start;
+  width: 80%;
+  margin: auto; }
+  form p label input {
+    width: 100%; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -783,7 +791,7 @@ object {
 .sample-picture {
   height: 200px; }
 
-.orange-button {
+.orange-button, input[type=submit] {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
