@@ -25,11 +25,11 @@ get_header(); ?>
 
 			<div class="entry-content">
 <ul class="sport-list"> 
-	<li class="soccer"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Soccer.png"> </li>
+	<li class="soccer"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Soccer.png" alt="soccer-ball"> </li>
 	
-	<li class="football"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Rugby.png"></li>
-	<li class="basketball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Basketball.png"></li>
-	<li class="volleyball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Volleyball.png"></li>
+	<li class="football"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Rugby.png" alt="football"></li>
+	<li class="basketball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Basketball.png" alt="basketball"></li>
+	<li class="volleyball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Volleyball.png" alt="volleyball"></li>
 </ul>
 
 			<?php the_content(); ?>

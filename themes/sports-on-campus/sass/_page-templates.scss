@@ -23,7 +23,7 @@ button[type='submit'] {
   border-radius: 15px;
   font-weight: 300;
 }
-
+/* Our Team page */
 .page-template-team {
   .entry-content {
     text-align: center;
@@ -70,7 +70,7 @@ button[type='submit'] {
       color: black;
       text-align: center;
       font-size: 17px;
-      font-weight: 400px;
+      font-weight: 600;
     }
   }
   .wp-block-quote {
@@ -119,7 +119,7 @@ button[type='submit'] {
             width: 60px;
         }
         }
-    }
+    
   .read-more-link {
     color: #ff6b00;
   }
@@ -179,11 +179,11 @@ button[type='submit'] {
   }
 }
 .post-63 {
-  .entry-content {
-    a {
-      color: #ff6b00;
+    .wp-link-button__link{
+        background: white;
     }
-  }
+  
+}
 
 /* Join Us Page */
 
