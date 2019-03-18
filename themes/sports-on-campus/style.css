@@ -1039,7 +1039,9 @@ button[type='submit'] {
   height: 200px; }
 
 .events-area .event-grid {
-  display: grid; }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto; }
 
 /* Archive */
 .tax-testimonial_category .wp-block-quote p,
