@@ -24,9 +24,7 @@ get_header(); ?>
                     <img class="event-image sample-picture" src='<?php echo CFS()->get('image'); ?>'>
                     <div class="event-grid">
                         <p class="event-date"><?php echo CFS()->get('date'); ?></p>
-                        <h3>
-                            <?php the_title();?>
-                        </h3>
+                        <h3><?php the_title();?></h3>
                         <p class="event-location"><?php echo CFS()->get('location'); ?></p>
                         <div class="event-content"><?php the_content();?></div>
                         </div>

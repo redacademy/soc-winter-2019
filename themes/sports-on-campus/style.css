@@ -1300,7 +1300,6 @@ button[type='submit'] {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 30% 70%;
-  max-width: 50%;
   margin: 0 auto; }
 
 /* Universities Page */
