@@ -1313,13 +1313,15 @@ button[type='submit'] {
   font-size: 14px;
   letter-spacing: 1px;
   -ms-flex-item-align: end;
-      align-self: end; }
+      align-self: end;
+  padding-left: 1em; }
 
 .events-area .event-content {
   text-align: left;
   font-size: 13px;
   padding-top: 5px;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  padding-left: 1em; }
 
 .events-area p {
   margin: 0; }
@@ -1340,10 +1342,19 @@ button[type='submit'] {
   text-transform: uppercase;
   color: #ff6b00;
   -ms-flex-item-align: end;
-      align-self: end; }
+      align-self: end;
+  padding-right: 1em;
+  text-align: left; }
 
 .events-area .event-location {
-  color: #00237A; }
+  color: #00237A;
+  text-align: left; }
+
+.page-template-archive-event article {
+  padding-top: 1em; }
+
+.page-template-archive-event .entry-title {
+  padding: 1em; }
 
 /* Universities Page */
 .page-template-archive-university ul {
