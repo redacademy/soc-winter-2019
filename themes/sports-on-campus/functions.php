@@ -119,6 +119,11 @@ function register_another_menu() {
 }
 	add_action( 'init', 'register_another_menu' );
 
+	function register_additional_menu() {
+		register_nav_menu('desktop-menu-two',__( 'Desktop Menu 2' ));
+	}
+		add_action( 'init', 'register_additional_menu' );
+
 function prefix_category_title( $title ) {
 	if ( is_category() ) {
 		$title = single_cat_title( '', false );

@@ -482,6 +482,9 @@ form p label {
 # Navigation
 --------------------------------------------------------------*/
 /* Links */
+.desktop-menu {
+  display: none; }
+
 a {
   color: black; }
   a:hover, a:focus, a:active {
@@ -626,8 +629,20 @@ a {
   padding-right: 5px; }
 
 @media (min-width: 1080px) {
-  .menu-mobile-navigation-container {
-    display: none; } }
+  .menu-mobile-navigation-container, .secondary-menu, .main-navigation .front-logo {
+    display: none; }
+  .main-navigation {
+    height: 5em; }
+    .main-navigation ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100vw;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; }
+  .desktop-menu {
+    display: inline; } }
 
 /*--------------------------------------------------------------
 # Accessibility
