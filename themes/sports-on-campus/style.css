@@ -1251,6 +1251,12 @@ button[type='submit'] {
 .orange-underscore {
   border-bottom: 5px solid #ff6b00 !important; }
 
+.test-title {
+  padding: 1em; }
+
+.home ol {
+  padding-bottom: 1em; }
+
 /* Blog Page */
 .blog .blog-loop {
   list-style: none; }
@@ -1355,14 +1361,16 @@ button[type='submit'] {
   letter-spacing: 1px; }
 
 .tax-testimonial_category .wp-block-quote p,
-.page-template-archive-testimonial .wp-block-quote p {
+.page-template-archive-testimonial .wp-block-quote p,
+.home .wp-block-quote p {
   font-size: 15px;
   margin-bottom: 4em;
   width: 28em;
   margin: auto; }
 
-.tax-testimonial_category i,
-.page-template-archive-testimonial i {
+.tax-testimonial_category .test-block i,
+.page-template-archive-testimonial .test-block i,
+.home .test-block i {
   width: 14%;
   color: #ff6b00;
   padding-left: 4em; }

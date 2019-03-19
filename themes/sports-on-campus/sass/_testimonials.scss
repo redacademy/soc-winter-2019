@@ -1,5 +1,6 @@
 .tax-testimonial_category,
-.page-template-archive-testimonial {
+.page-template-archive-testimonial,
+.home {
   .wp-block-quote p {
     font-size: 15px;
     margin-bottom: 4em;
@@ -7,7 +8,7 @@
     margin: auto;
   }
 
-  i {
+  .test-block i {
     width: 14%;
     color: $color__orange-accent;
     padding-left: 4em;

@@ -50,7 +50,7 @@ get_header(); ?>
 
 
         <section class="entry-content front-page-testimonials">
-            <h1>Testimonials</h1>
+            <h1 class="test-title">Testimonials</h1>
             <div class="main-carousel testimonial-container" data-flickity='{ "autoPlay": true }'>
 
                 <?php $testimonials = soc_get_testimonial_category(); ?>
@@ -68,9 +68,11 @@ get_header(); ?>
                     </h2>
                     <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
                     <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
+                    <div class="test-block">
                     <i class="fas fa-quote-left"></i>
                     <?php the_content(); ?>
-                    <i class="fas fa-angle-down fa-2x"></i>
+                     </div>
+                    
                 </div>
 
                 <?php endforeach;
