@@ -1308,8 +1308,9 @@ button[type='submit'] {
 
 .tax-testimonial_category i,
 .page-template-archive-testimonial i {
-  width: 30%;
-  color: #ff6b00; }
+  width: 14%;
+  color: #ff6b00;
+  padding-left: 4em; }
 
 .mobile-slide {
   border-bottom: #9499A1 solid 2.5px;
@@ -1337,6 +1338,12 @@ button[type='submit'] {
   text-transform: capitalize;
   font-size: 16px;
   margin-bottom: 1.5em; }
+
+.test-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em; }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;

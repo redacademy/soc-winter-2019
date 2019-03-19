@@ -8,9 +8,11 @@
   }
 
   i {
-    width: 30%;
+    width: 14%;
     color: $color__orange-accent;
+    padding-left: 4em;
 }
+
 }
 
 
@@ -39,3 +41,7 @@
   margin-bottom: 1.5em;
 }
 
+.test-block{
+  display:flex;
+  margin-top: 1em;
+}

@@ -36,7 +36,7 @@ get_header(); ?>
                </h1>
                                <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
                                <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
-                                <div>
+                                <div class="test-block">
                                     <i class="fas fa-quote-left"></i>
                                         <?php the_content(); ?>
                                 </div>                 
