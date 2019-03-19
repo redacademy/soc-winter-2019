@@ -899,7 +899,9 @@ button[type='submit'] {
     width: 50px; }
 
 .type-university .read-more {
-  color: #ff6b00; }
+  color: #ff6b00;
+  font-weight: 600;
+  letter-spacing: 1px; }
 
 .type-university .ubc-intro {
   background: #003276; }
@@ -919,7 +921,14 @@ button[type='submit'] {
 
 .type-university h3 {
   color: black;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 20px;
+  letter-spacing: 1px; }
+
+.type-university .secondary-heading {
+  color: white;
+  padding-bottom: 20px;
+  letter-spacing: 1px; }
 
 .type-university h4 {
   color: white;
@@ -931,10 +940,10 @@ button[type='submit'] {
 
 .type-university .uni-program {
   padding-top: 40px;
-  padding-bottom: 80px; }
+  padding-bottom: 10px; }
 
 .type-university .uni-prerequisites {
-  padding-top: 80px;
+  padding-top: 10px;
   background: #003276;
   color: white;
   padding-left: 40px;
@@ -942,7 +951,7 @@ button[type='submit'] {
   padding-bottom: 40px; }
 
 .type-university .uni-facilities {
-  padding-top: 40px; }
+  padding-top: 30px; }
 
 .type-university .wp-block-button__link {
   letter-spacing: 2px;
