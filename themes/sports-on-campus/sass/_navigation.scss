@@ -3,6 +3,9 @@
 --------------------------------------------------------------*/
 
 /* Links */
+.desktop-menu{	
+	display:none;
+}
 
 a {
 	color: black;
@@ -218,7 +221,19 @@ a {
 }
 
 @include desktop{
-	.menu-mobile-navigation-container{
+	.menu-mobile-navigation-container, .secondary-menu, .main-navigation .front-logo{
 		display: none;
+	}
+	.main-navigation{
+		height: 5em;
+		ul{
+			display: flex;
+			width:100vw;
+			justify-content: space-evenly;
+		}
+		
+	}
+	.desktop-menu{
+		display:inline;
 	}
 }
