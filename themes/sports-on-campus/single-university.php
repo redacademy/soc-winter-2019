@@ -32,7 +32,7 @@ get_header(); ?>
 </ul>
 
 			<?php the_content(); ?>
-		
+		</div><!-- .entry-content -->
 			</section>
 <h3> program & more</h3>
 			<div class="uni-program"> <?php echo CFS()->get('program'); ?> </div>
