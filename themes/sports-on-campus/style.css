@@ -813,7 +813,7 @@ button[type='submit'] {
   border: none;
   color: #fff;
   background: #ff6b00;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 30px 10px 30px;
   font-size: 18px;
   border-radius: 15px;
   font-weight: 300; }
@@ -900,11 +900,15 @@ button[type='submit'] {
 .type-university .sport-list {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none; }
   .type-university .sport-list li {
-    width: 60px; }
+    width: 50px; }
 
-.type-university .read-more-link {
+.type-university .read-more {
   color: #ff6b00; }
 
 .type-university .ubc-intro {
@@ -924,7 +928,8 @@ button[type='submit'] {
   text-transform: uppercase; }
 
 .type-university h3 {
-  color: black; }
+  color: black;
+  text-transform: uppercase; }
 
 .type-university h4 {
   color: white;
@@ -1039,7 +1044,7 @@ button[type='submit'] {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   text-align: center;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 35, 98, 0.3)), to(rgba(2, 35, 98, 0.3))), url(../../assets/images/Duo-tone.png);
   background: linear-gradient(rgba(2, 35, 98, 0.3), rgba(2, 35, 98, 0.3)), url(../../assets/images/Duo-tone.png);
@@ -1332,3 +1337,20 @@ button[type='submit'] {
   text-transform: capitalize;
   font-size: 16px;
   margin-bottom: 1.5em; }
+
+.archive-university-content .drop-down-menu-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 300px;
+  margin: 30px auto; }
+  .archive-university-content .drop-down-menu-block p {
+    text-align: left;
+    margin-bottom: 20px; }
+  .archive-university-content .drop-down-menu-block .choose-sport-menu {
+    margin-bottom: 30px;
+    width: 100%; }
