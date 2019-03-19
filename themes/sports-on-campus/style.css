@@ -890,11 +890,15 @@ button[type='submit'] {
 .type-university .sport-list {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none; }
   .type-university .sport-list li {
-    width: 60px; }
+    width: 50px; }
 
-.type-university .read-more-link {
+.type-university .read-more {
   color: #ff6b00; }
 
 .type-university .ubc-intro {
@@ -914,7 +918,8 @@ button[type='submit'] {
   text-transform: uppercase; }
 
 .type-university h3 {
-  color: black; }
+  color: black;
+  text-transform: uppercase; }
 
 .type-university h4 {
   color: white;

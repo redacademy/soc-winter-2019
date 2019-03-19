@@ -113,14 +113,16 @@ button[type='submit'] {
 /* Single University Page */
 
 .type-university {
-    .sport-list {
-        display: flex;
-        li {
-            width: 60px;
-        }
+  .sport-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    li {
+      width: 50px;
     }
-      
-  .read-more-link {
+  }
+
+  .read-more {
     color: #ff6b00;
   }
   .ubc-intro {
@@ -142,6 +144,7 @@ button[type='submit'] {
   }
   h3 {
     color: black;
+    text-transform: uppercase;
   }
   h4 {
     color: white;
@@ -180,10 +183,9 @@ button[type='submit'] {
 }
 
 .post-63 {
-    .wp-link-button__link{
-        background: white;
-    }
-  
+  .wp-link-button__link {
+    background: white;
+  }
 }
 
 /* Join Us Page */
@@ -235,7 +237,6 @@ button[type='submit'] {
 }
 
 /* Archive */
-
 
 /* Single Blog Post */
 .single-post {
