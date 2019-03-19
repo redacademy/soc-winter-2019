@@ -18,7 +18,6 @@ get_header(); ?>
         <h2 class="heading-university">Universities</h2>
         <div class="drop-down-menu-block">
         <p>Select sport</p>
-        <i class="fas fa-angle-down fa-2x"></i>
         <select class='minimal choose-sport-menu '>
             <option>Choose an option</option>
             <?php foreach ($sports as $sport) : ?>
