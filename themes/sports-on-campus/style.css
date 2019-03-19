@@ -614,8 +614,6 @@ a {
           justify-content: space-between;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.4); }
-  .home .main-navigation li {
-    border: none; }
 
 .site-footer .site-info {
   text-align: center;
@@ -626,6 +624,10 @@ a {
 .site-footer img {
   padding-left: 5px;
   padding-right: 5px; }
+
+@media (min-width: 1080px) {
+  .menu-mobile-navigation-container {
+    display: none; } }
 
 /*--------------------------------------------------------------
 # Accessibility
