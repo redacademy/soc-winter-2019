@@ -902,6 +902,9 @@ button[type='submit'] {
     font-weight: 300; }
 
 /* Single University Page */
+.type-university img {
+  display: block; }
+
 .type-university .sport-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -909,6 +912,8 @@ button[type='submit'] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-right: 40px;
+  margin: auto;
   list-style: none; }
   .type-university .sport-list li {
     width: 40px; }
