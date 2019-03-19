@@ -803,7 +803,7 @@ button[type='submit'] {
   border: none;
   color: #fff;
   background: #ff6b00;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 40px 10px 40px;
   font-size: 18px;
   border-radius: 15px;
   font-weight: 300; }
@@ -1015,6 +1015,38 @@ button[type='submit'] {
   background-color: #00237a;
   padding-top: 3em;
   padding-bottom: 3em; }
+
+.sign-facebook-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: #003276; }
+
+.sign-google-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: #9499A1; }
+
+.ur-frontend-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.ur-frontend-form form button[type=submit], .ur-frontend-form form input[type=submit] {
+  float: none; }
+
+.wp-block-button__link {
+  padding: 5px 40px !important; }
 
 /* Front page */
 .top-heading {
