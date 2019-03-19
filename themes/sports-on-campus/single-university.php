@@ -22,6 +22,7 @@ get_header(); ?>
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 			</header><!-- .entry-header -->
 			<div class="entry-content">
+			<div class="wp-block-button"><a class="wp-block-button__link" href="https://soc.van.cp.academy.red/join-us/">Connect with a Coach</a></div>
 <ul class="sport-list"> 
 	<li class="soccer"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Soccer.png" alt="soccer-ball"> </li>
 	

@@ -112,13 +112,13 @@ button[type='submit'] {
 }
 /* Single University Page */
 
-.single-university {
+.type-university {
   .sport-list {
     display: flex;
     justify-content: space-between;
     list-style: none;
     li {
-      width: 50px;
+      width: 40px;
     }
   }
   .read-more {
@@ -161,6 +161,8 @@ button[type='submit'] {
   }
   .entry-title {
     color: white;
+    margin: 0px;
+    padding-top: 40px;
   }
   .uni-program {
     padding-top: 40px;
@@ -184,8 +186,7 @@ button[type='submit'] {
     border-radius: 12px;
     font-size: 14px;
     margin: 0;
-    padding: 10px 20px;
-    margin-right: 150px;
+    margin-right: 120px;
   }
 }
 .post-63 {
