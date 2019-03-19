@@ -18,7 +18,7 @@ button[type='submit'] {
   border: none;
   color: #fff;
   background: #ff6b00;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 40px 10px 40px;
   font-size: 18px;
   border-radius: 15px;
   font-weight: 300;
@@ -270,4 +270,31 @@ button[type='submit'] {
       padding-bottom: 3em;
     }
   }
+}
+
+//register page
+.sign-facebook-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: $color__main-block;
+}
+.sign-google-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: $color__light-text;
+}
+.ur-frontend-form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.ur-frontend-form form button[type=submit], .ur-frontend-form form input[type=submit]{
+    float:none;
+}
+.wp-block-button__link{
+    padding: 5px 40px !important;
 }
