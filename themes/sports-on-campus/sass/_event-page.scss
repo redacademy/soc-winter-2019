@@ -5,34 +5,52 @@
         font-size: 14px;
         letter-spacing: 1px;
         align-self: end;
+        padding-left:1em;
     }
     .event-content{
         text-align: left;
         font-size: 13px;
         padding-top: 5px;
         letter-spacing: 1.5px;
+        padding-left:1em;
     }
     p {
       margin: 0;
     }
     .event-image {
-      height: 200px;
+      height: 17rem;
     }
     .event-grid {
       display: grid;
       grid-template-columns: 1fr 3fr;
       grid-template-rows: 1fr 1fr;
       margin: 0 auto;
-      width: 19rem;
-      height: 10rem;
+      width: 20rem;
+      height: 9rem;
     }
     .event-date{
         padding-bottom: 10px;
         text-transform: uppercase;
         color: $color__orange-accent;
         align-self: end;
+        padding-right:1em;
+        text-align:left;
     }
     .event-location{
         color: $color__main-block-dark;
+        text-align:left;
     }
+  }
+
+  .page-template-archive-event{
+        article{
+            padding-top:1em;
+         }
+
+    .entry-title{
+        padding:1em;
+        }
+  .type-event{
+    margin-bottom: 3rem;
+  }
   }

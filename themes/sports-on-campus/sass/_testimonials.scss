@@ -13,7 +13,6 @@
     color: $color__orange-accent;
     padding-left: 4em;
 }
-
 }
 
 
@@ -35,11 +34,12 @@
   }
 
 }
-.testimonial h1 {
+.testimonial-item h2, .testimonial h1 {
   color: #000;
   text-transform: capitalize;
   font-size: 16px;
   margin-bottom: 1.5em;
+  padding-top:1em;
 }
 
 .test-block{

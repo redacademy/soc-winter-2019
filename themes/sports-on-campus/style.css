@@ -614,8 +614,6 @@ a {
           justify-content: space-between;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.4); }
-  .home .main-navigation li {
-    border: none; }
 
 .site-footer .site-info {
   text-align: center;
@@ -626,6 +624,10 @@ a {
 .site-footer img {
   padding-left: 5px;
   padding-right: 5px; }
+
+@media (min-width: 1080px) {
+  .menu-mobile-navigation-container {
+    display: none; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1237,8 +1239,6 @@ button[type='submit'] {
     margin: auto;
     width: 80%;
     height: 50vw; }
-  .front-page-testimonials .testimonial-item .test-uni {
-    margin-bottom: 20px; }
   .front-page-testimonials .testimonial-item p {
     margin: 0px; }
 
@@ -1261,29 +1261,29 @@ button[type='submit'] {
   padding-bottom: 1em; }
 
 /* Blog Page */
-.blog .blog-loop {
+.blog-loop {
   list-style: none; }
 
-.blog .cat-item {
+.cat-item {
   list-style: none; }
-  .blog .cat-item a {
+  .cat-item a {
     text-decoration: none; }
 
-.blog .entry-title a {
+.entry-title a {
   text-decoration: none; }
 
-.blog .posted-on {
+.posted-on {
   font-size: 12px;
   color: #ff6b00; }
 
-.blog .entry-title {
+.entry-title {
   margin: 2px;
   line-height: 1; }
-  .blog .entry-title a {
+  .entry-title a {
     font-size: 14px;
     color: #003276; }
 
-.blog .blog-text {
+.blog-text {
   background-color: #fff;
   border: 1px solid #d8d8d8;
   width: 200px;
@@ -1292,7 +1292,7 @@ button[type='submit'] {
   bottom: 10px;
   padding-top: 8px; }
 
-.blog .blog-container {
+.blog-container {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1303,7 +1303,7 @@ button[type='submit'] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .blog .blog-container img {
+  .blog-container img {
     padding: 3rem;
     padding-top: 10px; }
 
@@ -1313,37 +1313,51 @@ button[type='submit'] {
   font-size: 14px;
   letter-spacing: 1px;
   -ms-flex-item-align: end;
-      align-self: end; }
+      align-self: end;
+  padding-left: 1em; }
 
 .events-area .event-content {
   text-align: left;
   font-size: 13px;
   padding-top: 5px;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  padding-left: 1em; }
 
 .events-area p {
   margin: 0; }
 
 .events-area .event-image {
-  height: 200px; }
+  height: 17rem; }
 
 .events-area .event-grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
-  width: 19rem;
-  height: 10rem; }
+  width: 20rem;
+  height: 9rem; }
 
 .events-area .event-date {
   padding-bottom: 10px;
   text-transform: uppercase;
   color: #ff6b00;
   -ms-flex-item-align: end;
-      align-self: end; }
+      align-self: end;
+  padding-right: 1em;
+  text-align: left; }
 
 .events-area .event-location {
-  color: #00237A; }
+  color: #00237A;
+  text-align: left; }
+
+.page-template-archive-event article {
+  padding-top: 1em; }
+
+.page-template-archive-event .entry-title {
+  padding: 1em; }
+
+.page-template-archive-event .type-event {
+  margin-bottom: 3rem; }
 
 /* Universities Page */
 .page-template-archive-university ul {
@@ -1353,11 +1367,11 @@ button[type='submit'] {
 .page-template-archive-university .university-container img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 300px;
-  height: 100px; }
+  width: 400px;
+  height: 150px; }
 
 .page-template-archive-university .university-name {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0; }
 
 .page-template-archive-university .university-city {
@@ -1367,6 +1381,9 @@ button[type='submit'] {
 .page-template-archive-university .university-title-location a {
   text-decoration: none;
   letter-spacing: 1px; }
+
+.page-template-archive-university .type-university {
+  margin-bottom: 4rem; }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
@@ -1404,11 +1421,12 @@ button[type='submit'] {
     list-style-type: none;
     width: 33%; }
 
-.testimonial h1 {
+.testimonial-item h2, .testimonial h1 {
   color: #000;
   text-transform: capitalize;
   font-size: 16px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+  padding-top: 1em; }
 
 .test-block {
   display: -webkit-box;
@@ -1424,8 +1442,8 @@ button[type='submit'] {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  width: 300px;
-  margin: 30px auto; }
+  width: 400px;
+  margin: 0 auto; }
   .archive-university-content .drop-down-menu-block p {
     text-align: left;
     margin-bottom: 20px; }
