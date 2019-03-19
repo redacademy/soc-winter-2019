@@ -113,6 +113,12 @@ function register_my_menu() {
 }
 	add_action( 'init', 'register_my_menu' );
 
+
+function register_another_menu() {
+	register_nav_menu('desktop-menu',__( 'Desktop Menu' ));
+}
+	add_action( 'init', 'register_another_menu' );
+
 function prefix_category_title( $title ) {
 	if ( is_category() ) {
 		$title = single_cat_title( '', false );
