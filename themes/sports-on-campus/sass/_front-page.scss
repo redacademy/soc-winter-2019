@@ -181,3 +181,9 @@
 .home ol{
   padding-bottom: 1em;
 }
+
+@include desktop{
+  .top-heading{
+    height: 96vh;
+  }
+}

@@ -3,6 +3,9 @@
 --------------------------------------------------------------*/
 
 /* Links */
+.desktop-menu, .desktop-menu-two{	
+	display:none;
+}
 
 a {
 	color: black;
@@ -218,7 +221,30 @@ a {
 }
 
 @include desktop{
-	.menu-mobile-navigation-container{
+	.menu-mobile-navigation-container, .secondary-menu{
 		display: none;
 	}
+	.main-navigation{
+		height: 5em;
+		display: flex;
+		justify-content: space-around;
+		li{
+			border-bottom:none;
+			font-size: 20px;
+		}
+		ul{
+			display: flex;
+			width:40vw;
+			justify-content: space-evenly;
+		}
+
+		.front-logo{
+			width: 106px;
+			height: 61px;
+		}
+	}
+	.desktop-menu, .desktop-menu-two{
+		display:inline;
+	}
+
 }
