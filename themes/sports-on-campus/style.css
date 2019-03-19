@@ -1237,8 +1237,6 @@ button[type='submit'] {
     margin: auto;
     width: 80%;
     height: 50vw; }
-  .front-page-testimonials .testimonial-item .test-uni {
-    margin-bottom: 20px; }
   .front-page-testimonials .testimonial-item p {
     margin: 0px; }
 
@@ -1415,11 +1413,12 @@ button[type='submit'] {
     list-style-type: none;
     width: 33%; }
 
-.testimonial h1 {
+.testimonial-item h2, .testimonial h1 {
   color: #000;
   text-transform: capitalize;
   font-size: 16px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+  padding-top: 1em; }
 
 .test-block {
   display: -webkit-box;
