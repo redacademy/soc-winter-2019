@@ -1382,6 +1382,9 @@ button[type='submit'] {
   text-decoration: none;
   letter-spacing: 1px; }
 
+.page-template-archive-university .type-university {
+  margin-bottom: 4rem; }
+
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
 .home .wp-block-quote p {
@@ -1440,7 +1443,7 @@ button[type='submit'] {
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
   width: 400px;
-  margin: 20px auto; }
+  margin: 0 auto; }
   .archive-university-content .drop-down-menu-block p {
     text-align: left;
     margin-bottom: 20px; }
