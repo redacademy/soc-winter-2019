@@ -1261,29 +1261,29 @@ button[type='submit'] {
   padding-bottom: 1em; }
 
 /* Blog Page */
-.blog .blog-loop {
+.blog-loop {
   list-style: none; }
 
-.blog .cat-item {
+.cat-item {
   list-style: none; }
-  .blog .cat-item a {
+  .cat-item a {
     text-decoration: none; }
 
-.blog .entry-title a {
+.entry-title a {
   text-decoration: none; }
 
-.blog .posted-on {
+.posted-on {
   font-size: 12px;
   color: #ff6b00; }
 
-.blog .entry-title {
+.entry-title {
   margin: 2px;
   line-height: 1; }
-  .blog .entry-title a {
+  .entry-title a {
     font-size: 14px;
     color: #003276; }
 
-.blog .blog-text {
+.blog-text {
   background-color: #fff;
   border: 1px solid #d8d8d8;
   width: 200px;
@@ -1292,7 +1292,7 @@ button[type='submit'] {
   bottom: 10px;
   padding-top: 8px; }
 
-.blog .blog-container {
+.blog-container {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1303,7 +1303,7 @@ button[type='submit'] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .blog .blog-container img {
+  .blog-container img {
     padding: 3rem;
     padding-top: 10px; }
 
@@ -1327,15 +1327,15 @@ button[type='submit'] {
   margin: 0; }
 
 .events-area .event-image {
-  height: 200px; }
+  height: 17rem; }
 
 .events-area .event-grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
-  width: 19rem;
-  height: 10rem; }
+  width: 20rem;
+  height: 9rem; }
 
 .events-area .event-date {
   padding-bottom: 10px;
@@ -1355,6 +1355,9 @@ button[type='submit'] {
 
 .page-template-archive-event .entry-title {
   padding: 1em; }
+
+.page-template-archive-event .type-event {
+  margin-bottom: 3rem; }
 
 /* Universities Page */
 .page-template-archive-university ul {
