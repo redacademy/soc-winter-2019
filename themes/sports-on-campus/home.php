@@ -24,20 +24,21 @@ get_header(); ?>
             </ul>
 		</div>
 
-            <?php while ( have_posts() ) : the_post(); ?>
+            <div class="blog-content">
+                <?php while ( have_posts() ) : the_post(); ?>
 
                 <?php get_template_part( 'template-parts/content' ); ?>
 
-            <?php endwhile; ?>
+                <?php endwhile; ?>
 
-            <?php the_posts_navigation(); ?>
+                <?php the_posts_navigation(); ?>
 
-        <?php else : ?>
+                <?php else : ?>
 
-            <?php get_template_part( 'template-parts/content', 'none' ); ?>
+                <?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-        <?php endif; ?>
-
+                <?php endif; ?>
+            </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
