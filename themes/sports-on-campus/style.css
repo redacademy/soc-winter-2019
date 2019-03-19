@@ -735,6 +735,9 @@ a {
 .bypostauthor {
   display: block; }
 
+body {
+  color: black; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1267,38 +1270,42 @@ button[type='submit'] {
     padding-top: 10px; }
 
 /* Events Page */
-.page-template {
-  color: black; }
-  .page-template .events-area h3 {
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 1px;
-    -ms-flex-item-align: end;
-        align-self: end; }
-  .page-template .events-area .event-content {
-    text-align: left;
-    font-size: 13px;
-    padding-top: 5px;
-    letter-spacing: 1.5px; }
-  .page-template .events-area p {
-    margin: 0; }
-  .page-template .events-area .event-image {
-    height: 200px; }
-  .page-template .events-area .event-grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0 auto;
-    width: 19rem;
-    height: 10rem; }
-  .page-template .events-area .event-date {
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    color: #ff6b00;
-    -ms-flex-item-align: end;
-        align-self: end; }
-  .page-template .events-area .event-location {
-    color: #00237A; }
+.events-area h3 {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 1px;
+  -ms-flex-item-align: end;
+      align-self: end; }
+
+.events-area .event-content {
+  text-align: left;
+  font-size: 13px;
+  padding-top: 5px;
+  letter-spacing: 1.5px; }
+
+.events-area p {
+  margin: 0; }
+
+.events-area .event-image {
+  height: 200px; }
+
+.events-area .event-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+  width: 19rem;
+  height: 10rem; }
+
+.events-area .event-date {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #ff6b00;
+  -ms-flex-item-align: end;
+      align-self: end; }
+
+.events-area .event-location {
+  color: #00237A; }
 
 /* Universities Page */
 .page-template-archive-university ul {
@@ -1312,11 +1319,12 @@ button[type='submit'] {
   height: 100px; }
 
 .page-template-archive-university .university-name {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0; }
 
 .page-template-archive-university .university-city {
-  font-size: 10px; }
+  font-size: 14px;
+  margin-top: 1px; }
 
 .page-template-archive-university .university-title-location a {
   text-decoration: none;
