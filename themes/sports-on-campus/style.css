@@ -409,7 +409,8 @@ img {
   height: auto;
   /* Make sure images are scaled correctly. */
   max-width: 100%;
-  /* Adhere to container width. */ }
+  /* Adhere to container width. */
+  display: block; }
 
 table {
   margin: 0 0 1.5rem;
@@ -900,7 +901,7 @@ button[type='submit'] {
     font-weight: 300; }
 
 /* Single University Page */
-.type-university .sport-list {
+.single-university .sport-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -908,54 +909,54 @@ button[type='submit'] {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none; }
-  .type-university .sport-list li {
+  .single-university .sport-list li {
     width: 50px; }
 
-.type-university .read-more {
+.single-university .read-more {
   color: #ff6b00;
   font-weight: 600;
   letter-spacing: 1px; }
 
-.type-university .ubc-intro {
+.single-university .ubc-intro {
   background: #003276; }
 
-.type-university .entry-content {
+.single-university .entry-content {
   background: #003276;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px; }
-  .type-university .entry-content p {
+  .single-university .entry-content p {
     color: white;
     font-weight: 100; }
 
-.type-university h2 {
+.single-university h2 {
   color: black;
   text-transform: uppercase; }
 
-.type-university h3 {
+.single-university h3 {
   color: black;
   text-transform: uppercase;
   padding-top: 20px;
   letter-spacing: 1px; }
 
-.type-university .secondary-heading {
+.single-university .secondary-heading {
   color: white;
   padding-bottom: 20px;
   letter-spacing: 1px; }
 
-.type-university h4 {
+.single-university h4 {
   color: white;
   font-weight: 400;
   font-size: 18px; }
 
-.type-university .entry-title {
+.single-university .entry-title {
   color: white; }
 
-.type-university .uni-program {
+.single-university .uni-program {
   padding-top: 40px;
   padding-bottom: 10px; }
 
-.type-university .uni-prerequisites {
+.single-university .uni-prerequisites {
   padding-top: 10px;
   background: #003276;
   color: white;
@@ -963,10 +964,10 @@ button[type='submit'] {
   padding-right: 40px;
   padding-bottom: 40px; }
 
-.type-university .uni-facilities {
+.single-university .uni-facilities {
   padding-top: 30px; }
 
-.type-university .wp-block-button__link {
+.single-university .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #ff6b00;
@@ -1069,7 +1070,8 @@ button[type='submit'] {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.ur-frontend-form form button[type=submit], .ur-frontend-form form input[type=submit] {
+.ur-frontend-form form button[type='submit'],
+.ur-frontend-form form input[type='submit'] {
   float: none; }
 
 .wp-block-button__link {

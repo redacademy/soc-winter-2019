@@ -112,7 +112,7 @@ button[type='submit'] {
 }
 /* Single University Page */
 
-.type-university {
+.single-university {
   .sport-list {
     display: flex;
     justify-content: space-between;
@@ -287,14 +287,15 @@ button[type='submit'] {
   color: #fff;
   background: $color__light-text;
 }
-.ur-frontend-form{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+.ur-frontend-form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
-.ur-frontend-form form button[type=submit], .ur-frontend-form form input[type=submit]{
-    float:none;
+.ur-frontend-form form button[type='submit'],
+.ur-frontend-form form input[type='submit'] {
+  float: none;
 }
-.wp-block-button__link{
-    padding: 5px 40px !important;
+.wp-block-button__link {
+  padding: 5px 40px !important;
 }

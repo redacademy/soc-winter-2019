@@ -12,17 +12,15 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-	
+		
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="entry-header">
 				<?php if ( has_post_thumbnail() ) : ?>
 					<?php the_post_thumbnail( 'large' ); ?>
 				<?php endif; ?>
-				<section class="ubc-intro">	
+				<div class="ubc-intro">
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-
 			</header><!-- .entry-header -->
-
 			<div class="entry-content">
 <ul class="sport-list"> 
 	<li class="soccer"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Soccer.png" alt="soccer-ball"> </li>
