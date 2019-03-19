@@ -482,7 +482,7 @@ form p label {
 # Navigation
 --------------------------------------------------------------*/
 /* Links */
-.desktop-menu {
+.desktop-menu, .desktop-menu-two {
   display: none; }
 
 a {
@@ -629,19 +629,30 @@ a {
   padding-right: 5px; }
 
 @media (min-width: 1080px) {
-  .menu-mobile-navigation-container, .secondary-menu, .main-navigation .front-logo {
+  .menu-mobile-navigation-container, .secondary-menu {
     display: none; }
   .main-navigation {
-    height: 5em; }
+    height: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .main-navigation li {
+      border-bottom: none;
+      font-size: 20px; }
     .main-navigation ul {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      width: 100vw;
+      width: 40vw;
       -webkit-box-pack: space-evenly;
           -ms-flex-pack: space-evenly;
               justify-content: space-evenly; }
-  .desktop-menu {
+    .main-navigation .front-logo {
+      width: 106px;
+      height: 61px; }
+  .desktop-menu, .desktop-menu-two {
     display: inline; } }
 
 /*--------------------------------------------------------------
@@ -1285,6 +1296,10 @@ button[type='submit'] {
 
 .home ol {
   padding-bottom: 1em; }
+
+@media (min-width: 1080px) {
+  .top-heading {
+    height: 96vh; } }
 
 /* Blog Page */
 .blog-loop {
