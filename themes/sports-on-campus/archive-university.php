@@ -16,6 +16,8 @@ get_header(); ?>
             'order' => 'ASC'
         )); ?>
         <h2 class="heading-university">Universities</h2>
+        <div class="drop-down-menu-block">
+        <p>Select sport</p>
         <select class='choose-sport-menu'>
             <option>Choose an option</option>
             <?php foreach ($sports as $sport) : ?>
@@ -24,7 +26,7 @@ get_header(); ?>
             </option>
             <?php endforeach ?>
         </select>
-
+    </div>
 
         <?php $universities = soc_get_universities(); ?>
         <div class="university-container">

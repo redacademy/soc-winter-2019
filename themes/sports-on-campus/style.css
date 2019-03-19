@@ -1252,17 +1252,38 @@ button[type='submit'] {
     padding-top: 10px; }
 
 /* Events Page */
-.events-area p {
-  margin: 0; }
-
-.events-area .event-image {
-  height: 200px; }
-
-.events-area .event-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 30% 70%;
-  margin: 0 auto; }
+.page-template {
+  color: black; }
+  .page-template .events-area h3 {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -ms-flex-item-align: end;
+        align-self: end; }
+  .page-template .events-area .event-content {
+    text-align: left;
+    font-size: 13px;
+    padding-top: 5px;
+    letter-spacing: 1.5px; }
+  .page-template .events-area p {
+    margin: 0; }
+  .page-template .events-area .event-image {
+    height: 200px; }
+  .page-template .events-area .event-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    width: 19rem;
+    height: 10rem; }
+  .page-template .events-area .event-date {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #ff6b00;
+    -ms-flex-item-align: end;
+        align-self: end; }
+  .page-template .events-area .event-location {
+    color: #00237A; }
 
 /* Universities Page */
 .page-template-archive-university ul {
@@ -1324,3 +1345,20 @@ button[type='submit'] {
   text-transform: capitalize;
   font-size: 16px;
   margin-bottom: 1.5em; }
+
+.archive-university-content .drop-down-menu-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 300px;
+  margin: 30px auto; }
+  .archive-university-content .drop-down-menu-block p {
+    text-align: left;
+    margin-bottom: 20px; }
+  .archive-university-content .drop-down-menu-block .choose-sport-menu {
+    margin-bottom: 30px;
+    width: 100%; }
