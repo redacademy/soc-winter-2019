@@ -112,3 +112,11 @@ function register_my_menu() {
 	register_nav_menu('additional-menu',__( 'Additional Menu' ));
 }
 	add_action( 'init', 'register_my_menu' );
+
+function prefix_category_title( $title ) {
+	if ( is_category() ) {
+		$title = single_cat_title( '', false );
+	}
+	return $title;
+	}
+add_filter( 'get_the_archive_title', 'prefix_category_title' );
