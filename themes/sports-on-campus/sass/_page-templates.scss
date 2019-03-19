@@ -115,12 +115,14 @@ button[type='submit'] {
 .type-university {
   .sport-list {
     display: flex;
+    justify-content: space-between;
+    list-style: none;
     li {
-      width: 60px;
+      width: 50px;
     }
   }
 
-  .read-more-link {
+  .read-more {
     color: #ff6b00;
   }
   .ubc-intro {
@@ -142,6 +144,7 @@ button[type='submit'] {
   }
   h3 {
     color: black;
+    text-transform: uppercase;
   }
   h4 {
     color: white;
