@@ -29,8 +29,10 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'desktop-menu', 'container_class' => 'desktop-menu' ) ); ?>
 					<?php wp_nav_menu( array( 'theme_location' => 'additional-menu', 'container_class' => 'secondary-menu' ) ); ?>
 					<a class="front-logo" href="<?php bloginfo('url'); ?>"> </a>
+					<?php wp_nav_menu( array( 'theme_location' => 'desktop-menu-two', 'container_class' => 'desktop-menu-two' ) ); ?>
 					<div class="nav-dropdown">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">&#9776;</button>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
