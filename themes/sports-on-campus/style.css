@@ -917,10 +917,10 @@ button[type='submit'] {
     font-weight: 300; }
 
 /* Single University Page */
-.type-university img {
+.university-template-default img {
   display: block; }
 
-.type-university .sport-list {
+.university-template-default .sport-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -930,56 +930,56 @@ button[type='submit'] {
   padding-right: 40px;
   margin: auto;
   list-style: none; }
-  .type-university .sport-list li {
+  .university-template-default .sport-list li {
     width: 40px; }
 
-.type-university .read-more {
+.university-template-default .read-more {
   color: #ff6b00;
   font-weight: 600;
   letter-spacing: 1px; }
 
-.type-university .ubc-intro {
+.university-template-default .ubc-intro {
   background: #003276; }
 
-.type-university .entry-content {
+.university-template-default .entry-content {
   background: #003276;
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px; }
-  .type-university .entry-content p {
+  .university-template-default .entry-content p {
     color: white;
     font-weight: 100; }
 
-.type-university h2 {
+.university-template-default h2 {
   color: black;
   text-transform: uppercase; }
 
-.type-university h3 {
+.university-template-default h3 {
   color: black;
   text-transform: uppercase;
   padding-top: 20px;
   letter-spacing: 1px; }
 
-.type-university .secondary-heading {
+.university-template-default .secondary-heading {
   color: white;
   padding-bottom: 20px;
   letter-spacing: 1px; }
 
-.type-university h4 {
+.university-template-default h4 {
   color: white;
   font-weight: 400;
   font-size: 18px; }
 
-.type-university .entry-title {
+.university-template-default .entry-title {
   color: white;
   margin: 0px;
   padding-top: 40px; }
 
-.type-university .uni-program {
+.university-template-default .uni-program {
   padding-top: 40px;
   padding-bottom: 10px; }
 
-.type-university .uni-prerequisites {
+.university-template-default .uni-prerequisites {
   padding-top: 10px;
   background: #003276;
   color: white;
@@ -987,10 +987,10 @@ button[type='submit'] {
   padding-right: 40px;
   padding-bottom: 40px; }
 
-.type-university .uni-facilities {
+.university-template-default .uni-facilities {
   padding-top: 30px; }
 
-.type-university .wp-block-button__link {
+.university-template-default .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #ff6b00;
