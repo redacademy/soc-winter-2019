@@ -12,19 +12,17 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-	
+		
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="entry-header">
 				<?php if ( has_post_thumbnail() ) : ?>
 					<?php the_post_thumbnail( 'large' ); ?>
 				<?php endif; ?>
-				<section class="ubc-intro">	
+				<div class="ubc-intro">
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-
 			</header><!-- .entry-header -->
-
 			<div class="entry-content">
-				<h3 class="entry-title"></h3>
+			<div class="wp-block-button"><a class="wp-block-button__link" href="https://soc.van.cp.academy.red/join-us/">Connect with a Coach</a></div>
 <ul class="sport-list"> 
 	<li class="soccer"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Soccer.png" alt="soccer-ball"> </li>
 	
@@ -34,12 +32,13 @@ get_header(); ?>
 </ul>
 
 			<?php the_content(); ?>
-		</div><!-- .entry-content -->
+		
 			</section>
 <h3> program & more</h3>
 			<div class="uni-program"> <?php echo CFS()->get('program'); ?> </div>
-			<h3> prerequisites for application</h3>
-			<div class="uni-prerequisites"> <?php echo CFS()->get('prerequisites'); ?> </div>
+			<div class="read-more"><p>Read more</p></div>
+			
+			<div class="uni-prerequisites"><h3 class="secondary-heading">prerequisites for application</h3> <?php echo CFS()->get('prerequisites'); ?> </div>
 			<h3>facilities and quick links</h3>
 			<div class="uni-facilities"> <?php echo CFS()->get('facilities'); ?> </div>
 			<div class="uni-maps"> <?php echo CFS()->get('maps'); ?> </div>
