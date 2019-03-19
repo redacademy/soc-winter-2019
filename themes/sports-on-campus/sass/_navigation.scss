@@ -139,10 +139,9 @@ a {
 		width: 50%;
 	}
 }
-
 .main-navigation{
 	display:flex;
-	margin-top:1em;
+	padding-top:1em;
 	padding-right: 1em;
 	padding-left: 1em;
 	justify-content: space-between;
@@ -189,6 +188,17 @@ a {
 	.home{
 		.entry-content{
 			margin:0;
+		}
+		.main-navigation{
+			position: absolute;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+			justify-content: space-between;
+			background-color: rgba(255, 255, 255, 0.4);
+
+			li{
+				border:none;
+			}
 		}
 	}
 

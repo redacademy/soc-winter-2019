@@ -572,7 +572,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 1em;
+  padding-top: 1em;
   padding-right: 1em;
   padding-left: 1em;
   -webkit-box-pack: justify;
@@ -606,6 +606,16 @@ a {
 
 .home .entry-content {
   margin: 0; }
+
+.home .main-navigation {
+  position: absolute;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.4); }
+  .home .main-navigation li {
+    border: none; }
 
 .site-footer .site-info {
   text-align: center;
@@ -1284,3 +1294,41 @@ button[type='submit'] {
   text-decoration: none;
   letter-spacing: 1px; }
 
+.tax-testimonial_category .wp-block-quote p,
+.page-template-archive-testimonial .wp-block-quote p {
+  font-size: 15px;
+  margin-bottom: 4em;
+  width: 28em;
+  margin: auto; }
+
+.tax-testimonial_category i,
+.page-template-archive-testimonial i {
+  width: 30%;
+  color: #ff6b00; }
+
+.mobile-slide {
+  border-bottom: #9499A1 solid 2.5px;
+  margin-bottom: 3em;
+  margin-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 1em;
+  -webkit-padding-start: .05px;
+          padding-inline-start: .05px;
+  -webkit-padding-end: .05px;
+          padding-inline-end: .05px; }
+  .mobile-slide a {
+    text-decoration: none; }
+  .mobile-slide li {
+    list-style-type: none;
+    width: 33%; }
+
+.testimonial h1 {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 1.5em; }
