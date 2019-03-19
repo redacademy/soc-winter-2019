@@ -926,10 +926,12 @@ button[type='submit'] {
           justify-content: space-between;
   list-style: none; }
   .type-university .sport-list li {
-    width: 50px; }
+    width: 40px; }
 
 .type-university .read-more {
-  color: #ff6b00; }
+  color: #ff6b00;
+  font-weight: 600;
+  letter-spacing: 1px; }
 
 .type-university .ubc-intro {
   background: #003276; }
@@ -949,7 +951,14 @@ button[type='submit'] {
 
 .type-university h3 {
   color: black;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 20px;
+  letter-spacing: 1px; }
+
+.type-university .secondary-heading {
+  color: white;
+  padding-bottom: 20px;
+  letter-spacing: 1px; }
 
 .type-university h4 {
   color: white;
@@ -957,14 +966,16 @@ button[type='submit'] {
   font-size: 18px; }
 
 .type-university .entry-title {
-  color: white; }
+  color: white;
+  margin: 0px;
+  padding-top: 40px; }
 
 .type-university .uni-program {
   padding-top: 40px;
-  padding-bottom: 80px; }
+  padding-bottom: 10px; }
 
 .type-university .uni-prerequisites {
-  padding-top: 80px;
+  padding-top: 10px;
   background: #003276;
   color: white;
   padding-left: 40px;
@@ -972,7 +983,7 @@ button[type='submit'] {
   padding-bottom: 40px; }
 
 .type-university .uni-facilities {
-  padding-top: 40px; }
+  padding-top: 30px; }
 
 .type-university .wp-block-button__link {
   letter-spacing: 2px;
@@ -981,8 +992,7 @@ button[type='submit'] {
   border-radius: 12px;
   font-size: 14px;
   margin: 0;
-  padding: 10px 20px;
-  margin-right: 150px; }
+  margin-right: 120px; }
 
 .post-63 .wp-link-button__link {
   background: white; }
@@ -1077,7 +1087,8 @@ button[type='submit'] {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.ur-frontend-form form button[type=submit], .ur-frontend-form form input[type=submit] {
+.ur-frontend-form form button[type='submit'],
+.ur-frontend-form form input[type='submit'] {
   float: none; }
 
 .wp-block-button__link {
@@ -1382,11 +1393,11 @@ button[type='submit'] {
 .page-template-archive-university .university-container img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 300px;
-  height: 100px; }
+  width: 400px;
+  height: 150px; }
 
 .page-template-archive-university .university-name {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0; }
 
 .page-template-archive-university .university-city {
@@ -1396,6 +1407,9 @@ button[type='submit'] {
 .page-template-archive-university .university-title-location a {
   text-decoration: none;
   letter-spacing: 1px; }
+
+.page-template-archive-university .type-university {
+  margin-bottom: 4rem; }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
@@ -1454,8 +1468,8 @@ button[type='submit'] {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  width: 300px;
-  margin: 30px auto; }
+  width: 400px;
+  margin: 0 auto; }
   .archive-university-content .drop-down-menu-block p {
     text-align: left;
     margin-bottom: 20px; }
