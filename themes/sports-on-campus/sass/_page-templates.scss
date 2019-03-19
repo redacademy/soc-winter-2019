@@ -113,9 +113,14 @@ button[type='submit'] {
 /* Single University Page */
 
 .type-university {
+  img {
+    display: block;
+  }
   .sport-list {
     display: flex;
     justify-content: space-between;
+    padding-right: 40px;
+    margin: auto;
     list-style: none;
     li {
       width: 40px;
