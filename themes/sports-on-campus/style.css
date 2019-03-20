@@ -1354,8 +1354,9 @@ button[type='submit'] {
       -ms-flex-align: center;
           align-items: center; }
   .blog-container img {
-    padding: 4rem;
-    padding-top: 10px; }
+    padding-bottom: 4rem;
+    padding-top: 10px;
+    width: 400px; }
 
 /* Events Page */
 .events-area {
