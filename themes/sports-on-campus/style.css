@@ -1377,6 +1377,22 @@ button[type='submit'] {
     padding-top: 10px;
     width: 400px; }
 
+@media (min-width: 1080px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .blog-container {
+    padding-bottom: 3rem; }
+    .blog-container img {
+      height: 375px;
+      width: 700px;
+      padding: 1rem; }
+  .blog-text {
+    width: 350px;
+    height: 100px;
+    padding-top: 15px; } }
+
 /* Events Page */
 .events-area {
   padding-bottom: 10px; }
