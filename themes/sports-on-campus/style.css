@@ -968,13 +968,22 @@ button[type='submit'] {
 
 .university-template-default .best-of-ubc {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 70px;
+  border-bottom: 1px solid;
+  font-size: 20px; }
+
+.university-template-default .best-of-ubc-title {
+  padding-bottom: 10px; }
+
+.university-template-default .orange-arrow {
+  display: block;
+  color: #ff6b00; }
 
 .university-template-default .entry-content {
   background: #003276;
-  padding-top: 40px;
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  padding-top: 40px; }
   .university-template-default .entry-content p {
     color: white;
     font-weight: 100; }
