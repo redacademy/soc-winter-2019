@@ -214,8 +214,8 @@
   .mid-heading {
     position: absolute;
     top: 84vh;
-    border-top-left-radius: 200vw;
-    border-top-right-radius: 200vw;
+    border-top-left-radius: 240vw;
+    border-top-right-radius: 240vw;
     width: 120vw;
     left: -10vw;
     overflow: hidden;
@@ -283,7 +283,7 @@
   }
 
   .step-to-follow-container {
-    z-index: 10;
+    margin-top: 380px !important;
     h2 {
     }
     h3 {
@@ -295,6 +295,7 @@
   }
 
   .sport-select-container {
+    display: block;
     h3 {
     }
     h2 {
