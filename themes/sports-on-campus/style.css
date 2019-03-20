@@ -1332,13 +1332,14 @@ button[type='submit'] {
         width: 50px; }
       .sport-select-container .sport-list .each-item p {
         display: inline-block;
-        width: 30%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         border-bottom: 5px solid transparent; }
   .sport-select-container .front-page-search {
     padding-left: 20%;
-    padding-right: 20%; }
+    padding-right: 20%;
+    margin-left: 0px; }
 
 .front-page-testimonials .testimonial-item {
   display: -webkit-box;
@@ -1378,7 +1379,7 @@ button[type='submit'] {
 
 @media (min-width: 1080px) {
   .top-heading {
-    height: 150vh;
+    height: 1000px;
     background: url(../../assets/images/Duo-tone-cas.png);
     background-size: 160%;
     background-position-x: -50px;
@@ -1402,7 +1403,7 @@ button[type='submit'] {
       color: #CDE3FB; }
   .mid-heading {
     position: absolute;
-    top: 84vh;
+    top: 600px;
     border-top-left-radius: 240vw;
     border-top-right-radius: 240vw;
     width: 120vw;
@@ -1471,9 +1472,93 @@ button[type='submit'] {
           width: 10%;
           border-right: none; }
   .step-to-follow-container {
-    margin-top: 380px !important; }
-  .sport-select-container {
-    display: block; } }
+    margin-top: 400px !important; }
+    .step-to-follow-container .step-text-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-bottom: 60px; }
+      .step-to-follow-container .step-text-container .step-text-block {
+        background: #003276;
+        width: 20%; }
+        .step-to-follow-container .step-text-container .step-text-block h3 {
+          color: #fff;
+          margin-left: -20px; }
+          .step-to-follow-container .step-text-container .step-text-block h3::first-letter {
+            color: #003276; }
+        .step-to-follow-container .step-text-container .step-text-block p {
+          color: #fff; }
+      .step-to-follow-container .step-text-container .orange-vertical-line {
+        height: 0px;
+        width: 100px;
+        border: 2px solid #000; }
+  .sport-select-container h3 {
+    font-size: 30px;
+    display: inline-block; }
+    .sport-select-container h3::after {
+      content: '. '; }
+  .sport-select-container h2 {
+    font-size: 30px;
+    display: inline-block; }
+    .sport-select-container h2::after {
+      content: '! '; }
+  .sport-select-container .sport-list {
+    width: 80%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .sport-select-container .sport-list .each-item {
+      width: 18%; }
+  .sport-select-container .front-page-search {
+    padding: 1% 10% 1% 10%;
+    margin: 25px; }
+  .front-page-testimonials .testimonial-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    padding-bottom: 40px; }
+    .front-page-testimonials .testimonial-item img {
+      width: 30%;
+      height: 20%; }
+    .front-page-testimonials .testimonial-item .test-right-column {
+      width: 50%;
+      padding-right: 40px; }
+      .front-page-testimonials .testimonial-item .test-right-column h2 {
+        text-align: start;
+        margin-bottom: 10px; }
+      .front-page-testimonials .testimonial-item .test-right-column .test-position {
+        text-align: start; }
+      .front-page-testimonials .testimonial-item .test-right-column .test-uni {
+        text-align: start; }
+      .front-page-testimonials .testimonial-item .test-right-column .test-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap; }
+        .front-page-testimonials .testimonial-item .test-right-column .test-block i {
+          margin-left: -30px;
+          padding-left: 0px;
+          width: 30px; }
+        .front-page-testimonials .testimonial-item .test-right-column .test-block .is-style-large {
+          padding-left: 0px; }
+        .front-page-testimonials .testimonial-item .test-right-column .test-block p {
+          width: 100%;
+          text-align: start;
+          padding-left: 0px; } }
 
 /* Blog Page */
 .blog-loop {
@@ -1805,7 +1890,7 @@ select.minimal {
     padding-left: 8rem;
     padding-right: 8rem; }
     .page-id-25 .entry-content label {
-      color: #9499A1;
+      color: #404040;
       font-weight: 300;
       font-size: 15px; }
     .page-id-25 .entry-content .question {
@@ -1835,3 +1920,20 @@ select.minimal {
     font-weight: 500;
     margin-left: 50px;
     letter-spacing: 1px; } }
+
+@media (min-width: 1080px) {
+  .page-id-27 h1 {
+    display: none; }
+  .page-id-27 h2 {
+    font-size: 2.4rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; }
+  .page-id-27 .connect {
+    word-spacing: 1.5px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    color: #686868;
+    font-weight: normal; } }

@@ -126,7 +126,7 @@
       }
       p {
         display: inline-block;
-        width: 30%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         border-bottom: 5px solid transparent;
@@ -136,6 +136,7 @@
   .front-page-search {
     padding-left: 20%;
     padding-right: 20%;
+    margin-left: 0px;
   }
 }
 
@@ -184,7 +185,7 @@
 
 @include desktop {
   .top-heading {
-    height: 150vh;
+    height: 1000px;
     background: url(../../assets/images/Duo-tone-cas.png);
     background-size: 160%;
     background-position-x: -50px;
@@ -213,7 +214,7 @@
   }
   .mid-heading {
     position: absolute;
-    top: 84vh;
+    top: 600px;
     border-top-left-radius: 240vw;
     border-top-right-radius: 240vw;
     width: 120vw;
@@ -261,10 +262,10 @@
       .white-short-line {
         width: 27%;
         height: 100%;
-       border: 1px solid #fff;
-       border-bottom: 2px solid #fff;
-       border-top: none;
-       margin-top: 20px;
+        border: 1px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-top: none;
+        margin-top: 20px;
         &:nth-of-type(1) {
           width: 10%;
           border-left: none;
@@ -283,29 +284,108 @@
   }
 
   .step-to-follow-container {
-    margin-top: 380px !important;
+    margin-top: 400px !important;
     h2 {
     }
-    h3 {
-    }
-    p {
-    }
-    .orange-vertical-line {
+    .step-text-container {
+      display: flex;
+      flex-flow: row nowrap;
+      padding-left: $margin-mobiel;
+      padding-right: $margin-mobiel;
+      margin-bottom: 60px;
+      .step-text-block {
+        background: $color__main-block;
+        width: 20%;
+        h3 {
+          color: #fff;
+          &::first-letter {
+            color: $color__main-block;
+          }
+          margin-left: -20px;
+        }
+        p {
+          color: #fff;
+        }
+      }
+      .orange-vertical-line {
+        height: 0px;
+        width: 100px;
+        border: 2px solid #000;
+      }
     }
   }
 
   .sport-select-container {
-    display: block;
     h3 {
+      font-size: 30px;
+      display: inline-block;
+      &::after {
+        content: '. ';
+      }
     }
     h2 {
+      font-size: 30px;
+      display: inline-block;
+      &::after {
+        content: '! ';
+      }
     }
     .sport-list {
+      width: 80%;
+      margin: auto;
+      justify-content: space-between;
+      .each-item {
+        width: 18%;
+      }
     }
     .front-page-search {
+      padding: 1% 10% 1% 10%;
+      margin: 25px;
     }
   }
 
   .front-page-testimonials {
+    h1 {
+    }
+    .testimonial-item {
+      display: flex;
+      flex-flow: row nowrap;
+      padding-bottom: 40px;
+      img {
+        width: 30%;
+        height: 20%;
+      }
+      .test-right-column {
+        width: 50%;
+        padding-right: 40px;
+        h2 {
+          text-align: start;
+          margin-bottom: 10px;
+        }
+        .test-position {
+          text-align: start;
+        }
+        .test-uni {
+          text-align: start;
+        }
+        .test-block {
+          display: flex;
+          flex-flow: column nowrap;
+          i{
+            margin-left: -30px;
+            padding-left: 0px;
+            width: 30px;
+          }
+          .is-style-large{
+            padding-left: 0px;
+          }
+          p{
+            width: 100%;
+            text-align: start;
+            padding-left: 0px;
+          }
+        }
+      }
+    }
   }
 }
