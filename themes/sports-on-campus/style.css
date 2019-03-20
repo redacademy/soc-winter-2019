@@ -278,7 +278,7 @@ th {
   font-family: 'Futura LT';
   src: url("../../assets/fonts/FuturaLT-Condensed.eot");
   src: url("../../assets/fonts/FuturaLT-Condensed.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/FuturaLT-Condensed.woff2") format("woff2"), url("../../assets/fonts/FuturaLT-Condensed.woff") format("woff"), url("../../assets/fonts/FuturaLT-Condensed.ttf") format("truetype"), url("../../assets/fonts/FuturaLT-Condensed.svg#FuturaLT-Condensed") format("svg");
-  font-weight: 500;
+  font-weight: bold;
   font-style: normal; }
 
 @font-face {
@@ -349,6 +349,12 @@ mark, ins {
 
 big {
   font-size: 125%; }
+
+@media (min-width: 1080px) {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 3px; } }
 
 /*--------------------------------------------------------------
 # Elements
@@ -798,6 +804,9 @@ body {
 .container {
   padding-left: 2rem;
   padding-right: 2rem; }
+
+.main-navigation {
+  margin-bottom: 3rem; }
 
 /*--------------------------------------------------------------
 # Media
