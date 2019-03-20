@@ -3,6 +3,11 @@
         .entry-content{
     padding-left: 8rem;
     padding-right: 8rem;
+    label{
+        color: $color__light-text;
+        font-weight: 300;
+        font-size: 15px;
+    }
     p{
         text-align: left;
         margin-top: 3rem;
