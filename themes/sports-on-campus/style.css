@@ -1388,6 +1388,7 @@ button[type='submit'] {
     top: 0px;
     z-index: -1; }
     .top-heading h2 {
+      text-transform: uppercase;
       position: absolute;
       font-size: 60px;
       left: 10%; }
@@ -1413,6 +1414,7 @@ button[type='submit'] {
       width: 50%;
       margin: 20px auto; }
     .mid-heading h3 {
+      text-transform: uppercase;
       width: 35%;
       font-size: 25px;
       margin: 40px auto;
@@ -1473,6 +1475,9 @@ button[type='submit'] {
           border-right: none; }
   .step-to-follow-container {
     margin-top: 400px !important; }
+    .step-to-follow-container h2 {
+      text-transform: uppercase;
+      margin: 50px auto; }
     .step-to-follow-container .step-text-container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1499,11 +1504,13 @@ button[type='submit'] {
         width: 100px;
         border: 2px solid #000; }
   .sport-select-container h3 {
+    text-transform: uppercase;
     font-size: 30px;
     display: inline-block; }
     .sport-select-container h3::after {
       content: '. '; }
   .sport-select-container h2 {
+    text-transform: uppercase;
     font-size: 30px;
     display: inline-block; }
     .sport-select-container h2::after {
