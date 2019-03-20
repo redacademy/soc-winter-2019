@@ -23,7 +23,7 @@ get_header(); ?>
                 <?php wp_list_categories('title_li=') ?>
             </ul>
 		</div>
-
+        <div class="blog-content-area">
             <div class="container">
                 <?php while ( have_posts() ) : the_post(); ?>
 
@@ -39,6 +39,7 @@ get_header(); ?>
 
                 <?php endif; ?>
             </div>
+        </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

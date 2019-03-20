@@ -1,17 +1,43 @@
 @media (min-width: $desktop-width) {
-    .page-template-default{
+    .page-id-25{
         .entry-content{
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    label{
+        color: $color__light-text;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .question{
+        max-width: 800px;
+        margin: 0 auto;
+    }
     p{
         text-align: left;
-        margin-bottom: 3rem;
         margin-top: 3rem;
+        font-size: 18px;
     }
     }
     .wpcf7{
         max-width: 500px;
         margin: 0 auto;
     }
+    .entry-title{
+        padding-bottom: 3rem;
+    }
+}
+.orange-button, 
+button[type=submit], 
+input[type=submit]{
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    background: #ff6b00;
+    padding: 20px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 50px;
+    letter-spacing: 1px;
 }
 }

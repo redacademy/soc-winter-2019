@@ -30,13 +30,13 @@ get_header(); ?>
 	<li class="basketball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Basketball.png" alt="basketball"></li>
 	<li class="volleyball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Volleyball.png" alt="volleyball "></li>
 </ul>
-
 			<?php the_content(); ?>
 		</div><!-- .entry-content -->
 			</section>
+			
 <h3> program & more</h3>
-			<div class="uni-program"> <?php echo CFS()->get('program'); ?> </div>
-			<div class="read-more"><p>Read more</p></div>
+			<div class="uni-program"> <?php echo CFS()->get('program'); ?> 
+			<div class="read-more"><p>Read more</p></div></div>
 			
 			<div class="uni-prerequisites"><h3 class="secondary-heading">prerequisites for application</h3> <?php echo CFS()->get('prerequisites'); ?> </div>
 			<h3>facilities and quick links</h3>

@@ -144,13 +144,22 @@ button[type='submit'] {
   }
   .best-of-ubc {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  .best-of-ubc-title {
+    padding-bottom: 10px;
+  }
+  .orange-arrow {
+    display: block;
+    color: #ff6b00;
   }
   .entry-content {
     background: #003276;
-    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
     p {
       color: white;
       font-weight: 100;
