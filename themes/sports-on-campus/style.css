@@ -488,15 +488,12 @@ form p label {
 # Navigation
 --------------------------------------------------------------*/
 /* Links */
-.desktop-menu, .desktop-menu-two {
+.desktop-menu,
+.desktop-menu-two {
   display: none; }
 
 a {
   color: black; }
-  a:hover, a:focus, a:active {
-    color: midnightblue; }
-  a:focus {
-    outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
 
@@ -536,6 +533,8 @@ a {
     text-align: center;
     color: white;
     position: relative; }
+    .main-navigation li li:nth-last-child(1) {
+      border-bottom: none; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
@@ -599,7 +598,7 @@ a {
     text-transform: uppercase;
     font-weight: 500; }
   .main-navigation .nav-dropdown li {
-    background-color: #FF6B00;
+    background-color: #ff6b00;
     height: 2.5em; }
   .main-navigation .menu-mobile-navigation-container {
     position: absolute;
@@ -628,7 +627,7 @@ a {
   text-align: center;
   height: 4em;
   padding-top: 1em;
-  border-top: #00237A solid 1px; }
+  border-top: #00237a solid 1px; }
 
 .site-footer img {
   padding-left: 5px;
@@ -657,9 +656,41 @@ a {
               justify-content: space-evenly; }
     .main-navigation .front-logo {
       width: 106px;
-      height: 61px; }
+      height: 63px;
+      background-position: center;
+      padding-left: 10em; }
+    .main-navigation a {
+      padding-top: .5em; }
   .desktop-menu, .desktop-menu-two {
-    display: inline; } }
+    display: inline;
+    padding-top: .4em; }
+  .main-navigation {
+    padding-top: .6em; }
+  .sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #ff6b00;
+    width: 10em;
+    position: relative;
+    right: 60px; }
+    .sub-menu a {
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      line-height: 2.5em;
+      letter-spacing: 1.5px; }
+    .sub-menu li {
+      border-bottom: white 1px solid; }
+    .sub-menu li:nth-last-child(1) {
+      border-bottom: none; } }
+
+.menu-item-has-children {
+  width: 4em; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -952,10 +983,17 @@ button[type='submit'] {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   margin: auto;
   list-style: none; }
   .university-template-default .sport-list li {
     width: 40px; }
+
+.university-template-default .football {
+  border-bottom: 5px solid #ff6b00;
+  padding-bottom: 10px;
+  border-radius: 5px; }
 
 .university-template-default .read-more {
   color: #ff6b00;
@@ -964,6 +1002,10 @@ button[type='submit'] {
 
 .university-template-default .ubc-intro {
   background: #003276; }
+
+.university-template-default .best-of-ubc {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .university-template-default .entry-content {
   background: #003276;
@@ -995,12 +1037,17 @@ button[type='submit'] {
   font-size: 18px; }
 
 .university-template-default .entry-title {
-  color: white;
-  margin: 0px;
-  padding-top: 40px; }
+  padding-left: 50px;
+  color: #fff;
+  margin: 0;
+  padding-top: 40px;
+  width: 75%;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 30px; }
 
 .university-template-default .uni-program {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 10px; }
 
 .university-template-default .uni-prerequisites {
