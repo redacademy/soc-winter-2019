@@ -153,7 +153,7 @@
     }
     .test-position {
     }
-    
+
     p {
       margin: 0px;
     }
@@ -167,23 +167,144 @@
   }
 }
 .transparent-underscore {
-    border-bottom: 5px solid transparent;
-  }
-  
+  border-bottom: 5px solid transparent;
+}
+
 .orange-underscore {
   border-bottom: 5px solid $color__orange-accent !important;
 }
 
-.test-title{
-  padding:1em;
+.test-title {
+  padding: 1em;
 }
 
-.home ol{
+.home ol {
   padding-bottom: 1em;
 }
 
-@include desktop{
-  .top-heading{
-    height: 96vh;
+@include desktop {
+  .top-heading {
+    height: 150vh;
+    background: url(../../assets/images/Duo-tone-cas.png);
+    background-size: 160%;
+    background-position-x: -50px;
+    background-position-y: 0px;
+    position: relative;
+    top: 0px;
+    z-index: -1;
+    h2 {
+      position: absolute;
+      font-size: 60px;
+      left: 10%;
+      &:nth-of-type(1) {
+        top: calc(15% + 70px);
+      }
+      &:nth-of-type(2) {
+        top: 16%;
+      }
+    }
+    p {
+      position: absolute;
+      left: 10%;
+      top: calc(20% + 100px);
+      font-size: 24px;
+      color: $color__light-accent;
+    }
+  }
+  .mid-heading {
+    position: absolute;
+    top: 84vh;
+    border-top-left-radius: 200vw;
+    border-top-right-radius: 200vw;
+    width: 120vw;
+    left: -10vw;
+    overflow: hidden;
+    p {
+      width: 50%;
+      margin: 20px auto;
+    }
+    h3 {
+      width: 35%;
+      font-size: 25px;
+      margin: 40px auto;
+      text-align: start;
+      &:nth-of-type(2) {
+        text-align: center;
+      }
+    }
+    .help-step-container {
+      display: flex;
+      flex-flow: row nowrap;
+      width: 70%;
+      margin: auto;
+      justify-content: space-between;
+      .text-block {
+        flex-flow: column nowrap;
+        width: 20%;
+        h4 {
+          order: -1;
+          font-weight: 300;
+          width: 100%;
+          text-align: center;
+        }
+        i {
+          margin-top: 20px;
+        }
+      }
+    }
+    .white-lines-container {
+      width: 70%;
+      height: 50px;
+      margin: 10px auto 50px auto;
+      display: flex;
+      flex-flow: row nowrap;
+      .white-short-line {
+        width: 27%;
+        height: 100%;
+       border: 1px solid #fff;
+       border-bottom: 2px solid #fff;
+       border-top: none;
+       margin-top: 20px;
+        &:nth-of-type(1) {
+          width: 10%;
+          border-left: none;
+        }
+        &:nth-of-type(5) {
+          width: 10%;
+          border-right: none;
+        }
+      }
+    }
+  }
+
+  .testimonial-container {
+    .testimonial-item {
+    }
+  }
+
+  .step-to-follow-container {
+    z-index: 10;
+    h2 {
+    }
+    h3 {
+    }
+    p {
+    }
+    .orange-vertical-line {
+    }
+  }
+
+  .sport-select-container {
+    h3 {
+    }
+    h2 {
+    }
+    .sport-list {
+    }
+    .front-page-search {
+    }
+  }
+
+  .front-page-testimonials {
   }
 }
