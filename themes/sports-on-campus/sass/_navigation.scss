@@ -3,246 +3,243 @@
 --------------------------------------------------------------*/
 
 /* Links */
-.desktop-menu, .desktop-menu-two{	
-	display:none;
+.desktop-menu,
+.desktop-menu-two {
+  display: none;
 }
 
 a {
-	color: black;
+  color: black;
 
-	
-	&:hover,
-	&:focus,
-	&:active {
-		color: $color__link-hover;
-	}
-	&:focus {
-		outline: thin dotted;
-	}
-	&:hover,
-	&:active {
-		outline: 0;
-	}
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color__link-hover;
+  }
+  &:focus {
+    outline: thin dotted;
+  }
+  &:hover,
+  &:active {
+    outline: 0;
+  }
 }
 
 /* Menus */
 
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
 
-	ul {
-		display: none;
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
+  ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
 
-		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
-			position: absolute;
-			top: $base__space-unit;
-			left: -999rem;
-			z-index: 99999;
+    ul {
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      float: left;
+      position: absolute;
+      top: $base__space-unit;
+      left: -999rem;
+      z-index: 99999;
 
-			ul {
-				left: -999rem;
-				top: 0;
-			}
+      ul {
+        left: -999rem;
+        top: 0;
+      }
 
-			li {
-				&:hover > ul,
-				&.focus > ul {
-					left: 100%;
-				}
-			}
+      li {
+        &:hover > ul,
+        &.focus > ul {
+          left: 100%;
+        }
+      }
 
-			a {
-				width: 200px;
-			}
+      a {
+        width: 200px;
+      }
 
-			:hover > a,
-			.focus > a {
-			}
+      :hover > a,
+      .focus > a {
+      }
 
-			a:hover,
-			a.focus {
-			}
-		}
+      a:hover,
+      a.focus {
+      }
+    }
 
-		li:hover > ul,
-		li.focus > ul {
-			left: auto;
-		}
-	}
-	li {
-		position: relative;
-		border-bottom: 1px solid white;
-		text-align: center;
-		color: white;
-		position: relative;
+    li:hover > ul,
+    li.focus > ul {
+      left: auto;
+    }
+  }
+  li {
+    position: relative;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+    position: relative;
 
-		&:hover > a,
-		&.focus > a {
-		}
-	}
-	a {
-		display: block;
-		text-decoration: none;
-	}
+    &:hover > a,
+    &.focus > a {
+    }
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
 
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a {
-	}
+  .current_page_item > a,
+  .current-menu-item > a,
+  .current_page_ancestor > a {
+  }
 }
 
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+  display: block;
 }
 
-.menu-toggle{
-	border: none;
-    background-color: transparent;
-    box-shadow: none;
-    font-size: 30px;
+.menu-toggle {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  font-size: 30px;
 }
-
 
 @media screen and (min-width: 768px) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation ul {
-		display: block;
-	}
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: block;
+  }
 }
 
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
+  .site-main & {
+    margin: 0 0 $base__space-unit;
+    overflow: hidden;
+  }
 
-	.site-main & {
-		margin: 0 0 $base__space-unit;
-		overflow: hidden;
-	}
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
 
-	.nav-previous {
-		float: left;
-		width: 50%;
-	}
-
-	.nav-next {
-		float: right;
-		text-align: right;
-		width: 50%;
-	}
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
 }
-.main-navigation{
-	display:flex;
-	padding-top:1em;
-	padding-right: 1em;
-	padding-left: 1em;
-	justify-content: space-between;
+.main-navigation {
+  display: flex;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  justify-content: space-between;
 
-	.front-logo{
-		background-image: url(../../sport-on-campus-logo.png);
-		height: 50px;
-		width: 75px;
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
+  .front-logo {
+    background-image: url(../../sport-on-campus-logo.png);
+    height: 50px;
+    width: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-	.secondary-menu {
-		ul{
-			display:inline;	
-		}
-		a{
-			text-transform:uppercase;
-			font-weight: 500;
-		}
-	}
+  .secondary-menu {
+    ul {
+      display: inline;
+    }
+    a {
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  }
 
-	.nav-dropdown{
-		li{
-			background-color:#FF6B00;
-			height: 2.5em;
-		}
-	}
-	.menu-mobile-navigation-container{
-	position: absolute;
-	width: 100%;
-	z-index: 2;
-	right: 0;
-	top: 4em;
-		a{
-			color:white;
-			padding-top: 0.5em;
-			letter-spacing: 1.5px;
-			font-weight: 400;
-		}
-		}
+  .nav-dropdown {
+    li {
+      background-color: #ff6b00;
+      height: 2.5em;
+    }
+  }
+  .menu-mobile-navigation-container {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    right: 0;
+    top: 4em;
+    a {
+      color: white;
+      padding-top: 0.5em;
+      letter-spacing: 1.5px;
+      font-weight: 400;
+    }
+  }
 }
 
-	.home{
-		.entry-content{
-			margin:0;
-		}
-		.main-navigation{
-			position: absolute;
-			-ms-flex-pack: justify;
-			justify-content: space-between;
-			justify-content: space-between;
-			background-color: rgba(255, 255, 255, 0.4);
-		
-		}
-	}
+.home {
+  .entry-content {
+    margin: 0;
+  }
+  .main-navigation {
+    position: absolute;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
 
 //footer css
 
-.site-footer{
-
-	.site-info{
-		text-align: center;
-   	 	height: 4em;
-    	padding-top: 1em;
-		border-top: #00237A solid 1px;
-	}
-	img{
-		padding-left: 5px;
-    	padding-right: 5px;
-	}
+.site-footer {
+  .site-info {
+    text-align: center;
+    height: 4em;
+    padding-top: 1em;
+    border-top: #00237a solid 1px;
+  }
+  img {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
-@include desktop{
-	.menu-mobile-navigation-container, .secondary-menu{
-		display: none;
-	}
-	.main-navigation{
-		height: 5em;
-		display: flex;
-		justify-content: space-around;
-		li{
-			border-bottom:none;
-			font-size: 20px;
-		}
-		ul{
-			display: flex;
-			width:40vw;
-			justify-content: space-evenly;
-		}
+@include desktop {
+  .menu-mobile-navigation-container,
+  .secondary-menu {
+    display: none;
+  }
+  .main-navigation {
+    height: 5em;
+    display: flex;
+    justify-content: space-around;
+    li {
+      border-bottom: none;
+      font-size: 20px;
+    }
+    ul {
+      display: flex;
+      width: 40vw;
+      justify-content: space-evenly;
+    }
 
-		.front-logo{
-			width: 106px;
-			height: 61px;
-		}
-	}
-	.desktop-menu, .desktop-menu-two{
-		display:inline;
-	}
-
+    .front-logo {
+      width: 106px;
+      height: 61px;
+    }
+  }
+  .desktop-menu,
+  .desktop-menu-two {
+    display: inline;
+  }
 }
