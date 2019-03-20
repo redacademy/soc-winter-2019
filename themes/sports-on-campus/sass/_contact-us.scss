@@ -1,0 +1,17 @@
+@media (min-width: $desktop-width) {
+    .page-template-default{
+        .entry-content{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    p{
+        text-align: left;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    }
+    .wpcf7{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+}
