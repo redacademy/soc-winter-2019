@@ -1429,15 +1429,19 @@ button[type='submit'] {
     width: 400px; }
 
 @media (min-width: 1080px) {
+  .blog-content-area {
+    padding-left: 3rem;
+    padding-right: 3rem; }
   .container {
     display: grid;
+    grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
   .blog-container {
     padding-bottom: 3rem; }
     .blog-container img {
-      height: 375px;
-      width: 700px;
+      height: 50vh;
+      width: 80vh;
       padding: 1rem; }
   .blog-text {
     width: 350px;
@@ -1614,6 +1618,10 @@ select.minimal {
   .page-id-25 .entry-content {
     padding-left: 8rem;
     padding-right: 8rem; }
+    .page-id-25 .entry-content label {
+      color: #9499A1;
+      font-weight: 300;
+      font-size: 15px; }
     .page-id-25 .entry-content p {
       text-align: left;
       margin-top: 3rem;

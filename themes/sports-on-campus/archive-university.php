@@ -16,20 +16,6 @@ get_header(); ?>
             'order' => 'ASC'
         )); ?>
         <h2 class="heading-university">Universities</h2>
-<<<<<<< HEAD
-            <div class="container">
-                <div class="drop-down-menu-block">
-                <p>Select sport</p>
-                <select class='choose-sport-menu'>
-                    <option>Choose an option</option>
-                    <?php foreach ($sports as $sport) : ?>
-                    <option linkinfo="<?php echo get_term_link($sport); ?>" class="each-item <?php echo $sport->name ?>-menu">
-                            <?php echo $sport->name ?>
-                    </option>
-                    <?php endforeach ?>
-                </select>
-                </div>
-=======
         <div class="drop-down-menu-block">
         <p>Select sport</p>
         <select class='minimal choose-sport-menu '>
@@ -41,7 +27,6 @@ get_header(); ?>
             <?php endforeach ?>
         </select>
     </div>
->>>>>>> 47e0805466cdddcfe0c050110670c6959f7bb3da
 
                 <?php $universities = soc_get_universities(); ?>
                 <div class="university-container">
