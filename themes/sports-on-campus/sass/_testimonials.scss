@@ -17,6 +17,10 @@
 
 
 .mobile-slide {
+  padding-left:0;
+  margin-left: 0;
+  
+  .banner-box{
   border-bottom: $color__light-text solid 2.5px;
   margin-bottom: 3em;
   margin-left: 0;
@@ -32,6 +36,7 @@
     list-style-type: none;
     width:33%;
   }
+}
 
 }
 .testimonial-item h2, .testimonial h1 {
