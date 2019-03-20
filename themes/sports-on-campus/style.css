@@ -1403,8 +1403,8 @@ button[type='submit'] {
   .mid-heading {
     position: absolute;
     top: 84vh;
-    border-top-left-radius: 200vw;
-    border-top-right-radius: 200vw;
+    border-top-left-radius: 240vw;
+    border-top-right-radius: 240vw;
     width: 120vw;
     left: -10vw;
     overflow: hidden; }
@@ -1471,7 +1471,9 @@ button[type='submit'] {
           width: 10%;
           border-right: none; }
   .step-to-follow-container {
-    z-index: 10; } }
+    margin-top: 380px !important; }
+  .sport-select-container {
+    display: block; } }
 
 /* Blog Page */
 .blog-loop {
