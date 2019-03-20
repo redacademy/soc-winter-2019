@@ -766,6 +766,10 @@ a {
 body {
   color: black; }
 
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1354,47 +1358,43 @@ button[type='submit'] {
     padding-top: 10px; }
 
 /* Events Page */
-.events-area h3 {
-  text-align: left;
-  font-size: 14px;
-  letter-spacing: 1px;
-  -ms-flex-item-align: end;
-      align-self: end;
-  padding-left: 1em; }
-
-.events-area .event-content {
-  text-align: left;
-  font-size: 13px;
-  padding-top: 5px;
-  letter-spacing: 1.5px;
-  padding-left: 1em; }
-
-.events-area p {
-  margin: 0; }
-
-.events-area .event-image {
-  height: 17rem; }
-
-.events-area .event-grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr;
-  margin: 0 auto;
-  width: 20rem;
-  height: 9rem; }
-
-.events-area .event-date {
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  color: #ff6b00;
-  -ms-flex-item-align: end;
-      align-self: end;
-  padding-right: 1em;
-  text-align: left; }
-
-.events-area .event-location {
-  color: #00237A;
-  text-align: left; }
+.events-area {
+  padding-bottom: 10px; }
+  .events-area h3 {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -ms-flex-item-align: end;
+        align-self: end;
+    padding-left: 1em; }
+  .events-area .event-content {
+    text-align: left;
+    font-size: 13px;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+    padding-left: 1em; }
+  .events-area p {
+    margin: 0; }
+  .events-area .event-image {
+    height: 17rem; }
+  .events-area .event-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    width: 20rem;
+    height: 9rem; }
+  .events-area .event-date {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #ff6b00;
+    -ms-flex-item-align: end;
+        align-self: end;
+    padding-right: 1em;
+    text-align: left; }
+  .events-area .event-location {
+    color: #00237A;
+    text-align: left; }
 
 .page-template-archive-event article {
   padding-top: 1em; }
