@@ -53,6 +53,8 @@ button[type='submit'] {
   }
   .ceo-caption {
     padding-top: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
   }
   .wp-block-image-top {
     img {
@@ -84,7 +86,7 @@ button[type='submit'] {
   }
   .about-our-concept {
     background: #003276;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 40px;
 
     h2 {
@@ -284,6 +286,11 @@ button[type='submit'] {
       border-top: 1px solid black;
     }
     padding-bottom: 40px;
+  }
+}
+.team-social {
+  p {
+    display: none;
   }
 }
 
