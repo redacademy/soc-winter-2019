@@ -769,6 +769,10 @@ a {
 body {
   color: black; }
 
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1369,51 +1373,48 @@ button[type='submit'] {
       -ms-flex-align: center;
           align-items: center; }
   .blog-container img {
-    padding: 4rem;
-    padding-top: 10px; }
+    padding-bottom: 4rem;
+    padding-top: 10px;
+    width: 400px; }
 
 /* Events Page */
-.events-area h3 {
-  text-align: left;
-  font-size: 14px;
-  letter-spacing: 1px;
-  -ms-flex-item-align: end;
-      align-self: end;
-  padding-left: 1em; }
-
-.events-area .event-content {
-  text-align: left;
-  font-size: 13px;
-  padding-top: 5px;
-  letter-spacing: 1.5px;
-  padding-left: 1em; }
-
-.events-area p {
-  margin: 0; }
-
-.events-area .event-image {
-  height: 17rem; }
-
-.events-area .event-grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr;
-  margin: 0 auto;
-  width: 20rem;
-  height: 9rem; }
-
-.events-area .event-date {
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  color: #ff6b00;
-  -ms-flex-item-align: end;
-      align-self: end;
-  padding-right: 1em;
-  text-align: left; }
-
-.events-area .event-location {
-  color: #00237A;
-  text-align: left; }
+.events-area {
+  padding-bottom: 10px; }
+  .events-area h3 {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -ms-flex-item-align: end;
+        align-self: end;
+    padding-left: 1em; }
+  .events-area .event-content {
+    text-align: left;
+    font-size: 13px;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+    padding-left: 1em; }
+  .events-area p {
+    margin: 0; }
+  .events-area .event-image {
+    height: 17rem; }
+  .events-area .event-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    width: 20rem;
+    height: 9rem; }
+  .events-area .event-date {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #ff6b00;
+    -ms-flex-item-align: end;
+        align-self: end;
+    padding-right: 1em;
+    text-align: left; }
+  .events-area .event-location {
+    color: #00237A;
+    text-align: left; }
 
 .page-template-archive-event article {
   padding-top: 1em; }
@@ -1508,10 +1509,36 @@ button[type='submit'] {
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
   width: 400px;
-  margin: 0 auto; }
+  margin: 30px auto; }
   .archive-university-content .drop-down-menu-block p {
     text-align: left;
     margin-bottom: 20px; }
   .archive-university-content .drop-down-menu-block .choose-sport-menu {
     margin-bottom: 30px;
-    width: 100%; }
+    width: 100%;
+    border: none;
+    background: #003276;
+    color: #fff; }
+
+select {
+  /* styling */
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  /* reset */
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+/* arrows */
+select.minimal {
+  background-image: linear-gradient(45deg, transparent 50%, #ff6b00 50%), linear-gradient(135deg, #ff6b00 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc) !important;
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em !important;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em !important;
+  background-repeat: no-repeat !important; }

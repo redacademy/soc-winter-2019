@@ -16,9 +16,23 @@ get_header(); ?>
             'order' => 'ASC'
         )); ?>
         <h2 class="heading-university">Universities</h2>
+<<<<<<< HEAD
+            <div class="container">
+                <div class="drop-down-menu-block">
+                <p>Select sport</p>
+                <select class='choose-sport-menu'>
+                    <option>Choose an option</option>
+                    <?php foreach ($sports as $sport) : ?>
+                    <option linkinfo="<?php echo get_term_link($sport); ?>" class="each-item <?php echo $sport->name ?>-menu">
+                            <?php echo $sport->name ?>
+                    </option>
+                    <?php endforeach ?>
+                </select>
+                </div>
+=======
         <div class="drop-down-menu-block">
         <p>Select sport</p>
-        <select class='choose-sport-menu'>
+        <select class='minimal choose-sport-menu '>
             <option>Choose an option</option>
             <?php foreach ($sports as $sport) : ?>
             <option linkinfo="<?php echo get_term_link($sport); ?>" class="each-item <?php echo $sport->name ?>-menu">
@@ -27,28 +41,31 @@ get_header(); ?>
             <?php endforeach ?>
         </select>
     </div>
+>>>>>>> 47e0805466cdddcfe0c050110670c6959f7bb3da
 
-        <?php $universities = soc_get_universities(); ?>
-        <div class="university-container">
-            <?php foreach ($universities as $post) : setup_postdata($post); ?>
-            <article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <?php if (has_post_thumbnail()) : ?>
-                <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
-                    <?php the_post_thumbnail('large'); ?>
-                </a>
-                <?php endif; ?>
-                <div class="university-title-location">
-                    <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
-                        <h3 class="university-name">
-                            <?php echo the_title() ?>
-                        </h3>
-                    </a>
-                    <p class="university-city"><?php echo CFS()->get('city'); ?></p>
+                <?php $universities = soc_get_universities(); ?>
+                <div class="university-container">
+                    <?php foreach ($universities as $post) : setup_postdata($post); ?>
+                    <article id="university-<?php the_ID(); ?>" <?php post_class(); ?>>
+                        <?php if (has_post_thumbnail()) : ?>
+                        <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
+                            <?php the_post_thumbnail('large'); ?>
+                        </a>
+                        <?php endif; ?>
+                        <div class="university-title-location">
+                            <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
+                                <h3 class="university-name">
+                                    <?php echo the_title() ?>
+                                </h3>
+                            </a>
+                            <p class="university-city"><?php echo CFS()->get('city'); ?></p>
+                        </div>
+                    </article>
+                <?php endforeach;
+                wp_reset_postdata(); ?>
                 </div>
-            </article>
-            <?php endforeach;
-        wp_reset_postdata(); ?>
-        </div>
+            </div>
+            
     </main><!-- #main -->
 </div><!-- #primary -->
 <?php get_footer(); ?> 
