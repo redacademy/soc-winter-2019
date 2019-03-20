@@ -643,7 +643,8 @@ a {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-top: .6em; }
+    padding-top: .6em;
+    border-bottom: 2px #9499A1 solid; }
     .main-navigation li {
       border-bottom: none;
       font-size: 20px; }
@@ -687,6 +688,8 @@ a {
           border-bottom: white 1px solid; }
         .main-navigation .desktop-menu .sub-menu li:nth-last-child(1), .main-navigation .desktop-menu-two .sub-menu li:nth-last-child(1) {
           border-bottom: none; }
+  .home .main-navigation {
+    border: none; }
   .menu-item-has-children {
     width: 4em; } }
 
