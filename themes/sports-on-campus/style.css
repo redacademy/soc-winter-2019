@@ -1489,10 +1489,36 @@ button[type='submit'] {
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
   width: 400px;
-  margin: 0 auto; }
+  margin: 30px auto; }
   .archive-university-content .drop-down-menu-block p {
     text-align: left;
     margin-bottom: 20px; }
   .archive-university-content .drop-down-menu-block .choose-sport-menu {
     margin-bottom: 30px;
-    width: 100%; }
+    width: 100%;
+    border: none;
+    background: #003276;
+    color: #fff; }
+
+select {
+  /* styling */
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  /* reset */
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+/* arrows */
+select.minimal {
+  background-image: linear-gradient(45deg, transparent 50%, #ff6b00 50%), linear-gradient(135deg, #ff6b00 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc) !important;
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em !important;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em !important;
+  background-repeat: no-repeat !important; }
