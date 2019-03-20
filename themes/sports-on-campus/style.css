@@ -1716,8 +1716,9 @@ select.minimal {
       font-weight: 300;
       font-size: 15px; }
     .page-id-25 .entry-content .question {
-      max-width: 800px;
-      margin: 0 auto; }
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 20px; }
     .page-id-25 .entry-content p {
       text-align: left;
       margin-top: 3rem;
