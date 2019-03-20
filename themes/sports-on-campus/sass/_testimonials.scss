@@ -47,6 +47,9 @@
   margin-top: 1em;
 }
 
+.orange-underline {
+  border-bottom: 5px solid $color__orange-accent;
+}
 @include desktop{
   .page-template-archive-testimonial, .tax-testimonial_category, .blog, .archive{
     .main-navigation{
@@ -78,6 +81,9 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 2em;
+    .orange-underline{
+      border-bottom:none;
+    }
   }
   .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide{
     background-image: url(../../Icons/field-test.png);
@@ -139,4 +145,5 @@
     margin-right: 3em;
 
   }
+
 }
