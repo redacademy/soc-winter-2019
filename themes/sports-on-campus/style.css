@@ -1140,8 +1140,15 @@ button[type='submit'] {
     width: 20px;
     border-top: 1px solid black; }
 
-.team-social p {
-  display: none; }
+.team-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .team-social p {
+    display: none; }
 
 /* Archive */
 /* Single Blog Post */
