@@ -1613,6 +1613,9 @@ select.minimal {
       color: #9499A1;
       font-weight: 300;
       font-size: 15px; }
+    .page-id-25 .entry-content .question {
+      max-width: 800px;
+      margin: 0 auto; }
     .page-id-25 .entry-content p {
       text-align: left;
       margin-top: 3rem;
@@ -1620,6 +1623,8 @@ select.minimal {
   .page-id-25 .wpcf7 {
     max-width: 500px;
     margin: 0 auto; }
+  .page-id-25 .entry-title {
+    padding-bottom: 3rem; }
   .orange-button,
   button[type=submit],
   input[type=submit] {
