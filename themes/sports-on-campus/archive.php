@@ -18,8 +18,7 @@ get_header(); ?>
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
-			<?php /* Start the Loop */ ?>
+<div class="container">
 			<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php
@@ -28,7 +27,7 @@ get_header(); ?>
 				
 			<?php endwhile; ?>
 		<?php endif; ?>
-
+</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

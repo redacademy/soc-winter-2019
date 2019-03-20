@@ -24,7 +24,7 @@ get_header(); ?>
             </ul>
 		</div>
 
-            <div class="blog-content">
+            <div class="container">
                 <?php while ( have_posts() ) : the_post(); ?>
 
                 <?php get_template_part( 'template-parts/content' ); ?>

@@ -482,7 +482,8 @@ form p label {
 # Navigation
 --------------------------------------------------------------*/
 /* Links */
-.desktop-menu, .desktop-menu-two {
+.desktop-menu,
+.desktop-menu-two {
   display: none; }
 
 a {
@@ -591,7 +592,7 @@ a {
     text-transform: uppercase;
     font-weight: 500; }
   .main-navigation .nav-dropdown li {
-    background-color: #FF6B00;
+    background-color: #ff6b00;
     height: 2.5em; }
   .main-navigation .menu-mobile-navigation-container {
     position: absolute;
@@ -620,7 +621,7 @@ a {
   text-align: center;
   height: 4em;
   padding-top: 1em;
-  border-top: #00237A solid 1px; }
+  border-top: #00237a solid 1px; }
 
 .site-footer img {
   padding-left: 5px;
@@ -796,6 +797,10 @@ a {
 body {
   color: black; }
 
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -969,10 +974,17 @@ button[type='submit'] {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   margin: auto;
   list-style: none; }
   .university-template-default .sport-list li {
     width: 40px; }
+
+.university-template-default .football {
+  border-bottom: 5px solid #ff6b00;
+  padding-bottom: 10px;
+  border-radius: 5px; }
 
 .university-template-default .read-more {
   color: #ff6b00;
@@ -981,6 +993,10 @@ button[type='submit'] {
 
 .university-template-default .ubc-intro {
   background: #003276; }
+
+.university-template-default .best-of-ubc {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .university-template-default .entry-content {
   background: #003276;
@@ -1012,12 +1028,17 @@ button[type='submit'] {
   font-size: 18px; }
 
 .university-template-default .entry-title {
-  color: white;
-  margin: 0px;
-  padding-top: 40px; }
+  padding-left: 50px;
+  color: #fff;
+  margin: 0;
+  padding-top: 40px;
+  width: 75%;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 30px; }
 
 .university-template-default .uni-program {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 10px; }
 
 .university-template-default .uni-prerequisites {
@@ -1380,51 +1401,64 @@ button[type='submit'] {
       -ms-flex-align: center;
           align-items: center; }
   .blog-container img {
-    padding: 4rem;
-    padding-top: 10px; }
+    padding-bottom: 4rem;
+    padding-top: 10px;
+    width: 400px; }
+
+@media (min-width: 1080px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+  .blog-container {
+    padding-bottom: 3rem; }
+    .blog-container img {
+      height: 375px;
+      width: 700px;
+      padding: 1rem; }
+  .blog-text {
+    width: 350px;
+    height: 100px;
+    padding-top: 15px; } }
 
 /* Events Page */
-.events-area h3 {
-  text-align: left;
-  font-size: 14px;
-  letter-spacing: 1px;
-  -ms-flex-item-align: end;
-      align-self: end;
-  padding-left: 1em; }
-
-.events-area .event-content {
-  text-align: left;
-  font-size: 13px;
-  padding-top: 5px;
-  letter-spacing: 1.5px;
-  padding-left: 1em; }
-
-.events-area p {
-  margin: 0; }
-
-.events-area .event-image {
-  height: 17rem; }
-
-.events-area .event-grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr;
-  margin: 0 auto;
-  width: 20rem;
-  height: 9rem; }
-
-.events-area .event-date {
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  color: #ff6b00;
-  -ms-flex-item-align: end;
-      align-self: end;
-  padding-right: 1em;
-  text-align: left; }
-
-.events-area .event-location {
-  color: #00237A;
-  text-align: left; }
+.events-area {
+  padding-bottom: 10px; }
+  .events-area h3 {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    -ms-flex-item-align: end;
+        align-self: end;
+    padding-left: 1em; }
+  .events-area .event-content {
+    text-align: left;
+    font-size: 13px;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+    padding-left: 1em; }
+  .events-area p {
+    margin: 0; }
+  .events-area .event-image {
+    height: 17rem; }
+  .events-area .event-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    width: 20rem;
+    height: 9rem; }
+  .events-area .event-date {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #ff6b00;
+    -ms-flex-item-align: end;
+        align-self: end;
+    padding-right: 1em;
+    text-align: left; }
+  .events-area .event-location {
+    color: #00237A;
+    text-align: left; }
 
 .page-template-archive-event article {
   padding-top: 1em; }

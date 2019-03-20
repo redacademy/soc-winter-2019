@@ -10,11 +10,12 @@ get_header(); ?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
-
+<div class="container">
         <form>
             <input type="text" name="email" placeholder="email">
             <input type="password" name="password" placeholder="password">
         </form>
+        
         <div>
             <input type="checkbox" name="remember" id="remember" value="Remember me"><label for="remember">Remember me</label>
             <input type="submit" name="submit" value="Login">
@@ -24,7 +25,7 @@ get_header(); ?>
             <a>Register now</a>
             <a>Forgot password</a>
         </div>
-
+</div>
 
     </main><!-- #main -->
 </div><!-- #primary -->
