@@ -1,44 +1,83 @@
+.page-id-25{
+    .entry-title{
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .entry-content{
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    p{
+        text-align: left;
+        font-size: 14px;
+    }
+    .submit-button{
+        text-align: center;
+    }
+    label{
+        margin: 0;
+    }
+    .orange-button, 
+    button[type=submit], 
+    input[type=submit]{
+        box-shadow: none;
+        border: none;
+        color: #fff;
+        background: #ff6b00;
+        padding: 8px 55px;
+        font-size: 14px;
+        border-radius: 10px;
+        font-weight: 300;
+        margin-left: 50px;
+        letter-spacing: 1px;
+    }
+    }
+}
+
+
 @media (min-width: $desktop-width) {
     .page-id-25{
-        .entry-content{
-    padding-left: 8rem;
-    padding-right: 8rem;
+        .entry-title{
+            padding-bottom: 3rem;
+            text-transform: uppercase;
+            margin-top: 3rem;
+        }
+    .entry-content{
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 20px;
     label{
         color: $color__text-main;
         font-weight: 300;
         font-size: 15px;
     }
-    .question{
-        max-width: 900px;
-        margin: 0 auto;
-        font-size: 20px;
-    }
     p{
         text-align: left;
         margin-top: 3rem;
-        font-size: 18px;
+        font-size: 22px;
     }
     }
     .wpcf7{
         max-width: 500px;
         margin: 0 auto;
     }
-    .entry-title{
-        padding-bottom: 3rem;
+    .orange-button, 
+    button[type=submit], 
+    input[type=submit]{
+        box-shadow: none;
+        border: none;
+        color: #fff;
+        background: #ff6b00;
+        padding: 25px 50px;
+        font-size: 18px;
+        border-radius: 5px;
+        font-weight: 500;
+        //margin-left: 50px;
+        letter-spacing: 1px;
     }
-}
-.orange-button, 
-button[type=submit], 
-input[type=submit]{
-    box-shadow: none;
-    border: none;
-    color: #fff;
-    background: #ff6b00;
-    padding: 20px 50px;
-    font-size: 18px;
-    border-radius: 5px;
-    font-weight: 500;
-    margin-left: 50px;
-    letter-spacing: 1px;
+    .submit-button{
+        text-align: left;
+    }
+
 }
 }
