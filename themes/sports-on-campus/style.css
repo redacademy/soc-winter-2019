@@ -492,7 +492,7 @@ form p label {
 --------------------------------------------------------------*/
 /* Links */
 .desktop-menu,
-.desktop-menu-two {
+.desktop-menu-two, .banner-text-desktop {
   display: none; }
 
 a {
@@ -570,14 +570,16 @@ a {
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
-  width: 50%; }
+  width: 50%;
+  margin-top: 1em; }
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
   float: right;
   text-align: right;
-  width: 50%; }
+  width: 50%;
+  margin-top: 1em; }
 
 .main-navigation {
   display: -webkit-box;
@@ -615,6 +617,9 @@ a {
       letter-spacing: 1.5px;
       font-weight: 400; }
 
+.main-navigation .secondary-menu li {
+  border-bottom: none; }
+
 .home .entry-content {
   margin: 0; }
 
@@ -626,11 +631,32 @@ a {
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.4); }
 
+.nav-next {
+  padding-right: 4em; }
+  .nav-next a {
+    text-decoration: none;
+    color: #ff6b00;
+    font-weight: 500;
+    font-size: 17px; }
+
+.nav-previous a {
+  text-decoration: none;
+  color: #ff6b00;
+  font-weight: 500;
+  font-size: 17px; }
+
 .site-footer .site-info {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 4em;
   padding-top: 1em;
-  border-top: #00237a solid 1px; }
+  border-top: 1px solid #00237a;
+  margin-top: 3em; }
 
 .site-footer img {
   padding-left: 5px;
@@ -977,6 +1003,9 @@ button[type='submit'] {
     font-weight: 300; }
 
 /* Single University Page */
+.university-template-default .uni-prerequisites {
+  text-align: left; }
+
 .university-template-default img {
   display: block; }
 
@@ -984,14 +1013,14 @@ button[type='submit'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-right: 40px;
+  padding-right: 11em;
   padding-top: 20px;
   padding-bottom: 30px;
-  margin: auto;
-  list-style: none; }
+  list-style: none;
+  margin-left: -34px; }
   .university-template-default .sport-list li {
     width: 40px; }
 
@@ -1002,6 +1031,8 @@ button[type='submit'] {
 
 .university-template-default .read-more {
   color: #ff6b00;
+  padding-bottom: 2em;
+  padding-top: 2em;
   font-weight: 600;
   letter-spacing: 1px; }
 
@@ -1017,6 +1048,9 @@ button[type='submit'] {
 .university-template-default .best-of-ubc-title {
   padding-bottom: 10px; }
 
+.university-template-default .secondary-heading {
+  text-align: center; }
+
 .university-template-default .orange-arrow {
   display: block;
   color: #ff6b00; }
@@ -1028,7 +1062,13 @@ button[type='submit'] {
   padding-top: 40px; }
   .university-template-default .entry-content p {
     color: white;
-    font-weight: 100; }
+    font-weight: 100;
+    text-align: left; }
+  .university-template-default .entry-content a {
+    color: #ff6b00;
+    text-decoration: none; }
+  .university-template-default .entry-content .wp-block-button a {
+    color: white; }
 
 .university-template-default h2 {
   color: black;
@@ -1047,8 +1087,9 @@ button[type='submit'] {
 
 .university-template-default h4 {
   color: white;
+  text-align: left;
   font-weight: 400;
-  font-size: 18px; }
+  font-size: 20px; }
 
 .university-template-default .entry-title {
   padding-left: 50px;
@@ -1073,16 +1114,20 @@ button[type='submit'] {
   padding-bottom: 40px; }
 
 .university-template-default .uni-facilities {
-  padding-top: 30px; }
+  padding-top: 30px;
+  line-height: 2.5; }
 
 .university-template-default .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #ff6b00;
-  border-radius: 12px;
+  border-radius: 23px;
   font-size: 14px;
   margin: 0;
-  margin-right: 120px; }
+  padding-top: .7em;
+  height: 3em;
+  width: 47%;
+  margin-right: 19em; }
 
 .post-63 .wp-link-button__link {
   background: white; }
@@ -1182,7 +1227,7 @@ button[type='submit'] {
   float: none; }
 
 .wp-block-button__link {
-  padding: 5px 40px !important; }
+  padding: 5px 40px; }
 
 /* Front page */
 .top-heading {

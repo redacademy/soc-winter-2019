@@ -4,7 +4,7 @@
 
 /* Links */
 .desktop-menu,
-.desktop-menu-two {
+.desktop-menu-two, .banner-text-desktop {
   display: none;
 }
 
@@ -129,13 +129,15 @@ a {
 
   .nav-previous {
     float: left;
-    width: 50%;
+	width: 50%;
+	margin-top: 1em;
   }
 
   .nav-next {
     float: right;
     text-align: right;
-    width: 50%;
+	width: 50%; 
+	margin-top: 1em;
   }
 }
 .main-navigation {
@@ -160,7 +162,7 @@ a {
     a {
       text-transform: uppercase;
       font-weight: 500;
-    }
+	}
   }
 
   .nav-dropdown {
@@ -184,6 +186,10 @@ a {
   }
 }
 
+.main-navigation .secondary-menu li{
+	border-bottom:none;
+}
+
 .home {
   .entry-content {
     margin: 0;
@@ -197,14 +203,37 @@ a {
   }
 }
 
+.nav-next{
+	padding-right: 4em;
+
+	a{
+		text-decoration:none;
+		color:$color__orange-accent;
+		font-weight: 500;
+		font-size: 17px;
+	}
+}
+
+.nav-previous{
+	a{
+		text-decoration:none;
+		color:$color__orange-accent;
+		font-weight: 500;
+		font-size: 17px;
+	}
+}
+
 //footer css
 
 .site-footer {
   .site-info {
-    text-align: center;
+	display: flex;
+    margin: auto;
+    justify-content: center;
     height: 4em;
     padding-top: 1em;
-    border-top: #00237a solid 1px;
+	border-top: 1px solid #00237a;
+	margin-top: 3em;
   }
   img {
     padding-left: 5px;
@@ -274,7 +303,7 @@ a {
 			}
 		
 	}
-}
+	}
 	.home .main-navigation{
 		border:none;
 	}

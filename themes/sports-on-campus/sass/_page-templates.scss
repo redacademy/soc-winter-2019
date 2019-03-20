@@ -114,17 +114,22 @@ button[type='submit'] {
 /* Single University Page */
 
 .university-template-default {
+  .uni-prerequisites{
+    text-align: left;
+  }
   img {
     display: block;
   }
   .sport-list {
     display: flex;
+    -ms-flex-pack: justify;
     justify-content: space-between;
-    padding-right: 40px;
+    padding-right: 11em;
     padding-top: 20px;
     padding-bottom: 30px;
-    margin: auto;
+   
     list-style: none;
+    margin-left: -34px;
     li {
       width: 40px;
     }
@@ -136,6 +141,8 @@ button[type='submit'] {
   }
   .read-more {
     color: #ff6b00;
+    padding-bottom: 2em;
+    padding-top: 2em;
     font-weight: 600;
     letter-spacing: 1px;
   }
@@ -151,6 +158,9 @@ button[type='submit'] {
   .best-of-ubc-title {
     padding-bottom: 10px;
   }
+  .secondary-heading{
+    text-align: center;
+  }
   .orange-arrow {
     display: block;
     color: #ff6b00;
@@ -163,6 +173,14 @@ button[type='submit'] {
     p {
       color: white;
       font-weight: 100;
+      text-align: left;
+    }
+    a{
+      color:$color__orange-accent;
+      text-decoration: none;
+    }
+    .wp-block-button a{
+        color:white;
     }
   }
   h2 {
@@ -182,8 +200,9 @@ button[type='submit'] {
   }
   h4 {
     color: white;
+    text-align:left;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
   }
   .entry-title {
     padding-left: 50px;
@@ -209,15 +228,19 @@ button[type='submit'] {
   }
   .uni-facilities {
     padding-top: 30px;
+    line-height: 2.5;
   }
   .wp-block-button__link {
     letter-spacing: 2px;
     font-weight: 300;
     background-color: #ff6b00;
-    border-radius: 12px;
+    border-radius: 23px;
     font-size: 14px;
     margin: 0;
-    margin-right: 120px;
+    padding-top: .7em;
+    height: 3em;
+    width: 47%;
+    margin-right: 19em;
   }
 }
 .post-63 {
@@ -329,5 +352,5 @@ button[type='submit'] {
   float: none;
 }
 .wp-block-button__link {
-  padding: 5px 40px !important;
+  padding: 5px 40px;
 }
