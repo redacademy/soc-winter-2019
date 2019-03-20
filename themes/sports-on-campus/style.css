@@ -1129,6 +1129,15 @@ button[type='submit'] {
 .page-id-29 .ur-frontend-form {
   border: none; }
 
+.page-id-29 .or {
+  padding-bottom: 40px; }
+  .page-id-29 .or::before {
+    width: 20px;
+    border-top: 1px solid black; }
+  .page-id-29 .or::after {
+    width: 20px;
+    border-top: 1px solid black; }
+
 /* Archive */
 /* Single Blog Post */
 .single-post .entry-header {

@@ -155,6 +155,7 @@ button[type='submit'] {
     display: block;
     color: #ff6b00;
   }
+
   .entry-content {
     background: #003276;
     padding-left: 40px;
@@ -272,6 +273,17 @@ button[type='submit'] {
   }
   .ur-frontend-form {
     border: none;
+  }
+  .or {
+    &::before {
+      width: 20px;
+      border-top: 1px solid black;
+    }
+    &::after {
+      width: 20px;
+      border-top: 1px solid black;
+    }
+    padding-bottom: 40px;
   }
 }
 
