@@ -17,14 +17,23 @@ get_header(); ?>
 
         <section class="entry-content step-to-follow-container">
             <h2>Just 3 easy step to follow</h2>
-            <h3>1. Search</h3>
-            <p>University that you interested in on our page</p>
-            <div class="orange-vertical-line"></div>
-            <h3>2. Sign up</h3>
-            <p>Sign up with us and filled in your athletic information</p>
-            <div class="orange-vertical-line"></div>
-            <h3>3. Connect</h3>
-            <p>Send request to coach of universities of your choice</p>
+
+            <div class="step-text-container">
+                <div class="step-text-block">
+                    <h3>1. Search</h3>
+                    <p>University that you interested in on our page</p>
+                </div>
+                <div class="orange-vertical-line"></div>
+                <div class="step-text-block">
+                    <h3>2. Sign up</h3>
+                    <p>Sign up with us and filled in your athletic information</p>
+                </div>
+                <div class="orange-vertical-line"></div>
+                <div class="step-text-block">
+                    <h3>3. Connect</h3>
+                    <p>Send request to coach of universities of your choice</p>
+                </div>
+            </div>
         </section>
 
         <section class="entry-content sport-select-container">
@@ -63,16 +72,18 @@ get_header(); ?>
                     </a>
                     <?php endif; ?>
                     <img class="test-image sample-picture" src='<?php echo CFS()->get('video'); ?>'>
-                    <h2>
-                        <?php the_title(); ?>
-                    </h2>
-                    <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
-                    <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
-                    <div class="test-block">
-                    <i class="fas fa-quote-left"></i>
-                    <?php the_content(); ?>
-                     </div>
-                    
+                    <div class="test-right-column">
+                        <h2>
+                            <?php the_title(); ?>
+                        </h2>
+                        <div class="test-position"> <?php echo CFS()->get('position'); ?> </div>
+                        <div class="test-uni"> <?php echo CFS()->get('university'); ?> </div>
+                        <div class="test-block">
+                            <i class="fas fa-quote-left"></i>
+                            <?php the_content(); ?>
+                        </div>
+                    </div>
+
                 </div>
 
                 <?php endforeach;
