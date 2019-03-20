@@ -1788,7 +1788,7 @@ select.minimal {
     padding-left: 8rem;
     padding-right: 8rem; }
     .page-id-25 .entry-content label {
-      color: #9499A1;
+      color: #404040;
       font-weight: 300;
       font-size: 15px; }
     .page-id-25 .entry-content .question {
@@ -1818,3 +1818,20 @@ select.minimal {
     font-weight: 500;
     margin-left: 50px;
     letter-spacing: 1px; } }
+
+@media (min-width: 1080px) {
+  .page-id-27 h1 {
+    display: none; }
+  .page-id-27 h2 {
+    font-size: 2.4rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; }
+  .page-id-27 .connect {
+    word-spacing: 1.5px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    color: #686868;
+    font-weight: normal; } }
