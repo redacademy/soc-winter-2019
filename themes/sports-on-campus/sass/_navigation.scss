@@ -217,11 +217,13 @@ a {
 		display: none;
 	}
 
+
 	.main-navigation{
 		height: 5em;
 		display: flex;
 		justify-content: space-around;
 		padding-top: .6em;
+		border-bottom: 2px $color__light-text solid;
 		li{
 			border-bottom:none;
 			font-size: 20px;
@@ -270,8 +272,10 @@ a {
 				}
 			}
 			}
-
 		
+	}
+	.home .main-navigation{
+		border:none;
 	}
 		.menu-item-has-children{
 			width:4em;
