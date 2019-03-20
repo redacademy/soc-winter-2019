@@ -811,9 +811,6 @@ body {
   padding-left: 2rem;
   padding-right: 2rem; }
 
-.main-navigation {
-  margin-bottom: 4rem; }
-
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1410,6 +1407,7 @@ button[type='submit'] {
     top: 0px;
     z-index: -1; }
     .top-heading h2 {
+      text-transform: uppercase;
       position: absolute;
       font-size: 60px;
       left: 10%; }
@@ -1435,6 +1433,7 @@ button[type='submit'] {
       width: 50%;
       margin: 20px auto; }
     .mid-heading h3 {
+      text-transform: uppercase;
       width: 35%;
       font-size: 25px;
       margin: 40px auto;
@@ -1495,6 +1494,9 @@ button[type='submit'] {
           border-right: none; }
   .step-to-follow-container {
     margin-top: 400px !important; }
+    .step-to-follow-container h2 {
+      text-transform: uppercase;
+      margin: 50px auto; }
     .step-to-follow-container .step-text-container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1521,11 +1523,13 @@ button[type='submit'] {
         width: 100px;
         border: 2px solid #000; }
   .sport-select-container h3 {
+    text-transform: uppercase;
     font-size: 30px;
     display: inline-block; }
     .sport-select-container h3::after {
       content: '. '; }
   .sport-select-container h2 {
+    text-transform: uppercase;
     font-size: 30px;
     display: inline-block; }
     .sport-select-container h2::after {
@@ -1907,7 +1911,7 @@ select.minimal {
     padding-left: 8rem;
     padding-right: 8rem; }
     .page-id-25 .entry-content label {
-      color: #9499A1;
+      color: #404040;
       font-weight: 300;
       font-size: 15px; }
     .page-id-25 .entry-content .question {
@@ -1937,3 +1941,20 @@ select.minimal {
     font-weight: 500;
     margin-left: 50px;
     letter-spacing: 1px; } }
+
+@media (min-width: 1080px) {
+  .page-id-27 h1 {
+    display: none; }
+  .page-id-27 h2 {
+    font-size: 2.4rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; }
+  .page-id-27 .connect {
+    word-spacing: 1.5px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    color: #686868;
+    font-weight: normal; } }
