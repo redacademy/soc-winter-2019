@@ -12,13 +12,16 @@ get_header(); ?>
        <?php if (have_posts()) : ?>
        <section>
            <ul class="mobile-slide">
-                <?php $testimonials = get_terms("testimonial_category"); ?>
-                    <?php foreach ($testimonials as $value) : setup_postdata($value); ?>
-                    <li class="slide-list">
-                    <a href=<?php echo get_term_link($value) ?>><?php echo $value->name ?></a>
-                    </li>
-                    <?php endforeach;?>
-                <?php wp_reset_postdata(); ?>
+               <h1 class="banner-text-desktop">Testimonials</h1>
+               <div class="banner-box">
+                    <?php $testimonials = get_terms("testimonial_category"); ?>
+                        <?php foreach ($testimonials as $value) : setup_postdata($value); ?>
+                         <li class="slide-list">
+                        <a href=<?php echo get_term_link($value) ?>><?php echo $value->name ?></a>
+                        </li>
+                        <?php endforeach;?>
+                    <?php wp_reset_postdata(); ?>
+                </div>
             </ul>
             <div class="container">
                     <?php $testimonials = soc_get_testimonial_category(); ?>

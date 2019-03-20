@@ -8,6 +8,11 @@
         font-weight: 300;
         font-size: 15px;
     }
+    .question{
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 20px;
+    }
     p{
         text-align: left;
         margin-top: 3rem;
@@ -17,6 +22,9 @@
     .wpcf7{
         max-width: 500px;
         margin: 0 auto;
+    }
+    .entry-title{
+        padding-bottom: 3rem;
     }
 }
 .orange-button, 

@@ -10,13 +10,16 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 		<?php if ( have_posts() ) : ?>
 		<ul class="mobile-slide">
+		<h1 class="banner-text-desktop">Testimonials</h1>
+			<div class= "banner-box">
                 <?php $testimonials = get_terms("testimonial_category"); ?>
 				<?php foreach ($testimonials as $value) : setup_postdata($value); ?>
 				<li class="slide-list">
 					<a href=<?php echo get_term_link($value) ?>><?php echo $value->name ?></a>
 				</li>
                 <?php endforeach;wp_reset_postdata(); ?>
-                <?php $testimonials = soc_get_testimonial_category(); ?>
+				<?php $testimonials = soc_get_testimonial_category(); ?>
+			</div>	
 		</ul>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<article  id="testimonial-<?php the_ID(); ?>" <?php post_class(); ?>>
