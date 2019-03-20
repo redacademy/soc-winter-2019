@@ -20,7 +20,10 @@ get_header(); ?>
 
 		<div class="blog-loop">
 	        <ul class="mobile-slide">
-                <?php wp_list_categories('title_li=') ?>
+                <h1 class="banner-text-desktop">Blog</h1>
+                <div class="banner-box">
+                    <?php wp_list_categories('title_li=') ?>
+                </div>    
             </ul>
 		</div>
         <div class="blog-content-area">

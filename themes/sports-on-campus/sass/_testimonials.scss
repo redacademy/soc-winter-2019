@@ -70,6 +70,15 @@
     }
 
   }
+
+  .blog .mobile-slide, .archive .mobile-slide{
+    background-image: url(../../Icons/blog-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+  }
   .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide{
     background-image: url(../../Icons/field-test.png);
     background-repeat: no-repeat;
@@ -80,13 +89,6 @@
     flex-direction: column;
   }
 
-  .blog .mobile-slide, .archive .mobile-slide{
-    background-image: url(../../Icons/blog-header.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-  }
 
   .slide-list{
     flex-direction: row;
@@ -96,5 +98,45 @@
   .banner-box{
     display:flex;
     justify-content: center;
+  }
+
+  .page-template-archive-testimonial, .tax-testimonial_category{
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    .test-image{
+      margin-left: 10em;
+    }
+    article{
+      display:flex;
+      margin: auto;
+      margin-bottom: 8em;
+    }
+    .wp-block-quote p{
+      font-size: 21px;
+    }
+
+    .sample-picture{
+     height: 17em;
+    }
+    .test-cluster{
+      text-align:left;
+      h1{
+        font-size: 22px;
+        margin-bottom:0;
+      }
+      .test-position, .test-uni{
+        color:gray;
+      }
+    }
+  }
+  .tax-testimonial_category .test-block i,.page-template-archive-testimonial .test-block i{
+    padding-left:0;
+  }
+
+  .test-image{
+    margin-right: 3em;
+
   }
 }
