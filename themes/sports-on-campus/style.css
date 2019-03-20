@@ -456,8 +456,9 @@ input[type='password'],
 input[type='search'],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px; }
+  border: 1px solid #00237A;
+  border-radius: 3px;
+  height: 40px; }
   input[type='text']:focus,
   input[type='email']:focus,
   input[type='number']:focus,
@@ -1598,13 +1599,27 @@ select.minimal {
   background-repeat: no-repeat !important; }
 
 @media (min-width: 1080px) {
-  .page-template-default .entry-content {
-    padding-left: 10rem;
-    padding-right: 10rem; }
-    .page-template-default .entry-content p {
+  .page-id-25 .entry-content {
+    padding-left: 8rem;
+    padding-right: 8rem; }
+    .page-id-25 .entry-content p {
       text-align: left;
-      margin-bottom: 3rem;
-      margin-top: 3rem; }
-  .page-template-default .wpcf7 {
+      margin-top: 3rem;
+      font-size: 18px; }
+  .page-id-25 .wpcf7 {
     max-width: 500px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .orange-button,
+  button[type=submit],
+  input[type=submit] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: none;
+    color: #fff;
+    background: #ff6b00;
+    padding: 20px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 50px;
+    letter-spacing: 1px; } }
