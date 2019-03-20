@@ -1682,11 +1682,9 @@ button[type='submit'] {
       padding-left: 3em; }
     .mobile-slide li {
       width: 14em; }
-  .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide {
-    background-image: url(../../Icons/field-test.png);
+  .blog .mobile-slide, .archive .mobile-slide {
+    background-image: url(../../Icons/blog-header.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 2em;
     background-position: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1694,10 +1692,13 @@ button[type='submit'] {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
-  .blog .mobile-slide, .archive .mobile-slide {
-    background-image: url(../../Icons/blog-header.png);
+            flex-direction: column;
+    padding-bottom: 2em; }
+  .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide {
+    background-image: url(../../Icons/field-test.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2em;
     background-position: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1727,18 +1728,29 @@ button[type='submit'] {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+  .page-template-archive-testimonial .test-image, .tax-testimonial_category .test-image {
+    margin-left: 10em; }
   .page-template-archive-testimonial article, .tax-testimonial_category article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: auto;
     margin-bottom: 8em; }
+  .page-template-archive-testimonial .wp-block-quote p, .tax-testimonial_category .wp-block-quote p {
+    font-size: 21px; }
   .page-template-archive-testimonial .sample-picture, .tax-testimonial_category .sample-picture {
     height: 17em; }
   .page-template-archive-testimonial .test-cluster, .tax-testimonial_category .test-cluster {
     text-align: left; }
+    .page-template-archive-testimonial .test-cluster h1, .tax-testimonial_category .test-cluster h1 {
+      font-size: 22px;
+      margin-bottom: 0; }
+    .page-template-archive-testimonial .test-cluster .test-position, .page-template-archive-testimonial .test-cluster .test-uni, .tax-testimonial_category .test-cluster .test-position, .tax-testimonial_category .test-cluster .test-uni {
+      color: gray; }
   .tax-testimonial_category .test-block i, .page-template-archive-testimonial .test-block i {
-    padding-left: 0; } }
+    padding-left: 0; }
+  .test-image {
+    margin-right: 3em; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
