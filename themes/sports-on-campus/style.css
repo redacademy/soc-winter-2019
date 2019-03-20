@@ -1666,6 +1666,9 @@ button[type='submit'] {
   display: flex;
   margin-top: 1em; }
 
+.orange-underline {
+  border-bottom: 5px solid #ff6b00; }
+
 @media (min-width: 1080px) {
   .page-template-archive-testimonial .main-navigation, .tax-testimonial_category .main-navigation, .blog .main-navigation, .archive .main-navigation {
     margin-bottom: 0; }
@@ -1694,6 +1697,8 @@ button[type='submit'] {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 2em; }
+    .blog .mobile-slide .orange-underline, .archive .mobile-slide .orange-underline {
+      border-bottom: none; }
   .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide {
     background-image: url(../../Icons/field-test.png);
     background-repeat: no-repeat;
