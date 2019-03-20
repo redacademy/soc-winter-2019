@@ -97,4 +97,26 @@
     display:flex;
     justify-content: center;
   }
+
+  .page-template-archive-testimonial, .tax-testimonial_category{
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    article{
+      display:flex;
+      margin: auto;
+      margin-bottom: 8em;
+    }
+
+    .sample-picture{
+     height: 17em;
+    }
+    .test-cluster{
+      text-align:left;
+    }
+  }
+  .tax-testimonial_category .test-block i,.page-template-archive-testimonial .test-block i{
+    padding-left:0;
+  }
 }

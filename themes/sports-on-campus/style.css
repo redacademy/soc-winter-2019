@@ -1716,7 +1716,27 @@ button[type='submit'] {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; } }
+            justify-content: center; }
+  .page-template-archive-testimonial .container, .tax-testimonial_category .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .page-template-archive-testimonial article, .tax-testimonial_category article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-bottom: 8em; }
+  .page-template-archive-testimonial .sample-picture, .tax-testimonial_category .sample-picture {
+    height: 17em; }
+  .page-template-archive-testimonial .test-cluster, .tax-testimonial_category .test-cluster {
+    text-align: left; }
+  .tax-testimonial_category .test-block i, .page-template-archive-testimonial .test-block i {
+    padding-left: 0; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
