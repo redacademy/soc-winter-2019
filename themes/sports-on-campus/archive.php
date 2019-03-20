@@ -12,12 +12,14 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+			<div class="blog-loop">
+	        <ul class="mobile-slide">
+                <h1 class="banner-text-desktop">Blog</h1>
+                <div class="banner-box">
+                    <?php wp_list_categories('title_li=') ?>
+                </div>    
+            </ul>
+		</div>
 <div class="container">
 			<?php while ( have_posts() ) : the_post(); ?>
 
