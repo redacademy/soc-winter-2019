@@ -1488,7 +1488,7 @@ button[type='submit'] {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  width: 300px;
+  width: 400px;
   margin: 30px auto; }
   .archive-university-content .drop-down-menu-block p {
     text-align: left;
