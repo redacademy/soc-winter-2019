@@ -1877,7 +1877,9 @@ button[type='submit'] {
 
 @media (min-width: 1080px) {
   .page-template-archive-testimonial .main-navigation, .tax-testimonial_category .main-navigation, .blog .main-navigation, .archive .main-navigation {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    position: absolute;
+    top: 0px; }
   .mobile-slide {
     height: 16em;
     border-bottom: none;
@@ -1891,43 +1893,33 @@ button[type='submit'] {
       padding-left: 3em; }
     .mobile-slide li {
       width: 14em; }
+    .mobile-slide .banner-text-desktop {
+      display: inline; }
+  .mobile-slide .banner-box li {
+    width: 15%; }
   .blog .mobile-slide, .archive .mobile-slide {
     background-image: url(../../Icons/blog-header.png);
     background-repeat: no-repeat;
     background-position: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-bottom: 2em; }
+    padding-top: 4em;
+    margin-top: 5em; }
     .blog .mobile-slide .orange-underline, .archive .mobile-slide .orange-underline {
       border-bottom: none; }
   .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide {
     background-image: url(../../Icons/field-test.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 2em;
+    padding-top: 4em;
     background-position: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    margin-top: 5em; }
   .slide-list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     width: auto; }
-  .banner-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .mobile-slide .banner-box {
+    border-bottom: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
