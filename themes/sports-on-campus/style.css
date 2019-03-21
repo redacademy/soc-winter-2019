@@ -1003,7 +1003,8 @@ button[type='submit'] {
 .page-template-team .ceo-caption {
   padding-top: 30px;
   font-weight: 900;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  padding-bottom: 15px; }
 
 .page-template-team .wp-block-image-top img {
   border-radius: 50%;
@@ -1040,10 +1041,12 @@ button[type='submit'] {
   margin-top: -20px; }
 
 .page-template-team .ceo-fb {
-  padding-right: 5px; }
+  padding-right: 5px;
+  color: darkblue; }
 
 .page-template-team .ceo-li {
-  padding-left: 5px; }
+  padding-left: 5px;
+  color: dodgerblue; }
 
 .page-template-team .about-our-concept {
   background: #003276;
@@ -1057,22 +1060,23 @@ button[type='submit'] {
     padding-left: 45px;
     font-weight: 100; }
 
-.achievement-history p {
-  font-size: 12px;
-  margin: auto;
-  width: 80%;
-  text-align: left;
-  padding-left: 100px; }
-
-.achievement-history h4 {
-  color: #000;
-  font-weight: 400;
-  width: 80%;
-  margin: auto;
-  text-align: left;
-  padding-bottom: 10px;
-  padding-top: 40px;
-  padding-left: 100px; }
+.achievement-history {
+  padding-top: 40px; }
+  .achievement-history p {
+    font-size: 12px;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    padding-left: 100px; }
+  .achievement-history h4 {
+    color: #000;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 100px; }
 
 /* Single University Page */
 .university-template-default .uni-prerequisites {
@@ -1322,13 +1326,7 @@ button[type='submit'] {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
-<<<<<<< HEAD
-  .heading-university,
-  .page-template-team h2,
-  .page h2 {
-=======
   .heading-university, .page-template-team h2 {
->>>>>>> 7ad2edd1d171a7180508b915655da0b42ed2e032
     font-size: 2rem;
     padding-top: 1em; } }
 
