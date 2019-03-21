@@ -1014,10 +1014,10 @@ button[type='submit'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 10em;
   -ms-flex-pack: justify;
   -webkit-box-pack: justify;
           justify-content: space-between;
-  padding-right: 11em;
   padding-top: 20px;
   padding-bottom: 30px;
   list-style: none;
@@ -1124,11 +1124,17 @@ button[type='submit'] {
   font-weight: 300;
   background-color: #ff6b00;
   border-radius: 23px;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
+<<<<<<< HEAD
   padding-top: 0.7em;
   height: 3em;
   width: 47%;
+=======
+  padding-top: .8em;
+  height: 3.5em;
+  width: 58%;
+>>>>>>> f19ab607b266f415eaf03e4b80ab2119a1e55445
   margin-right: 19em; }
 
 .post-63 .wp-link-button__link {
@@ -1738,7 +1744,8 @@ button[type='submit'] {
     text-align: left; }
   .events-area .event-location {
     color: #00237A;
-    text-align: left; }
+    text-align: left;
+    font-weight: 500; }
 
 .page-template-archive-event article {
   padding-top: 1em; }

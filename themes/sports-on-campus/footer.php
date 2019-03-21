@@ -10,6 +10,9 @@
 			</div><!-- #content -->
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
+			<?php wp_nav_menu( array( 'theme_location' => 'desktop-menu-two', 'container_class' => 'desktop-menu-two' ) ); ?>
+			<h4>Copyright 2019</h4>
+					<div class="nav-dropdown">
 				<div class="site-info">
 					<img src=<?php echo get_template_directory_uri() . '/icons/twitter-footer.svg'?>>
 					<img src=<?php echo get_template_directory_uri() . '/icons/facebook-footer.svg'?>>
