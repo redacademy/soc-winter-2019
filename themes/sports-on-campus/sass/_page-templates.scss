@@ -22,10 +22,16 @@ button[type='submit'] {
   font-size: 18px;
   border-radius: 15px;
   font-weight: 300;
-  margin-left: 50px;
 }
 /* Our Team page */
 .page-template-team {
+  .quote {
+    margin-top: -20px;
+    color: #ff6b00;
+    text-align: left;
+    padding-left: 40px;
+    position: absolute;
+  }
   .entry-content {
     text-align: center;
   }
@@ -53,6 +59,8 @@ button[type='submit'] {
   }
   .ceo-caption {
     padding-top: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
   }
   .wp-block-image-top {
     img {
@@ -84,7 +92,7 @@ button[type='submit'] {
   }
   .about-our-concept {
     background: #003276;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 40px;
 
     h2 {
@@ -165,11 +173,13 @@ button[type='submit'] {
     display: block;
     color: #ff6b00;
   }
+
   .entry-content {
     background: #003276;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
+    padding-bottom: 30px;
     p {
       color: white;
       font-weight: 100;
@@ -251,7 +261,7 @@ button[type='submit'] {
 
 /* Join Us Page */
 
-.page-id-29 {
+.page-template-default {
   .entry-title {
     display: none;
   }
@@ -294,6 +304,24 @@ button[type='submit'] {
   }
   .ur-frontend-form {
     border: none;
+  }
+  .or {
+    &::before {
+      width: 20px;
+      border-top: 1px solid black;
+    }
+    &::after {
+      width: 20px;
+      border-top: 1px solid black;
+    }
+    padding-bottom: 40px;
+  }
+}
+.team-social {
+  display: flex;
+  justify-content: center;
+  p {
+    display: none;
   }
 }
 

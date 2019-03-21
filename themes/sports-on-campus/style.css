@@ -917,10 +917,16 @@ button[type='submit'] {
   padding: 10px 40px 10px 40px;
   font-size: 18px;
   border-radius: 15px;
-  font-weight: 300;
-  margin-left: 50px; }
+  font-weight: 300; }
 
 /* Our Team page */
+.page-template-team .quote {
+  margin-top: -20px;
+  color: #ff6b00;
+  text-align: left;
+  padding-left: 40px;
+  position: absolute; }
+
 .page-template-team .entry-content {
   text-align: center; }
 
@@ -949,7 +955,9 @@ button[type='submit'] {
   padding-left: 45px; }
 
 .page-template-team .ceo-caption {
-  padding-top: 30px; }
+  padding-top: 30px;
+  font-weight: 900;
+  letter-spacing: 1px; }
 
 .page-template-team .wp-block-image-top img {
   border-radius: 50%;
@@ -977,7 +985,7 @@ button[type='submit'] {
 
 .page-template-team .about-our-concept {
   background: #003276;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px; }
   .page-template-team .about-our-concept h2 {
     color: white; }
@@ -1055,7 +1063,8 @@ button[type='submit'] {
   background: #003276;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 40px; }
+  padding-top: 40px;
+  padding-bottom: 30px; }
   .university-template-default .entry-content p {
     color: white;
     font-weight: 100;
@@ -1129,22 +1138,22 @@ button[type='submit'] {
   background: white; }
 
 /* Join Us Page */
-.page-id-29 .entry-title {
+.page-template-default .entry-title {
   display: none; }
 
-.page-id-29 .entry-content p {
+.page-template-default .entry-content p {
   padding-left: 40px;
   padding-right: 40px;
   margin-top: 2em; }
 
-.page-id-29 h4 {
+.page-template-default h4 {
   color: black;
   font-weight: 900;
   padding-right: 40px;
   padding-top: 50px;
   padding-left: 40px; }
 
-.page-id-29 .button {
+.page-template-default .button {
   background: #ff6b00;
   color: white;
   border-radius: 12px;
@@ -1152,7 +1161,7 @@ button[type='submit'] {
   letter-spacing: 2px;
   font-weight: 300; }
 
-.page-id-29 .wp-block-button__link {
+.page-template-default .wp-block-button__link {
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #003276;
@@ -1161,13 +1170,32 @@ button[type='submit'] {
   margin: 0;
   padding: 2px 40px; }
 
-.page-id-29 .ur-frontend-form {
+.page-template-default .ur-frontend-form {
   padding: none; }
-  .page-id-29 .ur-frontend-form button {
+  .page-template-default .ur-frontend-form button {
     float: none; }
 
-.page-id-29 .ur-frontend-form {
+.page-template-default .ur-frontend-form {
   border: none; }
+
+.page-template-default .or {
+  padding-bottom: 40px; }
+  .page-template-default .or::before {
+    width: 20px;
+    border-top: 1px solid black; }
+  .page-template-default .or::after {
+    width: 20px;
+    border-top: 1px solid black; }
+
+.team-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .team-social p {
+    display: none; }
 
 /* Archive */
 /* Single Blog Post */
@@ -1937,41 +1965,73 @@ select.minimal {
   background-size: 5px 5px, 5px 5px, 1px 1.5em !important;
   background-repeat: no-repeat !important; }
 
-@media (min-width: 1080px) {
-  .page-id-25 .entry-content {
-    padding-left: 8rem;
-    padding-right: 8rem; }
-    .page-id-25 .entry-content label {
-      color: #404040;
-      font-weight: 300;
-      font-size: 15px; }
-    .page-id-25 .entry-content .question {
-      max-width: 900px;
-      margin: 0 auto;
-      font-size: 20px; }
-    .page-id-25 .entry-content p {
-      text-align: left;
-      margin-top: 3rem;
-      font-size: 18px; }
-  .page-id-25 .wpcf7 {
-    max-width: 500px;
-    margin: 0 auto; }
-  .page-id-25 .entry-title {
-    padding-bottom: 3rem; }
-  .orange-button,
-  button[type=submit],
-  input[type=submit] {
+.page-id-25 .entry-title {
+  padding-top: 3rem;
+  padding-bottom: 2rem; }
+
+.page-id-25 .entry-content {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 3rem; }
+  .page-id-25 .entry-content p {
+    text-align: left;
+    font-size: 14px; }
+  .page-id-25 .entry-content .submit-button {
+    text-align: center; }
+  .page-id-25 .entry-content label {
+    margin: 0; }
+  .page-id-25 .entry-content .orange-button,
+  .page-id-25 .entry-content button[type=submit],
+  .page-id-25 .entry-content input[type=submit] {
     -webkit-box-shadow: none;
             box-shadow: none;
     border: none;
     color: #fff;
     background: #ff6b00;
-    padding: 20px 50px;
-    font-size: 18px;
-    border-radius: 5px;
-    font-weight: 500;
+    padding: 8px 55px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 300;
     margin-left: 50px;
-    letter-spacing: 1px; } }
+    letter-spacing: 1px; }
+
+@media (min-width: 1080px) {
+  .page-id-25 .entry-title {
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    margin-top: 3rem; }
+  .page-id-25 .entry-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 20px; }
+    .page-id-25 .entry-content .orange-button,
+    .page-id-25 .entry-content button[type=submit],
+    .page-id-25 .entry-content input[type=submit] {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      border: none;
+      color: #fff;
+      background: #ff6b00;
+      padding: 20px 60px;
+      font-size: 18px;
+      border-radius: 5px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin-left: 0; }
+    .page-id-25 .entry-content .submit-button {
+      text-align: left;
+      margin-top: 0; }
+    .page-id-25 .entry-content label {
+      color: #404040;
+      font-weight: 300;
+      font-size: 15px; }
+    .page-id-25 .entry-content p {
+      text-align: left;
+      margin-top: 3rem;
+      font-size: 22px; }
+  .page-id-25 .wpcf7 {
+    max-width: 500px;
+    margin: 0 auto; } }
 
 @media (min-width: 1080px) {
   .page-id-27 h1 {
