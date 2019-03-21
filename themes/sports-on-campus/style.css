@@ -1297,7 +1297,7 @@ button[type='submit'] {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
-  .heading-university, .page-template-team h2, .page h2 {
+  .heading-university, .page-template-team h2 {
     font-size: 2rem;
     padding-top: 1em; } }
 
@@ -1826,6 +1826,11 @@ button[type='submit'] {
 
 .page-template-archive-university .type-university {
   margin-bottom: 4rem; }
+
+@media (min-width: 1080px) {
+  .university-template-default .entry-content, .university-template-default .uni-prerequisites {
+    padding-left: 12em;
+    padding-right: 12em; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,

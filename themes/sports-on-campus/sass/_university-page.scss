@@ -30,4 +30,12 @@
       margin-bottom: 4rem;
     }
   }
+
+
+  @include desktop{
+    .university-template-default .entry-content, .university-template-default .uni-prerequisites {
+      padding-left:12em;
+      padding-right:12em;
+    }
+  }
   
