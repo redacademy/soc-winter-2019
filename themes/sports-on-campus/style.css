@@ -491,7 +491,7 @@ form p label {
 --------------------------------------------------------------*/
 /* Links */
 .desktop-menu,
-.desktop-menu-two, .banner-text-desktop {
+.desktop-menu-two, .banner-text-desktop, h5, .footer-menu {
   display: none; }
 
 a {
@@ -719,7 +719,51 @@ a {
   .home .main-navigation {
     border: none; }
   .menu-item-has-children {
-    width: 4em; } }
+    width: 4em; }
+  .site-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #E8E8E8;
+    height: 6em;
+    margin-top: 1em; }
+    .site-footer .site-info {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0;
+      height: auto; }
+      .site-footer .site-info img {
+        padding: 1em; }
+    .site-footer h5 {
+      display: inline;
+      margin-right: 18.5em;
+      font-size: 15px;
+      font-weight: 500;
+      padding-top: .5em;
+      color: #505050; }
+    .site-footer .nav-dropdown {
+      padding-right: 2em;
+      padding-top: 1em; }
+  .footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2em;
+    padding-left: 2em; }
+    .footer-menu .menu {
+      list-style-type: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 0;
+      padding-left: 0; }
+      .footer-menu .menu a {
+        text-decoration: none;
+        padding: 1em;
+        color: #505050; } }
 
 /*--------------------------------------------------------------
 # Accessibility
