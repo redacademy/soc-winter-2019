@@ -15,6 +15,11 @@
 }
 }
 
+.testimonial .wp-block-quote.is-style-large{
+  padding:0;
+  margin:0;
+  margin-bottom:2em;
+}
 
 .mobile-slide {
   padding-left:0;
@@ -122,12 +127,14 @@
     .container{
       display: flex;
       flex-direction: column;
+      margin-top: 4em;
     }
     .test-image{
       margin-left: 10em;
     }
     article{
       display:flex;
+      margin-top: 2em;
       margin: auto;
       margin-bottom: 8em;
     }
@@ -156,6 +163,14 @@
   .test-image{
     margin-right: 3em;
 
+  }
+
+  .testimonial .wp-block-quote.is-style-large{
+    margin-left:1em;
+  }
+
+  .test-block{
+    margin-top: 2em;
   }
 
 }

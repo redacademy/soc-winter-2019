@@ -292,9 +292,6 @@ button[type='submit'] {
       display: none;
     }
   }
-  .entry-title {
-    display: none;
-  }
   .entry-content {
     p {
       padding-left: 40px;
@@ -406,6 +403,7 @@ button[type='submit'] {
   padding: 5px 40px;
 }
 
+<<<<<<< HEAD
 
 @include desktop{
 
@@ -414,4 +412,13 @@ button[type='submit'] {
 		padding-top: 1em;
 	}
 
+=======
+@include desktop {
+  .heading-university,
+  .page-template-team h2,
+  .page h2 {
+    font-size: 2rem;
+    padding-top: 1em;
+  }
+>>>>>>> 4e00a1d96006ba8592909e2be44db209ee53d86b
 }

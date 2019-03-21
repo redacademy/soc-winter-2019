@@ -1220,9 +1220,6 @@ button[type='submit'] {
   .page-template-default .team-icons p {
     display: none; }
 
-.page-template-default .entry-title {
-  display: none; }
-
 .page-template-default .entry-content p {
   padding-left: 40px;
   padding-right: 40px;
@@ -1326,7 +1323,13 @@ button[type='submit'] {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
+<<<<<<< HEAD
   .heading-university, .page-template-team h2 {
+=======
+  .heading-university,
+  .page-template-team h2,
+  .page h2 {
+>>>>>>> 4e00a1d96006ba8592909e2be44db209ee53d86b
     font-size: 2rem;
     padding-top: 1em; } }
 
@@ -1859,7 +1862,19 @@ button[type='submit'] {
 @media (min-width: 1080px) {
   .university-template-default .entry-content, .university-template-default .uni-prerequisites {
     padding-left: 12em;
-    padding-right: 12em; } }
+    padding-right: 12em; }
+  .university-template-default .entry-content {
+    border-bottom-left-radius: 240vw;
+    border-bottom-right-radius: 240vw;
+    height: 60em; }
+  .uni-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
@@ -1875,6 +1890,11 @@ button[type='submit'] {
   width: 14%;
   color: #ff6b00;
   padding-left: 4em; }
+
+.testimonial .wp-block-quote.is-style-large {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2em; }
 
 .mobile-slide {
   padding-left: 0;
@@ -1972,13 +1992,15 @@ button[type='submit'] {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    margin-top: 4em; }
   .page-template-archive-testimonial .test-image, .tax-testimonial_category .test-image {
     margin-left: 10em; }
   .page-template-archive-testimonial article, .tax-testimonial_category article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 2em;
     margin: auto;
     margin-bottom: 8em; }
   .page-template-archive-testimonial .wp-block-quote p, .tax-testimonial_category .wp-block-quote p {
@@ -1995,7 +2017,11 @@ button[type='submit'] {
   .tax-testimonial_category .test-block i, .page-template-archive-testimonial .test-block i {
     padding-left: 0; }
   .test-image {
-    margin-right: 3em; } }
+    margin-right: 3em; }
+  .testimonial .wp-block-quote.is-style-large {
+    margin-left: 1em; }
+  .test-block {
+    margin-top: 2em; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
@@ -2072,9 +2098,9 @@ select.minimal {
 
 @media (min-width: 1080px) {
   .page-id-25 .entry-title {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     text-transform: uppercase;
-    margin-top: 3rem; }
+    padding-top: 7rem; }
   .page-id-25 .entry-content {
     max-width: 900px;
     margin: 0 auto;
