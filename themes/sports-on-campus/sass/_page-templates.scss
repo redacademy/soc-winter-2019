@@ -108,12 +108,20 @@ button[type='submit'] {
 .achievement-history {
   p {
     font-size: 12px;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    padding-left: 100px;
   }
   h4 {
     color: #000;
     font-weight: 400;
+    width: 80%;
+    margin: auto;
     text-align: left;
-    padding-left: 150px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 100px;
   }
 }
 /* Single University Page */
@@ -245,14 +253,12 @@ button[type='submit'] {
     font-size: 13px;
     margin: 0;
 <<<<<<< HEAD
-    padding-top: 0.7em;
-    height: 3em;
-    width: 47%;
+    padding-top: 0.8em;
 =======
     padding-top: .8em;
+>>>>>>> b9a2a6643c01cad8d9328d0acf55867f472a0458
     height: 3.5em;
     width: 58%;
->>>>>>> f19ab607b266f415eaf03e4b80ab2119a1e55445
     margin-right: 19em;
   }
 }
@@ -265,6 +271,14 @@ button[type='submit'] {
 /* Join Us Page */
 
 .page-template-default {
+  .team-icons {
+    display: flex;
+    justify-content: center;
+    p {
+      display: none;
+    }
+  }
+
   .entry-title {
     display: none;
   }
@@ -318,13 +332,6 @@ button[type='submit'] {
       border-top: 1px solid black;
     }
     padding-bottom: 40px;
-  }
-}
-.team-social {
-  display: flex;
-  justify-content: center;
-  p {
-    display: none;
   }
 }
 
@@ -384,4 +391,14 @@ button[type='submit'] {
 }
 .wp-block-button__link {
   padding: 5px 40px;
+}
+
+
+@include desktop{
+
+	.heading-university, .page-template-team h2{
+		font-size: 2rem;
+		padding-top: 1em;
+	}
+
 }

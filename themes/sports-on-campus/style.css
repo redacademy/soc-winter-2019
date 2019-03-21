@@ -491,7 +491,7 @@ form p label {
 --------------------------------------------------------------*/
 /* Links */
 .desktop-menu,
-.desktop-menu-two, .banner-text-desktop {
+.desktop-menu-two, .banner-text-desktop, h5, .footer-menu {
   display: none; }
 
 a {
@@ -593,6 +593,7 @@ a {
   .main-navigation .front-logo {
     background-image: url(../../sport-on-campus-logo.png);
     height: 50px;
+    margin-right: 2em;
     width: 75px;
     background-size: contain;
     background-repeat: no-repeat; }
@@ -688,7 +689,8 @@ a {
       width: 106px;
       height: 63px;
       background-position: center;
-      padding-left: 10em; }
+      padding-left: 10em;
+      margin-right: 0; }
     .site-header .main-navigation a {
       padding-top: .5em; }
     .site-header .main-navigation .desktop-menu, .site-header .main-navigation .desktop-menu-two {
@@ -719,7 +721,51 @@ a {
   .home .main-navigation {
     border: none; }
   .menu-item-has-children {
-    width: 4em; } }
+    width: 4em; }
+  .site-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #E8E8E8;
+    height: 6em;
+    margin-top: 1em; }
+    .site-footer .site-info {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0;
+      height: auto; }
+      .site-footer .site-info img {
+        padding: 1em; }
+    .site-footer h5 {
+      display: inline;
+      margin-right: 18.5em;
+      font-size: 15px;
+      font-weight: 500;
+      padding-top: .5em;
+      color: #505050; }
+    .site-footer .nav-dropdown {
+      padding-right: 2em;
+      padding-top: 1em; }
+  .footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2em;
+    padding-left: 2em; }
+    .footer-menu .menu {
+      list-style-type: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 0;
+      padding-left: 0; }
+      .footer-menu .menu a {
+        text-decoration: none;
+        padding: 1em;
+        color: #505050; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -995,13 +1041,21 @@ button[type='submit'] {
     font-weight: 100; }
 
 .achievement-history p {
-  font-size: 12px; }
+  font-size: 12px;
+  margin: auto;
+  width: 80%;
+  text-align: left;
+  padding-left: 100px; }
 
 .achievement-history h4 {
   color: #000;
   font-weight: 400;
+  width: 80%;
+  margin: auto;
   text-align: left;
-  padding-left: 150px; }
+  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-left: 100px; }
 
 /* Single University Page */
 .university-template-default .uni-prerequisites {
@@ -1127,20 +1181,28 @@ button[type='submit'] {
   font-size: 13px;
   margin: 0;
 <<<<<<< HEAD
-  padding-top: 0.7em;
-  height: 3em;
-  width: 47%;
+  padding-top: 0.8em;
 =======
   padding-top: .8em;
+>>>>>>> b9a2a6643c01cad8d9328d0acf55867f472a0458
   height: 3.5em;
   width: 58%;
->>>>>>> f19ab607b266f415eaf03e4b80ab2119a1e55445
   margin-right: 19em; }
 
 .post-63 .wp-link-button__link {
   background: white; }
 
 /* Join Us Page */
+.page-template-default .team-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .page-template-default .team-icons p {
+    display: none; }
+
 .page-template-default .entry-title {
   display: none; }
 
@@ -1189,16 +1251,6 @@ button[type='submit'] {
   .page-template-default .or::after {
     width: 20px;
     border-top: 1px solid black; }
-
-.team-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .team-social p {
-    display: none; }
 
 /* Archive */
 /* Single Blog Post */
@@ -1255,6 +1307,11 @@ button[type='submit'] {
 
 .wp-block-button__link {
   padding: 5px 40px; }
+
+@media (min-width: 1080px) {
+  .heading-university, .page-template-team h2 {
+    font-size: 2rem;
+    padding-top: 1em; } }
 
 /* Front page */
 .top-heading {
@@ -1787,6 +1844,11 @@ button[type='submit'] {
 .page-template-archive-university .type-university {
   margin-bottom: 4rem; }
 
+@media (min-width: 1080px) {
+  .university-template-default .entry-content, .university-template-default .uni-prerequisites {
+    padding-left: 12em;
+    padding-right: 12em; } }
+
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
 .home .wp-block-quote p {
@@ -1844,7 +1906,9 @@ button[type='submit'] {
 
 @media (min-width: 1080px) {
   .page-template-archive-testimonial .main-navigation, .tax-testimonial_category .main-navigation, .blog .main-navigation, .archive .main-navigation {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    position: absolute;
+    top: 0px; }
   .mobile-slide {
     height: 16em;
     border-bottom: none;
@@ -1858,46 +1922,37 @@ button[type='submit'] {
       padding-left: 3em; }
     .mobile-slide li {
       width: 14em; }
+    .mobile-slide .banner-text-desktop {
+      display: inline; }
+  .mobile-slide .banner-box li {
+    width: 15%; }
   .blog .mobile-slide, .archive .mobile-slide {
     background-image: url(../../Icons/blog-header.png);
     background-repeat: no-repeat;
     background-position: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-bottom: 2em; }
+    padding-top: 4em;
+    margin-top: 5em; }
     .blog .mobile-slide .orange-underline, .archive .mobile-slide .orange-underline {
       border-bottom: none; }
   .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide {
     background-image: url(../../Icons/field-test.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 2em;
+    padding-top: 4em;
     background-position: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    margin-top: 5em; }
   .slide-list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     width: auto; }
-  .banner-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .mobile-slide .banner-box {
+    border-bottom: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    margin-top: 2em; }
   .page-template-archive-testimonial .container, .tax-testimonial_category .container {
     display: -webkit-box;
     display: -ms-flexbox;
