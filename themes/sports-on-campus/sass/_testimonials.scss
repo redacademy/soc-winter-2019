@@ -59,6 +59,8 @@
   .page-template-archive-testimonial, .tax-testimonial_category, .blog, .archive{
     .main-navigation{
       margin-bottom:0;
+      position: absolute;
+      top: 0px;
     }
   }
   .mobile-slide{
@@ -76,16 +78,21 @@
     li{
       width: 14em;
     }
+    .banner-text-desktop{
+      display:inline;
+    }
 
+  }
+  .mobile-slide .banner-box li{
+    width:15%;
   }
 
   .blog .mobile-slide, .archive .mobile-slide{
     background-image: url(../../Icons/blog-header.png);
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 2em;
+    padding-top: 4em;
+    margin-top: 5em;
     .orange-underline{
       border-bottom:none;
     }
@@ -94,10 +101,9 @@
     background-image: url(../../Icons/field-test.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 2em;
+    padding-top: 4em;
     background-position: center;
-    display: flex;
-    flex-direction: column;
+    margin-top: 5em;
   }
 
 
@@ -106,9 +112,10 @@
     width:auto;
   }
 
-  .banner-box{
-    display:flex;
+  .mobile-slide .banner-box{
+    border-bottom:none;
     justify-content: center;
+    margin-top: 2em;
   }
 
   .page-template-archive-testimonial, .tax-testimonial_category{

@@ -252,7 +252,11 @@ button[type='submit'] {
     border-radius: 23px;
     font-size: 13px;
     margin: 0;
+<<<<<<< HEAD
     padding-top: 0.8em;
+=======
+    padding-top: .8em;
+>>>>>>> b9a2a6643c01cad8d9328d0acf55867f472a0458
     height: 3.5em;
     width: 58%;
     margin-right: 19em;
@@ -387,4 +391,14 @@ button[type='submit'] {
 }
 .wp-block-button__link {
   padding: 5px 40px;
+}
+
+
+@include desktop{
+
+	.heading-university, .page-template-team h2, .page h2 {
+		font-size: 2rem;
+		padding-top: 1em;
+	}
+
 }

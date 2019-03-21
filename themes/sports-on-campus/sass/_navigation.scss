@@ -4,7 +4,7 @@
 
 /* Links */
 .desktop-menu,
-.desktop-menu-two, .banner-text-desktop {
+.desktop-menu-two, .banner-text-desktop, h5, .footer-menu {
   display: none;
 }
 
@@ -149,7 +149,8 @@ a {
 
   .front-logo {
     background-image: url(../../sport-on-campus-logo.png);
-    height: 50px;
+	height: 50px;
+	margin-right: 2em;
     width: 75px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -268,6 +269,7 @@ a {
 			height: 63px;
 			background-position: center;
 			padding-left: 10em;
+			margin-right:0;
 		}
 
 		a{
@@ -302,15 +304,64 @@ a {
 			}
 			}
 		
-	}
-	}
-	.home .main-navigation{
-		border:none;
-	}
+			}
+			}
+			.home .main-navigation{
+			border:none;
+			}
 		.menu-item-has-children{
 			width:4em;
 		}
-	
+
+		//footer styling
+		.site-footer{
+			display:flex;
+			justify-content: space-between;
+			background-color:#E8E8E8;
+			height: 6em;
+			margin-top: 1em;
+			.site-info{
+				border-top:none;
+				padding-top:0;
+				margin-top:0;
+				height:auto;
+				img{
+					padding:1em;
+				}
+				
+			}
+			h5{
+				display:inline;
+				margin-right: 18.5em;
+				font-size: 15px;
+				font-weight:500;
+				padding-top: .5em;
+				color: #505050;
+			}
+			.nav-dropdown{
+				padding-right: 2em;
+				padding-top: 1em;
+			}
+		}
+		.footer-menu{
+			display:flex;
+			padding-top: 2em;
+			padding-left: 2em;
+			
+			.menu{
+				list-style-type: none;
+				display:flex;
+				margin-left:0;
+				padding-left:0;
+			
+			a{
+				text-decoration:none;
+				padding:1em;
+				color: #505050;
+			}
+		}
 	}
+	
+}
 	
 
