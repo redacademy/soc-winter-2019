@@ -1216,9 +1216,6 @@ button[type='submit'] {
   .page-template-default .team-icons p {
     display: none; }
 
-.page-template-default .entry-title {
-  display: none; }
-
 .page-template-default .entry-content p {
   padding-left: 40px;
   padding-right: 40px;
@@ -1322,13 +1319,7 @@ button[type='submit'] {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
-<<<<<<< HEAD
-  .heading-university,
-  .page-template-team h2,
-  .page h2 {
-=======
   .heading-university, .page-template-team h2 {
->>>>>>> 7ad2edd1d171a7180508b915655da0b42ed2e032
     font-size: 2rem;
     padding-top: 1em; } }
 
@@ -2074,9 +2065,9 @@ select.minimal {
 
 @media (min-width: 1080px) {
   .page-id-25 .entry-title {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     text-transform: uppercase;
-    margin-top: 3rem; }
+    padding-top: 7rem; }
   .page-id-25 .entry-content {
     max-width: 900px;
     margin: 0 auto;
