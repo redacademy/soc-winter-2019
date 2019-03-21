@@ -37,19 +37,34 @@
       padding-left:12em;
       padding-right:12em;
     }
-    .university-template-default .entry-content{
+    .university-template-default{
+
+     .entry-content{
       border-bottom-left-radius: 240vw;
       border-bottom-right-radius: 240vw;
       height:60em;
     }
+    .sport-list {
+      width: 500px;
+    }
+    .wp-block-button__link{
+      padding-top: 0.8em;
+      width: 101%;
+      border-radius: 19px;
+      margin-top: 1.5em;
+      margin-right:0;
+    }
+  }
 
     .uni-block{
       display:flex;
       flex-direction: row-reverse;
+      width: 100%;
+      justify-content: space-between;
     }
 
-    .sport-list li{
-      // padding-left:2em;
+    .university-template-default .entry-title{
+      text-align: center;
+      width: 100%;
     }
   }
-  

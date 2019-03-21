@@ -1859,6 +1859,14 @@ button[type='submit'] {
     border-bottom-left-radius: 240vw;
     border-bottom-right-radius: 240vw;
     height: 60em; }
+  .university-template-default .sport-list {
+    width: 500px; }
+  .university-template-default .wp-block-button__link {
+    padding-top: 0.8em;
+    width: 101%;
+    border-radius: 19px;
+    margin-top: 1.5em;
+    margin-right: 0; }
   .uni-block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1866,7 +1874,14 @@ button[type='submit'] {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse; } }
+            flex-direction: row-reverse;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .university-template-default .entry-title {
+    text-align: center;
+    width: 100%; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
