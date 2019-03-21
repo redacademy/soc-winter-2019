@@ -965,11 +965,11 @@ button[type='submit'] {
 
 /* Our Team page */
 .page-template-team .quote {
-  margin-top: -20px;
   color: #ff6b00;
   text-align: left;
-  padding-left: 40px;
-  position: absolute; }
+  padding-left: 60px;
+  position: absolute;
+  margin-top: 3px; }
 
 .page-template-team .entry-content {
   text-align: center; }
@@ -995,8 +995,7 @@ button[type='submit'] {
   display: none; }
 
 .page-template-team .ceo p {
-  padding-right: 45px;
-  padding-left: 45px; }
+  text-align: left; }
 
 .page-template-team .ceo-caption {
   padding-top: 30px;
@@ -1039,16 +1038,14 @@ button[type='submit'] {
     padding-left: 45px;
     font-weight: 100; }
 
-.achievement-history {
-  padding-left: 90px;
-  padding-right: 50px; }
-  .achievement-history p {
-    font-size: 12px;
-    padding-right: 55px;
-    padding-left: 90px; }
-  .achievement-history h4 {
-    color: black;
-    font-weight: 300; }
+.achievement-history p {
+  font-size: 12px; }
+
+.achievement-history h4 {
+  color: #000;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 150px; }
 
 /* Single University Page */
 .university-template-default .uni-prerequisites {
@@ -1173,9 +1170,15 @@ button[type='submit'] {
   border-radius: 23px;
   font-size: 13px;
   margin: 0;
+<<<<<<< HEAD
+  padding-top: 0.7em;
+  height: 3em;
+  width: 47%;
+=======
   padding-top: .8em;
   height: 3.5em;
   width: 58%;
+>>>>>>> f19ab607b266f415eaf03e4b80ab2119a1e55445
   margin-right: 19em; }
 
 .post-63 .wp-link-button__link {
