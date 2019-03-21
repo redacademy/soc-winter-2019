@@ -971,7 +971,7 @@ button[type='submit'] {
   text-align: left;
   padding-left: 60px;
   position: absolute;
-  margin-top: 3px; }
+  margin-top: 2px; }
 
 .page-template-team .entry-content {
   text-align: center; }
@@ -997,7 +997,8 @@ button[type='submit'] {
   display: none; }
 
 .page-template-team .ceo p {
-  text-align: left; }
+  padding-right: 45px;
+  padding-left: 45px; }
 
 .page-template-team .ceo-caption {
   padding-top: 30px;
@@ -1023,10 +1024,26 @@ button[type='submit'] {
 .page-template-team .wp-block-quote {
   font-style: italic;
   padding-bottom: 20px;
-  font-size: 15px; }
+  font-size: 15px;
+  padding-top: 10px; }
 
 .page-template-team .orange-story {
   color: #ff6b00; }
+
+.page-template-team .team-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -20px; }
+
+.page-template-team .ceo-fb {
+  padding-right: 5px; }
+
+.page-template-team .ceo-li {
+  padding-left: 5px; }
 
 .page-template-team .about-our-concept {
   background: #003276;
@@ -1180,11 +1197,7 @@ button[type='submit'] {
   border-radius: 23px;
   font-size: 13px;
   margin: 0;
-<<<<<<< HEAD
   padding-top: 0.8em;
-=======
-  padding-top: .8em;
->>>>>>> b9a2a6643c01cad8d9328d0acf55867f472a0458
   height: 3.5em;
   width: 58%;
   margin-right: 19em; }
@@ -1309,7 +1322,9 @@ button[type='submit'] {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
-  .heading-university, .page-template-team h2, .page h2 {
+  .heading-university,
+  .page-template-team h2,
+  .page h2 {
     font-size: 2rem;
     padding-top: 1em; } }
 
