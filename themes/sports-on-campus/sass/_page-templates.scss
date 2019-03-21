@@ -379,3 +379,13 @@ button[type='submit'] {
 .wp-block-button__link {
   padding: 5px 40px;
 }
+
+
+@include desktop{
+
+	.heading-university, .page-template-team h2, .page h2 {
+		font-size: 2rem;
+		padding-top: 1em;
+	}
+
+}

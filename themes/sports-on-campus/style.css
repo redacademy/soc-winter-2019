@@ -593,6 +593,7 @@ a {
   .main-navigation .front-logo {
     background-image: url(../../sport-on-campus-logo.png);
     height: 50px;
+    margin-right: 2em;
     width: 75px;
     background-size: contain;
     background-repeat: no-repeat; }
@@ -688,7 +689,8 @@ a {
       width: 106px;
       height: 63px;
       background-position: center;
-      padding-left: 10em; }
+      padding-left: 10em;
+      margin-right: 0; }
     .site-header .main-navigation a {
       padding-top: .5em; }
     .site-header .main-navigation .desktop-menu, .site-header .main-navigation .desktop-menu-two {
@@ -1293,6 +1295,11 @@ button[type='submit'] {
 
 .wp-block-button__link {
   padding: 5px 40px; }
+
+@media (min-width: 1080px) {
+  .heading-university, .page-template-team h2, .page h2 {
+    font-size: 2rem;
+    padding-top: 1em; } }
 
 /* Front page */
 .top-heading {
@@ -1922,7 +1929,8 @@ button[type='submit'] {
     border-bottom: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    margin-top: 2em; }
   .page-template-archive-testimonial .container, .tax-testimonial_category .container {
     display: -webkit-box;
     display: -ms-flexbox;
