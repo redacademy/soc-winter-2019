@@ -1270,7 +1270,7 @@ button[type='submit'] {
   padding-right: 40px;
   padding-left: 40px; }
   .single-post .entry-header img {
-    margin-top: 1em; }
+    margin-top: 3em; }
 
 .single-post .entry-title {
   margin-top: 1em;
@@ -1325,7 +1325,10 @@ button[type='submit'] {
   .page-template-team h2,
   .page h2 {
     font-size: 2rem;
-    padding-top: 1em; } }
+    padding-top: 1em; }
+  .single-post .entry-content p {
+    padding-left: 12em;
+    padding-right: 12em; } }
 
 /* Front page */
 .top-heading {
@@ -1864,17 +1867,30 @@ button[type='submit'] {
   padding-top: 40px;
   text-transform: uppercase; }
 
+<<<<<<< HEAD
+=======
+.university-template-default .best-of-ubc-title {
+  height: auto; }
+  .university-template-default .best-of-ubc-title h5 {
+    display: block;
+    margin-bottom: 0px; }
+
+.university-template-default .best-of-ubc img {
+  width: 80%;
+  margin: auto; }
+
+>>>>>>> 8f4c370a5d04682171ad1b2f463b7f0429e67561
 @media (min-width: 1080px) {
-  .university-template-default .entry-content, .university-template-default .uni-prerequisites {
+  .single-university .entry-content, .single-university .uni-prerequisites {
     padding-left: 12em;
     padding-right: 12em; }
-  .university-template-default .entry-content {
+  .single-university .entry-content {
     border-bottom-left-radius: 240vw;
     border-bottom-right-radius: 240vw;
     height: 60em; }
-  .university-template-default .sport-list {
+  .single-university .sport-list {
     width: 500px; }
-  .university-template-default .wp-block-button__link {
+  .single-university .wp-block-button__link {
     padding-top: 0.8em;
     width: 101%;
     border-radius: 19px;
@@ -1892,7 +1908,7 @@ button[type='submit'] {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-  .university-template-default .entry-title {
+  .single-university .entry-title {
     text-align: center;
     width: 100%; } }
 
@@ -2204,3 +2220,42 @@ select.minimal {
     font-size: 20px;
     color: #686868;
     font-weight: normal; } }
+
+.error404 .page-header {
+  font-size: 1.6em; }
+
+.error404 .page-title {
+  padding-top: 1em; }
+
+.error404 .page-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.error404 .widget ul {
+  margin: 0 auto;
+  padding: 0; }
+
+.error404 .widget li {
+  list-style-type: none;
+  padding-bottom: 1em; }
+
+.error404 .widget a {
+  text-decoration: none; }
+
+.error404 fieldset {
+  border: none; }
+
+.error404 .icon-search i {
+  color: #ff6b00; }
+
+.error404 .search-submit {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent; }
+
+.error404 button {
+  font-size: 1.3em; }
+
+.error404 .widget-title {
+  font-size: 30px; }

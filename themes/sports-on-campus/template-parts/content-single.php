@@ -21,8 +21,4 @@
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 
-
-	<footer class="entry-footer">
-		<?php Sport_On_Campus_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

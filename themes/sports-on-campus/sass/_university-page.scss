@@ -34,14 +34,30 @@
   padding-top: 40px;
   text-transform: uppercase;
 }
+.university-template-default {
+  .best-of-ubc-title{
+    height: auto;
+    h5{
+      display: block;
+      margin-bottom: 0px;
+    }
+  }
+  .best-of-ubc{
+    img{
+      width:80%;
+      margin: auto;
+    }
+  }
+}
+
 
   @include desktop{
-    .university-template-default .entry-content, .university-template-default .uni-prerequisites {
+    .single-university .entry-content, .single-university .uni-prerequisites {
       padding-left:12em;
       padding-right:12em;
     }
-    .university-template-default{
-
+    .single-university{
+      
      .entry-content{
       border-bottom-left-radius: 240vw;
       border-bottom-right-radius: 240vw;
@@ -66,8 +82,9 @@
       justify-content: space-between;
     }
 
-    .university-template-default .entry-title{
+    .single-university .entry-title{
       text-align: center;
       width: 100%;
+
     }
   }
