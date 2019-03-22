@@ -50,7 +50,6 @@ get_header(); ?>
 					<?php Sport_On_Campus_entry_footer(); ?>
 				</footer><!-- .entry-footer -->
 		</article><!-- #post-## -->
-			<?php the_post_navigation(); ?>
 			<?php endwhile; // End of the loop. ?>
 
 	</main><!-- #main -->

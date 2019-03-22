@@ -1860,6 +1860,20 @@ button[type='submit'] {
 .page-template-archive-university .type-university {
   margin-bottom: 4rem; }
 
+.heading-university {
+  padding-top: 40px;
+  text-transform: uppercase; }
+
+.university-template-default .best-of-ubc-title {
+  height: auto; }
+  .university-template-default .best-of-ubc-title h5 {
+    display: block;
+    margin-bottom: 0px; }
+
+.university-template-default .best-of-ubc img {
+  width: 80%;
+  margin: auto; }
+
 @media (min-width: 1080px) {
   .university-template-default .entry-content, .university-template-default .uni-prerequisites {
     padding-left: 12em;

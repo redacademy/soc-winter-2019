@@ -34,6 +34,22 @@
   padding-top: 40px;
   text-transform: uppercase;
 }
+.university-template-default {
+  .best-of-ubc-title{
+    height: auto;
+    h5{
+      display: block;
+      margin-bottom: 0px;
+    }
+  }
+  .best-of-ubc{
+    img{
+      width:80%;
+      margin: auto;
+    }
+  }
+}
+
 
   @include desktop{
     .university-template-default .entry-content, .university-template-default .uni-prerequisites {
