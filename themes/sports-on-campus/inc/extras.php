@@ -57,3 +57,9 @@ add_action( 'pre_get_posts', function ( $query ) {
         $query->set( 'order', 'ASC' );
     }
 });
+
+add_action( 'pre_get_posts', function ( $query ) {
+    if ( $query->is_tax() && $query->is_main_query() ) {
+        $query->set( 'order', 'DESC' );
+    }
+});
