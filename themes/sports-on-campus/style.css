@@ -2134,7 +2134,8 @@ button[type='submit'] {
     width: 60%;
     margin: auto; }
     .uni-facilities div {
-      width: 50%; } }
+      width: 50%;
+      line-height: 1.75; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
