@@ -1977,13 +1977,12 @@ button[type='submit'] {
 .tax-testimonial_category .test-block i,
 .page-template-archive-testimonial .test-block i,
 .home .test-block i {
-  width: 14%;
-  color: #ff6b00;
-  padding-left: 4em; }
+  color: #ff6b00; }
 
 .testimonial .wp-block-quote.is-style-large {
   padding: 0;
-  margin: 0;
+  margin-left: 0;
+  margin: 0 auto;
   margin-bottom: 2em; }
 
 .mobile-slide {
@@ -2021,7 +2020,10 @@ button[type='submit'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 1em; }
+  margin: 0 auto; }
+
+.test-position {
+  margin-bottom: 1em; }
 
 .orange-underline {
   border-bottom: 5px solid #ff6b00; }
