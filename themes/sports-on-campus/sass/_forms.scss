@@ -76,3 +76,64 @@ form {
     }
   }
 }
+
+//login form 
+
+.page-template-login{
+  .entry-title{
+    padding-top: 30px;
+    width: 42%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* text-align: center; */
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .entry-content{
+    margin-top:0;
+  }
+
+  .container{
+    form{
+      padding-bottom: 5px;
+      margin:0 auto;
+      input{
+        display: block;
+    margin: 0 auto;
+    width: 66%;
+    margin-bottom: 1em;
+      }
+    }
+  }
+  .login-options{
+    padding: 20px;
+    a{
+      padding: 10px;
+      font-weight: 600;
+      font-size: 15px;}
+  }
+  .remember-me{
+    width: 58%;
+    margin-bottom: 2em;
+    input{
+      margin-right:5px;
+      background-color:$color__orange-accent;
+    }
+  }
+  .remember-input{
+    background-color:$color__orange-accent;
+  }
+  .login-button input{
+    width: 11em;
+  }
+  .wp-block-button__link {
+    letter-spacing: 2px;
+    font-weight: 300;
+    background-color: #003276;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 0;
+   
+  }
+  
+}
