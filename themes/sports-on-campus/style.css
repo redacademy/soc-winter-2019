@@ -1867,6 +1867,8 @@ button[type='submit'] {
   padding-top: 40px;
   text-transform: uppercase; }
 
+<<<<<<< HEAD
+=======
 .university-template-default .best-of-ubc-title {
   height: auto; }
   .university-template-default .best-of-ubc-title h5 {
@@ -1877,6 +1879,7 @@ button[type='submit'] {
   width: 80%;
   margin: auto; }
 
+>>>>>>> 8f4c370a5d04682171ad1b2f463b7f0429e67561
 @media (min-width: 1080px) {
   .single-university .entry-content, .single-university .uni-prerequisites {
     padding-left: 12em;
@@ -2196,6 +2199,11 @@ select.minimal {
   font-weight: 900;
   font-style: normal; }
 
+.page-id-27 .coaches-paragraph {
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1.5px; }
+
 @media (min-width: 1080px) {
   .page-id-27 h1 {
     display: none; }
@@ -2212,3 +2220,42 @@ select.minimal {
     font-size: 20px;
     color: #686868;
     font-weight: normal; } }
+
+.error404 .page-header {
+  font-size: 1.6em; }
+
+.error404 .page-title {
+  padding-top: 1em; }
+
+.error404 .page-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.error404 .widget ul {
+  margin: 0 auto;
+  padding: 0; }
+
+.error404 .widget li {
+  list-style-type: none;
+  padding-bottom: 1em; }
+
+.error404 .widget a {
+  text-decoration: none; }
+
+.error404 fieldset {
+  border: none; }
+
+.error404 .icon-search i {
+  color: #ff6b00; }
+
+.error404 .search-submit {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent; }
+
+.error404 button {
+  font-size: 1.3em; }
+
+.error404 .widget-title {
+  font-size: 30px; }
