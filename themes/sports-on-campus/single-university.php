@@ -22,6 +22,7 @@ get_header(); ?>
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 				</header><!-- .entry-header -->
 			<div class="entry-content">
+				<div class="uni-block">
 				<div class="wp-block-button"><a class="wp-block-button__link" href="https://soc.van.cp.academy.red/join-us/">Connect with a Coach</a></div>
 				<ul class="sport-list"> 
 					<li class="soccer"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Soccer.png" alt="soccer-ball"> </li>
@@ -29,6 +30,7 @@ get_header(); ?>
 					<li class="basketball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Basketball.png" alt="basketball"></li>
 					<li class="volleyball"><img src="https://soc.van.cp.academy.red/wp-content/themes/sports-on-campus/assets/images/Volleyball.png" alt="volleyball "></li>
 				</ul>
+</div>
 				<?php the_content(); ?>
 			</div><!-- .entry-content -->
 			</section>			
