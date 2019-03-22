@@ -1019,7 +1019,7 @@ button[type='submit'] {
     margin-bottom: 1em;
     color: black;
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600; }
 
 .page-template-team .wp-block-quote {
@@ -1047,6 +1047,16 @@ button[type='submit'] {
 .page-template-team .ceo-li {
   padding-left: 5px;
   color: dodgerblue; }
+
+.page-template-team .fb {
+  color: darkblue;
+  margin-top: -20px;
+  padding-bottom: 10px; }
+
+.page-template-team .li {
+  color: dodgerblue;
+  margin-top: -20px;
+  padding-bottom: 10px; }
 
 .page-template-team .about-our-concept {
   background: #003276;
@@ -1323,13 +1333,9 @@ button[type='submit'] {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
-<<<<<<< HEAD
-  .heading-university, .page-template-team h2 {
-=======
   .heading-university,
   .page-template-team h2,
   .page h2 {
->>>>>>> 4e00a1d96006ba8592909e2be44db209ee53d86b
     font-size: 2rem;
     padding-top: 1em; } }
 
