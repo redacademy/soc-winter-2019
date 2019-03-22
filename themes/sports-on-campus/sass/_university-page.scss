@@ -1,75 +1,74 @@
 /* Universities Page */
 .page-template-archive-university {
-    ul {
-      text-align: left;
-      list-style-type: none;
-    }
-    .university-container {
-      img {
-        object-fit: cover;
-        width: 400px;
-        height: 150px;
-      }
-    }
-  
-    .university-name {
-      font-size: 16px;
-      margin: 0;
-    }
-  
-    .university-city {
-      font-size: 14px;
-      margin-top: 1px;
-    }
-  
-    .university-title-location a {
-      text-decoration: none;
-      letter-spacing: 1px;
-    }
-    .type-university{
-      margin-bottom: 4rem;
+  ul {
+    text-align: left;
+    list-style-type: none;
+  }
+  .university-container {
+    img {
+      object-fit: cover;
+      width: 400px;
+      height: 150px;
     }
   }
-.heading-university{
+
+  .university-name {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .university-city {
+    font-size: 14px;
+    margin-top: 1px;
+  }
+
+  .university-title-location a {
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  .type-university {
+    margin-bottom: 4rem;
+  }
+}
+.heading-university {
   padding-top: 40px;
   text-transform: uppercase;
 }
 .university-template-default {
-  .best-of-ubc-title{
+  .best-of-ubc-title {
     height: auto;
-    h5{
+    h5 {
       display: block;
       margin-bottom: 0px;
     }
-   
   }
-  .best-of-ubc{
+  .best-of-ubc {
     background: #fff;
-    width:100vw;
+    width: 100vw;
     margin-left: -40px;
-    img{
-      width:80%;
+    img {
+      width: 80%;
       margin: auto;
     }
   }
-  .entry-header{
-    img{
+  .entry-header {
+    img {
       width: 100%;
     }
   }
-  .entry-content{
+  .entry-content {
     padding-bottom: 2px;
-    h4{
+    h4 {
       margin: 0px;
     }
   }
-  .wp-block-button__link{
+  .wp-block-button__link {
     padding: 10px;
     width: 70%;
     height: auto;
     border-radius: 10px;
   }
-  ul.sport-list{
+  ul.sport-list {
     padding: 0px;
     margin: 40px auto;
     width: 100%;
@@ -78,45 +77,208 @@
     justify-content: space-around;
   }
 }
-.university-gallary-ubc{
+.university-gallary-ubc {
   display: none;
 }
 
-
-  @include desktop{
-    .single-university .entry-content, .single-university .uni-prerequisites {
-      padding-left:12em;
-      padding-right:12em;
-    }
-    .single-university{
-      
-     .entry-content{
-      border-bottom-left-radius: 240vw;
-      border-bottom-right-radius: 240vw;
-      height:60em;
+@include desktop {
+  .half-transparent {
+    background: #fff;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+  }
+  .single-university .entry-content,
+  .single-university .uni-prerequisites {
+    padding-left: 12em;
+    padding-right: 12em;
+  }
+  .single-university {
+    .entry-content {
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      padding: 0px;
+      width: 110vw;
+      margin-left: -5vw;
+      height: 53em;
+      .uni-block {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 60%;
+        margin: auto;
+        ul {
+          order: -1;
+        }
+      }
+      h4,
+      p {
+        width: 60%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
     }
     .sport-list {
       width: 500px;
     }
-    .wp-block-button__link{
+    .wp-block-button__link {
       padding-top: 0.8em;
       width: 101%;
       border-radius: 19px;
       margin-top: 1.5em;
-      margin-right:0;
+      margin-right: 0;
     }
   }
 
-    .uni-block{
-      display:flex;
-      flex-direction: row-reverse;
+  .uni-block {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .single-university .entry-title {
+    text-align: center;
+    width: 100%;
+  }
+  .university-template-default {
+    h1.entry-title {
+      text-transform: uppercase;
+      padding-left: 0px;
+      font-size: 30px;
+    }
+    .best-of-ubc-title {
+      display: none;
+      height: auto;
+      h5 {
+        display: none;
+      }
+    }
+    .best-of-ubc {
+      background: #fff;
+      width: 100vw;
+      margin-left: 5vw;
+      background: transparent;
+      color: #fff;
+      border: none;
+      img {
+        width: 50%;
+        margin: auto;
+      }
+      .wp-block-image {
+        display: none;
+      }
+      i {
+        display: none;
+      }
+    }
+    .entry-header {
+      img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: 0px 0px;
+      }
+    }
+    .entry-content {
+      padding-bottom: 2px;
+      h4 {
+        margin: 0px;
+      }
+    }
+    .wp-block-button__link {
+      padding: 10px;
       width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+    ul.sport-list {
+      padding: 0px;
+      margin-top: 40px;
+      margin-left: 0px;
+      width: 70%;
+      height: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: start;
+      li {
+        margin-right: 30px;
+      }
+    }
+    .read-more {
+      color: #fff;
+      padding-bottom: 0px;
+    }
+  }
+  .university-gallary-ubc {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    background: transparent;
+    li {
+      width: 80%;
+      padding-top: 100px;
+      figure {
+        width: 80%;
+        padding-left: 5%;
+        margin: auto !important;
+        figcaption {
+          background: none !important;
+          position: absolute;
+          padding-top: 40px;
+          top: 0px;
+          left: 0px;
+        }
+      }
+    }
+  }
+  .uni-program {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    div {
+      width: 30%;
+    }
+    .read-more {
+      display: none;
+    }
+  }
+  .uni-prerequisites {
+    strong {
+      display: block;
+    }
+    br {
+      display: none;
+    }
+    div{
+      display: flex;
+      flex-flow: row nowrap;
       justify-content: space-between;
+      strong{
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      p {
+        font-weight: 300;
+        width: 30%;
+        font-size: 14px;
+      }
     }
-
-    .single-university .entry-title{
-      text-align: center;
-      width: 100%;
-
+    
+  }
+  .uni-facilities{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60%;
+    margin: auto;
+    div{
+      width: 50%;
     }
   }
+}

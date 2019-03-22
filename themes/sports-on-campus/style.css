@@ -1935,13 +1935,44 @@ button[type='submit'] {
   display: none; }
 
 @media (min-width: 1080px) {
-  .single-university .entry-content, .single-university .uni-prerequisites {
+  .half-transparent {
+    background: #fff;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px; }
+  .single-university .entry-content,
+  .single-university .uni-prerequisites {
     padding-left: 12em;
     padding-right: 12em; }
   .single-university .entry-content {
-    border-bottom-left-radius: 240vw;
-    border-bottom-right-radius: 240vw;
-    height: 60em; }
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 0px;
+    width: 110vw;
+    margin-left: -5vw;
+    height: 53em; }
+    .single-university .entry-content .uni-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 60%;
+      margin: auto; }
+      .single-university .entry-content .uni-block ul {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1; }
+    .single-university .entry-content h4,
+    .single-university .entry-content p {
+      width: 60%;
+      margin-left: auto !important;
+      margin-right: auto !important; }
   .single-university .sport-list {
     width: 500px; }
   .single-university .wp-block-button__link {
@@ -1964,7 +1995,146 @@ button[type='submit'] {
             justify-content: space-between; }
   .single-university .entry-title {
     text-align: center;
-    width: 100%; } }
+    width: 100%; }
+  .university-template-default h1.entry-title {
+    text-transform: uppercase;
+    padding-left: 0px;
+    font-size: 30px; }
+  .university-template-default .best-of-ubc-title {
+    display: none;
+    height: auto; }
+    .university-template-default .best-of-ubc-title h5 {
+      display: none; }
+  .university-template-default .best-of-ubc {
+    background: #fff;
+    width: 100vw;
+    margin-left: 5vw;
+    background: transparent;
+    color: #fff;
+    border: none; }
+    .university-template-default .best-of-ubc img {
+      width: 50%;
+      margin: auto; }
+    .university-template-default .best-of-ubc .wp-block-image {
+      display: none; }
+    .university-template-default .best-of-ubc i {
+      display: none; }
+  .university-template-default .entry-header img {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0px 0px;
+       object-position: 0px 0px; }
+  .university-template-default .entry-content {
+    padding-bottom: 2px; }
+    .university-template-default .entry-content h4 {
+      margin: 0px; }
+  .university-template-default .wp-block-button__link {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 40px; }
+  .university-template-default ul.sport-list {
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 70%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start; }
+    .university-template-default ul.sport-list li {
+      margin-right: 30px; }
+  .university-template-default .read-more {
+    color: #fff;
+    padding-bottom: 0px; }
+  .university-gallary-ubc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    background: transparent; }
+    .university-gallary-ubc li {
+      width: 80%;
+      padding-top: 100px; }
+      .university-gallary-ubc li figure {
+        width: 80%;
+        padding-left: 5%;
+        margin: auto !important; }
+        .university-gallary-ubc li figure figcaption {
+          background: none !important;
+          position: absolute;
+          padding-top: 40px;
+          top: 0px;
+          left: 0px; }
+  .uni-program {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 50%;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 40px; }
+    .uni-program div {
+      width: 30%; }
+    .uni-program .read-more {
+      display: none; }
+  .uni-prerequisites strong {
+    display: block; }
+  .uni-prerequisites br {
+    display: none; }
+  .uni-prerequisites div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .uni-prerequisites div strong {
+      margin-bottom: 10px;
+      font-size: 16px; }
+    .uni-prerequisites div p {
+      font-weight: 300;
+      width: 30%;
+      font-size: 14px; }
+  .uni-facilities {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 60%;
+    margin: auto; }
+    .uni-facilities div {
+      width: 50%; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,

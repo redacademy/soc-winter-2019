@@ -83,6 +83,9 @@
     
   });
 
+  if (jQuery('body').hasClass('single-university')) {
+    $('nav').addClass('half-transparent');
+  }
  
 
 })(jQuery);
