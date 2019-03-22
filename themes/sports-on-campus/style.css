@@ -1279,7 +1279,7 @@ button[type='submit'] {
   padding-right: 40px;
   padding-left: 40px; }
   .single-post .entry-header img {
-    margin-top: 1em; }
+    margin-top: 3em; }
 
 .single-post .entry-title {
   margin-top: 1em;
@@ -1349,7 +1349,10 @@ button[type='submit'] {
   .page-template-team h2,
   .page h2 {
     font-size: 2rem;
-    padding-top: 1em; } }
+    padding-top: 1em; }
+  .single-post .entry-content p {
+    padding-left: 12em;
+    padding-right: 12em; } }
 
 /* Front page */
 .top-heading {
@@ -1888,6 +1891,51 @@ button[type='submit'] {
   padding-top: 40px;
   text-transform: uppercase; }
 
+.university-template-default .best-of-ubc-title {
+  height: auto; }
+  .university-template-default .best-of-ubc-title h5 {
+    display: block;
+    margin-bottom: 0px; }
+
+.university-template-default .best-of-ubc {
+  background: #fff;
+  width: 100vw;
+  margin-left: -40px; }
+  .university-template-default .best-of-ubc img {
+    width: 80%;
+    margin: auto; }
+
+.university-template-default .entry-header img {
+  width: 100%; }
+
+.university-template-default .entry-content {
+  padding-bottom: 2px; }
+  .university-template-default .entry-content h4 {
+    margin: 0px; }
+
+.university-template-default .wp-block-button__link {
+  padding: 10px;
+  width: 70%;
+  height: auto;
+  border-radius: 10px; }
+
+.university-template-default ul.sport-list {
+  padding: 0px;
+  margin: 40px auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.university-gallary-ubc {
+  display: none; }
+
 @media (min-width: 1080px) {
   .single-university .entry-content, .single-university .uni-prerequisites {
     padding-left: 12em;
@@ -2207,6 +2255,23 @@ select.minimal {
   font-weight: 900;
   font-style: normal; }
 
+.page-id-27 .coaches-paragraph {
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  max-width: 200px;
+  margin: 20px auto; }
+
+.page-id-27 .orange-button {
+  letter-spacing: 2px;
+  background-color: #ff6b00;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 0;
+  padding: 7px 45px;
+  font-weight: 900;
+  font-style: normal; }
+
 @media (min-width: 1080px) {
   .page-id-27 h1 {
     display: none; }
@@ -2223,3 +2288,42 @@ select.minimal {
     font-size: 20px;
     color: #686868;
     font-weight: normal; } }
+
+.error404 .page-header {
+  font-size: 1.6em; }
+
+.error404 .page-title {
+  padding-top: 1em; }
+
+.error404 .page-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.error404 .widget ul {
+  margin: 0 auto;
+  padding: 0; }
+
+.error404 .widget li {
+  list-style-type: none;
+  padding-bottom: 1em; }
+
+.error404 .widget a {
+  text-decoration: none; }
+
+.error404 fieldset {
+  border: none; }
+
+.error404 .icon-search i {
+  color: #ff6b00; }
+
+.error404 .search-submit {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent; }
+
+.error404 button {
+  font-size: 1.3em; }
+
+.error404 .widget-title {
+  font-size: 30px; }

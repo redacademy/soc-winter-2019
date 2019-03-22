@@ -14,9 +14,9 @@
 			<h5>Copyright 2019</h5>
 					<div class="nav-dropdown">
 				<div class="site-info">
-					<img src=<?php echo get_template_directory_uri() . '/icons/twitter-footer.svg'?>>
-					<img src=<?php echo get_template_directory_uri() . '/icons/facebook-footer.svg'?>>
-					<img src=<?php echo get_template_directory_uri() . '/icons/instagram-footer.svg'?>>
+					<img src=<?php echo get_template_directory_uri() . '/Icons/twitter-footer.svg'?>>
+					<img src=<?php echo get_template_directory_uri() . '/Icons/facebook-footer.svg'?>>
+					<img src=<?php echo get_template_directory_uri() . '/Icons/instagram-footer.svg'?>>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->

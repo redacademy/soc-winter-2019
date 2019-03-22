@@ -371,7 +371,7 @@ button[type='submit'] {
     padding-right: 40px;
     padding-left: 40px;
     img {
-      margin-top: 1em;
+      margin-top: 3em;
     }
   }
   .entry-title {
@@ -444,5 +444,9 @@ button[type='submit'] {
   .page h2 {
     font-size: 2rem;
     padding-top: 1em;
+  }
+  .single-post .entry-content p{
+    padding-left: 12em;
+    padding-right:12em;
   }
 }

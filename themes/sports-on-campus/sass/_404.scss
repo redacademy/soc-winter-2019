@@ -1,0 +1,46 @@
+//404
+.error404{
+    .page-header {
+      font-size: 1.6em;
+    }
+    .page-title{
+        padding-top: 1em;
+    }
+    .page-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .widget {
+        ul{
+            margin:0 auto;
+            padding:0;
+        }
+        li{
+        list-style-type: none;  
+        padding-bottom: 1em;
+        }
+        a{
+        text-decoration:none;
+        }
+    }
+    fieldset{
+        border: none;
+    }
+    .icon-search{
+        i{
+            color:$color__orange-accent;
+        }
+    }
+    .search-submit{
+        border:none;
+        box-shadow:none;
+        background: transparent;
+    }
+    button{
+        font-size: 1.3em;
+    }
+    .widget-title{
+        font-size: 30px;
+    }
+}
