@@ -1860,6 +1860,10 @@ button[type='submit'] {
 .page-template-archive-university .type-university {
   margin-bottom: 4rem; }
 
+.heading-university {
+  padding-top: 40px;
+  text-transform: uppercase; }
+
 @media (min-width: 1080px) {
   .university-template-default .entry-content, .university-template-default .uni-prerequisites {
     padding-left: 12em;
@@ -2178,6 +2182,11 @@ select.minimal {
   word-spacing: 2px;
   font-weight: 900;
   font-style: normal; }
+
+.page-id-27 .coaches-paragraph {
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1.5px; }
 
 @media (min-width: 1080px) {
   .page-id-27 h1 {
