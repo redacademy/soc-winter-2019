@@ -1269,6 +1269,14 @@ button[type='submit'] {
   background: white; }
 
 /* Join Us Page */
+.page-template-default p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page-template-default .wpcf7 label {
+  width: 60%; }
+
 .page-template-default .team-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1288,10 +1296,11 @@ button[type='submit'] {
   font-weight: 300; }
 
 .page-template-default .wp-block-button__link {
+  width: 255px;
   letter-spacing: 2px;
   font-weight: 300;
   background-color: #003276;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 14px;
   margin: 0; }
 
@@ -1341,6 +1350,21 @@ button[type='submit'] {
   background-color: #00237a;
   padding-top: 3em;
   padding-bottom: 3em; }
+
+.page-template-default .student-reg {
+  padding-top: 120px;
+  font-weight: 600;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 10px; }
+
+.page-template-default .Submit {
+  margin-top: 25px;
+  letter-spacing: 2px;
+  width: 220px; }
+
+.page-template-default .entry-title {
+  display: none; }
 
 .sign-facebook-button {
   width: 60%;
