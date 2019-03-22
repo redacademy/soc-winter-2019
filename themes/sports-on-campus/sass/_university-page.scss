@@ -30,14 +30,17 @@
       margin-bottom: 4rem;
     }
   }
-
+.heading-university{
+  padding-top: 40px;
+  text-transform: uppercase;
+}
 
   @include desktop{
-    .university-template-default .entry-content, .university-template-default .uni-prerequisites {
+    .single-university .entry-content, .single-university .uni-prerequisites {
       padding-left:12em;
       padding-right:12em;
     }
-    .university-template-default{
+    .single-university{
 
      .entry-content{
       border-bottom-left-radius: 240vw;
@@ -63,8 +66,9 @@
       justify-content: space-between;
     }
 
-    .university-template-default .entry-title{
+    .single-university .entry-title{
       text-align: center;
       width: 100%;
+
     }
   }
