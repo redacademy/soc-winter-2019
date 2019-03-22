@@ -208,9 +208,10 @@
     p {
       position: absolute;
       left: 10%;
-      top: calc(20% + 100px);
+      top: calc(20% + 130px);
       font-size: 24px;
       color: $color__light-accent;
+      padding-left: 0px !important;
     }
   }
   .mid-heading {
