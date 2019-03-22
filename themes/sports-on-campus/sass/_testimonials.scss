@@ -9,15 +9,14 @@
   }
 
   .test-block i {
-    width: 14%;
     color: $color__orange-accent;
-    padding-left: 4em;
 }
 }
 
 .testimonial .wp-block-quote.is-style-large{
   padding:0;
-  margin:0;
+  margin-left: 0;
+  margin: 0 auto;
   margin-bottom:2em;
 }
 
@@ -53,8 +52,11 @@
 }
 
 .test-block{
-  display:flex;
-  margin-top: 1em;
+  display: flex;
+    margin: 0 auto;
+}
+.test-position{
+  margin-bottom:1em;
 }
 
 .orange-underline {
