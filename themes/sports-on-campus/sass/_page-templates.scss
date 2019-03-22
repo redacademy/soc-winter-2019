@@ -79,7 +79,7 @@ button[type='submit'] {
       margin-bottom: 1em;
       color: black;
       text-align: center;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 600;
     }
   }
@@ -104,7 +104,16 @@ button[type='submit'] {
   .ceo-li {
     padding-left: 5px;
     color: dodgerblue;
-  
+  }
+  .fb {
+    color: darkblue;
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+  .li {
+    color: dodgerblue;
+    margin-top: -20px;
+    padding-bottom: 10px;
   }
   .about-our-concept {
     background: #003276;
@@ -410,4 +419,8 @@ button[type='submit'] {
     font-size: 2rem;
     padding-top: 1em;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d2f96aa53d78bb0df4bb3aff8212070fbf3156b1
