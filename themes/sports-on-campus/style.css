@@ -1274,9 +1274,6 @@ button[type='submit'] {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.page-template-default .wpcf7 label {
-  width: 60%; }
-
 .page-template-default .team-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1350,58 +1347,6 @@ button[type='submit'] {
   background-color: #00237a;
   padding-top: 3em;
   padding-bottom: 3em; }
-
-.page-template-default .student-reg {
-  padding-top: 120px;
-  font-weight: 600;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 10px; }
-
-.page-template-default .Submit {
-  margin-top: 25px;
-  letter-spacing: 2px;
-  width: 220px; }
-
-.sign-facebook-button {
-  width: 60%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  background: #003276; }
-
-.sign-google-button {
-  width: 60%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  background: #9499A1; }
-
-.ur-frontend-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.ur-frontend-form form button[type='submit'],
-.ur-frontend-form form input[type='submit'] {
-  float: none; }
-
-.wp-block-button__link {
-  padding: 5px 40px; }
-
-@media (min-width: 1080px) {
-  .heading-university,
-  .page-template-team h2,
-  .page h2 {
-    font-size: 2rem;
-    padding-top: 1em; } }
 
 /* Front page */
 .top-heading {
@@ -2222,6 +2167,8 @@ select.minimal {
   .page-id-25 .entry-content p {
     text-align: left;
     font-size: 14px; }
+  .page-id-25 .entry-content .question {
+    max-width: 300px; }
   .page-id-25 .entry-content .submit-button {
     text-align: center; }
   .page-id-25 .entry-content label {
@@ -2240,6 +2187,9 @@ select.minimal {
     font-weight: 300;
     margin-left: 50px;
     letter-spacing: 1px; }
+
+.page-id-25 .wpcf7-textarea {
+  height: 75px; }
 
 @media (min-width: 1080px) {
   .page-id-25 .entry-title {
@@ -2380,3 +2330,61 @@ select.minimal {
 
 .error404 .widget-title {
   font-size: 30px; }
+
+.page-id-41 .student-reg {
+  padding: 120px 70px 10px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  word-spacing: 1px; }
+
+.page-id-41 .Submit {
+  margin-top: 25px;
+  letter-spacing: 2px;
+  width: 220px; }
+
+.page-id-41 .entry-title {
+  display: none; }
+
+.sign-facebook-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: #003276; }
+
+.sign-google-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: #9499A1; }
+
+.ur-frontend-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.ur-frontend-form form button[type='submit'],
+.ur-frontend-form form input[type='submit'] {
+  float: none; }
+
+.wp-block-button__link {
+  padding: 5px 40px; }
+
+@media (min-width: 1080px) {
+  .heading-university,
+  .page-template-team h2,
+  .page h2 {
+    font-size: 2rem;
+    padding-top: 1em; } }

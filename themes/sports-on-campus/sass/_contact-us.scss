@@ -11,6 +11,9 @@
         text-align: left;
         font-size: 14px;
     }
+    .question{
+        max-width: 300px;
+    }
     .submit-button{
         text-align: center;
     }
@@ -31,6 +34,9 @@
         margin-left: 50px;
         letter-spacing: 1px;
     }
+    }
+    .wpcf7-textarea{
+        height: 75px;
     }
 }
 
