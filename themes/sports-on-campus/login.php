@@ -22,8 +22,8 @@ get_header(); ?>
         </div>
 
         <div>
-            <a>Register now</a>
-            <a>Forgot password</a>
+            <a>Register Now</a>
+            <a>Forgot Password</a>
         </div>
 </div>
 
