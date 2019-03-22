@@ -1867,8 +1867,6 @@ button[type='submit'] {
   padding-top: 40px;
   text-transform: uppercase; }
 
-<<<<<<< HEAD
-=======
 .university-template-default .best-of-ubc-title {
   height: auto; }
   .university-template-default .best-of-ubc-title h5 {
@@ -1879,7 +1877,6 @@ button[type='submit'] {
   width: 80%;
   margin: auto; }
 
->>>>>>> 8f4c370a5d04682171ad1b2f463b7f0429e67561
 @media (min-width: 1080px) {
   .single-university .entry-content, .single-university .uni-prerequisites {
     padding-left: 12em;
@@ -2202,7 +2199,19 @@ select.minimal {
 .page-id-27 .coaches-paragraph {
   font-weight: 900;
   font-style: normal;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  max-width: 200px;
+  margin: 20px auto; }
+
+.page-id-27 .orange-button {
+  letter-spacing: 2px;
+  background-color: #ff6b00;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 0;
+  padding: 7px 45px;
+  font-weight: 900;
+  font-style: normal; }
 
 @media (min-width: 1080px) {
   .page-id-27 h1 {
