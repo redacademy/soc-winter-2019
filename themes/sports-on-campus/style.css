@@ -1873,16 +1873,16 @@ button[type='submit'] {
   margin-bottom: 4rem; }
 
 @media (min-width: 1080px) {
-  .university-template-default .entry-content, .university-template-default .uni-prerequisites {
+  .single-university .entry-content, .single-university .uni-prerequisites {
     padding-left: 12em;
     padding-right: 12em; }
-  .university-template-default .entry-content {
+  .single-university .entry-content {
     border-bottom-left-radius: 240vw;
     border-bottom-right-radius: 240vw;
     height: 60em; }
-  .university-template-default .sport-list {
+  .single-university .sport-list {
     width: 500px; }
-  .university-template-default .wp-block-button__link {
+  .single-university .wp-block-button__link {
     padding-top: 0.8em;
     width: 101%;
     border-radius: 19px;
@@ -1900,7 +1900,7 @@ button[type='submit'] {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-  .university-template-default .entry-title {
+  .single-university .entry-title {
     text-align: center;
     width: 100%; } }
 
