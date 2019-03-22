@@ -32,6 +32,18 @@
         font-weight: 900;
         font-style: normal;
         letter-spacing: 1.5px;
+        max-width: 200px;
+        margin: 20px auto;
+    }
+    .orange-button{
+        letter-spacing: 2px;
+        background-color:$color__orange-accent;
+        border-radius: 10px;
+        font-size: 14px;
+        margin: 0;
+        padding: 7px 45px;
+        font-weight: 900;
+        font-style: normal;
     }
 }
 
