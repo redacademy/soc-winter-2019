@@ -1325,10 +1325,7 @@ button[type='submit'] {
   .page-template-team h2,
   .page h2 {
     font-size: 2rem;
-    padding-top: 1em; }
-  .single-post .entry-content p {
-    padding-left: 12em;
-    padding-right: 12em; } }
+    padding-top: 1em; } }
 
 /* Front page */
 .top-heading {
@@ -1867,8 +1864,6 @@ button[type='submit'] {
   padding-top: 40px;
   text-transform: uppercase; }
 
-<<<<<<< HEAD
-=======
 .university-template-default .best-of-ubc-title {
   height: auto; }
   .university-template-default .best-of-ubc-title h5 {
@@ -1879,7 +1874,6 @@ button[type='submit'] {
   width: 80%;
   margin: auto; }
 
->>>>>>> 8f4c370a5d04682171ad1b2f463b7f0429e67561
 @media (min-width: 1080px) {
   .single-university .entry-content, .single-university .uni-prerequisites {
     padding-left: 12em;
