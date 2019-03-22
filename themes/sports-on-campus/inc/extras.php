@@ -24,7 +24,7 @@ add_filter( 'body_class', 'Sport_On_Campus_body_classes' );
 //display the all the universities
 function soc_get_universities()
 {
-	$args = array('post_type' => 'university', 'posts_per_page' => -1, 'order'=>'DESC');
+	$args = array('post_type' => 'university', 'posts_per_page' => -1, 'order'=>'ASC');
 	$universities = get_posts($args);
 	return $universities;
 }
