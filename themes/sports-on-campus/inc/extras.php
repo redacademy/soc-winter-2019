@@ -37,16 +37,23 @@ function soc_get_testimonial_category()
 	return $testimonial;
 }
 
-function soc_post_refined()
-{
-	$args = array('post_type' => 'blog type', 'posts_per_page' => 9, 'order'=>'DESC');
-	$testimonial = get_posts($args);
-	return $testimonial;
-}
-
 function soc_get_events()
 {
-	$args = array('post_type' => 'event', 'posts_per_page' => -1, 'order'=>'DESC');
+	$args = array('post_type' => 'event', 'posts_per_page' => -1, 'orderby' => 'title', 'order'=>'DESC');
 	$event = get_posts($args);
 	return $event;
 }
+
+// function soc_post_refined()
+// {
+// 	$args = array('post_type' => 'post', 'posts_per_page' => 9, 'orderby' => 'title', 'order'=>'ASC');
+// 	$post = get_posts($args);
+// 	return $post;
+// }
+
+add_action( 'pre_get_posts', function ( $query ) {
+    if ( ($query->is_archive()||$query->is_home() )&& $query->is_main_query() ) {
+        $query->set( 'orderby', 'title' );
+        $query->set( 'order', 'ASC' );
+    }
+});

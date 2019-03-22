@@ -53,6 +53,7 @@
     align-items: center;
     h4 {
       width: 35%;
+      color: #fff;
     }
     i {
       text-align: center;
@@ -147,9 +148,8 @@
     justify-content: center;
     img {
       margin: auto;
-    width: 69%;
-    margin-top: 2em;
-    height: 42vw;
+      width: 80%;
+      height: 50vw;
     }
     h2 {
     }
@@ -209,9 +209,10 @@
     p {
       position: absolute;
       left: 10%;
-      top: calc(20% + 100px);
+      top: calc(20% + 130px);
       font-size: 24px;
       color: $color__light-accent;
+      padding-left: 0px !important;
     }
   }
   .mid-heading {
@@ -229,7 +230,7 @@
     h3 {
       text-transform: uppercase;
       width: 35%;
-      font-size: 25px;
+      font-size: 23px;
       margin: 40px auto;
       text-align: start;
       &:nth-of-type(2) {
@@ -250,6 +251,8 @@
           font-weight: 300;
           width: 100%;
           text-align: center;
+          color: #fff;
+          height: 80px;
         }
         i {
           margin-top: 20px;
@@ -287,7 +290,7 @@
   }
 
   .step-to-follow-container {
-    margin-top: 400px !important;
+    margin-top: 500px !important;
     h2 {
       text-transform: uppercase;
       margin: 50px auto;
@@ -303,12 +306,16 @@
         width: 20%;
         h3 {
           color: #fff;
+          width: 100%;
+          text-align: center;
+          margin-right: 0px;
           &::first-letter {
             color: $color__main-block;
           }
           margin-left: -20px;
         }
         p {
+          width: 100%;
           color: #fff;
         }
       }

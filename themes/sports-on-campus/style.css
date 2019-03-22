@@ -1408,7 +1408,8 @@ button[type='submit'] {
         -ms-flex-align: center;
             align-items: center; }
     .mid-heading .text-block h4 {
-      width: 35%; }
+      width: 35%;
+      color: #fff; }
     .mid-heading .text-block i {
       text-align: center;
       width: 50%; }
@@ -1508,9 +1509,8 @@ button[type='submit'] {
           justify-content: center; }
   .front-page-testimonials .testimonial-item img {
     margin: auto;
-    width: 69%;
-    margin-top: 2em;
-    height: 42vw; }
+    width: 80%;
+    height: 50vw; }
   .front-page-testimonials .testimonial-item p {
     margin: 0px; }
 
@@ -1554,9 +1554,10 @@ button[type='submit'] {
     .top-heading p {
       position: absolute;
       left: 10%;
-      top: calc(20% + 100px);
+      top: calc(20% + 130px);
       font-size: 24px;
-      color: #CDE3FB; }
+      color: #CDE3FB;
+      padding-left: 0px !important; }
   .mid-heading {
     position: absolute;
     top: 600px;
@@ -1571,7 +1572,7 @@ button[type='submit'] {
     .mid-heading h3 {
       text-transform: uppercase;
       width: 35%;
-      font-size: 25px;
+      font-size: 23px;
       margin: 40px auto;
       text-align: start; }
       .mid-heading h3:nth-of-type(2) {
@@ -1601,7 +1602,9 @@ button[type='submit'] {
                   order: -1;
           font-weight: 300;
           width: 100%;
-          text-align: center; }
+          text-align: center;
+          color: #fff;
+          height: 80px; }
         .mid-heading .help-step-container .text-block i {
           margin-top: 20px; }
     .mid-heading .white-lines-container {
@@ -1629,7 +1632,7 @@ button[type='submit'] {
           width: 10%;
           border-right: none; }
   .step-to-follow-container {
-    margin-top: 400px !important; }
+    margin-top: 500px !important; }
     .step-to-follow-container h2 {
       text-transform: uppercase;
       margin: 50px auto; }
@@ -1649,10 +1652,14 @@ button[type='submit'] {
         width: 20%; }
         .step-to-follow-container .step-text-container .step-text-block h3 {
           color: #fff;
+          width: 100%;
+          text-align: center;
+          margin-right: 0px;
           margin-left: -20px; }
           .step-to-follow-container .step-text-container .step-text-block h3::first-letter {
             color: #003276; }
         .step-to-follow-container .step-text-container .step-text-block p {
+          width: 100%;
           color: #fff; }
       .step-to-follow-container .step-text-container .orange-vertical-line {
         height: 0px;
