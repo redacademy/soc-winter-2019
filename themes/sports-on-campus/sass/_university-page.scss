@@ -41,13 +41,45 @@
       display: block;
       margin-bottom: 0px;
     }
+   
   }
   .best-of-ubc{
+    background: #fff;
+    width:100vw;
+    margin-left: -40px;
     img{
       width:80%;
       margin: auto;
     }
   }
+  .entry-header{
+    img{
+      width: 100%;
+    }
+  }
+  .entry-content{
+    padding-bottom: 2px;
+    h4{
+      margin: 0px;
+    }
+  }
+  .wp-block-button__link{
+    padding: 10px;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+  }
+  ul.sport-list{
+    padding: 0px;
+    margin: 40px auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+}
+.university-gallary-ubc{
+  display: none;
 }
 
 
