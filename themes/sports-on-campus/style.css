@@ -2202,3 +2202,42 @@ select.minimal {
     font-size: 20px;
     color: #686868;
     font-weight: normal; } }
+
+.error404 .page-header {
+  font-size: 1.6em; }
+
+.error404 .page-title {
+  padding-top: 1em; }
+
+.error404 .page-content {
+  width: 70%;
+  margin: 0 auto; }
+
+.error404 .widget ul {
+  margin: 0 auto;
+  padding: 0; }
+
+.error404 .widget li {
+  list-style-type: none;
+  padding-bottom: 1em; }
+
+.error404 .widget a {
+  text-decoration: none; }
+
+.error404 fieldset {
+  border: none; }
+
+.error404 .icon-search i {
+  color: #ff6b00; }
+
+.error404 .search-submit {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent; }
+
+.error404 button {
+  font-size: 1.3em; }
+
+.error404 .widget-title {
+  font-size: 30px; }
