@@ -1793,11 +1793,13 @@ button[type='submit'] {
   padding-bottom: 10px; }
   .events-area h3 {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     -ms-flex-item-align: end;
         align-self: end;
-    padding-left: 1em; }
+    padding-left: 1em;
+    font-weight: 900;
+    font-style: normal; }
   .events-area .event-content {
     text-align: left;
     font-size: 13px;
@@ -1832,7 +1834,9 @@ button[type='submit'] {
   padding-top: 1em; }
 
 .page-template-archive-event .entry-title {
-  padding: 1em; }
+  padding-top: 3em;
+  text-transform: uppercase;
+  padding-bottom: 2em; }
 
 .page-template-archive-event .type-event {
   margin-bottom: 3rem; }
