@@ -1270,7 +1270,7 @@ button[type='submit'] {
   padding-right: 40px;
   padding-left: 40px; }
   .single-post .entry-header img {
-    margin-top: 1em; }
+    margin-top: 3em; }
 
 .single-post .entry-title {
   margin-top: 1em;
@@ -1325,7 +1325,10 @@ button[type='submit'] {
   .page-template-team h2,
   .page h2 {
     font-size: 2rem;
-    padding-top: 1em; } }
+    padding-top: 1em; }
+  .single-post .entry-content p {
+    padding-left: 12em;
+    padding-right: 12em; } }
 
 /* Front page */
 .top-heading {
@@ -1859,6 +1862,10 @@ button[type='submit'] {
 
 .page-template-archive-university .type-university {
   margin-bottom: 4rem; }
+
+.heading-university {
+  padding-top: 40px;
+  text-transform: uppercase; }
 
 @media (min-width: 1080px) {
   .single-university .entry-content, .single-university .uni-prerequisites {
