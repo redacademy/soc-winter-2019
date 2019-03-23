@@ -283,3 +283,26 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+.page-template-archive-university{
+  .university-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    // margin-left: 7rem;
+    // margin-right: 7rem;
+    img {
+      width: 400px;
+      height: 200px;
+    }
+  }
+  .heading-university{
+    display: none;
+  }
+  .drop-down-menu-block{
+    
+  }
+}
+}

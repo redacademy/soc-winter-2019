@@ -1787,24 +1787,34 @@ button[type='submit'] {
     width: 400px; }
 
 @media (min-width: 1080px) {
-  .blog-content-area {
+  .blog .blog-content-area {
     padding-left: 3rem;
     padding-right: 3rem; }
-  .container {
+  .blog .container {
     display: grid;
     grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
-  .blog-container {
+  .blog .blog-container {
     padding-bottom: 3rem; }
-    .blog-container img {
+    .blog .blog-container img {
       height: 50vh;
       width: 80vh;
       padding: 1rem; }
-  .blog-text {
+  .blog .blog-text {
     width: 350px;
     height: 100px;
-    padding-top: 15px; } }
+    padding-top: 20px; }
+  .blog .entry-title {
+    padding-top: 5px; }
+    .blog .entry-title a {
+      font-weight: 500;
+      font-style: normal;
+      font-size: 18px;
+      letter-spacing: 1px; }
+  .blog .posted-on {
+    font-size: 15px;
+    letter-spacing: 0.5px; } }
 
 /* Events Page */
 .events-area {
@@ -2136,6 +2146,22 @@ button[type='submit'] {
     .uni-facilities div {
       width: 50%;
       line-height: 1.75; } }
+
+@media (min-width: 1080px) {
+  .page-template-archive-university .university-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto; }
+    .page-template-archive-university .university-container img {
+      width: 400px;
+      height: 200px; }
+  .page-template-archive-university .heading-university {
+    display: none; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
