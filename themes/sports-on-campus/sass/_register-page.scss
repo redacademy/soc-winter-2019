@@ -1,57 +1,77 @@
 //register page
 .page-id-41 {
+  .student-reg {
+    padding: 120px 70px 10px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+  .Submit {
+    margin-top: 25px;
+    letter-spacing: 2px;
+    width: 220px;
+  }
+  .entry-title {
+    display: none;
+  }
+}
+.sign-facebook-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: $color__main-block;
+}
+.sign-google-button {
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background: $color__light-text;
+}
+.ur-frontend-form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.ur-frontend-form form button[type='submit'],
+.ur-frontend-form form input[type='submit'] {
+  float: none;
+}
+.wp-block-button__link {
+  padding: 5px 40px;
+}
+
+@include desktop {
+  .heading-university,
+  .page-template-team h2,
+  .page h2 {
+    font-size: 2rem;
+    padding-top: 1em;
+  }
+}
+@media (min-width: $desktop-width) {
+  .page-id-41 {
     .student-reg {
-      padding: 120px 70px 10px;
-      font-weight: 900;
+      font-weight: 500;
+      font-size: 20px;
+      padding-top: 170px;
+      padding-bottom: 70px;
       font-style: normal;
-      text-align: left;
-      max-width: 500px;
+      text-align: center;
       margin: 0 auto;
       letter-spacing: 1px;
       word-spacing: 1px;
     }
-    .Submit {
-      margin-top: 25px;
-      letter-spacing: 2px;
-      width: 220px;
-    }
-    .entry-title {
-      display: none;
+    .form p label {
+      display: block;
+      text-align: start;
+      width: 25%;
+      margin: auto;
     }
   }
-  .sign-facebook-button {
-    width: 60%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    background: $color__main-block;
-  }
-  .sign-google-button {
-    width: 60%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    background: $color__light-text;
-  }
-  .ur-frontend-form {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-  }
-  .ur-frontend-form form button[type='submit'],
-  .ur-frontend-form form input[type='submit'] {
-    float: none;
-  }
-  .wp-block-button__link {
-    padding: 5px 40px;
-  }
-  
-  @include desktop {
-    .heading-university,
-    .page-template-team h2,
-    .page h2 {
-      font-size: 2rem;
-      padding-top: 1em;
-    }
-  }
-  
+}

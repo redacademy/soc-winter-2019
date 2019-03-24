@@ -2587,3 +2587,20 @@ select.minimal {
   .page h2 {
     font-size: 2rem;
     padding-top: 1em; } }
+
+@media (min-width: 1080px) {
+  .page-id-41 .student-reg {
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    word-spacing: 1px; }
+  .page-id-41 .form p label {
+    display: block;
+    text-align: start;
+    width: 25%;
+    margin: auto; } }
