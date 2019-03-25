@@ -1848,32 +1848,32 @@ button[type='submit'] {
     width: 400px; }
 
 @media (min-width: 1080px) {
-  .blog .blog-content-area {
+  .blog-content-area {
     padding-left: 3rem;
     padding-right: 3rem; }
-  .blog .container {
+  .container {
     display: grid;
     grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
-  .blog .blog-container {
+  .blog-container {
     padding-bottom: 3rem; }
-    .blog .blog-container img {
+    .blog-container img {
       height: 50vh;
       width: 80vh;
       padding: 1rem; }
-  .blog .blog-text {
+  .blog-text {
     width: 350px;
     height: 100px;
     padding-top: 20px; }
-  .blog .entry-title {
+  .entry-title {
     padding-top: 5px; }
-    .blog .entry-title a {
+    .entry-title a {
       font-weight: 500;
       font-style: normal;
       font-size: 18px;
       letter-spacing: 1px; }
-  .blog .posted-on {
+  .posted-on {
     font-size: 15px;
     letter-spacing: 0.5px; }
   .single-post h2, .posted-on {
