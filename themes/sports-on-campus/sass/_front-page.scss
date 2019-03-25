@@ -185,6 +185,11 @@
 }
 
 @include desktop {
+  .page-template-team {
+    .ceo{
+      display:flex;
+    }
+  }
   .top-heading {
     height: 1000px;
     background: url(../../assets/images/Duo-tone-cas.png);
