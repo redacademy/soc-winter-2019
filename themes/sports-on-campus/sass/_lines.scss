@@ -38,4 +38,75 @@
       }
     }
   }
+
+  @include desktop {
+    .extra-container {
+      width: 50%;
+      height: 50px;
+      border-right: 5px solid $color__main-block;
+      .extra-circle {
+        position: relative;
+        left: calc(100% - 8px);
+        top: -3px;
+        width: 20px;
+        height: 20px;
+        background: $color__main-block;
+        border: 2px solid $color__main-block;
+        border-radius: 40px;
+      }
+      &:last-of-type .extra-circle{
+        top: 100%;
+    }
+    }
+    .history-container {
+        flex-flow: row wrap;
+        margin-bottom: 100px;
+      .extra-space {
+          width: 50%;
+          height: auto;
+          &:nth-child(odd){
+            border-right: 5px solid $color__main-block;
+        }
+      }
+      .extra-border {
+          width: 15%;
+          border-top: 5px solid $color__main-block;
+        &:nth-child(even){
+            //border-left: 5px solid $color__main-block;
+        }
+        &:nth-child(odd){
+            border-right: 5px solid $color__main-block;
+        }
+           
+      }
+      
+      article {
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 0px;
+        border: none;
+        width: 35%;
+        .history-text-block{
+            padding: 0px;
+        }
+        .circle{
+            top: -8px;
+        }
+      }
+    article:nth-child(even) .history-text-block{
+        order: -1;
+        padding-left: 20%;
+    }
+    article:nth-child(odd) .history-text-block{
+        padding-right: 20%;
+    }
+    article:nth-child(even){
+        // border-left: 5px solid $color__main-block;
+        .circle{
+            left: 0px;
+        }
+    }
+   
+    }
+  }
 }

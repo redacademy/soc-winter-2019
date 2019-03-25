@@ -2905,3 +2905,60 @@ select.minimal {
         padding-bottom: 20px; }
     .content-team .history-container article:last-of-type p {
       padding-bottom: 0px !important; }
+
+@media (min-width: 1080px) {
+  .content-team .extra-container {
+    width: 50%;
+    height: 50px;
+    border-right: 5px solid #003276; }
+    .content-team .extra-container .extra-circle {
+      position: relative;
+      left: calc(100% - 8px);
+      top: -3px;
+      width: 20px;
+      height: 20px;
+      background: #003276;
+      border: 2px solid #003276;
+      border-radius: 40px; }
+    .content-team .extra-container:last-of-type .extra-circle {
+      top: 100%; }
+  .content-team .history-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-bottom: 100px; }
+    .content-team .history-container .extra-space {
+      width: 50%;
+      height: auto; }
+      .content-team .history-container .extra-space:nth-child(odd) {
+        border-right: 5px solid #003276; }
+    .content-team .history-container .extra-border {
+      width: 15%;
+      border-top: 5px solid #003276; }
+      .content-team .history-container .extra-border:nth-child(odd) {
+        border-right: 5px solid #003276; }
+    .content-team .history-container article {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      margin: 0px;
+      border: none;
+      width: 35%; }
+      .content-team .history-container article .history-text-block {
+        padding: 0px; }
+      .content-team .history-container article .circle {
+        top: -8px; }
+    .content-team .history-container article:nth-child(even) .history-text-block {
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1;
+      padding-left: 20%; }
+    .content-team .history-container article:nth-child(odd) .history-text-block {
+      padding-right: 20%; }
+    .content-team .history-container article:nth-child(even) .circle {
+      left: 0px; } }
