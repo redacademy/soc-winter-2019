@@ -1701,6 +1701,8 @@ button[type='submit'] {
         .mid-heading .white-lines-container .white-short-line:nth-of-type(5) {
           width: 10%;
           border-right: none; }
+  .test-title {
+    text-transform: uppercase; }
   .step-to-follow-container {
     margin-top: 500px !important; }
     .step-to-follow-container h2 {
@@ -2890,7 +2892,6 @@ select.minimal {
     text-align: start;
     width: 40%;
     margin: auto; }
-<<<<<<< HEAD
   .page-id-43 .ur-form-row {
     display: block;
     text-align: start;
@@ -2911,9 +2912,6 @@ select.minimal {
   .page-id-43 .ur-field-item label {
     font-size: 16px;
     color: grey; } }
-=======
-  .page-id-41 input[type=submit] {
-    margin-left: 0; } }
 
 .content-team .history-container {
   display: -webkit-box;
@@ -3014,4 +3012,3 @@ select.minimal {
       padding-right: 20%; }
     .content-team .history-container article:nth-child(even) .circle {
       left: 0px; } }
->>>>>>> b52ad2d3efdbf1c2b8628af36a367aa3cc10ae9b
