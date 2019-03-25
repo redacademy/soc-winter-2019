@@ -91,10 +91,10 @@
     .wp-block-button__link {
       width: 430px;
       letter-spacing: 2px;
-      font-weight: 300;
+      font-weight: 400;
       background-color: #003276;
       border-radius: 12px;
-      font-size: 16px;
+      font-size: 18px;
       margin: 0;
       padding: 16px;
     }
@@ -112,6 +112,28 @@
 }
 @include desktop {
   .page-id-43 {
+    .ur-frontend-form form .ur-form-row .ur-form-grid input[type='text'],
+    .ur-frontend-form form .ur-form-row .ur-form-grid input[type='email'],
+    .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
+    .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
+    .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
+      width: 100%;
+      border-radius: 8px;
+      height: 45px;
+      margin-bottom: 10px;
+    }
+    .ur-frontend-form form .ur-form-row .ur-form-grid select {
+      height: 40px;
+      margin-bottom: 10px;
+      width: 280px;
+    }
+    .select {
+      color: white;
+      background-color: #00237a;
+    }
+    .ur-frontend-form form .ur-form-row .ur-form-grid textarea {
+      height: 140px;
+    }
     .entry-title {
       display: none;
     }
@@ -120,7 +142,7 @@
       font-weight: 900;
       letter-spacing: 1px;
       font-size: 38px;
-      padding-bottom: 60px;
+      padding-bottom: 40px;
       padding-top: 80px;
     }
     textarea,
@@ -139,15 +161,31 @@
       width: 40%;
       margin: auto;
     }
-    .wpcf7-submit {
+    .ur-form-row {
+      display: block;
+      text-align: start;
+      width: 35%;
+      margin: auto;
+    }
+
+    .ur-frontend-form form button {
+      margin-top: 30px;
+      padding: 20px 20px;
+      margin-bottom: 200px;
+      line-height: 1em;
+      text-align: center;
+      word-break: break-word;
+      white-space: normal;
+      border: none;
+      cursor: pointer;
+      -webkit-transition: 0.9s all ease-out;
+      transition: 0.9s all ease-out;
+    }
+    .ur-field-item {
+      label {
+        font-size: 16px;
+        color: grey;
+      }
     }
   }
 }
-// @include desktop {
-//   .heading-university,
-//   .page-template-team h2,
-//   .page h2 {
-//     font-size: 2rem;
-//     padding-top: 1em;
-//   }
-// }

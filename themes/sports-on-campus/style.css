@@ -2751,10 +2751,10 @@ select.minimal {
   .page-id-41 .wp-block-button__link {
     width: 430px;
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #003276;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     padding: 16px; }
   .page-id-41 textarea,
@@ -2768,6 +2768,24 @@ select.minimal {
     height: 45px; } }
 
 @media (min-width: 1080px) {
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='text'],
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='email'],
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
+    width: 100%;
+    border-radius: 8px;
+    height: 45px;
+    margin-bottom: 10px; }
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid select {
+    height: 40px;
+    margin-bottom: 10px;
+    width: 280px; }
+  .page-id-43 .select {
+    color: white;
+    background-color: #00237a; }
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid textarea {
+    height: 140px; }
   .page-id-43 .entry-title {
     display: none; }
   .page-id-43 h2 {
@@ -2775,7 +2793,7 @@ select.minimal {
     font-weight: 900;
     letter-spacing: 1px;
     font-size: 38px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     padding-top: 80px; }
   .page-id-43 textarea,
   .page-id-43 input[type='email'],
@@ -2790,4 +2808,24 @@ select.minimal {
     display: block;
     text-align: start;
     width: 40%;
-    margin: auto; } }
+    margin: auto; }
+  .page-id-43 .ur-form-row {
+    display: block;
+    text-align: start;
+    width: 35%;
+    margin: auto; }
+  .page-id-43 .ur-frontend-form form button {
+    margin-top: 30px;
+    padding: 20px 20px;
+    margin-bottom: 200px;
+    line-height: 1em;
+    text-align: center;
+    word-break: break-word;
+    white-space: normal;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: 0.9s all ease-out;
+    transition: 0.9s all ease-out; }
+  .page-id-43 .ur-field-item label {
+    font-size: 16px;
+    color: grey; } }
