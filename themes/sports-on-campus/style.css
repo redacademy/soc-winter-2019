@@ -2495,7 +2495,7 @@ select.minimal {
     text-align: left;
     font-size: 14px; }
   .page-id-25 .entry-content .question {
-    max-width: 300px; }
+    width: 300px; }
   .page-id-25 .entry-content .submit-button {
     text-align: center; }
   .page-id-25 .entry-content label {
@@ -2554,7 +2554,11 @@ select.minimal {
       font-size: 22px; }
   .page-id-25 .wpcf7 {
     max-width: 500px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .page-id-25 .entry-content .question {
+    width: 100%; }
+  .page-id-25 .page-template-default .wpcf7-form {
+    width: 100%; } }
 
 .page-id-27 h1 {
   display: none; }
