@@ -1848,32 +1848,32 @@ button[type='submit'] {
     width: 400px; }
 
 @media (min-width: 1080px) {
-  .blog .blog-content-area {
+  .blog-content-area {
     padding-left: 3rem;
     padding-right: 3rem; }
-  .blog .container {
+  .container {
     display: grid;
     grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
-  .blog .blog-container {
+  .blog-container {
     padding-bottom: 3rem; }
-    .blog .blog-container img {
+    .blog-container img {
       height: 50vh;
       width: 80vh;
       padding: 1rem; }
-  .blog .blog-text {
+  .blog-text {
     width: 350px;
     height: 100px;
     padding-top: 20px; }
-  .blog .entry-title {
+  .entry-title {
     padding-top: 5px; }
-    .blog .entry-title a {
+    .entry-title a {
       font-weight: 500;
       font-style: normal;
       font-size: 18px;
       letter-spacing: 1px; }
-  .blog .posted-on {
+  .posted-on {
     font-size: 15px;
     letter-spacing: 0.5px; }
   .single-post h2, .posted-on {
@@ -2862,3 +2862,46 @@ select.minimal {
     margin: auto; }
   .page-id-41 input[type=submit] {
     margin-left: 0; } }
+
+.content-team .history-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap; }
+  .content-team .history-container article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 60%;
+    margin: auto;
+    border-left: 3px solid #003276; }
+    .content-team .history-container article .circle {
+      position: relative;
+      left: -11px;
+      width: 20px;
+      height: 20px;
+      background: #CDE3FB;
+      border: 2px solid #003276;
+      border-radius: 40px; }
+    .content-team .history-container article .history-text-block {
+      width: 100%;
+      padding-left: 30px; }
+      .content-team .history-container article .history-text-block h4 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        padding-bottom: 10px; }
+      .content-team .history-container article .history-text-block p {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        padding-bottom: 20px; }
+    .content-team .history-container article:last-of-type p {
+      padding-bottom: 0px !important; }
