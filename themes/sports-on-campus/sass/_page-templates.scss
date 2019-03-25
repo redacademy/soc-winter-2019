@@ -439,4 +439,52 @@ button[type='submit'] {
       }
     }
 
+    .our-team-block{
+      width: 60%;
+
+    }
+    .page-template-team{
+      .wp-block-image-top{
+        width:38%;
+        img{
+          width: 25em;
+          padding-left: 2em;
+          height: auto;
+          border-radius:0;
+        }
+      }
+      .ceo-caption{
+       font-weight: 500;
+       padding-bottom: 1em;
+       letter-spacing: 1px;
+       padding-bottom: 2em;
+        padding-top: 1em;
+        font-size: 18px;
+      }
+      .ceo p{
+        text-align: left;
+        font-size: 17px;
+        padding-bottom: 3em;
+      }
+      .ceo .wp-block-quote p{
+        font-size:23px;
+      }
+      .about-our-concept{
+        text-align: left;
+      }
+      .orange-story{
+        padding-left: 45px;
+      }
+      .our-faces{
+        display:flex;
+        justify-content: space-around;
+      }
+      .about-our-concept{
+        padding-bottom: 65px;
+      }
+      .wp-block-quote{
+        padding-bottom: 40px;
+
+      }
+    }
 }
