@@ -1407,7 +1407,43 @@ button[type='submit'] {
     padding-top: 4rem;
     font-size: 2.5rem;
     font-weight: 900;
-    letter-spacing: 3px; } }
+    letter-spacing: 3px; }
+  .our-team-block {
+    width: 60%; }
+  .page-template-team .wp-block-image-top {
+    width: 38%; }
+    .page-template-team .wp-block-image-top img {
+      width: 25em;
+      padding-left: 2em;
+      height: auto;
+      border-radius: 0; }
+  .page-template-team .ceo-caption {
+    font-weight: 500;
+    padding-bottom: 1em;
+    letter-spacing: 1px;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    font-size: 18px; }
+  .page-template-team .ceo p {
+    text-align: left;
+    font-size: 17px;
+    padding-bottom: 3em; }
+  .page-template-team .ceo .wp-block-quote p {
+    font-size: 23px; }
+  .page-template-team .about-our-concept {
+    text-align: left; }
+  .page-template-team .orange-story {
+    padding-left: 45px; }
+  .page-template-team .our-faces {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .page-template-team .about-our-concept {
+    padding-bottom: 65px; }
+  .page-template-team .wp-block-quote {
+    padding-bottom: 40px; } }
 
 /* Front page */
 .top-heading {
@@ -1603,6 +1639,10 @@ button[type='submit'] {
   padding-bottom: 1em; }
 
 @media (min-width: 1080px) {
+  .page-template-team .ceo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   .top-heading {
     height: 1000px;
     background: url(../../assets/images/Duo-tone-cas.png);
