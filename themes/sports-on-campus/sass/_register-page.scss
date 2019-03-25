@@ -47,6 +47,9 @@
 }
 @include desktop {
   .page-id-41 {
+    .or {
+      font-size: 20px;
+    }
     .student-reg {
       white-space: nowrap;
       display: flex;

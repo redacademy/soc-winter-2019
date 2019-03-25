@@ -2648,6 +2648,8 @@ select.minimal {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
+  .page-id-41 .or {
+    font-size: 20px; }
   .page-id-41 .student-reg {
     white-space: nowrap;
     display: -webkit-box;
