@@ -16,8 +16,20 @@
             color: #fff;
         }
     }
-   
-    
+}
+
+@media (min-width: $desktop-width) {
+  .archive-university-content{
+    .drop-down-menu-block{
+        margin: 0;
+        margin-left: 10rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        p{
+          font-size: 20px;
+        }
+    }
+  }
 }
 
 select {

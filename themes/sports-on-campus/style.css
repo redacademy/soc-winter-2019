@@ -2200,7 +2200,7 @@ button[type='submit'] {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 1300px;
+    max-width: 1275px;
     margin: 0 auto; }
     .page-template-archive-university .university-container img {
       width: 400px;
@@ -2384,6 +2384,15 @@ button[type='submit'] {
     border: none;
     background: #003276;
     color: #fff; }
+
+@media (min-width: 1080px) {
+  .archive-university-content .drop-down-menu-block {
+    margin: 0;
+    margin-left: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+    .archive-university-content .drop-down-menu-block p {
+      font-size: 20px; } }
 
 select {
   /* styling */
@@ -2639,25 +2648,60 @@ select.minimal {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
+  .page-id-41 .student-reg {
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-style: normal;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    word-spacing: 1px; }
+  .page-id-41 .wpcf7 label {
+    display: block;
+    text-align: start;
+    width: 25%;
+    margin: auto; }
+  .page-id-41 .orange-button,
+  .page-id-41 input[type='submit'],
+  .page-id-41 button[type='submit'] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: none;
+    color: #fff;
+    background: #ff6b00;
+    padding: 20px 60px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-left: 290px;
+    letter-spacing: 2px; }
+  .page-id-41 .wp-block-button__link {
+    width: 430px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    background-color: #003276;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 0;
+    padding: 16px; }
+  .page-id-41 textarea,
+  .page-id-41 input[type='email'],
+  .page-id-41 input[type='number'],
+  .page-id-41 input[type='password'],
+  .page-id-41 input[type='text'] {
+    color: #666;
+    border: 1px solid #00237a;
+    border-radius: 12px;
+    height: 45px; } }
+
+@media (min-width: 1080px) {
   .heading-university,
   .page-template-team h2,
   .page h2 {
     font-size: 2rem;
     padding-top: 1em; } }
-
-@media (min-width: 1080px) {
-  .page-id-41 .student-reg {
-    font-weight: 500;
-    font-size: 20px;
-    padding-top: 170px;
-    padding-bottom: 70px;
-    font-style: normal;
-    text-align: center;
-    margin: 0 auto;
-    letter-spacing: 1px;
-    word-spacing: 1px; }
-  .page-id-41 .form p label {
-    display: block;
-    text-align: start;
-    width: 25%;
-    margin: auto; } }
