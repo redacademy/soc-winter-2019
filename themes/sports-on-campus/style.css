@@ -2024,6 +2024,9 @@ button[type='submit'] {
 .university-gallary-ubc {
   display: none; }
 
+.single-university iframe {
+  display: none; }
+
 @media (min-width: 1080px) {
   .half-transparent {
     background: #fff;
@@ -2265,8 +2268,10 @@ button[type='submit'] {
     font-weight: 500; }
   .university-template-default h1.entry-title {
     padding-bottom: 1em; }
-  h3 {
-    font-size: 32px; } }
+  .university-template-default h3 {
+    font-size: 32px; }
+  .single-university iframe {
+    display: block; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
@@ -2487,10 +2492,7 @@ select.minimal {
   margin: 0 auto;
   margin-bottom: 3rem; }
   .page-id-25 .entry-content p {
-    text-align: left;
     font-size: 14px; }
-  .page-id-25 .entry-content .question {
-    max-width: 300px; }
   .page-id-25 .entry-content .submit-button {
     text-align: center; }
   .page-id-25 .entry-content label {
@@ -2502,6 +2504,7 @@ select.minimal {
             box-shadow: none;
     border: none;
     color: #fff;
+    height: 3em;
     background: #ff6b00;
     padding: 8px 55px;
     font-size: 14px;
@@ -2512,6 +2515,9 @@ select.minimal {
 
 .page-id-25 .wpcf7-textarea {
   height: 75px; }
+
+.page-id-25 form p label {
+  width: 100%; }
 
 @media (min-width: 1080px) {
   .page-id-25 .entry-title {
@@ -2542,6 +2548,7 @@ select.minimal {
     .page-id-25 .entry-content label {
       color: #404040;
       font-weight: 300;
+      width: 100%;
       font-size: 15px; }
     .page-id-25 .entry-content p {
       text-align: left;
@@ -2549,7 +2556,11 @@ select.minimal {
       font-size: 22px; }
   .page-id-25 .wpcf7 {
     max-width: 500px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .page-id-25 .entry-content .question {
+    width: 100%; }
+  .page-id-25 .page-template-default .wpcf7-form {
+    width: 100%; } }
 
 .page-id-27 h1 {
   display: none; }
@@ -2715,6 +2726,11 @@ select.minimal {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
+  .page-id-41 .wpcf7 label {
+    display: block;
+    text-align: start;
+    width: 25%;
+    margin: auto; }
   .page-id-41 .or {
     font-size: 20px; }
   .page-id-41 .student-reg {
@@ -2733,7 +2749,6 @@ select.minimal {
   .page-id-41 .wpcf7 label {
     display: block;
     text-align: start;
-    width: 25%;
     margin: auto; }
   .page-id-41 .orange-button,
   .page-id-41 input[type='submit'],
@@ -2766,41 +2781,29 @@ select.minimal {
     color: #666;
     border: 1px solid #00237a;
     border-radius: 12px;
-    height: 45px; }
-  .page-id-41 .wpcf7 label {
-    display: block;
-    text-align: start;
-    width: 25%;
-    margin: auto; } }
+    height: 45px; } }
 
 @media (min-width: 1080px) {
-  .page-template-default .entry-title {
+  .page-id-43 .entry-title {
     display: none; }
-  .page-template-default h2 {
+  .page-id-43 h2 {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 1px;
     font-size: 38px;
     padding-bottom: 60px;
-    padding-top: 60px; }
-  .page-template-default textarea,
-  .page-template-default input[type='email'],
-  .page-template-default input[type='number'],
-  .page-template-default input[type='password'],
-  .page-template-default input[type='text'] {
+    padding-top: 80px; }
+  .page-id-43 textarea,
+  .page-id-43 input[type='email'],
+  .page-id-43 input[type='number'],
+  .page-id-43 input[type='password'],
+  .page-id-43 input[type='text'] {
     color: #666;
     border: 1px solid #00237a;
     border-radius: 6px;
     height: 45px; }
-  .page-template-default .wpcf7-form {
+  .page-id-43 .wpcf7-form {
     display: block;
     text-align: start;
     width: 40%;
     margin: auto; } }
-
-@media (min-width: 1080px) {
-  .heading-university,
-  .page-template-team h2,
-  .page h2 {
-    font-size: 2rem;
-    padding-top: 1em; } }

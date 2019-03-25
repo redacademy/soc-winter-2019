@@ -80,6 +80,11 @@
 .university-gallary-ubc {
   display: none;
 }
+.single-university{
+  iframe{
+    display:none;
+  }
+}
 
 @include desktop {
   .half-transparent {
@@ -334,10 +339,17 @@
     h1.entry-title{
       padding-bottom: 1em;
     }
+    h3{
+      font-size:32px;
+    }
   }
-  h3{
-    font-size:32px;
+
+  .single-university{
+    iframe{
+      display:block;
+    }
   }
+  
   
 
 }
