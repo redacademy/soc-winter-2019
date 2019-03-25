@@ -2854,7 +2854,7 @@ select.minimal {
   .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
   .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
   .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
-    width: 100%;
+    width: 40%;
     border-radius: 8px;
     height: 45px;
     margin-bottom: 10px; }
@@ -2889,31 +2889,7 @@ select.minimal {
     display: block;
     text-align: start;
     width: 40%;
-    margin: auto; }
-<<<<<<< HEAD
-  .page-id-43 .ur-form-row {
-    display: block;
-    text-align: start;
-    width: 35%;
-    margin: auto; }
-  .page-id-43 .ur-frontend-form form button {
-    margin-top: 30px;
-    padding: 20px 20px;
-    margin-bottom: 200px;
-    line-height: 1em;
-    text-align: center;
-    word-break: break-word;
-    white-space: normal;
-    border: none;
-    cursor: pointer;
-    -webkit-transition: 0.9s all ease-out;
-    transition: 0.9s all ease-out; }
-  .page-id-43 .ur-field-item label {
-    font-size: 16px;
-    color: grey; } }
-=======
-  .page-id-41 input[type=submit] {
-    margin-left: 0; } }
+    margin: auto; } }
 
 .content-team .history-container {
   display: -webkit-box;
@@ -3014,4 +2990,3 @@ select.minimal {
       padding-right: 20%; }
     .content-team .history-container article:nth-child(even) .circle {
       left: 0px; } }
->>>>>>> b52ad2d3efdbf1c2b8628af36a367aa3cc10ae9b
