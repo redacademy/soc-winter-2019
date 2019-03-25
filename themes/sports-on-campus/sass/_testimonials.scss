@@ -54,6 +54,7 @@
 .test-block{
   display: flex;
     margin: 0 auto;
+    width: 75%;
 }
 .test-position{
   margin-bottom:1em;
@@ -179,4 +180,7 @@
     font-size:24px;
   }
 
+  .test-block{
+    width:auto;
+  }
 }

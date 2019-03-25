@@ -2337,7 +2337,8 @@ button[type='submit'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 75%; }
 
 .test-position {
   margin-bottom: 1em; }
@@ -2432,7 +2433,9 @@ button[type='submit'] {
   .test-block {
     margin-top: 2em; }
   .page-template-archive-testimonial .wp-block-quote p {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .test-block {
+    width: auto; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
