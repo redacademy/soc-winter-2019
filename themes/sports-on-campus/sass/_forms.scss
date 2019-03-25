@@ -137,3 +137,48 @@ form {
   }
   
 }
+
+@include desktop{
+  .page-template-login {
+
+  .entry-title{
+    padding-top:1.5em;
+    font-weight: 500;
+    padding-bottom: 2em;
+    text-transform: uppercase;
+  }
+  .container form{
+    width:50%;
+  }
+  .remember-me{
+    margin-bottom: 2em;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .login-chunk{
+    display: flex;
+    width: 32%;
+    margin: 0 auto;
+  }
+  .login-button input{
+    height: 2.5em;
+    width: 10em;
+  }
+
+.wp-block-button__link{
+  height: 3em;
+  width: 32em;
+  padding-top: .8em;
+  font-size: 15px;
+}
+.login-options a{
+  font-weight: 500;
+  color:gray;
+}
+.entry-content{
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+}
+}

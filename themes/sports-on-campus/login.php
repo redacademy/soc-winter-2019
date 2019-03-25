@@ -22,12 +22,14 @@ get_header(); ?>
             <input type="password" name="password" placeholder="password">
         </form>
 
+    <div class= "login-chunk">
         <div class="remember-me">
             <input type="checkbox" name="remember" id="remember" class="remember-input" value="Remember me"><label for="remember">Remember me</label>
         </div>
         <div class="login-button">
             <input type="submit" name="submit" value="Login">
         </div>
+</div>
 
  
         
