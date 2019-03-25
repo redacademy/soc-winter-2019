@@ -2683,7 +2683,6 @@ select.minimal {
   .page-id-41 .wpcf7 label {
     display: block;
     text-align: start;
-    width: 25%;
     margin: auto; }
   .page-id-41 .orange-button,
   .page-id-41 input[type='submit'],
@@ -2720,29 +2719,28 @@ select.minimal {
   .page-id-41 .wpcf7 label {
     display: block;
     text-align: start;
-    width: 25%;
     margin: auto; } }
 
 @media (min-width: 1080px) {
-  .page-template-default .entry-title {
+  .page-id-43 .entry-title {
     display: none; }
-  .page-template-default h2 {
+  .page-id-43 h2 {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 1px;
     font-size: 38px;
     padding-bottom: 60px;
-    padding-top: 60px; }
-  .page-template-default textarea,
-  .page-template-default input[type='email'],
-  .page-template-default input[type='number'],
-  .page-template-default input[type='password'],
-  .page-template-default input[type='text'] {
+    padding-top: 200px; }
+  .page-id-43 textarea,
+  .page-id-43 input[type='email'],
+  .page-id-43 input[type='number'],
+  .page-id-43 input[type='password'],
+  .page-id-43 input[type='text'] {
     color: #666;
     border: 1px solid #00237a;
     border-radius: 6px;
     height: 45px; }
-  .page-template-default .wpcf7-form {
+  .page-id-43 .wpcf7-form {
     display: block;
     text-align: start;
     width: 40%;

@@ -65,7 +65,7 @@
     .wpcf7 label {
       display: block;
       text-align: start;
-      width: 25%;
+
       margin: auto;
     }
     .orange-button,
@@ -105,13 +105,13 @@
     .wpcf7 label {
       display: block;
       text-align: start;
-      width: 25%;
+
       margin: auto;
     }
   }
 }
 @include desktop {
-  .page-template-default {
+  .page-id-43 {
     .entry-title {
       display: none;
     }
@@ -121,7 +121,7 @@
       letter-spacing: 1px;
       font-size: 38px;
       padding-bottom: 60px;
-      padding-top: 60px;
+      padding-top: 200px;
     }
     textarea,
     input[type='email'],
