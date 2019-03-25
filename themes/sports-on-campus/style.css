@@ -1276,6 +1276,8 @@ button[type='submit'] {
 .university-template-default .uni-program {
   padding-top: 30px;
   padding-bottom: 10px; }
+  .university-template-default .uni-program p {
+    margin: 0; }
 
 .university-template-default .uni-prerequisites {
   padding-top: 10px;
@@ -1287,7 +1289,8 @@ button[type='submit'] {
 
 .university-template-default .uni-facilities {
   padding-top: 30px;
-  line-height: 2.5; }
+  line-height: 2.5;
+  padding-bottom: 4em; }
 
 .university-template-default .wp-block-button__link {
   letter-spacing: 2px;
@@ -2151,6 +2154,9 @@ button[type='submit'] {
             flex-flow: row nowrap;
     width: 50%;
     margin: auto;
+    font-size: 17px;
+    text-align: left;
+    color: darkslategray;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -2176,7 +2182,8 @@ button[type='submit'] {
             justify-content: space-between; }
     .uni-prerequisites div strong {
       margin-bottom: 10px;
-      font-size: 16px; }
+      font-size: 24px;
+      font-weight: 400; }
     .uni-prerequisites div p {
       font-weight: 300;
       width: 30%;
@@ -2190,7 +2197,11 @@ button[type='submit'] {
         -ms-flex-flow: row nowrap;
             flex-flow: row nowrap;
     width: 60%;
-    margin: auto; }
+    margin: auto;
+    padding-top: 2em;
+    line-height: 2.5;
+    padding-bottom: 6em;
+    font-size: 15px; }
     .uni-facilities div {
       width: 50%;
       line-height: 1.75; } }
@@ -2221,9 +2232,12 @@ button[type='submit'] {
     width: 200px !important; }
   .university-template-default .entry-content .wp-block-button a {
     height: 4em;
-    padding-top: 1.4em; }
+    padding-top: 1.4em;
+    font-weight: 500; }
   .university-template-default h1.entry-title {
-    padding-bottom: 1em; } }
+    padding-bottom: 1em; }
+  h3 {
+    font-size: 32px; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
