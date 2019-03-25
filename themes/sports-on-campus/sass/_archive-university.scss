@@ -71,4 +71,8 @@ select {
     background-repeat: no-repeat !important;
   }
 
-  
+  @include desktop{
+    .archive-university-content .drop-down-menu-block p{
+      margin-top: 4em;
+    }
+  }

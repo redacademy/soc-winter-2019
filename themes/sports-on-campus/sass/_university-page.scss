@@ -291,9 +291,7 @@
     justify-content: space-around;
     max-width: 1275px;
     margin: 0 auto;
-    width: 80%;
-    // margin-left: 7rem;
-    // margin-right: 7rem;
+    margin-top:-3em;
     img {
       width: 100%;
       height: 140px;
@@ -303,11 +301,20 @@
     }
   }
   .heading-university{
-    display: none;
+    margin-top: 1em;
+  }
+  .university-container{
+    width:65%;
+    // margin: 1em;
+  }
+  .type-university{ 
+    margin: 1em;}
+
 }
 .drop-down-menu-block{
   margin-left: 11.25%!important;
  width: 200px !important;
 }
-}
+  
+
 }
