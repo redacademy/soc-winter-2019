@@ -2678,7 +2678,9 @@ select.minimal {
   .page-id-27 .coaches-paragraph {
     font-weight: 500;
     font-style: normal;
+    margin-left: -6em;
     letter-spacing: 1px;
+    margin-left: 0;
     margin-bottom: 4em; }
   .page-id-27 .wp-block-button {
     padding-bottom: 8rem; }
@@ -2694,7 +2696,9 @@ select.minimal {
     max-width: 366px;
     text-align: center;
     font-size: 16px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .number-one {
+    margin-right: 1em; } }
 
 .error404 .page-header {
   font-size: 1.6em; }
