@@ -2492,10 +2492,7 @@ select.minimal {
   margin: 0 auto;
   margin-bottom: 3rem; }
   .page-id-25 .entry-content p {
-    text-align: left;
     font-size: 14px; }
-  .page-id-25 .entry-content .question {
-    width: 300px; }
   .page-id-25 .entry-content .submit-button {
     text-align: center; }
   .page-id-25 .entry-content label {
@@ -2507,6 +2504,7 @@ select.minimal {
             box-shadow: none;
     border: none;
     color: #fff;
+    height: 3em;
     background: #ff6b00;
     padding: 8px 55px;
     font-size: 14px;
@@ -2517,6 +2515,9 @@ select.minimal {
 
 .page-id-25 .wpcf7-textarea {
   height: 75px; }
+
+.page-id-25 form p label {
+  width: 100%; }
 
 @media (min-width: 1080px) {
   .page-id-25 .entry-title {
@@ -2547,6 +2548,7 @@ select.minimal {
     .page-id-25 .entry-content label {
       color: #404040;
       font-weight: 300;
+      width: 100%;
       font-size: 15px; }
     .page-id-25 .entry-content p {
       text-align: left;
