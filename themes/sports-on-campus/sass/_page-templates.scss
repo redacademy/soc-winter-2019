@@ -196,7 +196,8 @@ button[type='submit'] {
     font-size: 20px;
   }
   .best-of-ubc-title {
-    padding-bottom: 10px;
+    padding-bottom: 1.5em;
+
   }
   .secondary-heading {
     text-align: center;
@@ -230,10 +231,11 @@ button[type='submit'] {
     text-transform: uppercase;
   }
   h3 {
-    color: black;
-    text-transform: uppercase;
     padding-top: 20px;
     letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
   .secondary-heading {
     color: white;
@@ -247,6 +249,8 @@ button[type='submit'] {
     font-size: 20px;
   }
   .entry-title {
+    padding-bottom: 5px;
+    text-transform: uppercase;
     padding-left: 50px;
     color: #fff;
     margin: 0;
@@ -419,5 +423,5 @@ button[type='submit'] {
         margin-bottom: 4em;
       }
     }
-  
+
 }

@@ -288,13 +288,16 @@
 .page-template-archive-university{
   .university-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1275px;
     margin: 0 auto;
-   
+    margin-top:-3em;
     img {
-      width: 400px;
-      height: 200px;
+      width: 100%;
+      height: 140px;
+    }
+    article{
+      width: 30%;
     }
   }
   .heading-university{
@@ -309,6 +312,20 @@
 
 }
 .drop-down-menu-block{
-  margin-top:-3em;
+  margin-left: 11.25%!important;
+ width: 200px !important;
 }
+
+.university-template-default{
+
+  .entry-content .wp-block-button a{
+    height: 4em;
+    padding-top: 1.4em;
+    }
+    h1.entry-title{
+      padding-bottom: 1em;
+    }
+  }
+  
+
 }
