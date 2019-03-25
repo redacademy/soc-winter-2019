@@ -291,18 +291,24 @@
     justify-content: space-between;
     max-width: 1300px;
     margin: 0 auto;
-    // margin-left: 7rem;
-    // margin-right: 7rem;
+   
     img {
       width: 400px;
       height: 200px;
     }
   }
   .heading-university{
-    display: none;
+    margin-top: 1em;
   }
-  .drop-down-menu-block{
-    
+  .university-container{
+    width:65%;
+    // margin: 1em;
   }
+  .type-university{ 
+    margin: 1em;}
+
+}
+.drop-down-menu-block{
+  margin-top:-3em;
 }
 }

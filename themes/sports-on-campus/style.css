@@ -2206,7 +2206,13 @@ button[type='submit'] {
       width: 400px;
       height: 200px; }
   .page-template-archive-university .heading-university {
-    display: none; } }
+    margin-top: 1em; }
+  .page-template-archive-university .university-container {
+    width: 65%; }
+  .page-template-archive-university .type-university {
+    margin: 1em; }
+  .drop-down-menu-block {
+    margin-top: -3em; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
@@ -2401,6 +2407,10 @@ select.minimal {
   background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em !important;
   background-size: 5px 5px, 5px 5px, 1px 1.5em !important;
   background-repeat: no-repeat !important; }
+
+@media (min-width: 1080px) {
+  .archive-university-content .drop-down-menu-block p {
+    margin-top: 4em; } }
 
 .page-id-25 .entry-title {
   padding-top: 3rem;
