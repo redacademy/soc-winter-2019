@@ -49,15 +49,18 @@
   
 
     @media (min-width: $desktop-width) {
+      .blog{
+        .container{
+          display: grid;
+          grid-gap: 0;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+        }
+      }
+
       .blog-content-area{
         padding-left: 3rem;
         padding-right: 3rem;
-      }
-      .container{
-        display: grid;
-        grid-gap: 0;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
       }
       .blog-container{
         padding-bottom: 3rem;
