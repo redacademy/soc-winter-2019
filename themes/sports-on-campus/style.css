@@ -1072,7 +1072,7 @@ button[type='submit'] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 18px;
   padding-top: 30px;
@@ -1400,7 +1400,14 @@ button[type='submit'] {
     text-transform: uppercase;
     font-size: 30px; }
   .single-post .main-navigation {
-    margin-bottom: 4em; } }
+    margin-bottom: 4em; }
+  .page-template-team h2 {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 3px; } }
 
 /* Front page */
 .top-heading {
@@ -1868,7 +1875,10 @@ button[type='submit'] {
       letter-spacing: 1px; }
   .blog .posted-on {
     font-size: 15px;
-    letter-spacing: 0.5px; } }
+    letter-spacing: 0.5px; }
+  .single-post h2, .posted-on {
+    font-size: 14px;
+    font-weight: 400; } }
 
 /* Events Page */
 .events-area {
@@ -2523,7 +2533,7 @@ select.minimal {
   .page-id-25 .entry-title {
     padding-bottom: 1rem;
     text-transform: uppercase;
-    padding-top: 7rem; }
+    padding-top: 4rem; }
   .page-id-25 .entry-content {
     max-width: 900px;
     margin: 0 auto;
