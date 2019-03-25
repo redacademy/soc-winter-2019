@@ -1214,7 +1214,7 @@ button[type='submit'] {
   font-size: 20px; }
 
 .university-template-default .best-of-ubc-title {
-  padding-bottom: 10px; }
+  padding-bottom: 1.5em; }
 
 .university-template-default .secondary-heading {
   text-align: center; }
@@ -1244,10 +1244,11 @@ button[type='submit'] {
   text-transform: uppercase; }
 
 .university-template-default h3 {
-  color: black;
-  text-transform: uppercase;
   padding-top: 20px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 .university-template-default .secondary-heading {
   color: white;
@@ -1261,6 +1262,8 @@ button[type='submit'] {
   font-size: 20px; }
 
 .university-template-default .entry-title {
+  padding-bottom: 5px;
+  text-transform: uppercase;
   padding-left: 50px;
   color: #fff;
   margin: 0;
@@ -1391,7 +1394,12 @@ button[type='submit'] {
     text-transform: uppercase;
     font-size: 30px; }
   .single-post .main-navigation {
-    margin-bottom: 4em; } }
+    margin-bottom: 4em; }
+  .university-template-default .entry-content .wp-block-button a {
+    height: 4em;
+    padding-top: 1.4em; }
+  .university-template-default h1.entry-title {
+    padding-bottom: 1em; } }
 
 /* Front page */
 .top-heading {
