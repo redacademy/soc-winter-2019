@@ -1381,6 +1381,18 @@ button[type='submit'] {
   padding-top: 3em;
   padding-bottom: 3em; }
 
+@media (min-width: 1080px) {
+  .single-post .entry-content p {
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-top: 4em;
+    font-size: 18px; }
+  .single-post .entry-title {
+    text-transform: uppercase;
+    font-size: 30px; }
+  .single-post .main-navigation {
+    margin-bottom: 4em; } }
+
 /* Front page */
 .top-heading {
   display: -webkit-box;
