@@ -240,6 +240,9 @@
     flex-flow: row nowrap;
     width: 50%;
     margin: auto;
+    font-size: 17px;
+    text-align: left;
+    color: darkslategray;
     justify-content: space-between;
     margin-bottom: 40px;
     div {
@@ -262,7 +265,8 @@
       justify-content: space-between;
       strong{
         margin-bottom: 10px;
-        font-size: 16px;
+        font-size: 24px;
+        font-weight: 400;
       }
       p {
         font-weight: 300;
@@ -277,6 +281,10 @@
     flex-flow: row nowrap;
     width: 60%;
     margin: auto;
+    padding-top: 2em;
+    line-height: 2.5;
+    padding-bottom: 6em;
+    font-size: 15px;
     div{
       width: 50%;
       line-height: 1.75;
@@ -301,6 +309,10 @@
     }
   }
   .heading-university{
+<<<<<<< HEAD
+    display: none;
+  }
+=======
     margin-top: 1em;
   }
   .university-container{
@@ -314,6 +326,7 @@
 .drop-down-menu-block{
   margin-left: 11.25%!important;
  width: 200px !important;
+>>>>>>> 3e326e5fc974399b5ebb7f66ea18d36737fa9547
 }
 
 .university-template-default{
@@ -321,10 +334,14 @@
   .entry-content .wp-block-button a{
     height: 4em;
     padding-top: 1.4em;
+    font-weight: 500;
     }
     h1.entry-title{
       padding-bottom: 1em;
     }
+  }
+  h3{
+    font-size:32px;
   }
   
 

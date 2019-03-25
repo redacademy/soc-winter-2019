@@ -1279,6 +1279,8 @@ button[type='submit'] {
 .university-template-default .uni-program {
   padding-top: 30px;
   padding-bottom: 10px; }
+  .university-template-default .uni-program p {
+    margin: 0; }
 
 .university-template-default .uni-prerequisites {
   padding-top: 10px;
@@ -1290,7 +1292,8 @@ button[type='submit'] {
 
 .university-template-default .uni-facilities {
   padding-top: 30px;
-  line-height: 2.5; }
+  line-height: 2.5;
+  padding-bottom: 4em; }
 
 .university-template-default .wp-block-button__link {
   letter-spacing: 2px;
@@ -1920,6 +1923,32 @@ button[type='submit'] {
 .page-template-archive-event .type-event {
   margin-bottom: 3rem; }
 
+@media (min-width: 1080px) {
+  .page-template-archive-event .events-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .page-template-archive-event .events-area .type-event {
+      padding-top: 0;
+      padding-bottom: 50px;
+      margin-right: 1px; }
+    .page-template-archive-event .events-area .event-image {
+      height: 200px;
+      max-width: 300px; }
+    .page-template-archive-event .events-area .event-grid {
+      max-width: 300px; }
+    .page-template-archive-event .events-area .type-event {
+      border: 1px solid #9499A1; }
+    .page-template-archive-event .events-area .event-location {
+      padding-left: 10px; }
+    .page-template-archive-event .events-area .event-date {
+      padding-left: 10px;
+      padding-top: 10px; }
+    .page-template-archive-event .events-area .event-content {
+      padding-right: 20px; } }
+
 /* Universities Page */
 .page-template-archive-university ul {
   text-align: left;
@@ -2154,6 +2183,9 @@ button[type='submit'] {
             flex-flow: row nowrap;
     width: 50%;
     margin: auto;
+    font-size: 17px;
+    text-align: left;
+    color: darkslategray;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -2179,7 +2211,8 @@ button[type='submit'] {
             justify-content: space-between; }
     .uni-prerequisites div strong {
       margin-bottom: 10px;
-      font-size: 16px; }
+      font-size: 24px;
+      font-weight: 400; }
     .uni-prerequisites div p {
       font-weight: 300;
       width: 30%;
@@ -2193,7 +2226,11 @@ button[type='submit'] {
         -ms-flex-flow: row nowrap;
             flex-flow: row nowrap;
     width: 60%;
-    margin: auto; }
+    margin: auto;
+    padding-top: 2em;
+    line-height: 2.5;
+    padding-bottom: 6em;
+    font-size: 15px; }
     .uni-facilities div {
       width: 50%;
       line-height: 1.75; } }
@@ -2224,9 +2261,12 @@ button[type='submit'] {
     width: 200px !important; }
   .university-template-default .entry-content .wp-block-button a {
     height: 4em;
-    padding-top: 1.4em; }
+    padding-top: 1.4em;
+    font-weight: 500; }
   .university-template-default h1.entry-title {
-    padding-bottom: 1em; } }
+    padding-bottom: 1em; }
+  h3 {
+    font-size: 32px; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
@@ -2358,7 +2398,7 @@ button[type='submit'] {
     margin: auto;
     margin-bottom: 8em; }
   .page-template-archive-testimonial .wp-block-quote p, .tax-testimonial_category .wp-block-quote p {
-    font-size: 21px; }
+    font-size: 24px; }
   .page-template-archive-testimonial .sample-picture, .tax-testimonial_category .sample-picture {
     height: 17em; }
   .page-template-archive-testimonial .test-cluster, .tax-testimonial_category .test-cluster {
