@@ -359,6 +359,7 @@
 
   .front-page-testimonials {
     h1 {
+      font-family: Futura LT,sans-serif;
     }
     .testimonial-item {
       display: flex;
@@ -372,18 +373,23 @@
         width: 50%;
         padding-right: 40px;
         h2 {
+          font-size: 22px;
           text-align: start;
           margin-bottom: 10px;
         }
         .test-position {
           text-align: start;
+          font-family: Futura LT,sans-serif;
+          margin-bottom: 10px;
         }
         .test-uni {
+          font-family: Futura LT,sans-serif;
           text-align: start;
         }
         .test-block {
           display: flex;
           flex-flow: column nowrap;
+          margin-bottom: 50px;
           i{
             margin-left: -30px;
             padding-left: 0px;
@@ -396,6 +402,8 @@
             width: 100%;
             text-align: start;
             padding-left: 0px;
+            padding-right: 20px;
+            font-size: 24px;
           }
         }
       }
