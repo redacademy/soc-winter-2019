@@ -15,7 +15,20 @@ get_header(); ?>
                 <?php $testimonials = get_terms("testimonial_category"); ?>
 				<?php foreach ($testimonials as $value) : setup_postdata($value); ?>
 				<li class="slide-list">
-					<a href=<?php echo get_term_link($value) ?>><?php echo $value->name ?></a>
+
+				<a href=<?php echo get_term_link($value) ?> class='<?php echo $class; ?>'><?php echo $value->name ?></a>
+				  <!-- <?php $class = ( is_category( $value->name ) ) ? 'active' : '';?>
+					<a href=<?php echo get_term_link($value) ?> class='<?php echo $class; ?>'><?php echo $value->name ?></a>
+					<?php
+					   $catObj = get_category_by_slug('category-slug'); 
+					   $catName = $catObj->name;
+					   echo $catName;
+
+					// if ($value->slug === 'all'){
+						echo $value->slug;
+
+					// 
+					?> -->
 				</li>
                 <?php endforeach;wp_reset_postdata(); ?>
 				<?php $testimonials = soc_get_testimonial_category(); ?>

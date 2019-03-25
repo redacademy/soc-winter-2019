@@ -2494,7 +2494,15 @@ select.minimal {
 
 @media (min-width: 1080px) {
   .archive-university-content .drop-down-menu-block p {
-    margin-top: 4em; } }
+    margin-top: 4em; }
+  .archive-university-content .heading-university {
+    font-size: 2.4rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    max-width: 100%;
+    padding-top: 4rem;
+    margin: 3rem; } }
 
 .page-id-25 .entry-title {
   padding-top: 3rem;
@@ -2648,7 +2656,7 @@ select.minimal {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     max-width: 100%;
-    padding-top: 6rem;
+    padding-top: 4rem;
     margin: 3rem; }
   .page-id-27 .connect {
     word-spacing: 1.5px;
