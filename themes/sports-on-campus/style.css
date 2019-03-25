@@ -2705,6 +2705,11 @@ select.minimal {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
+  .page-id-41 .wpcf7 label {
+    display: block;
+    text-align: start;
+    width: 25%;
+    margin: auto; }
   .page-id-41 .or {
     font-size: 20px; }
   .page-id-41 .student-reg {
@@ -2755,11 +2760,7 @@ select.minimal {
     color: #666;
     border: 1px solid #00237a;
     border-radius: 12px;
-    height: 45px; }
-  .page-id-41 .wpcf7 label {
-    display: block;
-    text-align: start;
-    margin: auto; } }
+    height: 45px; } }
 
 @media (min-width: 1080px) {
   .page-id-43 .entry-title {
@@ -2770,7 +2771,7 @@ select.minimal {
     letter-spacing: 1px;
     font-size: 38px;
     padding-bottom: 60px;
-    padding-top: 200px; }
+    padding-top: 80px; }
   .page-id-43 textarea,
   .page-id-43 input[type='email'],
   .page-id-43 input[type='number'],
@@ -2785,10 +2786,3 @@ select.minimal {
     text-align: start;
     width: 40%;
     margin: auto; } }
-
-@media (min-width: 1080px) {
-  .heading-university,
-  .page-template-team h2,
-  .page h2 {
-    font-size: 2rem;
-    padding-top: 1em; } }
