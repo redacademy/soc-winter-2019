@@ -473,18 +473,32 @@ button[type='submit'] {
         text-align: left;
       }
       .orange-story{
-        padding-left: 45px;
+        padding-left:5em;
+        padding-bottom:1em;
       }
       .our-faces{
         display:flex;
         justify-content: space-around;
+        width: 80%;
+    margin: 0 auto;
+    
       }
       .about-our-concept{
         padding-bottom: 65px;
+        p{
+          padding-left:5em;
+          padding-right:5em;
+        }
       }
       .wp-block-quote{
         padding-bottom: 40px;
 
+      }
+      .wp-block-image img{
+        width:80%;
+      }
+      .achievement-history{
+        padding-top: 0;
       }
     }
 }
