@@ -17,17 +17,21 @@
         }
     }
 }
-
-@media (min-width: $desktop-width) {
+@include desktop{
   .archive-university-content{
+    .heading-university{
+      padding-top: 80px;
+    }
     .drop-down-menu-block{
         margin: 0;
-        margin-left: 10rem;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
         p{
           font-size: 20px;
+          margin-top: 0px !important;
         }
+    }
+    .university-container{
+      padding-bottom: 100px;
     }
   }
 }
