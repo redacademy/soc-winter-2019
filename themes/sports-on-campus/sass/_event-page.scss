@@ -60,3 +60,39 @@
       margin-bottom: 3rem;
     }
   }
+
+  @media (min-width: $desktop-width) {
+    .page-template-archive-event{
+      .events-area{
+        display: flex;
+        justify-content: space-around;
+        .type-event{
+          padding-top: 0;
+          padding-bottom: 50px;
+          margin-right: 1px;
+        }
+        .event-image{
+          height: 200px;  
+          max-width: 300px;
+        }
+        .event-grid{
+          max-width: 300px;
+        }
+        .type-event{
+          border: 1px solid $color__light-text;
+        }
+        .event-location{
+          padding-left: 10px;
+        }
+        .event-date{
+          padding-left: 10px;    
+          padding-top: 10px;
+        }
+        .event-content{
+          p{}
+          padding-right: 20px;
+        }
+      }
+    }
+
+    }

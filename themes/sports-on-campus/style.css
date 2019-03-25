@@ -1914,6 +1914,32 @@ button[type='submit'] {
 .page-template-archive-event .type-event {
   margin-bottom: 3rem; }
 
+@media (min-width: 1080px) {
+  .page-template-archive-event .events-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .page-template-archive-event .events-area .type-event {
+      padding-top: 0;
+      padding-bottom: 50px;
+      margin-right: 1px; }
+    .page-template-archive-event .events-area .event-image {
+      height: 200px;
+      max-width: 300px; }
+    .page-template-archive-event .events-area .event-grid {
+      max-width: 300px; }
+    .page-template-archive-event .events-area .type-event {
+      border: 1px solid #9499A1; }
+    .page-template-archive-event .events-area .event-location {
+      padding-left: 10px; }
+    .page-template-archive-event .events-area .event-date {
+      padding-left: 10px;
+      padding-top: 10px; }
+    .page-template-archive-event .events-area .event-content {
+      padding-right: 20px; } }
+
 /* Universities Page */
 .page-template-archive-university ul {
   text-align: left;
