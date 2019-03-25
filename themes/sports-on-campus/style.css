@@ -2200,7 +2200,7 @@ button[type='submit'] {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 1300px;
+    max-width: 1275px;
     margin: 0 auto; }
     .page-template-archive-university .university-container img {
       width: 400px;
@@ -2378,6 +2378,15 @@ button[type='submit'] {
     border: none;
     background: #003276;
     color: #fff; }
+
+@media (min-width: 1080px) {
+  .archive-university-content .drop-down-menu-block {
+    margin: 0;
+    margin-left: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+    .archive-university-content .drop-down-menu-block p {
+      font-size: 20px; } }
 
 select {
   /* styling */
