@@ -2586,7 +2586,7 @@ select.minimal {
 
 .page-id-27 .connect,
 .page-id-27 .with-coaches {
-  max-width: 400px;
+  max-width: 325px;
   text-align: left;
   font-size: 14px;
   margin: 0 auto; }
@@ -2614,9 +2614,27 @@ select.minimal {
   border-radius: 10px;
   font-size: 14px;
   margin: 0;
-  padding: 7px 45px;
+  padding: 7px;
+  width: 200px;
   font-weight: 900;
   font-style: normal; }
+
+.page-id-27 .number-one,
+.page-id-27 .number-two,
+.page-id-27 .number-three {
+  border: 5px solid #00237A;
+  border-radius: 50%;
+  background: #00237A;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 8px;
+  color: white;
+  font-weight: 500;
+  font-style: normal; }
+
+.page-id-27 .wp-block-button {
+  margin-top: 2rem; }
 
 @media (min-width: 1080px) {
   .page-id-27 h1 {
