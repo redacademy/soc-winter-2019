@@ -420,6 +420,9 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
+.logged-in #site-navigation {
+  top: 32px; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -2213,7 +2216,7 @@ button[type='submit'] {
   .page-template-archive-university .heading-university {
     margin-top: 1em; }
   .page-template-archive-university .university-container {
-    width: 65%; }
+    width: 80%; }
   .page-template-archive-university .type-university {
     margin: 1em; }
   .drop-down-menu-block {
@@ -2397,13 +2400,16 @@ button[type='submit'] {
     color: #fff; }
 
 @media (min-width: 1080px) {
+  .archive-university-content .heading-university {
+    padding-top: 80px; }
   .archive-university-content .drop-down-menu-block {
     margin: 0;
-    margin-left: 10rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem; }
+    padding-bottom: 4rem; }
     .archive-university-content .drop-down-menu-block p {
-      font-size: 20px; } }
+      font-size: 20px;
+      margin-top: 0px !important; }
+  .archive-university-content .university-container {
+    padding-bottom: 100px; } }
 
 select {
   /* styling */
