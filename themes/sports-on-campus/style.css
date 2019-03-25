@@ -2662,17 +2662,17 @@ select.minimal {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    padding-bottom: 6rem; }
+    padding-bottom: 3rem; }
   .page-id-27 .number-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .page-id-27 .number-container .coaches-paragraph {
-      font-weight: 500;
-      font-style: normal;
-      letter-spacing: 1px; }
+  .page-id-27 .coaches-paragraph {
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-bottom: 4em; }
   .page-id-27 .wp-block-button {
-    padding-top: 8rem;
     padding-bottom: 8rem; }
     .page-id-27 .wp-block-button .orange-button {
       height: 60px;
@@ -2681,7 +2681,12 @@ select.minimal {
       text-transform: uppercase;
       font-weight: 500;
       font-style: normal;
-      padding-top: 15px; } }
+      padding-top: 15px; }
+  .page-id-27 .with-coaches {
+    max-width: 366px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto; } }
 
 .error404 .page-header {
   font-size: 1.6em; }

@@ -93,18 +93,19 @@
         font-weight: 500;
         font-style: normal;
         font-size: 20px;
-        padding-bottom: 6rem;
+        padding-bottom: 3rem;
     }
     .number-container{
         display: flex;
-        .coaches-paragraph{
-            font-weight: 500;
-            font-style: normal;
-            letter-spacing: 1px;
-        }
+       
+    }
+    .coaches-paragraph{
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 1px;
+        margin-bottom: 4em;
     }
     .wp-block-button{
-        padding-top: 8rem;
         padding-bottom: 8rem;
         .orange-button{
             height: 60px;
@@ -116,5 +117,10 @@
             padding-top: 15px;
         }
     }
-    }
+    .with-coaches{
+         max-width: 366px;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;}
 }
+    }
