@@ -2290,7 +2290,7 @@ button[type='submit'] {
 .home .wp-block-quote p {
   font-size: 15px;
   margin-bottom: 4em;
-  width: 28em;
+  width: 84%;
   margin: auto; }
 
 .tax-testimonial_category .test-block i,
@@ -2318,17 +2318,18 @@ button[type='submit'] {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-top: 1em;
-    -webkit-padding-start: .05px;
-            padding-inline-start: .05px;
-    -webkit-padding-end: .05px;
-            padding-inline-end: .05px; }
+    -webkit-padding-start: 0.05px;
+            padding-inline-start: 0.05px;
+    -webkit-padding-end: 0.05px;
+            padding-inline-end: 0.05px; }
     .mobile-slide .banner-box a {
       text-decoration: none; }
     .mobile-slide .banner-box li {
       list-style-type: none;
       width: 33%; }
 
-.testimonial-item h2, .testimonial h1 {
+.testimonial-item h2,
+.testimonial h1 {
   color: #000;
   text-transform: capitalize;
   font-size: 16px;
@@ -2349,7 +2350,10 @@ button[type='submit'] {
   border-bottom: 5px solid #ff6b00; }
 
 @media (min-width: 1080px) {
-  .page-template-archive-testimonial .main-navigation, .tax-testimonial_category .main-navigation, .blog .main-navigation, .archive .main-navigation {
+  .page-template-archive-testimonial .main-navigation,
+  .tax-testimonial_category .main-navigation,
+  .blog .main-navigation,
+  .archive .main-navigation {
     margin-bottom: 0;
     position: absolute;
     top: 0px; }
@@ -2360,7 +2364,7 @@ button[type='submit'] {
     .mobile-slide a {
       border: white 1px solid;
       border: 1px solid #fff;
-      padding: .3em;
+      padding: 0.3em;
       background: white;
       padding-right: 3em;
       padding-left: 3em; }
@@ -2370,15 +2374,18 @@ button[type='submit'] {
       display: inline; }
   .mobile-slide .banner-box li {
     width: 15%; }
-  .blog .mobile-slide, .archive .mobile-slide {
+  .blog .mobile-slide,
+  .archive .mobile-slide {
     background-image: url(../../Icons/blog-header.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 4em;
     margin-top: 5em; }
-    .blog .mobile-slide .orange-underline, .archive .mobile-slide .orange-underline {
+    .blog .mobile-slide .orange-underline,
+    .archive .mobile-slide .orange-underline {
       border-bottom: none; }
-  .page-template-archive-testimonial .mobile-slide, .tax-testimonial_category .mobile-slide {
+  .page-template-archive-testimonial .mobile-slide,
+  .tax-testimonial_category .mobile-slide {
     background-image: url(../../Icons/field-test.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -2397,7 +2404,8 @@ button[type='submit'] {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 2em; }
-  .page-template-archive-testimonial .container, .tax-testimonial_category .container {
+  .page-template-archive-testimonial .container,
+  .tax-testimonial_category .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2406,27 +2414,37 @@ button[type='submit'] {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 4em; }
-  .page-template-archive-testimonial .test-image, .tax-testimonial_category .test-image {
+  .page-template-archive-testimonial .test-image,
+  .tax-testimonial_category .test-image {
     margin-left: 10em; }
-  .page-template-archive-testimonial article, .tax-testimonial_category article {
+  .page-template-archive-testimonial article,
+  .tax-testimonial_category article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 2em;
     margin: auto;
     margin-bottom: 8em; }
-  .page-template-archive-testimonial .wp-block-quote p, .tax-testimonial_category .wp-block-quote p {
+  .page-template-archive-testimonial .wp-block-quote p,
+  .tax-testimonial_category .wp-block-quote p {
     font-size: 24px; }
-  .page-template-archive-testimonial .sample-picture, .tax-testimonial_category .sample-picture {
+  .page-template-archive-testimonial .sample-picture,
+  .tax-testimonial_category .sample-picture {
     height: 17em; }
-  .page-template-archive-testimonial .test-cluster, .tax-testimonial_category .test-cluster {
+  .page-template-archive-testimonial .test-cluster,
+  .tax-testimonial_category .test-cluster {
     text-align: left; }
-    .page-template-archive-testimonial .test-cluster h1, .tax-testimonial_category .test-cluster h1 {
+    .page-template-archive-testimonial .test-cluster h1,
+    .tax-testimonial_category .test-cluster h1 {
       font-size: 22px;
       margin-bottom: 0; }
-    .page-template-archive-testimonial .test-cluster .test-position, .page-template-archive-testimonial .test-cluster .test-uni, .tax-testimonial_category .test-cluster .test-position, .tax-testimonial_category .test-cluster .test-uni {
+    .page-template-archive-testimonial .test-cluster .test-position,
+    .page-template-archive-testimonial .test-cluster .test-uni,
+    .tax-testimonial_category .test-cluster .test-position,
+    .tax-testimonial_category .test-cluster .test-uni {
       color: gray; }
-  .tax-testimonial_category .test-block i, .page-template-archive-testimonial .test-block i {
+  .tax-testimonial_category .test-block i,
+  .page-template-archive-testimonial .test-block i {
     padding-left: 0; }
   .test-image {
     margin-right: 3em; }
@@ -2856,7 +2874,7 @@ select.minimal {
   .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
   .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
   .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
-    width: 40%;
+    width: 100%;
     border-radius: 8px;
     height: 45px;
     margin-bottom: 10px; }
@@ -2891,9 +2909,6 @@ select.minimal {
     display: block;
     text-align: start;
     width: 40%;
-<<<<<<< HEAD
-    margin: auto; } }
-=======
     margin: auto; }
   .page-id-43 .ur-form-row {
     display: block;
@@ -2915,7 +2930,6 @@ select.minimal {
   .page-id-43 .ur-field-item label {
     font-size: 16px;
     color: grey; } }
->>>>>>> 8237cca10297b0e46778caeb2e84f2afcd62c47d
 
 .content-team .history-container {
   display: -webkit-box;

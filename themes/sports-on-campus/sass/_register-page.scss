@@ -117,7 +117,7 @@
     .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
     .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
     .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
-      width: 40%;
+      width: 100%;
       border-radius: 8px;
       height: 45px;
       margin-bottom: 10px;
@@ -161,8 +161,6 @@
       width: 40%;
       margin: auto;
     }
-<<<<<<< HEAD
-=======
     .ur-form-row {
       display: block;
       text-align: start;
@@ -189,7 +187,6 @@
         color: grey;
       }
     }
->>>>>>> 8237cca10297b0e46778caeb2e84f2afcd62c47d
   }
   // .page-id-41 input[type='submit'] {
   //   display: flex;
