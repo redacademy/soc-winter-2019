@@ -1701,6 +1701,8 @@ button[type='submit'] {
         .mid-heading .white-lines-container .white-short-line:nth-of-type(5) {
           width: 10%;
           border-right: none; }
+  .test-title {
+    text-transform: uppercase; }
   .step-to-follow-container {
     margin-top: 500px !important; }
     .step-to-follow-container h2 {
@@ -2494,7 +2496,15 @@ select.minimal {
 
 @media (min-width: 1080px) {
   .archive-university-content .drop-down-menu-block p {
-    margin-top: 4em; } }
+    margin-top: 4em; }
+  .archive-university-content .heading-university {
+    font-size: 2.4rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    max-width: 100%;
+    padding-top: 4rem;
+    margin: 3rem; } }
 
 .page-id-25 .entry-title {
   padding-top: 3rem;
@@ -2648,7 +2658,7 @@ select.minimal {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     max-width: 100%;
-    padding-top: 6rem;
+    padding-top: 4rem;
     margin: 3rem; }
   .page-id-27 .connect {
     word-spacing: 1.5px;
@@ -2670,7 +2680,9 @@ select.minimal {
   .page-id-27 .coaches-paragraph {
     font-weight: 500;
     font-style: normal;
+    margin-left: -6em;
     letter-spacing: 1px;
+    margin-left: 0;
     margin-bottom: 4em; }
   .page-id-27 .wp-block-button {
     padding-bottom: 8rem; }
@@ -2686,7 +2698,9 @@ select.minimal {
     max-width: 366px;
     text-align: center;
     font-size: 16px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .number-one {
+    margin-right: 1em; } }
 
 .error404 .page-header {
   font-size: 1.6em; }
@@ -2820,10 +2834,10 @@ select.minimal {
   .page-id-41 .wp-block-button__link {
     width: 430px;
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #003276;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     padding: 16px; }
   .page-id-41 textarea,
@@ -2837,6 +2851,24 @@ select.minimal {
     height: 45px; } }
 
 @media (min-width: 1080px) {
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='text'],
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='email'],
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
+    width: 40%;
+    border-radius: 8px;
+    height: 45px;
+    margin-bottom: 10px; }
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid select {
+    height: 40px;
+    margin-bottom: 10px;
+    width: 280px; }
+  .page-id-43 .select {
+    color: white;
+    background-color: #00237a; }
+  .page-id-43 .ur-frontend-form form .ur-form-row .ur-form-grid textarea {
+    height: 140px; }
   .page-id-43 .entry-title {
     display: none; }
   .page-id-43 h2 {
@@ -2844,7 +2876,7 @@ select.minimal {
     font-weight: 900;
     letter-spacing: 1px;
     font-size: 38px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     padding-top: 80px; }
   .page-id-43 textarea,
   .page-id-43 input[type='email'],
@@ -2859,9 +2891,31 @@ select.minimal {
     display: block;
     text-align: start;
     width: 40%;
+<<<<<<< HEAD
+    margin: auto; } }
+=======
     margin: auto; }
-  .page-id-41 input[type=submit] {
-    margin-left: 0; } }
+  .page-id-43 .ur-form-row {
+    display: block;
+    text-align: start;
+    width: 35%;
+    margin: auto; }
+  .page-id-43 .ur-frontend-form form button {
+    margin-top: 30px;
+    padding: 20px 20px;
+    margin-bottom: 200px;
+    line-height: 1em;
+    text-align: center;
+    word-break: break-word;
+    white-space: normal;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: 0.9s all ease-out;
+    transition: 0.9s all ease-out; }
+  .page-id-43 .ur-field-item label {
+    font-size: 16px;
+    color: grey; } }
+>>>>>>> 8237cca10297b0e46778caeb2e84f2afcd62c47d
 
 .content-team .history-container {
   display: -webkit-box;
@@ -2905,3 +2959,60 @@ select.minimal {
         padding-bottom: 20px; }
     .content-team .history-container article:last-of-type p {
       padding-bottom: 0px !important; }
+
+@media (min-width: 1080px) {
+  .content-team .extra-container {
+    width: 50%;
+    height: 50px;
+    border-right: 5px solid #003276; }
+    .content-team .extra-container .extra-circle {
+      position: relative;
+      left: calc(100% - 8px);
+      top: -3px;
+      width: 20px;
+      height: 20px;
+      background: #003276;
+      border: 2px solid #003276;
+      border-radius: 40px; }
+    .content-team .extra-container:last-of-type .extra-circle {
+      top: 100%; }
+  .content-team .history-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-bottom: 100px; }
+    .content-team .history-container .extra-space {
+      width: 50%;
+      height: auto; }
+      .content-team .history-container .extra-space:nth-child(odd) {
+        border-right: 5px solid #003276; }
+    .content-team .history-container .extra-border {
+      width: 15%;
+      border-top: 5px solid #003276; }
+      .content-team .history-container .extra-border:nth-child(odd) {
+        border-right: 5px solid #003276; }
+    .content-team .history-container article {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      margin: 0px;
+      border: none;
+      width: 35%; }
+      .content-team .history-container article .history-text-block {
+        padding: 0px; }
+      .content-team .history-container article .circle {
+        top: -8px; }
+    .content-team .history-container article:nth-child(even) .history-text-block {
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1;
+      padding-left: 20%; }
+    .content-team .history-container article:nth-child(odd) .history-text-block {
+      padding-right: 20%; }
+    .content-team .history-container article:nth-child(even) .circle {
+      left: 0px; } }
