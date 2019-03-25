@@ -1848,14 +1848,14 @@ button[type='submit'] {
     width: 400px; }
 
 @media (min-width: 1080px) {
-  .blog-content-area {
-    padding-left: 3rem;
-    padding-right: 3rem; }
-  .container {
+  .blog .container {
     display: grid;
     grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
+  .blog-content-area {
+    padding-left: 3rem;
+    padding-right: 3rem; }
   .blog-container {
     padding-bottom: 3rem; }
     .blog-container img {
