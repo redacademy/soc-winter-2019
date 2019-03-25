@@ -1701,6 +1701,8 @@ button[type='submit'] {
         .mid-heading .white-lines-container .white-short-line:nth-of-type(5) {
           width: 10%;
           border-right: none; }
+  .test-title {
+    text-transform: uppercase; }
   .step-to-follow-container {
     margin-top: 500px !important; }
     .step-to-follow-container h2 {
@@ -2889,7 +2891,31 @@ select.minimal {
     display: block;
     text-align: start;
     width: 40%;
+<<<<<<< HEAD
     margin: auto; } }
+=======
+    margin: auto; }
+  .page-id-43 .ur-form-row {
+    display: block;
+    text-align: start;
+    width: 35%;
+    margin: auto; }
+  .page-id-43 .ur-frontend-form form button {
+    margin-top: 30px;
+    padding: 20px 20px;
+    margin-bottom: 200px;
+    line-height: 1em;
+    text-align: center;
+    word-break: break-word;
+    white-space: normal;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: 0.9s all ease-out;
+    transition: 0.9s all ease-out; }
+  .page-id-43 .ur-field-item label {
+    font-size: 16px;
+    color: grey; } }
+>>>>>>> 8237cca10297b0e46778caeb2e84f2afcd62c47d
 
 .content-team .history-container {
   display: -webkit-box;
