@@ -2024,6 +2024,9 @@ button[type='submit'] {
 .university-gallary-ubc {
   display: none; }
 
+.single-university iframe {
+  display: none; }
+
 @media (min-width: 1080px) {
   .half-transparent {
     background: #fff;
@@ -2265,8 +2268,10 @@ button[type='submit'] {
     font-weight: 500; }
   .university-template-default h1.entry-title {
     padding-bottom: 1em; }
-  h3 {
-    font-size: 32px; } }
+  .university-template-default h3 {
+    font-size: 32px; }
+  .single-university iframe {
+    display: block; } }
 
 .tax-testimonial_category .wp-block-quote p,
 .page-template-archive-testimonial .wp-block-quote p,
