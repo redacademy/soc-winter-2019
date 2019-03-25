@@ -102,6 +102,45 @@
       border-radius: 12px;
       height: 45px;
     }
+    .wpcf7 label {
+      display: block;
+      text-align: start;
+      width: 25%;
+      margin: auto;
+    }
+  }
+}
+@include desktop {
+  .page-template-default {
+    .entry-title {
+      display: none;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: 1px;
+      font-size: 38px;
+      padding-bottom: 60px;
+      padding-top: 60px;
+    }
+    textarea,
+    input[type='email'],
+    input[type='number'],
+    input[type='password'],
+    input[type='text'] {
+      color: #666;
+      border: 1px solid #00237a;
+      border-radius: 6px;
+      height: 45px;
+    }
+    .wpcf7-form {
+      display: block;
+      text-align: start;
+      width: 40%;
+      margin: auto;
+    }
+    .wpcf7-submit {
+    }
   }
 }
 @include desktop {

@@ -2710,7 +2710,37 @@ select.minimal {
     color: #666;
     border: 1px solid #00237a;
     border-radius: 12px;
-    height: 45px; } }
+    height: 45px; }
+  .page-id-41 .wpcf7 label {
+    display: block;
+    text-align: start;
+    width: 25%;
+    margin: auto; } }
+
+@media (min-width: 1080px) {
+  .page-template-default .entry-title {
+    display: none; }
+  .page-template-default h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 38px;
+    padding-bottom: 60px;
+    padding-top: 60px; }
+  .page-template-default textarea,
+  .page-template-default input[type='email'],
+  .page-template-default input[type='number'],
+  .page-template-default input[type='password'],
+  .page-template-default input[type='text'] {
+    color: #666;
+    border: 1px solid #00237a;
+    border-radius: 6px;
+    height: 45px; }
+  .page-template-default .wpcf7-form {
+    display: block;
+    text-align: start;
+    width: 40%;
+    margin: auto; } }
 
 @media (min-width: 1080px) {
   .heading-university,
