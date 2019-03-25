@@ -535,6 +535,39 @@ form p label {
   font-size: 14px;
   margin: 0; }
 
+@media (min-width: 1080px) {
+  .page-template-login .entry-title {
+    padding-top: 1.5em;
+    font-weight: 500;
+    padding-bottom: 2em;
+    text-transform: uppercase; }
+  .page-template-login .container form {
+    width: 50%; }
+  .page-template-login .remember-me {
+    margin-bottom: 2em;
+    margin: 0 auto;
+    text-align: left; }
+  .page-template-login .login-chunk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 32%;
+    margin: 0 auto; }
+  .page-template-login .login-button input {
+    height: 2.5em;
+    width: 10em; }
+  .page-template-login .wp-block-button__link {
+    height: 3em;
+    width: 32em;
+    padding-top: .8em;
+    font-size: 15px; }
+  .page-template-login .login-options a {
+    font-weight: 500;
+    color: gray; }
+  .page-template-login .entry-content {
+    margin-bottom: 4em;
+    margin-top: 2em; } }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -2310,7 +2343,9 @@ button[type='submit'] {
   .testimonial .wp-block-quote.is-style-large {
     margin-left: 1em; }
   .test-block {
-    margin-top: 2em; } }
+    margin-top: 2em; }
+  .page-template-archive-testimonial .wp-block-quote p {
+    font-size: 24px; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
