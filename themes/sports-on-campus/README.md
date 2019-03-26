@@ -1,21 +1,47 @@
-# RED Starter
+# Sport on Campus Webpage
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+Fully responsive webpage for Sport on Campus, making it easier to connect student athletes with universities in North America.
 
-## Installation
+This is a project using Wordpress as a CMS, utilizing PHP, CSS (Sass), HTML and JQuery.
 
-### 1. Download me (don't clone me!)
 
-Then add me to your `wp-content` directory.
+## Getting Started
 
-### 2. Rename the `redstarter-master` directory
+This website is available for use on all modern web browsers.
 
-Make sure that the theme directory name is project appropriate!
+### Download
 
-### 3. Install the dev dependencies
+Add downloaded file to your `wp-content/themes` directory.
 
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
+### Install Dev Dependencies 
 
-### 4. Update the proxy in `gulpfile.js`
+In order to install npm packages run `npm install` in the terminal.
 
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
+## Tech Tools Used
+
+- HTML
+- Sass
+- Github
+- Terminal Skills
+- Javascript
+- JQuery
+- PHP
+- Wordpress
+
+## Features
+
+- Using Wordpress
+- Multiple Page Templates
+- Plugins 
+- Custom Page Templates
+- Custom fields
+- Dynamic webpages through PHP
+- Navigation Bar
+- Login, Registration and Contact Pages
+
+## Authors
+
+- Sydney Douglas (https://github.com/sydneydou)
+- Naiji Zhang (https://github.com/naijizhang)
+- Jasmine Barzegar (https://github.com/swampwitchery)
+- Sage Van Hatten (https://github.com/webdevstorm)
