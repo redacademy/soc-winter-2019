@@ -1373,7 +1373,8 @@ button[type='submit'] {
 
 .single-post .entry-title {
   margin-top: 1em;
-  font-size: 1.6em; }
+  font-size: 1.6em;
+  text-transform: uppercase; }
 
 .single-post .entry-content p {
   padding-left: 40px;
@@ -1902,6 +1903,12 @@ button[type='submit'] {
     padding-bottom: 4rem;
     padding-top: 10px;
     width: 400px; }
+
+.single-post .entry-meta h2 {
+  font-size: 15px; }
+
+.single-post .main-navigation {
+  padding-bottom: 40px; }
 
 @media (min-width: 1080px) {
   .blog .container,

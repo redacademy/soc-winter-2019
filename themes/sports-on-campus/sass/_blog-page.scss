@@ -46,6 +46,16 @@
         width: 400px;
       }
     }
+    .single-post{
+      .entry-meta{
+        h2{
+          font-size:15px;
+        }
+      }
+      .main-navigation{
+        padding-bottom: 40px;
+      }
+    }
   
 
     @media (min-width: $desktop-width) {
