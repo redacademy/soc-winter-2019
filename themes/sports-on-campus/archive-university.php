@@ -49,7 +49,6 @@ get_header(); ?>
             <?php endforeach;
         wp_reset_postdata(); ?>
         </div>
-</div>
 
 </main><!-- #main -->
 </div><!-- #primary -->
