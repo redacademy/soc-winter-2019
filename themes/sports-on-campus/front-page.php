@@ -16,7 +16,7 @@ get_header(); ?>
         <?php endwhile; ?>
 
         <section class="entry-content step-to-follow-container">
-            <h2>Just 3 easy step to follow</h2>
+            <h2>Just 3 easy steps to follow</h2> 
 
             <div class="step-text-container">
                 <div class="step-text-block">
