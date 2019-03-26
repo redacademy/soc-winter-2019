@@ -708,9 +708,6 @@ a {
 .main-navigation .secondary-menu li {
   border-bottom: none; }
 
-.home .entry-content {
-  margin: 0; }
-
 .home .main-navigation {
   position: absolute;
   -ms-flex-pack: justify;
