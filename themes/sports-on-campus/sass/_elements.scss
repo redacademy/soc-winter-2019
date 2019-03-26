@@ -72,5 +72,8 @@ table {
   width: 100%;
 }
 .logged-in #site-navigation{
-  top: 32px;
+  top: 46px;
+  @include desktop{
+    top: 32px;
+  }
 }
