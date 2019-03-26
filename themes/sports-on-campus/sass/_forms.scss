@@ -135,7 +135,10 @@ form {
     margin: 0;
    
   }
-  
+  .register-link{
+    color:$color__orange-accent;
+    text-decoration:none;
+  }
 }
 
 @include desktop{
