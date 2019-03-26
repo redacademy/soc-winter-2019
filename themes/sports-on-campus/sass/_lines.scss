@@ -160,3 +160,20 @@
     }
   }
 }
+.or{
+    height: 50px;
+    width: 430px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+   .black-line{
+    width: 40%;
+    height: 0px;
+    border: 1px solid
+   }
+   p{
+    width: 20%;
+   }
+}
