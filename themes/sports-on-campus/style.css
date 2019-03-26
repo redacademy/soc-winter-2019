@@ -541,6 +541,10 @@ form p label {
   font-size: 14px;
   margin: 0; }
 
+.page-template-login .register-link {
+  color: #ff6b00;
+  text-decoration: none; }
+
 @media (min-width: 1080px) {
   .page-template-login .entry-title {
     padding-top: 1.5em;
