@@ -1942,7 +1942,9 @@ button[type='submit'] {
   .category-all .container,
   .category-universities .container {
     padding-left: 4rem;
-    padding-right: 4rem; } }
+    padding-right: 4rem; }
+  .banner-text-desktop {
+    text-transform: uppercase; } }
 
 /* Events Page */
 .events-area {
