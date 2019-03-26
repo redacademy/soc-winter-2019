@@ -561,7 +561,7 @@ form p label {
     width: 10em; }
   .page-template-login .wp-block-button__link {
     height: 3em;
-    width: 32em;
+    width: 430px;
     padding-top: .8em;
     font-size: 15px; }
   .page-template-login .login-options a {
@@ -962,10 +962,6 @@ a {
 
 body {
   color: black; }
-
-.container {
-  padding-left: 2rem;
-  padding-right: 2rem; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1897,9 +1893,8 @@ button[type='submit'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -1913,13 +1908,13 @@ button[type='submit'] {
   .category-sightseeing .container,
   .category-all .container,
   .category-universities .container {
+    margin-top: 4rem;
     display: grid;
-    grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
   .blog-content-area {
-    padding-left: 3rem;
-    padding-right: 3rem; }
+    padding-left: 4rem;
+    padding-right: 4rem; }
   .blog-container {
     padding-bottom: 3rem; }
     .blog-container img {
@@ -1942,7 +1937,12 @@ button[type='submit'] {
     letter-spacing: 0.5px; }
   .single-post h2, .posted-on {
     font-size: 14px;
-    font-weight: 400; } }
+    font-weight: 400; }
+  .category-sightseeing .container,
+  .category-all .container,
+  .category-universities .container {
+    padding-left: 4rem;
+    padding-right: 4rem; } }
 
 /* Events Page */
 .events-area {
@@ -2020,7 +2020,7 @@ button[type='submit'] {
     .page-template-archive-event .events-area .event-date {
       padding-left: 10px;
       padding-top: 10px; }
-    .page-template-archive-event .events-area .event-content {
+    .page-template-archive-event .events-area .event-content p {
       padding-right: 20px; } }
 
 /* Universities Page */
@@ -2439,7 +2439,6 @@ button[type='submit'] {
   .blog .mobile-slide,
   .archive .mobile-slide {
     background-image: url(../../Icons/blog-header.png);
-    background-repeat: no-repeat;
     background-position: center;
     padding-top: 4em;
     margin-top: 5em; }
@@ -3092,3 +3091,70 @@ select.minimal {
       padding-right: 20%; }
     .content-team .history-container article:nth-child(even) .circle {
       left: 0px; } }
+
+@media (min-width: 1080px) {
+  .content-coach .coaches-three-step {
+    width: 100%; }
+    .content-coach .coaches-three-step .coaches-lines-container {
+      width: 70%;
+      height: 50px;
+      margin: auto;
+      border-top: 4px solid #003276;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      margin-bottom: 40px; }
+      .content-coach .coaches-three-step .coaches-lines-container .short-space {
+        width: 25%;
+        height: 100%; }
+        .content-coach .coaches-three-step .coaches-lines-container .short-space:nth-of-type(1) {
+          border-right: 2px solid #003276; }
+      .content-coach .coaches-three-step .coaches-lines-container .long-space {
+        width: 50%;
+        height: 100%;
+        border-right: 2px solid #003276; }
+      .content-coach .coaches-three-step .coaches-lines-container .circle {
+        position: relative;
+        left: calc(100% - 9px);
+        top: 100%;
+        width: 20px;
+        height: 20px;
+        background: #CDE3FB;
+        border: 2px solid #003276;
+        border-radius: 40px; }
+    .content-coach .coaches-three-step .number-container {
+      margin: auto;
+      width: 70%;
+      margin-bottom: 40px; }
+      .content-coach .coaches-three-step .number-container p {
+        margin: auto; }
+      .content-coach .coaches-three-step .number-container .number-one,
+      .content-coach .coaches-three-step .number-container .number-two,
+      .content-coach .coaches-three-step .number-container .number-three {
+        display: none; } }
+
+.or {
+  height: 50px;
+  width: 430px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px; }
+  .or .black-line {
+    width: 40%;
+    height: 0px;
+    border: 1px solid; }
+  .or p {
+    width: 20%; }

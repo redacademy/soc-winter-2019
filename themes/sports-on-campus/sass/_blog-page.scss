@@ -38,7 +38,7 @@
     .blog-container {
       position: relative;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       img {
         padding-bottom: 4rem;
@@ -54,16 +54,16 @@
       .category-all,
       .category-universities{
         .container{
+          margin-top: 4rem;
           display: grid;
-          grid-gap: 0;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr 1fr;
         }
       }
 
       .blog-content-area{
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
       }
       .blog-container{
         padding-bottom: 3rem;
@@ -95,6 +95,14 @@
       font-size:14px;
       font-weight:400;
     }
-      }
+    .category-sightseeing,
+    .category-all,
+    .category-universities{
+      .container{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        }
+    }
+}
 
       
