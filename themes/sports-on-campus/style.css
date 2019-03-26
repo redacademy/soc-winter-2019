@@ -2968,7 +2968,6 @@ select.minimal {
     display: block;
     text-align: start;
     width: 40%;
-<<<<<<< HEAD
     margin: auto; }
   .page-id-43 .ur-form-row {
     display: block;
@@ -2990,9 +2989,6 @@ select.minimal {
   .page-id-43 .ur-field-item label {
     font-size: 16px;
     color: grey; } }
-=======
-    margin: auto; } }
->>>>>>> ec6c5e3494dae0da351f1e2dddf79b20c86e6a46
 
 .content-team .history-container {
   display: -webkit-box;
