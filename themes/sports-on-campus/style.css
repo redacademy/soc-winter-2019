@@ -2133,7 +2133,7 @@ button[type='submit'] {
 @media (min-width: 1080px) {
   .half-transparent {
     background: #fff;
-    opacity: 0.7;
+    opacity: 0.8;
     position: absolute;
     top: 0px; }
   .single-university .entry-content,
