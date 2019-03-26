@@ -47,10 +47,17 @@
 }
 @include desktop {
   .page-id-41 {
-    .wpcf7 label {
+    .ur-frontend-form form .ur-form-row .ur-form-grid input[type='text'],
+    .ur-frontend-form form .ur-form-row .ur-form-grid input[type='email'],
+    .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
+    .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
+    .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
+      width: 50%;
+      border-radius: 8px;
+      height: 45px;
+      margin-bottom: 10px;
       display: block;
-      text-align: start;
-      width: 25%;
+
       margin: auto;
     }
     .or {
@@ -68,23 +75,16 @@
       letter-spacing: 1px;
       word-spacing: 1px;
     }
-    .wpcf7 label {
-      display: block;
-      text-align: start;
-
-      margin: auto;
-    }
-    .orange-button,
-    input[type='submit'],
-    button[type='submit'] {
+   
+    .ur-frontend-form form button[type='submit'] {
       box-shadow: none;
       border: none;
       color: #fff;
       background: #ff6b00;
-      padding: 20px 60px;
-      font-size: 18px;
+      padding: 20px 58px;
+      font-size: 17px;
       border-radius: 8px;
-      font-weight: 500;
+      font-weight: 900;
       margin-left: 290px;
       letter-spacing: 2px;
     }

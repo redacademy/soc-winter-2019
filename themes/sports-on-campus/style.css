@@ -2873,10 +2873,16 @@ select.minimal {
   padding: 5px 40px; }
 
 @media (min-width: 1080px) {
-  .page-id-41 .wpcf7 label {
+  .page-id-41 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='text'],
+  .page-id-41 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='email'],
+  .page-id-41 .ur-frontend-form form .ur-form-row .ur-form-grid label .required,
+  .page-id-41 .ur-frontend-form form .ur-form-row .ur-form-grid textarea,
+  .page-id-41 .ur-frontend-form form .ur-form-row .ur-form-grid input[type='password'] {
+    width: 50%;
+    border-radius: 8px;
+    height: 45px;
+    margin-bottom: 10px;
     display: block;
-    text-align: start;
-    width: 25%;
     margin: auto; }
   .page-id-41 .or {
     font-size: 20px; }
@@ -2893,22 +2899,16 @@ select.minimal {
     margin: 0 auto;
     letter-spacing: 1px;
     word-spacing: 1px; }
-  .page-id-41 .wpcf7 label {
-    display: block;
-    text-align: start;
-    margin: auto; }
-  .page-id-41 .orange-button,
-  .page-id-41 input[type='submit'],
-  .page-id-41 button[type='submit'] {
+  .page-id-41 .ur-frontend-form form button[type='submit'] {
     -webkit-box-shadow: none;
             box-shadow: none;
     border: none;
     color: #fff;
     background: #ff6b00;
-    padding: 20px 60px;
-    font-size: 18px;
+    padding: 20px 58px;
+    font-size: 17px;
     border-radius: 8px;
-    font-weight: 500;
+    font-weight: 900;
     margin-left: 290px;
     letter-spacing: 2px; }
   .page-id-41 .wp-block-button__link {
