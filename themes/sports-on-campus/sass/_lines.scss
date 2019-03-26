@@ -188,7 +188,10 @@
         top: 18px;
         right: -30px;
         width: 50px;
-        height: 350px;
+        height: 325px;
+        @include desktop{
+            height: 350px;
+        }
         div{
             height:20%;
            background: url('../../assets/images/Checked.svg');
