@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages.
  *Template name: archive-testimonial
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
 get_header(); ?>

@@ -2,7 +2,7 @@
 /**
  * The template for displaying comments.
  *
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
 /*
@@ -39,7 +39,7 @@ if ( post_password_required() ) {
 		<ol class="comment-list">
 			<?php
 				wp_list_comments( array(
-					'callback' => 'Sport_On_Campus_comment_list'
+					'callback' => 'sport_on_campus_comment_list'
 				) );
 			?>
 		</ol><!-- .comment-list -->

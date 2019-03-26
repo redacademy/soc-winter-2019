@@ -2,7 +2,7 @@
 /**
  * Template part for displaying single posts.
  *
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
 ?>
@@ -16,7 +16,7 @@
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
 		<div class="entry-meta">
-					<h2>Published on <?php Sport_On_Campus_posted_on(); ?></h2>
+					<h2>Published on <?php sport_on_campus_posted_on(); ?></h2>
 		</div><!-- .entry-meta -->
 	
 

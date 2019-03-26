@@ -2,7 +2,7 @@
 /**
  * The template for displaying search results pages.
  *
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
 get_header(); ?>
@@ -23,7 +23,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php Sport_On_Campus_numbered_pagination(); ?>
+			<?php sport_on_campus_numbered_pagination(); ?>
 
 		<?php else : ?>
 
