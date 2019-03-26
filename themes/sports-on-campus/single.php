@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts.
  * Template name: single
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
 get_header(); ?>

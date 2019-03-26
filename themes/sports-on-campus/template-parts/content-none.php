@@ -2,7 +2,7 @@
 /**
  * Template part for displaying a message that posts cannot be found.
  *
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
 ?>

@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts.
  *
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
 get_header(); ?>
@@ -50,7 +50,7 @@ get_header(); ?>
             <div class="uni-maps"> <?php echo CFS()->get('maps'); ?> </div>
 
             <footer class="entry-footer">
-                <?php Sport_On_Campus_entry_footer(); ?>
+                <?php sport_on_campus_entry_footer(); ?>
             </footer><!-- .entry-footer -->
         </article><!-- #post-## -->
         <?php endwhile; ?>

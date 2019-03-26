@@ -4,14 +4,14 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Sport_On_Campus_Theme
+ * @package sport_on_campus_theme
  */
 
-if ( ! function_exists( 'Sport_On_Campus_setup' ) ) :
+if ( ! function_exists( 'sport_on_campus_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  */
-function Sport_On_Campus_setup() {
+function sport_on_campus_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
@@ -36,25 +36,25 @@ function Sport_On_Campus_setup() {
 	) );
 
 }
-endif; // Sport_On_Campus_setup
-add_action( 'after_setup_theme', 'Sport_On_Campus_setup' );
+endif; // sport_on_campus_setup
+add_action( 'after_setup_theme', 'sport_on_campus_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * @global int $content_width
  */
-function Sport_On_Campus_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'Sport_On_Campus_content_width', 640 );
+function sport_on_campus_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'sport_on_campus_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'Sport_On_Campus_content_width', 0 );
+add_action( 'after_setup_theme', 'sport_on_campus_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function Sport_On_Campus_widgets_init() {
+function sport_on_campus_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html( 'Sidebar' ),
 		'id'            => 'sidebar-1',
@@ -65,24 +65,24 @@ function Sport_On_Campus_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'Sport_On_Campus_widgets_init' );
+add_action( 'widgets_init', 'sport_on_campus_widgets_init' );
 
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
  */
-function Sport_On_Campus_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
+function sport_on_campus_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
 	if ( file_exists( get_template_directory() . '/build/css/style.min.css' ) ) {
 		$stylesheet_uri = $stylesheet_dir_uri . '/build/css/style.min.css';
 	}
 
 	return $stylesheet_uri;
 }
-add_filter( 'stylesheet_uri', 'Sport_On_Campus_minified_css', 10, 2 );
+add_filter( 'stylesheet_uri', 'sport_on_campus_minified_css', 10, 2 );
 
 /**
  * Enqueue scripts and styles.
  */
-function Sport_On_Campus_scripts() {
+function sport_on_campus_scripts() {
 	wp_enqueue_style('font-awsome-cdn',"https://use.fontawesome.com/releases/v5.7.2/css/all.css",array(),'5.7.2');
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'red-starter-navigation', get_template_directory_uri() . '/build/js/navigation.min.js', array(), '20151215', true );
@@ -96,7 +96,7 @@ function Sport_On_Campus_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'Sport_On_Campus_scripts' );
+add_action( 'wp_enqueue_scripts', 'sport_on_campus_scripts' );
 
 /**
  * Custom template tags for this theme.
