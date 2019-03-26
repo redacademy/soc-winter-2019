@@ -2542,7 +2542,9 @@ button[type='submit'] {
   .page-template-archive-testimonial .wp-block-quote p {
     font-size: 24px; }
   .test-block {
-    width: auto; } }
+    width: auto; }
+  .orange-underline {
+    display: none; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
