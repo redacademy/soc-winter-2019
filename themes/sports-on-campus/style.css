@@ -1919,7 +1919,7 @@ button[type='submit'] {
   .blog-container img {
     padding-bottom: 4rem;
     padding-top: 10px;
-    width: 400px; }
+    width: 70%; }
 
 .single-post .entry-meta h2 {
   font-size: 15px; }
@@ -2617,7 +2617,7 @@ select.minimal {
   padding-bottom: 2rem; }
 
 .page-id-25 .entry-content {
-  max-width: 400px;
+  max-width: 65%;
   margin: 0 auto;
   margin-bottom: 3rem; }
   .page-id-25 .entry-content p {
