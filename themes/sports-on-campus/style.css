@@ -963,10 +963,6 @@ a {
 body {
   color: black; }
 
-.container {
-  padding-left: 2rem;
-  padding-right: 2rem; }
-
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1897,9 +1893,8 @@ button[type='submit'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -1913,13 +1908,13 @@ button[type='submit'] {
   .category-sightseeing .container,
   .category-all .container,
   .category-universities .container {
+    margin-top: 4rem;
     display: grid;
-    grid-gap: 0;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr; }
   .blog-content-area {
-    padding-left: 3rem;
-    padding-right: 3rem; }
+    padding-left: 4rem;
+    padding-right: 4rem; }
   .blog-container {
     padding-bottom: 3rem; }
     .blog-container img {
@@ -1942,7 +1937,12 @@ button[type='submit'] {
     letter-spacing: 0.5px; }
   .single-post h2, .posted-on {
     font-size: 14px;
-    font-weight: 400; } }
+    font-weight: 400; }
+  .category-sightseeing .container,
+  .category-all .container,
+  .category-universities .container {
+    padding-left: 4rem;
+    padding-right: 4rem; } }
 
 /* Events Page */
 .events-area {
