@@ -1454,7 +1454,11 @@ button[type='submit'] {
   .page-template-team .wp-block-image img {
     width: 80%; }
   .page-template-team .achievement-history {
-    padding-top: 0; } }
+    padding-top: 0; }
+  .main-navigation a:hover {
+    color: #ff6b00; }
+  .home .main-navigation a:hover {
+    color: #003276; } }
 
 /* Front page */
 .top-heading {
