@@ -161,13 +161,17 @@
   }
 }
 .or{
-    height: 50px;
-    width: 430px;
+    width: 80%;
     margin: auto;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    margin-bottom: 20px;
+    @include desktop{
+        height: 50px;
+        width: 430px;
+        margin: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        margin-bottom: 20px;
+    }
    .black-line{
     width: 40%;
     height: 0px;
@@ -176,4 +180,40 @@
    p{
     width: 20%;
    }
+}
+.form-container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    @include desktop{
+        width: 500px;
+        margin: auto;
+    }
+    #ur-frontend-form{
+        width: 100%;
+        input{
+            margin:0px ;
+            width: 100%;
+        }
+        button{
+            margin: auto;
+            margin-left: calc(60% - 20px);
+           
+            width: 40%
+           
+        }
+    }
+    .check-container{
+        position: absolute;
+        top: 18px;
+        right: -30px;
+        width: 50px;
+        height: 350px;
+        div{
+            height:20%;
+           background: url('../../assets/images/Checked.svg');
+           background-repeat: no-repeat;
+           background-position: center;
+        }
+    }
 }

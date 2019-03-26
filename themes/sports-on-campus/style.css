@@ -3141,23 +3141,56 @@ select.minimal {
         display: none; } }
 
 .or {
-  height: 50px;
-  width: 430px;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 20px; }
+  width: 80%;
+  margin: auto; }
+  @media (min-width: 1080px) {
+    .or {
+      height: 50px;
+      width: 430px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 20px; } }
   .or .black-line {
     width: 40%;
     height: 0px;
     border: 1px solid; }
   .or p {
     width: 20%; }
+
+.form-container {
+  width: 80%;
+  margin: auto;
+  position: relative; }
+  @media (min-width: 1080px) {
+    .form-container {
+      width: 500px;
+      margin: auto; } }
+  .form-container #ur-frontend-form {
+    width: 100%; }
+    .form-container #ur-frontend-form input {
+      margin: 0px;
+      width: 100%; }
+    .form-container #ur-frontend-form button {
+      margin: auto;
+      margin-left: calc(60% - 20px);
+      width: 40%; }
+  .form-container .check-container {
+    position: absolute;
+    top: 18px;
+    right: -30px;
+    width: 50px;
+    height: 350px; }
+    .form-container .check-container div {
+      height: 20%;
+      background: url("../../assets/images/Checked.svg");
+      background-repeat: no-repeat;
+      background-position: center; }
