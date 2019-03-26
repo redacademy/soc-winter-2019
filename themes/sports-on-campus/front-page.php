@@ -21,24 +21,24 @@ get_header(); ?>
             <div class="step-text-container">
                 <div class="step-text-block">
                     <h3>1. Search</h3>
-                    <p>University that you interested in on our page</p>
+                    <p>University that interests you on our page</p>
                 </div>
                 <div class="orange-vertical-line"></div>
                 <div class="step-text-block">
                     <h3>2. Sign up</h3>
-                    <p>Sign up with us and filled in your athletic information</p>
+                    <p>Sign up with us and fill in your athletic information</p>
                 </div>
                 <div class="orange-vertical-line"></div>
                 <div class="step-text-block">
                     <h3>3. Connect</h3>
-                    <p>Send request to coach of universities of your choice</p>
+                    <p>Send requests to coaches from universities of your choice</p>
                 </div>
             </div>
         </section>
 
         <section class="entry-content sport-select-container">
             <h3>Start with what you know</h3>
-            <h2>Choose Sport</h2>
+            <h2>Choose Your Sport</h2>
             <?php $sports = get_terms('university_sport', array(
                 'hide_empty' => false,
                 'orderby' => 'meta_value',
