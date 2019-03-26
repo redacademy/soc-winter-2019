@@ -47,7 +47,7 @@ get_header(); ?>
             <ul class="sport-list">
                 <?php foreach ($sports as $sport) : ?>
                 <li class="each-item <?php echo $sport->name ?>-menu">
-                    <img src=<?php echo get_template_directory_uri() . "/assets/images/" . $sport->name . ".png" ?>>
+                    <img alt='<?php echo $sport->name?>' src=<?php echo get_template_directory_uri() . "/assets/images/" . $sport->name . ".png" ?>>
                     <p linkinfo="<?php echo get_term_link($sport); ?>">
                         <?php echo $sport->name ?>
                     </p>
@@ -65,13 +65,13 @@ get_header(); ?>
                 <?php $testimonials = soc_get_testimonial_category(); ?>
                 <?php foreach ($testimonials as $post) : setup_postdata($post); ?>
 
-                <div class="carousel-cell testimonial-item" <?php post_class(); ?>>
+                <div class="carousel-cell testimonial-item" >
                     <?php if (has_post_thumbnail()) : ?>
                     <a href="<?php echo esc_url(the_permalink()) ?>" rel="bookmark">
                         <?php the_post_thumbnail('large'); ?>
                     </a>
                     <?php endif; ?>
-                    <img class="test-image sample-picture" src='<?php echo CFS()->get('video'); ?>'>
+                    <img class="test-image sample-picture" alt='sample picture' src='<?php echo CFS()->get('video'); ?>'>
                     <div class="test-right-column">
                         <h2>
                             <?php the_title(); ?>
