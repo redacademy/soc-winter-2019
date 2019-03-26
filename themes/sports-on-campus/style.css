@@ -1677,8 +1677,8 @@ button[type='submit'] {
   .mid-heading {
     position: absolute;
     top: 600px;
-    border-top-left-radius: 240vw;
-    border-top-right-radius: 240vw;
+    border-top-left-radius: calc(100% + 500px);
+    border-top-right-radius: calc(100% + 500px);
     width: 120vw;
     left: -10vw;
     overflow: hidden; }
