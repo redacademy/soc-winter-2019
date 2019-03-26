@@ -21,17 +21,17 @@ get_header(); ?>
             <div class="step-text-container">
                 <div class="step-text-block">
                     <h3>1. Search</h3>
-                    <p>University that you interested in on our page</p>
+                    <p>University that interests you on our page</p>
                 </div>
                 <div class="orange-vertical-line"></div>
                 <div class="step-text-block">
                     <h3>2. Sign up</h3>
-                    <p>Sign up with us and filled in your athletic information</p>
+                    <p>Sign up with us and fill in your athletic information</p>
                 </div>
                 <div class="orange-vertical-line"></div>
                 <div class="step-text-block">
                     <h3>3. Connect</h3>
-                    <p>Send request to coach of universities of your choice</p>
+                    <p>Send request to coach from universities of your choice</p>
                 </div>
             </div>
         </section>
