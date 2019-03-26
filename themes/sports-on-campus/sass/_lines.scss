@@ -199,8 +199,13 @@
 }
 
 .or{
-    width: 80%;
+    width: 70%;
     margin: auto;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 20px;
     @include desktop{
         height: 50px;
         width: 430px;

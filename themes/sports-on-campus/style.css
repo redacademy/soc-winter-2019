@@ -3170,8 +3170,20 @@ select.minimal {
       background-position: center; }
 
 .or {
-  width: 80%;
-  margin: auto; }
+  width: 70%;
+  margin: auto;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px; }
   @media (min-width: 1080px) {
     .or {
       height: 50px;
