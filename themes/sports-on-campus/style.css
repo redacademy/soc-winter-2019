@@ -1909,7 +1909,10 @@ button[type='submit'] {
     width: 400px; }
 
 @media (min-width: 1080px) {
-  .blog .container {
+  .blog .container,
+  .category-sightseeing .container,
+  .category-all .container,
+  .category-universities .container {
     display: grid;
     grid-gap: 0;
     grid-template-columns: 1fr 1fr;
