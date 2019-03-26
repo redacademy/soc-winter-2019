@@ -31,14 +31,14 @@ get_header(); ?>
                 <div class="orange-vertical-line"></div>
                 <div class="step-text-block">
                     <h3>3. Connect</h3>
-                    <p>Send request to coach from universities of your choice</p>
+                    <p>Send requests to coaches from universities of your choice</p>
                 </div>
             </div>
         </section>
 
         <section class="entry-content sport-select-container">
             <h3>Start with what you know</h3>
-            <h2>Choose Sport</h2>
+            <h2>Choose Your Sport</h2>
             <?php $sports = get_terms('university_sport', array(
                 'hide_empty' => false,
                 'orderby' => 'meta_value',
