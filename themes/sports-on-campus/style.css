@@ -2020,7 +2020,7 @@ button[type='submit'] {
     .page-template-archive-event .events-area .event-date {
       padding-left: 10px;
       padding-top: 10px; }
-    .page-template-archive-event .events-area .event-content {
+    .page-template-archive-event .events-area .event-content p {
       padding-right: 20px; } }
 
 /* Universities Page */
@@ -2439,7 +2439,6 @@ button[type='submit'] {
   .blog .mobile-slide,
   .archive .mobile-slide {
     background-image: url(../../Icons/blog-header.png);
-    background-repeat: no-repeat;
     background-position: center;
     padding-top: 4em;
     margin-top: 5em; }
