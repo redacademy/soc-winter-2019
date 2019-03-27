@@ -2546,7 +2546,7 @@ button[type='submit'] {
   .test-block {
     width: auto; }
   .orange-underline {
-    display: none; } }
+    border-bottom: none; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
