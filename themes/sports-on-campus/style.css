@@ -2960,7 +2960,10 @@ select.minimal {
     font-style: normal;
     margin: 0 auto;
     letter-spacing: 1px;
-    word-spacing: 1px; }
+    word-spacing: 1px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .page-id-41 .ur-frontend-form form button[type='submit'] {
     -webkit-box-shadow: none;
             box-shadow: none;
