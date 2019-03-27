@@ -1639,8 +1639,6 @@ button[type='submit'] {
 .front-page-testimonials i {
   width: 30%;
   color: #ff6b00; }
-  .front-page-testimonials i:last-of-type {
-    width: 100%; }
 
 .transparent-underscore {
   border-bottom: 5px solid transparent; }
