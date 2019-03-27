@@ -1104,8 +1104,9 @@ button[type='submit'] {
     margin-bottom: 1em;
     color: black;
     text-align: center;
-    font-size: 16px;
-    font-weight: 600; }
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal; }
 
 .page-template-team .wp-block-quote {
   font-style: italic;
@@ -1166,6 +1167,7 @@ button[type='submit'] {
   .achievement-history h4 {
     color: #000;
     font-weight: 400;
+    font-size: 20px;
     width: 80%;
     margin: auto;
     text-align: left;
@@ -1399,7 +1401,9 @@ button[type='submit'] {
     font-size: 18px; }
   .single-post .entry-title {
     text-transform: uppercase;
-    font-size: 30px; }
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: normal; }
   .single-post .main-navigation {
     margin-bottom: 4em; }
   .page-template-team h2 {
@@ -1407,7 +1411,8 @@ button[type='submit'] {
     text-transform: uppercase;
     padding-top: 4rem;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 900;
+    font-style: normal;
     letter-spacing: 3px; }
   .our-team-block {
     width: 60%; }
@@ -1430,7 +1435,7 @@ button[type='submit'] {
     font-size: 17px;
     padding-bottom: 3em; }
   .page-template-team .ceo .wp-block-quote p {
-    font-size: 23px; }
+    font-size: 26px; }
   .page-template-team .about-our-concept {
     text-align: left; }
   .page-template-team .orange-story {
@@ -1654,6 +1659,8 @@ button[type='submit'] {
   padding-bottom: 1em; }
 
 @media (min-width: 1080px) {
+  .our-team-block {
+    padding-right: 5rem; }
   .page-template-team .ceo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1976,7 +1983,10 @@ button[type='submit'] {
     padding-left: 4rem;
     padding-right: 4rem; }
   .banner-text-desktop {
-    text-transform: uppercase; } }
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem; } }
 
 /* Events Page */
 .events-area {
@@ -2660,7 +2670,10 @@ select.minimal {
   .page-id-25 .entry-title {
     padding-bottom: 1rem;
     text-transform: uppercase;
-    padding-top: 4rem; }
+    padding-top: 4rem;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem; }
   .page-id-25 .entry-content {
     max-width: 900px;
     margin: 0 auto;
@@ -2729,9 +2742,10 @@ select.minimal {
   font-style: normal; }
 
 .page-id-27 .coaches-paragraph {
+  font-size: 15px;
   font-weight: 900;
   font-style: normal;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.7px;
   max-width: 200px;
   margin: 20px auto; }
 
@@ -2761,18 +2775,19 @@ select.minimal {
   font-style: normal; }
 
 .page-id-27 .wp-block-button {
-  margin-top: 2rem; }
+  margin-top: 10rem; }
 
 @media (min-width: 1080px) {
   .page-id-27 h1 {
     display: none; }
   .page-id-27 h2 {
     font-size: 2.4rem;
-    font-weight: 500;
+    font-weight: 900;
+    font-style: normal;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     max-width: 100%;
-    padding-top: 4rem;
+    padding-top: 6rem;
     margin: 3rem; }
   .page-id-27 .connect {
     word-spacing: 1.5px;
@@ -2786,7 +2801,7 @@ select.minimal {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    padding-bottom: 3rem; }
+    padding-bottom: 10rem; }
   .page-id-27 .number-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2926,7 +2941,7 @@ select.minimal {
     display: -ms-flexbox;
     display: flex;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 80px;
     padding-bottom: 60px;
     font-style: normal;
@@ -2987,9 +3002,10 @@ select.minimal {
     display: none; }
   .page-id-43 h2 {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem;
     letter-spacing: 1px;
-    font-size: 38px;
     padding-bottom: 40px;
     padding-top: 80px; }
   .page-id-43 textarea,

@@ -185,6 +185,10 @@
 }
 
 @include desktop {
+
+  .our-team-block{
+    padding-right: 5rem;
+  }
   .page-template-team {
     .ceo{
       display:flex;
