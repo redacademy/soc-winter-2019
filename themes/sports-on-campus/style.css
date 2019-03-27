@@ -1653,7 +1653,10 @@ button[type='submit'] {
   border-bottom: 5px solid #ff6b00 !important; }
 
 .test-title {
-  padding: 1em; }
+  padding: 1em;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.4rem; }
 
 .home ol {
   padding-bottom: 1em; }
@@ -1699,14 +1702,17 @@ button[type='submit'] {
     left: -10vw;
     overflow: hidden; }
     .mid-heading p {
-      width: 50%;
+      width: 45%;
       margin: 20px auto; }
     .mid-heading h3 {
       text-transform: uppercase;
-      width: 35%;
-      font-size: 23px;
+      width: 38%;
+      font-size: 2.4rem;
+      padding-top: 10px;
       margin: 40px auto;
-      text-align: start; }
+      text-align: start;
+      font-weight: 900;
+      font-style: normal; }
       .mid-heading h3:nth-of-type(2) {
         text-align: center; }
     .mid-heading .help-step-container {
@@ -1768,6 +1774,9 @@ button[type='submit'] {
   .step-to-follow-container {
     margin-top: 500px !important; }
     .step-to-follow-container h2 {
+      font-weight: 900;
+      font-style: normal;
+      font-size: 2.4rem;
       text-transform: uppercase;
       margin: 50px auto; }
     .step-to-follow-container .step-text-container {
@@ -1817,17 +1826,22 @@ button[type='submit'] {
         width: 100px;
         border: 2px solid #000; }
   .sport-select-container h3 {
+    font-weight: 900;
+    font-style: normal;
     text-transform: uppercase;
-    font-size: 30px;
-    display: inline-block; }
+    font-size: 2.4rem;
+    display: inline-block;
+    padding-right: 10px; }
     .sport-select-container h3::after {
-      content: '. '; }
+      content: '.'; }
   .sport-select-container h2 {
+    font-weight: 900;
+    font-style: normal;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2.4rem;
     display: inline-block; }
     .sport-select-container h2::after {
-      content: '! '; }
+      content: ' !'; }
   .sport-select-container .sport-list {
     width: 80%;
     margin: auto;

@@ -178,6 +178,9 @@
 
 .test-title {
   padding: 1em;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.4rem;
 }
 
 .home ol {
@@ -233,15 +236,18 @@
     left: -10vw;
     overflow: hidden;
     p {
-      width: 50%;
+      width: 45%;
       margin: 20px auto;
     }
     h3 {
       text-transform: uppercase;
-      width: 35%;
-      font-size: 23px;
+      width: 38%;
+      font-size: 2.4rem;
+      padding-top: 10px;
       margin: 40px auto;
       text-align: start;
+      font-weight: 900;
+      font-style: normal;
       &:nth-of-type(2) {
         text-align: center;
       }
@@ -300,6 +306,9 @@
   .step-to-follow-container {
     margin-top: 500px !important;
     h2 {
+      font-weight: 900;
+      font-style: normal;
+      font-size: 2.4rem;
       text-transform: uppercase;
       margin: 50px auto;
     }
@@ -347,19 +356,24 @@
 
   .sport-select-container {
     h3 {
+      font-weight: 900;
+      font-style: normal;
       text-transform: uppercase;
-      font-size: 30px;
+      font-size: 2.4rem;
       display: inline-block;
+      padding-right: 10px;
       &::after {
-        content: '. ';
+        content: '.';
       }
     }
     h2 {
+      font-weight: 900;
+      font-style: normal;
       text-transform: uppercase;
-      font-size: 30px;
+      font-size: 2.4rem;
       display: inline-block;
       &::after {
-        content: '! ';
+        content: ' !';
       }
     }
     .sport-list {
