@@ -305,14 +305,7 @@ button[type='submit'] {
 /* Join Us Page */
 
 .page-template-default {
-  p {
-    justify-content: center;
-  }
-  // .wpcf7 {
-  //   label {
-  //     width: 60%;
-  //   }
-  // }
+
   .team-icons {
     display: flex;
     justify-content: center;
@@ -320,20 +313,7 @@ button[type='submit'] {
       display: none;
     }
   }
-  // .entry-content {
-  //   p {
-  //     padding-left: 40px;
-  //     padding-right: 40px;
-  //     margin-top: 2em;
-  //   }
-  // }
-  // h4 {
-  //   color: black;
-  //   font-weight: 900;
-  //   padding-right: 40px;
-  //   padding-top: 50px;
-  //   padding-left: 40px;
-  // }
+
   .button {
     background: #ff6b00;
     color: white;
@@ -358,7 +338,6 @@ button[type='submit'] {
     border-radius: 4px;
     font-size: 14px;
     margin: 0;
-    
   }
 
   .ur-frontend-form {
@@ -380,6 +359,9 @@ button[type='submit'] {
       border-top: 1px solid black;
     }
     padding-bottom: 40px;
+  }
+  .question{
+    text-align: left;
   }
 }
 

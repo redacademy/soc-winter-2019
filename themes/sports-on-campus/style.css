@@ -1313,11 +1313,6 @@ button[type='submit'] {
   background: white; }
 
 /* Join Us Page */
-.page-template-default p {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .page-template-default .team-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1368,6 +1363,9 @@ button[type='submit'] {
   .page-template-default .or::after {
     width: 20px;
     border-top: 1px solid black; }
+
+.page-template-default .question {
+  text-align: left; }
 
 /* Archive */
 /* Single Blog Post */
@@ -1653,10 +1651,7 @@ button[type='submit'] {
   border-bottom: 5px solid #ff6b00 !important; }
 
 .test-title {
-  padding: 1em;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 2.4rem; }
+  padding: 1em; }
 
 .home ol {
   padding-bottom: 1em; }
@@ -1770,7 +1765,10 @@ button[type='submit'] {
           width: 10%;
           border-right: none; }
   .test-title {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem; }
   .step-to-follow-container {
     margin-top: 500px !important; }
     .step-to-follow-container h2 {
@@ -2749,7 +2747,7 @@ select.minimal {
   padding-bottom: 10px; }
 
 .page-id-27 h4 {
-  padding-top: 1rem;
+  margin-top: 0;
   letter-spacing: 1.5px;
   word-spacing: 2px;
   font-weight: 900;
@@ -2789,7 +2787,7 @@ select.minimal {
   font-style: normal; }
 
 .page-id-27 .wp-block-button {
-  margin-top: 10rem; }
+  margin-top: 3rem; }
 
 @media (min-width: 1080px) {
   .page-id-27 h1 {
