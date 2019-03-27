@@ -1104,8 +1104,9 @@ button[type='submit'] {
     margin-bottom: 1em;
     color: black;
     text-align: center;
-    font-size: 16px;
-    font-weight: 600; }
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal; }
 
 .page-template-team .wp-block-quote {
   font-style: italic;
@@ -1166,6 +1167,7 @@ button[type='submit'] {
   .achievement-history h4 {
     color: #000;
     font-weight: 400;
+    font-size: 20px;
     width: 80%;
     margin: auto;
     text-align: left;
@@ -1311,11 +1313,6 @@ button[type='submit'] {
   background: white; }
 
 /* Join Us Page */
-.page-template-default p {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .page-template-default .team-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1367,6 +1364,9 @@ button[type='submit'] {
     width: 20px;
     border-top: 1px solid black; }
 
+.page-template-default .question {
+  text-align: left; }
+
 /* Archive */
 /* Single Blog Post */
 .single-post .entry-header {
@@ -1399,7 +1399,9 @@ button[type='submit'] {
     font-size: 18px; }
   .single-post .entry-title {
     text-transform: uppercase;
-    font-size: 30px; }
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: normal; }
   .single-post .main-navigation {
     margin-bottom: 4em; }
   .page-template-team h2 {
@@ -1407,7 +1409,8 @@ button[type='submit'] {
     text-transform: uppercase;
     padding-top: 4rem;
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 900;
+    font-style: normal;
     letter-spacing: 3px; }
   .our-team-block {
     width: 60%; }
@@ -1430,7 +1433,7 @@ button[type='submit'] {
     font-size: 17px;
     padding-bottom: 3em; }
   .page-template-team .ceo .wp-block-quote p {
-    font-size: 23px; }
+    font-size: 26px; }
   .page-template-team .about-our-concept {
     text-align: left; }
   .page-template-team .orange-story {
@@ -1500,9 +1503,8 @@ button[type='submit'] {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   width: 100%;
   background: #003276;
   color: #fff;
@@ -1512,8 +1514,7 @@ button[type='submit'] {
     text-align: center; }
   .mid-heading p {
     text-align: start; }
-  .mid-heading h3 {
-    margin: 0px;
+  .mid-heading .help-you {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px; }
@@ -1654,6 +1655,8 @@ button[type='submit'] {
   padding-bottom: 1em; }
 
 @media (min-width: 1080px) {
+  .our-team-block {
+    padding-right: 5rem; }
   .page-template-team .ceo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1692,16 +1695,21 @@ button[type='submit'] {
     left: -10vw;
     overflow: hidden; }
     .mid-heading p {
-      width: 50%;
+      width: 45%;
       margin: 20px auto; }
     .mid-heading h3 {
       text-transform: uppercase;
-      width: 35%;
-      font-size: 23px;
+      width: 38%;
+      font-size: 2.4rem;
+      padding-top: 10px;
       margin: 40px auto;
-      text-align: start; }
+      text-align: start;
+      font-weight: 900;
+      font-style: normal; }
       .mid-heading h3:nth-of-type(2) {
         text-align: center; }
+    .mid-heading .help-you {
+      text-align: center; }
     .mid-heading .help-step-container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1757,12 +1765,19 @@ button[type='submit'] {
           width: 10%;
           border-right: none; }
   .test-title {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem; }
   .step-to-follow-container {
     margin-top: 500px !important; }
     .step-to-follow-container h2 {
+      font-weight: 900;
+      font-style: normal;
+      font-size: 2.4rem;
       text-transform: uppercase;
-      margin: 50px auto; }
+      margin: 50px auto;
+      padding-top: 2.5rem; }
     .step-to-follow-container .step-text-container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1810,17 +1825,22 @@ button[type='submit'] {
         width: 100px;
         border: 2px solid #000; }
   .sport-select-container h3 {
+    font-weight: 900;
+    font-style: normal;
     text-transform: uppercase;
-    font-size: 30px;
-    display: inline-block; }
+    font-size: 2.4rem;
+    display: inline-block;
+    padding-right: 10px; }
     .sport-select-container h3::after {
-      content: '. '; }
+      content: '.'; }
   .sport-select-container h2 {
+    font-weight: 900;
+    font-style: normal;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2.4rem;
     display: inline-block; }
     .sport-select-container h2::after {
-      content: '! '; }
+      content: ' !'; }
   .sport-select-container .sport-list {
     width: 80%;
     margin: auto;
@@ -1976,7 +1996,10 @@ button[type='submit'] {
     padding-left: 4rem;
     padding-right: 4rem; }
   .banner-text-desktop {
-    text-transform: uppercase; } }
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem; } }
 
 /* Events Page */
 .events-area {
@@ -2375,9 +2398,15 @@ button[type='submit'] {
     padding-top: 1.4em;
     font-weight: 500; }
   .university-template-default h1.entry-title {
-    padding-bottom: 1em; }
+    padding-bottom: 1em;
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: normal; }
   .university-template-default h3 {
-    font-size: 32px; }
+    padding-bottom: 1em;
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-style: normal; }
   .single-university iframe {
     display: block; } }
 
@@ -2550,7 +2579,7 @@ button[type='submit'] {
   .test-block {
     width: auto; }
   .orange-underline {
-    display: none; } }
+    border-bottom: none; } }
 
 .archive-university-content .drop-down-menu-block {
   display: -webkit-box;
@@ -2660,7 +2689,10 @@ select.minimal {
   .page-id-25 .entry-title {
     padding-bottom: 1rem;
     text-transform: uppercase;
-    padding-top: 4rem; }
+    padding-top: 4rem;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem; }
   .page-id-25 .entry-content {
     max-width: 900px;
     margin: 0 auto;
@@ -2722,16 +2754,17 @@ select.minimal {
   padding-bottom: 10px; }
 
 .page-id-27 h4 {
-  padding-top: 1rem;
+  margin-top: 0;
   letter-spacing: 1.5px;
   word-spacing: 2px;
   font-weight: 900;
   font-style: normal; }
 
 .page-id-27 .coaches-paragraph {
+  font-size: 15px;
   font-weight: 900;
   font-style: normal;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.7px;
   max-width: 200px;
   margin: 20px auto; }
 
@@ -2761,18 +2794,19 @@ select.minimal {
   font-style: normal; }
 
 .page-id-27 .wp-block-button {
-  margin-top: 2rem; }
+  margin-top: 3rem; }
 
 @media (min-width: 1080px) {
   .page-id-27 h1 {
     display: none; }
   .page-id-27 h2 {
     font-size: 2.4rem;
-    font-weight: 500;
+    font-weight: 900;
+    font-style: normal;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     max-width: 100%;
-    padding-top: 4rem;
+    padding-top: 6rem;
     margin: 3rem; }
   .page-id-27 .connect {
     word-spacing: 1.5px;
@@ -2786,7 +2820,7 @@ select.minimal {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    padding-bottom: 3rem; }
+    padding-bottom: 10rem; }
   .page-id-27 .number-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2926,13 +2960,16 @@ select.minimal {
     display: -ms-flexbox;
     display: flex;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 80px;
     padding-bottom: 60px;
     font-style: normal;
     margin: 0 auto;
     letter-spacing: 1px;
-    word-spacing: 1px; }
+    word-spacing: 1px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .page-id-41 .ur-frontend-form form button[type='submit'] {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -2987,9 +3024,10 @@ select.minimal {
     display: none; }
   .page-id-43 h2 {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2.4rem;
     letter-spacing: 1px;
-    font-size: 38px;
     padding-bottom: 40px;
     padding-top: 80px; }
   .page-id-43 textarea,

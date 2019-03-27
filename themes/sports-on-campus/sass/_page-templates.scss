@@ -79,9 +79,10 @@ button[type='submit'] {
       margin-bottom: 1em;
       color: black;
       text-align: center;
-      font-size: 16px;
-      font-weight: 600;
-    }
+      font-size: 20px;
+      font-weight: 500;
+      font-style: normal;
+      }
   }
   .wp-block-quote {
     font-style: italic;
@@ -143,6 +144,7 @@ button[type='submit'] {
   h4 {
     color: #000;
     font-weight: 400;
+    font-size: 20px;
     width: 80%;
     margin: auto;
     text-align: left;
@@ -303,14 +305,7 @@ button[type='submit'] {
 /* Join Us Page */
 
 .page-template-default {
-  p {
-    justify-content: center;
-  }
-  // .wpcf7 {
-  //   label {
-  //     width: 60%;
-  //   }
-  // }
+
   .team-icons {
     display: flex;
     justify-content: center;
@@ -318,20 +313,7 @@ button[type='submit'] {
       display: none;
     }
   }
-  // .entry-content {
-  //   p {
-  //     padding-left: 40px;
-  //     padding-right: 40px;
-  //     margin-top: 2em;
-  //   }
-  // }
-  // h4 {
-  //   color: black;
-  //   font-weight: 900;
-  //   padding-right: 40px;
-  //   padding-top: 50px;
-  //   padding-left: 40px;
-  // }
+
   .button {
     background: #ff6b00;
     color: white;
@@ -356,7 +338,6 @@ button[type='submit'] {
     border-radius: 4px;
     font-size: 14px;
     margin: 0;
-    
   }
 
   .ur-frontend-form {
@@ -378,6 +359,9 @@ button[type='submit'] {
       border-top: 1px solid black;
     }
     padding-bottom: 40px;
+  }
+  .question{
+    text-align: left;
   }
 }
 
@@ -423,7 +407,9 @@ button[type='submit'] {
     }
     .entry-title{
       text-transform:uppercase;
-      font-size:30px;
+      font-size: 2.4rem;
+      font-weight: 900;
+      font-style: normal;
       }
       .main-navigation{
         margin-bottom: 4em;
@@ -435,7 +421,8 @@ button[type='submit'] {
         text-transform: uppercase;
         padding-top: 4rem;
         font-size: 2.5rem;
-        font-weight: 500;
+        font-weight: 900;
+        font-style: normal;
         letter-spacing: 3px;
       }
     }
@@ -468,7 +455,7 @@ button[type='submit'] {
         padding-bottom: 3em;
       }
       .ceo .wp-block-quote p{
-        font-size:23px;
+        font-size: 26px;
       }
       .about-our-concept{
         text-align: left;
