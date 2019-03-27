@@ -1503,9 +1503,8 @@ button[type='submit'] {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   width: 100%;
   background: #003276;
   color: #fff;
@@ -1515,8 +1514,7 @@ button[type='submit'] {
     text-align: center; }
   .mid-heading p {
     text-align: start; }
-  .mid-heading h3 {
-    margin: 0px;
+  .mid-heading .help-you {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px; }
@@ -1710,6 +1708,8 @@ button[type='submit'] {
       font-style: normal; }
       .mid-heading h3:nth-of-type(2) {
         text-align: center; }
+    .mid-heading .help-you {
+      text-align: center; }
     .mid-heading .help-step-container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1776,7 +1776,8 @@ button[type='submit'] {
       font-style: normal;
       font-size: 2.4rem;
       text-transform: uppercase;
-      margin: 50px auto; }
+      margin: 50px auto;
+      padding-top: 2.5rem; }
     .step-to-follow-container .step-text-container {
       display: -webkit-box;
       display: -ms-flexbox;
