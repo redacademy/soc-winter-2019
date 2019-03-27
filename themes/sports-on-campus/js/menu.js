@@ -56,7 +56,7 @@
     });
     $('.front-page-search').on('click', function() {
      if(select!==''){
-      location.href =$('.'+select+'-menu p .linkinfo').val(); 
+      location.href =$('.'+select+'-menu p').attr('linkinfo'); 
     }
     
     });
