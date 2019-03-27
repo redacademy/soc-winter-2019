@@ -502,9 +502,11 @@ button[type='submit'] {
         padding-top: 0;
       }
     }
-    .main-navigation a:hover{
+    .main-navigation {
+      a:hover{
       color:$color__orange-accent;
     }
+  }
     .home .main-navigation a:hover{
       color:$color__main-block;
     }
