@@ -351,8 +351,13 @@
   }
 
   .single-university{
-    iframe{
-      display:block;
+    .uni-maps{
+      width: 100% !important;
+      iframe{
+        width: 100% !important; 
+        display:block;
+      }
     }
+   
   }
 }
